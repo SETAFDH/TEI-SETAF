@@ -1,5 +1,4 @@
 # TEI-SETAF
-Données XML-TEI dans le cadre du projet SETAF
 
 Ce dépôt est en cours de construction.
 
