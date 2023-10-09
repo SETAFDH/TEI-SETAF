@@ -1,7 +1,7 @@
 # TEI-SETAF
-Données en XML-TEI dans le cadre du projet SETAF
+Données XML-TEI dans le cadre du projet SETAF
 
-Ce dépôt est en cours de construction
+Ce dépôt est en cours de construction.
 
 ## Projet SETAF
 
