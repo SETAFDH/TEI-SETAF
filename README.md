@@ -1,2 +1,2 @@
 # TEI-SETAF
-Données en TEI dans le cadre du projet SETAF
+Données en XML-TEI dans le cadre du projet SETAF
