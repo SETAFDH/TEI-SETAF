@@ -2,6 +2,9 @@
 
 Ce dépôt est en cours de construction.
 
+Ce dépôt comprend les données TEI produites dans le cadre du projet SETAF. La liste des textes avec plus de détails se trouve dans le tableau CSV du dépôt.
+
+
 ## Projet SETAF
 
 GitHub du projet : https://github.com/SETAFDH 
