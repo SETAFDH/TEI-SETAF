@@ -40,7 +40,7 @@
          <div rend="toc" xml:id="Introduction">
             <head>Introduction</head>
             <p>work in progress</p>
-            <p>This our TEI files' structure:
+            <p>This our TEI files structure:
                <list>
                   <item>teiHeader</item>
                   <item>sourceDoc</item>
@@ -1421,12 +1421,7 @@
                      <attDef ident="key" mode="delete"/>
                      <attDef ident="type" mode="delete"/>
                      <attDef ident="subtype" mode="delete"/>
-                     <attDef ident="full" mode="change">
-                        <valList mode="add" type="closed">
-                           <valItem ident="yes"/>
-                           <valItem ident="no"/>
-                        </valList>
-                     </attDef>
+                     <attDef ident="full" mode="delete"/>
                      <attDef ident="role" mode="change">
                         <valList mode="add" type="closed">
                            <valItem ident="presumed_author"/>
@@ -1445,6 +1440,7 @@
                      <attDef ident="ref" mode="delete"/>
                      <attDef ident="type" mode="delete"/>
                      <attDef ident="subtype" mode="delete"/>
+                     <attDef ident="full" mode="delete"/>
                   </attList>
                </elementSpec>
                <elementSpec ident="forename" mode="change">
@@ -1457,6 +1453,7 @@
                      <attDef ident="ref" mode="delete"/>
                      <attDef ident="type" mode="delete"/>
                      <attDef ident="subtype" mode="delete"/>
+                     <attDef ident="full" mode="delete"/>
                   </attList>
                </elementSpec>
                <elementSpec ident="country" mode="change">

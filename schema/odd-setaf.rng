@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2023-11-05T14:53:29Z. .
+Schema generated from ODD source 2023-11-05T15:14:39Z. .
 TEI Edition: Version 4.6.0. Last updated on
         4th April 2023, revision f18deffba
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0/
@@ -2015,23 +2015,6 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="sourceDoc"/>
       </choice>
    </define>
-   <define name="att.personal.attribute.full">
-      <optional>
-         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                    name="full"
-                    a:defaultValue="yes">
-            <a:documentation>indicates whether the name component is given in full, as an abbreviation or simply as an initial.</a:documentation>
-            <choice>
-               <value>yes</value>
-               <a:documentation>(yes) the name component is spelled out in full.</a:documentation>
-               <value>abb</value>
-               <a:documentation>(abbreviated) the name component is given in an abbreviated form.</a:documentation>
-               <value>init</value>
-               <a:documentation>(initial letter) the name component is indicated only by one initial.</a:documentation>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
    <define name="att.personal.attribute.sort">
       <optional>
          <attribute name="sort">
@@ -3889,19 +3872,6 @@ relatedItem element must be empty</sch:report>
          <ref name="att.naming.attribute.nymRef"/>
          <ref name="att.canonical.attribute.ref"/>
          <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="full"
-                       a:defaultValue="yes">
-               <a:documentation>indicates whether the name component is given in full, as an abbreviation or simply as an initial.</a:documentation>
-               <choice>
-                  <value>yes</value>
-                  <a:documentation/>
-                  <value>no</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
-         <optional>
             <attribute name="role">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.</a:documentation>
                <list>
@@ -3926,7 +3896,6 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
-         <ref name="att.personal.attribute.full"/>
          <ref name="att.personal.attribute.sort"/>
          <ref name="att.naming.attribute.role"/>
          <ref name="att.naming.attribute.nymRef"/>
@@ -3940,7 +3909,6 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
-         <ref name="att.personal.attribute.full"/>
          <ref name="att.personal.attribute.sort"/>
          <ref name="att.naming.attribute.role"/>
          <ref name="att.naming.attribute.nymRef"/>
