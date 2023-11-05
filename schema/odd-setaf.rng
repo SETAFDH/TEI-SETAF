@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2023-11-01T16:43:04Z. .
+Schema generated from ODD source 2023-11-05T14:53:29Z. .
 TEI Edition: Version 4.6.0. Last updated on
         4th April 2023, revision f18deffba
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0/
@@ -68,16 +68,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0/
          </choice>
       </zeroOrMore>
    </define>
-   <define name="att.anchoring.attribute.anchored">
-      <optional>
-         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                    name="anchored"
-                    a:defaultValue="true">
-            <a:documentation>(anchored) indicates whether the copy text shows the exact place of reference for the note.</a:documentation>
-            <data type="boolean"/>
-         </attribute>
-      </optional>
-   </define>
    <define name="att.ascribed.attributes">
       <ref name="att.ascribed.attribute.who"/>
    </define>
@@ -85,24 +75,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0/
       <optional>
          <attribute name="who">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the person, or group of people, to whom the element content is ascribed.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="anyURI">
-                     <param name="pattern">\S+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.ascribed.directed.attributes">
-      <ref name="att.ascribed.attributes"/>
-      <ref name="att.ascribed.directed.attribute.toWhom"/>
-   </define>
-   <define name="att.ascribed.directed.attribute.toWhom">
-      <optional>
-         <attribute name="toWhom">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the person, or group of people, to whom a speech act or action is directed.</a:documentation>
             <list>
                <oneOrMore>
                   <data type="anyURI">
@@ -210,6 +182,11 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0/
          </attribute>
       </optional>
    </define>
+   <define name="att.dimensions.attributes">
+      <ref name="att.ranging.attributes"/>
+      <ref name="att.dimensions.attribute.unit"/>
+      <ref name="att.dimensions.attribute.extent"/>
+   </define>
    <define name="att.dimensions.attribute.unit">
       <optional>
          <attribute name="unit">
@@ -241,34 +218,6 @@ Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inche
          </attribute>
       </optional>
    </define>
-   <define name="att.dimensions.attribute.precision">
-      <optional>
-         <attribute name="precision">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the precision of the values specified by the other attributes.</a:documentation>
-            <choice>
-               <value>high</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>medium</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>low</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>unknown</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.dimensions.attribute.scope">
-      <optional>
-         <attribute name="scope">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">where the measurement summarizes more than one observation, specifies the applicability of this measurement.
-Sample values include: 1] all; 2] most; 3] range</a:documentation>
-            <data type="token">
-               <param name="pattern">[^\p{C}\p{Z}]+</param>
-            </data>
-         </attribute>
-      </optional>
-   </define>
    <define name="att.written.attributes">
       <ref name="att.written.attribute.hand"/>
    </define>
@@ -278,297 +227,6 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to a <code xmlns="http://www.w3.org/1999/xhtml">&lt;handNote&gt;</code> element describing the hand considered responsible for the content of the element concerned.</a:documentation>
             <data type="anyURI">
                <param name="pattern">\S+</param>
-            </data>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.breaking.attributes">
-      <ref name="att.breaking.attribute.break"/>
-   </define>
-   <define name="att.breaking.attribute.break">
-      <optional>
-         <attribute name="break">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates whether or not the element bearing this attribute should be considered to mark the end of an orthographic token in the same way as whitespace.</a:documentation>
-            <data type="token">
-               <param name="pattern">[^\p{C}\p{Z}]+</param>
-            </data>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.cReferencing.attributes">
-      <ref name="att.cReferencing.attribute.cRef"/>
-   </define>
-   <define name="att.cReferencing.attribute.cRef">
-      <optional>
-         <attribute name="cRef">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(canonical reference) specifies the destination of the pointer by supplying a canonical reference expressed using the scheme defined in a <code xmlns="http://www.w3.org/1999/xhtml">&lt;refsDecl&gt;</code> element in the TEI header</a:documentation>
-            <data type="string"/>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.datable.w3c.attributes">
-      <ref name="att.datable.w3c.attribute.when"/>
-      <ref name="att.datable.w3c.attribute.notBefore"/>
-      <ref name="att.datable.w3c.attribute.notAfter"/>
-      <ref name="att.datable.w3c.attribute.from"/>
-      <ref name="att.datable.w3c.attribute.to"/>
-   </define>
-   <define name="att.datable.w3c.attribute.when">
-      <optional>
-         <attribute name="when">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the value of the date or time in a standard form, e.g. yyyy-mm-dd.</a:documentation>
-            <choice>
-               <data type="date"/>
-               <data type="gYear"/>
-               <data type="gMonth"/>
-               <data type="gDay"/>
-               <data type="gYearMonth"/>
-               <data type="gMonthDay"/>
-               <data type="time"/>
-               <data type="dateTime"/>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.datable.w3c.attribute.notBefore">
-      <optional>
-         <attribute name="notBefore">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the earliest possible date for the event in standard form, e.g. yyyy-mm-dd.</a:documentation>
-            <choice>
-               <data type="date"/>
-               <data type="gYear"/>
-               <data type="gMonth"/>
-               <data type="gDay"/>
-               <data type="gYearMonth"/>
-               <data type="gMonthDay"/>
-               <data type="time"/>
-               <data type="dateTime"/>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.datable.w3c.attribute.notAfter">
-      <optional>
-         <attribute name="notAfter">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the latest possible date for the event in standard form, e.g. yyyy-mm-dd.</a:documentation>
-            <choice>
-               <data type="date"/>
-               <data type="gYear"/>
-               <data type="gMonth"/>
-               <data type="gDay"/>
-               <data type="gYearMonth"/>
-               <data type="gMonthDay"/>
-               <data type="time"/>
-               <data type="dateTime"/>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.datable.w3c.attribute.from">
-      <optional>
-         <attribute name="from">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the starting point of the period in standard form, e.g. yyyy-mm-dd.</a:documentation>
-            <choice>
-               <data type="date"/>
-               <data type="gYear"/>
-               <data type="gMonth"/>
-               <data type="gDay"/>
-               <data type="gYearMonth"/>
-               <data type="gMonthDay"/>
-               <data type="time"/>
-               <data type="dateTime"/>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.datable.w3c.attribute.to">
-      <optional>
-         <attribute name="to">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the ending point of the period in standard form, e.g. yyyy-mm-dd.</a:documentation>
-            <choice>
-               <data type="date"/>
-               <data type="gYear"/>
-               <data type="gMonth"/>
-               <data type="gDay"/>
-               <data type="gYearMonth"/>
-               <data type="gMonthDay"/>
-               <data type="time"/>
-               <data type="dateTime"/>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="myTEI-att.datable.w3c-att-datable-w3c-when-constraint-rule-1">
-      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                context="tei:*[@when]">
-         <sch:report test="@notBefore|@notAfter|@from|@to" role="nonfatal">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
-      </sch:rule>
-   </pattern>
-   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="myTEI-att.datable.w3c-att-datable-w3c-from-constraint-rule-2">
-      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                context="tei:*[@from]">
-         <sch:report test="@notBefore" role="nonfatal">The @from and @notBefore attributes cannot be used together.</sch:report>
-      </sch:rule>
-   </pattern>
-   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="myTEI-att.datable.w3c-att-datable-w3c-to-constraint-rule-3">
-      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                context="tei:*[@to]">
-         <sch:report test="@notAfter" role="nonfatal">The @to and @notAfter attributes cannot be used together.</sch:report>
-      </sch:rule>
-   </pattern>
-   <define name="att.datable.attributes">
-      <ref name="att.datable.w3c.attributes"/>
-      <ref name="att.datable.iso.attributes"/>
-      <ref name="att.datable.custom.attributes"/>
-      <ref name="att.datable.attribute.calendar"/>
-      <ref name="att.datable.attribute.period"/>
-   </define>
-   <define name="att.datable.attribute.calendar">
-      <optional>
-         <attribute name="calendar">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates one or more systems or calendars to which the date represented by the content of this element belongs.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="anyURI">
-                     <param name="pattern">\S+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
-   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="myTEI-att.datable-calendar-calendar-constraint-rule-4">
-      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                context="tei:*[@calendar]">
-         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more
-            systems or calendars to which the date represented by the content of this element belongs,
-            but this <sch:name/> element has no textual content.</sch:assert>
-      </sch:rule>
-   </pattern>
-   <define name="att.datable.attribute.period">
-      <optional>
-         <attribute name="period">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies pointers to one or more definitions of named periods of time (typically <code xmlns="http://www.w3.org/1999/xhtml">&lt;category&gt;</code>s or <code xmlns="http://www.w3.org/1999/xhtml">&lt;calendar&gt;</code>s) within which the datable item is understood to have occurred.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="anyURI">
-                     <param name="pattern">\S+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.declaring.attributes">
-      <ref name="att.declaring.attribute.decls"/>
-   </define>
-   <define name="att.declaring.attribute.decls">
-      <optional>
-         <attribute name="decls">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(declarations) identifies one or more declarable elements within the header, which are understood to apply to the element bearing this attribute and its content.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="anyURI">
-                     <param name="pattern">\S+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.fragmentable.attributes">
-      <ref name="att.fragmentable.attribute.part"/>
-   </define>
-   <define name="att.fragmentable.attribute.part">
-      <optional>
-         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                    name="part"
-                    a:defaultValue="N">
-            <a:documentation>specifies whether or not its parent element is fragmented in some way, typically by some other overlapping structure: for example a speech which is divided between two or more verse stanzas, a paragraph which is split across a page division, a verse line which is divided between two speakers.</a:documentation>
-            <choice>
-               <value>Y</value>
-               <a:documentation>(yes) the element is fragmented in some (unspecified) respect</a:documentation>
-               <value>N</value>
-               <a:documentation>(no) the element is not fragmented, or no claim is made as to its completeness</a:documentation>
-               <value>I</value>
-               <a:documentation>(initial) this is the initial part of a fragmented element</a:documentation>
-               <value>M</value>
-               <a:documentation>(medial) this is a medial part of a fragmented element</a:documentation>
-               <value>F</value>
-               <a:documentation>(final) this is the final part of a fragmented element</a:documentation>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.divLike.attributes">
-      <ref name="att.fragmentable.attributes"/>
-      <ref name="att.divLike.attribute.org"/>
-      <ref name="att.divLike.attribute.sample"/>
-   </define>
-   <define name="att.divLike.attribute.org">
-      <optional>
-         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                    name="org"
-                    a:defaultValue="uniform">
-            <a:documentation>(organization) specifies how the content of the division is organized.</a:documentation>
-            <choice>
-               <value>composite</value>
-               <a:documentation>no claim is made about the sequence in which the immediate contents of this division are to be processed, or their inter-relationships.</a:documentation>
-               <value>uniform</value>
-               <a:documentation>the immediate contents of this element are regarded as forming a logical unit, to be processed in sequence.</a:documentation>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.divLike.attribute.sample">
-      <optional>
-         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                    name="sample"
-                    a:defaultValue="complete">
-            <a:documentation>indicates whether this division is a sample of the original source and if so, from which part.</a:documentation>
-            <choice>
-               <value>initial</value>
-               <a:documentation>division lacks material present at end in source.</a:documentation>
-               <value>medial</value>
-               <a:documentation>division lacks material at start and end.</a:documentation>
-               <value>final</value>
-               <a:documentation>division lacks material at start.</a:documentation>
-               <value>unknown</value>
-               <a:documentation>position of sampled material within original unknown.</a:documentation>
-               <value>complete</value>
-               <a:documentation>division is not a sample.</a:documentation>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.docStatus.attributes">
-      <ref name="att.docStatus.attribute.status"/>
-   </define>
-   <define name="att.docStatus.attribute.status">
-      <optional>
-         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                    name="status"
-                    a:defaultValue="draft">
-            <a:documentation>describes the status of a document either currently or, when associated with a dated element, at the time indicated.
-Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] draft; 6] embargoed; 7] expired; 8] frozen; 9] galley; 10] proposed; 11] published; 12] recommendation; 13] submitted; 14] unfinished; 15] withdrawn</a:documentation>
-            <data type="token">
-               <param name="pattern">[^\p{C}\p{Z}]+</param>
             </data>
          </attribute>
       </optional>
@@ -611,51 +269,6 @@ Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] 
          </attribute>
       </optional>
    </define>
-   <define name="att.editLike.attributes">
-      <ref name="att.editLike.attribute.evidence"/>
-      <ref name="att.editLike.attribute.instant"/>
-   </define>
-   <define name="att.editLike.attribute.evidence">
-      <optional>
-         <attribute name="evidence">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the nature of the evidence supporting the reliability or accuracy of the intervention or interpretation.
-Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentation>
-            <list>
-               <oneOrMore>
-                  <choice>
-                     <value>internal</value>
-                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">there is internal evidence to support the intervention.</a:documentation>
-                     <value>external</value>
-                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">there is external evidence to support the intervention.</a:documentation>
-                     <value>conjecture</value>
-                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the intervention or interpretation has been made by the editor, cataloguer, or scholar on the basis of their expertise.</a:documentation>
-                     <data type="token">
-                        <param name="pattern">[^\p{C}\p{Z}]+</param>
-                     </data>
-                  </choice>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.editLike.attribute.instant">
-      <optional>
-         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                    name="instant"
-                    a:defaultValue="false">
-            <a:documentation>indicates whether this is an instant revision or not.</a:documentation>
-            <choice>
-               <data type="boolean"/>
-               <choice>
-                  <value>unknown</value>
-                  <a:documentation/>
-                  <value>inapplicable</value>
-                  <a:documentation/>
-               </choice>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
    <define name="att.global.source.attributes">
       <ref name="att.global.source.attribute.source"/>
    </define>
@@ -674,7 +287,7 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="myTEI-att.global.source-source-only_1_ODD_source-constraint-rule-5">
+            id="myTEI-att.global.source-source-only_1_ODD_source-constraint-rule-1">
       <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -690,7 +303,6 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
    </pattern>
    <define name="att.global.attributes">
       <ref name="att.global.linking.attributes"/>
-      <ref name="att.global.facs.attributes"/>
       <ref name="att.global.change.attributes"/>
       <ref name="att.global.responsibility.attributes"/>
       <ref name="att.global.source.attributes"/>
@@ -820,7 +432,7 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="myTEI-att.measurement-att-measurement-unitRef-constraint-rule-6">
+            id="myTEI-att.measurement-att-measurement-unitRef-constraint-rule-2">
       <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -926,7 +538,7 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="myTEI-att.typed-subtypeTyped-constraint-rule-7">
+            id="myTEI-att.typed-subtypeTyped-constraint-rule-3">
       <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -956,7 +568,7 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="myTEI-att.pointing-targetLang-targetLang-constraint-rule-8">
+            id="myTEI-att.pointing-targetLang-targetLang-constraint-rule-4">
       <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1007,38 +619,6 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
          </attribute>
       </optional>
    </define>
-   <define name="att.edition.attributes">
-      <ref name="att.edition.attribute.ed"/>
-      <ref name="att.edition.attribute.edRef"/>
-   </define>
-   <define name="att.edition.attribute.ed">
-      <optional>
-         <attribute name="ed">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition) supplies a sigil or other arbitrary identifier for the source edition in which the associated feature (for example, a page, column, or line break) occurs at this point in the text.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="token">
-                     <param name="pattern">[^\p{C}\p{Z}]+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.edition.attribute.edRef">
-      <optional>
-         <attribute name="edRef">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition reference) provides a pointer to the source edition in which the associated feature (for example, a page, column, or line break) occurs at this point in the text.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="anyURI">
-                     <param name="pattern">\S+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
    <define name="att.spanning.attributes">
       <ref name="att.spanning.attribute.spanTo"/>
    </define>
@@ -1053,7 +633,7 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="myTEI-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-9">
+            id="myTEI-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-5">
       <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -2419,34 +1999,14 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="application"/>
       </choice>
    </define>
-   <define name="model.teiHeaderPart">
-      <choice>
-         <ref name="encodingDesc"/>
-         <ref name="profileDesc"/>
-      </choice>
-   </define>
    <define name="model.sourceDescPart">
       <notAllowed/>
-   </define>
-   <define name="model.encodingDescPart">
-      <choice>
-         <ref name="projectDesc"/>
-         <ref name="editorialDecl"/>
-         <ref name="classDecl"/>
-         <ref name="appInfo"/>
-      </choice>
    </define>
    <define name="model.editorialDeclPart">
       <choice>
          <ref name="correction"/>
          <ref name="normalization"/>
          <ref name="hyphenation"/>
-      </choice>
-   </define>
-   <define name="model.profileDescPart">
-      <choice>
-         <ref name="langUsage"/>
-         <ref name="textClass"/>
       </choice>
    </define>
    <define name="model.resource">
@@ -2485,7 +2045,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(paragraph) marks paragraphs in prose. [3.1. Paragraphs 7.2.5. Speech Contents]</a:documentation>
          <ref name="macro.paraContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="myTEI-p-abstractModel-structure-p-in-ab-or-p-constraint-report-6">
+                  id="myTEI-p-abstractModel-structure-p-in-ab-or-p-constraint-report-3">
             <rule context="tei:p">
                <sch:report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns="http://www.tei-c.org/ns/1.0"
@@ -2497,7 +2057,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="myTEI-p-abstractModel-structure-p-in-l-or-lg-constraint-report-7">
+                  id="myTEI-p-abstractModel-structure-p-in-l-or-lg-constraint-report-4">
             <rule context="tei:p">
                <sch:report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns="http://www.tei-c.org/ns/1.0"
@@ -2510,10 +2070,8 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          </pattern>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
-         <ref name="att.declaring.attributes"/>
          <ref name="att.written.attributes"/>
          <empty/>
       </element>
@@ -2548,11 +2106,9 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
-         <ref name="att.declaring.attributes"/>
          <ref name="att.pointing.attribute.targetLang"/>
          <ref name="att.pointing.attribute.evaluate"/>
          <ref name="att.sortable.attributes"/>
-         <ref name="att.cReferencing.attributes"/>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
@@ -2611,7 +2167,6 @@ Normalization 12. Critical Apparatus]</a:documentation>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.global.source.attribute.source"/>
-         <ref name="att.editLike.attributes"/>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
@@ -2678,7 +2233,6 @@ Measures]</a:documentation>
          <ref name="macro.phraseSeq"/>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.measurement.attribute.unitRef"/>
          <ref name="att.measurement.attribute.quantity"/>
@@ -2713,11 +2267,7 @@ Measures]</a:documentation>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.canonical.attributes"/>
-         <ref name="att.datable.attributes"/>
-         <ref name="att.editLike.attributes"/>
          <ref name="att.dimensions.attribute.extent"/>
-         <ref name="att.dimensions.attribute.precision"/>
-         <ref name="att.dimensions.attribute.scope"/>
          <ref name="att.ranging.attribute.atLeast"/>
          <ref name="att.ranging.attribute.atMost"/>
          <ref name="att.ranging.attribute.min"/>
@@ -2747,7 +2297,7 @@ Measures]</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(pointer) defines a pointer to another location. [3.7. Simple Links and Cross-References 16.1. Links]</a:documentation>
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="myTEI-ptr-ptrAtts-constraint-report-8">
+                  id="myTEI-ptr-ptrAtts-constraint-report-5">
             <rule context="tei:ptr">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -2756,11 +2306,8 @@ Measures]</a:documentation>
 attributes @target and @cRef may be supplied on <name/>.</report>
             </rule>
          </pattern>
-         <ref name="att.cReferencing.attributes"/>
-         <ref name="att.declaring.attributes"/>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.internetMedia.attributes"/>
          <ref name="att.pointing.attributes"/>
@@ -2781,7 +2328,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) defines a reference to another location, possibly modified by additional text or comment. [3.7. Simple Links and Cross-References 16.1. Links]</a:documentation>
          <ref name="macro.paraContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="myTEI-ref-refAtts-constraint-report-9">
+                  id="myTEI-ref-refAtts-constraint-report-6">
             <rule context="tei:ref">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -2791,8 +2338,6 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                </report>
             </rule>
          </pattern>
-         <ref name="att.cReferencing.attributes"/>
-         <ref name="att.declaring.attributes"/>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
@@ -2851,7 +2396,6 @@ attributes @target and @cRef may be supplied on <name/>.</report>
          <ref name="att.pointing.attribute.targetLang"/>
          <ref name="att.pointing.attribute.evaluate"/>
          <ref name="att.written.attributes"/>
-         <ref name="att.anchoring.attribute.anchored"/>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
@@ -2878,7 +2422,6 @@ attributes @target and @cRef may be supplied on <name/>.</report>
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.media.attributes"/>
          <ref name="att.resourced.attributes"/>
-         <ref name="att.declaring.attributes"/>
          <ref name="att.typed.attributes"/>
          <empty/>
       </element>
@@ -2891,12 +2434,9 @@ Elements]</a:documentation>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.linking.attribute.corresp"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
-         <ref name="att.edition.attributes"/>
          <ref name="att.spanning.attributes"/>
-         <ref name="att.breaking.attributes"/>
          <empty/>
       </element>
    </define>
@@ -2911,9 +2451,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.typed.attribute.type"/>
-         <ref name="att.edition.attributes"/>
          <ref name="att.spanning.attributes"/>
-         <ref name="att.breaking.attributes"/>
          <empty/>
       </element>
    </define>
@@ -3004,7 +2542,6 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.naming.attribute.role"/>
          <ref name="att.naming.attribute.nymRef"/>
-         <ref name="att.datable.attributes"/>
          <empty/>
       </element>
    </define>
@@ -3049,22 +2586,6 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
-         <ref name="att.datable.attribute.calendar"/>
-         <ref name="att.datable.attribute.period"/>
-         <ref name="att.datable.w3c.attribute.from"/>
-         <ref name="att.datable.w3c.attribute.to"/>
-         <ref name="att.datable.iso.attribute.when-iso"/>
-         <ref name="att.datable.iso.attribute.notBefore-iso"/>
-         <ref name="att.datable.iso.attribute.notAfter-iso"/>
-         <ref name="att.datable.iso.attribute.from-iso"/>
-         <ref name="att.datable.iso.attribute.to-iso"/>
-         <ref name="att.datable.custom.attribute.when-custom"/>
-         <ref name="att.datable.custom.attribute.notBefore-custom"/>
-         <ref name="att.datable.custom.attribute.notAfter-custom"/>
-         <ref name="att.datable.custom.attribute.from-custom"/>
-         <ref name="att.datable.custom.attribute.to-custom"/>
-         <ref name="att.datable.custom.attribute.datingPoint"/>
-         <ref name="att.datable.custom.attribute.datingMethod"/>
          <empty/>
       </element>
    </define>
@@ -3077,7 +2598,6 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.canonical.attribute.ref"/>
-         <ref name="att.datable.attributes"/>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">classifies the title according to some convenient typology.</a:documentation>
@@ -3126,13 +2646,13 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publisher) provides the name of the organization responsible for the publication or distribution of a bibliographic item. [3.12.2.4. Imprint, Size of a Document, and Reprint Information 2.2.4. Publication, Distribution, Licensing, etc.]</a:documentation>
          <ref name="macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="myTEI-publisher-publisher_check-constraint-rule-10">
+                  id="myTEI-publisher-publisher_check-constraint-rule-6">
             <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:publisher">
-               <sch:assert test="contains(.,'Projet SETAF')">The publisher is "Coucou Sonia"</sch:assert>
+               <sch:assert test="contains(.,'Projet SETAF')">The publisher is "Projet SETAF"</sch:assert>
             </sch:rule>
          </pattern>
          <ref name="att.global.attribute.xmlid"/>
@@ -3193,7 +2713,6 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.sortable.attributes"/>
-         <ref name="att.docStatus.attributes"/>
          <empty/>
       </element>
    </define>
@@ -3219,7 +2738,6 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.sortable.attributes"/>
-         <ref name="att.docStatus.attributes"/>
          <empty/>
       </element>
    </define>
@@ -3267,7 +2785,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
             </choice>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="myTEI-relatedItem-targetorcontent1-constraint-report-10">
+                  id="myTEI-relatedItem-targetorcontent1-constraint-report-7">
             <rule context="tei:relatedItem">
                <sch:report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns="http://www.tei-c.org/ns/1.0"
@@ -3319,7 +2837,7 @@ relatedItem element must be empty</sch:report>
             </choice>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="myTEI-l-abstractModel-structure-l-in-l-constraint-report-11">
+                  id="myTEI-l-abstractModel-structure-l-in-l-constraint-report-8">
             <rule context="tei:l">
                <sch:report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns="http://www.tei-c.org/ns/1.0"
@@ -3334,7 +2852,6 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
-         <ref name="att.fragmentable.attributes"/>
          <empty/>
       </element>
    </define>
@@ -3375,7 +2892,7 @@ relatedItem element must be empty</sch:report>
             </zeroOrMore>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="myTEI-lg-atleast1oflggapl-constraint-assert-7">
+                  id="myTEI-lg-atleast1oflggapl-constraint-assert-6">
             <rule context="tei:lg">
                <sch:assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns="http://www.tei-c.org/ns/1.0"
@@ -3386,7 +2903,7 @@ relatedItem element must be empty</sch:report>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="myTEI-lg-abstractModel-structure-lg-in-l-constraint-report-12">
+                  id="myTEI-lg-abstractModel-structure-lg-in-l-constraint-report-9">
             <rule context="tei:lg">
                <sch:report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns="http://www.tei-c.org/ns/1.0"
@@ -3401,9 +2918,7 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
-         <ref name="att.divLike.attributes"/>
          <ref name="att.typed.attributes"/>
-         <ref name="att.declaring.attributes"/>
          <empty/>
       </element>
    </define>
@@ -3444,7 +2959,6 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
-         <ref name="att.ascribed.directed.attributes"/>
          <empty/>
       </element>
    </define>
@@ -3463,7 +2977,6 @@ relatedItem element must be empty</sch:report>
       <element name="stage">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(stage direction) contains any kind of stage direction within a dramatic text or fragment. [3.13.2. Core Tags for Drama 3.13. Passages of Verse or Drama 7.2.4. Stage Directions]</a:documentation>
          <ref name="macro.specialPara"/>
-         <ref name="att.ascribed.directed.attribute.toWhom"/>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
@@ -3477,12 +2990,9 @@ relatedItem element must be empty</sch:report>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI header) supplies descriptive and declarative metadata associated with a digital resource or set of resources. [2.1.1. The TEI Header and Its Components 15.1. Varieties of Composite Text]</a:documentation>
          <group>
             <ref name="fileDesc"/>
-            <zeroOrMore>
-               <ref name="model.teiHeaderPart"/>
-            </zeroOrMore>
-            <optional>
-               <ref name="revisionDesc"/>
-            </optional>
+            <ref name="encodingDesc"/>
+            <ref name="profileDesc"/>
+            <ref name="revisionDesc"/>
          </group>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
@@ -3495,16 +3005,10 @@ relatedItem element must be empty</sch:report>
       <element name="fileDesc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(file description) contains a full bibliographic description of an electronic file. [2.2. The File Description 2.1.1. The TEI Header and Its Components]</a:documentation>
          <group>
-            <group>
-               <ref name="titleStmt"/>
-               <optional>
-                  <ref name="extent"/>
-               </optional>
-               <ref name="publicationStmt"/>
-            </group>
-            <oneOrMore>
-               <ref name="sourceDesc"/>
-            </oneOrMore>
+            <ref name="titleStmt"/>
+            <ref name="extent"/>
+            <ref name="publicationStmt"/>
+            <ref name="sourceDesc"/>
          </group>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
@@ -3563,6 +3067,16 @@ relatedItem element must be empty</sch:report>
       <element name="authority">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(release authority) supplies the name of a person or other agency responsible for making a work available, other than a publisher or distributor. [2.2.4. Publication, Distribution, Licensing, etc.]</a:documentation>
          <ref name="macro.phraseSeq.limited"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="myTEI-authority-authority_check-constraint-rule-7">
+            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      context="tei:authority">
+               <sch:assert test="contains(.,'Institut d'Histoire de la Réformation (IHR), université de Genève')">The authority is "Institut d'Histoire de la Réformation (IHR), université de Genève"</sch:assert>
+            </sch:rule>
+         </pattern>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.linking.attribute.corresp"/>
@@ -3587,7 +3101,6 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.sortable.attributes"/>
-         <ref name="att.datable.attributes"/>
          <ref name="att.typed.attribute.subtype"/>
          <optional>
             <attribute name="type">
@@ -3640,27 +3153,8 @@ relatedItem element must be empty</sch:report>
          <ref name="macro.specialPara"/>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.pointing.attributes"/>
-         <ref name="att.datable.attribute.calendar"/>
-         <ref name="att.datable.attribute.period"/>
-         <ref name="att.datable.w3c.attribute.notBefore"/>
-         <ref name="att.datable.w3c.attribute.notAfter"/>
-         <ref name="att.datable.w3c.attribute.from"/>
-         <ref name="att.datable.w3c.attribute.to"/>
-         <ref name="att.datable.iso.attribute.when-iso"/>
-         <ref name="att.datable.iso.attribute.notBefore-iso"/>
-         <ref name="att.datable.iso.attribute.notAfter-iso"/>
-         <ref name="att.datable.iso.attribute.from-iso"/>
-         <ref name="att.datable.iso.attribute.to-iso"/>
-         <ref name="att.datable.custom.attribute.when-custom"/>
-         <ref name="att.datable.custom.attribute.notBefore-custom"/>
-         <ref name="att.datable.custom.attribute.notAfter-custom"/>
-         <ref name="att.datable.custom.attribute.from-custom"/>
-         <ref name="att.datable.custom.attribute.to-custom"/>
-         <ref name="att.datable.custom.attribute.datingPoint"/>
-         <ref name="att.datable.custom.attribute.datingMethod"/>
          <empty/>
       </element>
    </define>
@@ -3689,12 +3183,23 @@ relatedItem element must be empty</sch:report>
    <define name="encodingDesc">
       <element name="encodingDesc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(encoding description) documents the relationship between an electronic text and the source or sources from which it was derived. [2.3. The Encoding Description 2.1.1. The TEI Header and Its Components]</a:documentation>
-         <oneOrMore>
-            <choice>
-               <ref name="model.encodingDescPart"/>
-               <ref name="model.pLike"/>
-            </choice>
-         </oneOrMore>
+         <group>
+            <ref name="projectDesc"/>
+            <ref name="editorialDecl"/>
+            <group>
+               <ref name="appInfo"/>
+               <optional>
+                  <ref name="appInfo"/>
+                  <optional>
+                     <ref name="appInfo"/>
+                     <optional>
+                        <ref name="appInfo"/>
+                     </optional>
+                  </optional>
+               </optional>
+            </group>
+            <ref name="classDecl"/>
+         </group>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
@@ -3836,7 +3341,6 @@ relatedItem element must be empty</sch:report>
          </choice>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <empty/>
       </element>
@@ -3857,7 +3361,6 @@ relatedItem element must be empty</sch:report>
             </zeroOrMore>
          </group>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <optional>
             <attribute name="xml:id">
@@ -3881,7 +3384,6 @@ relatedItem element must be empty</sch:report>
          </oneOrMore>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <empty/>
       </element>
@@ -3904,26 +3406,7 @@ relatedItem element must be empty</sch:report>
          </group>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
-         <ref name="att.datable.attribute.calendar"/>
-         <ref name="att.datable.attribute.period"/>
-         <ref name="att.datable.w3c.attribute.notBefore"/>
-         <ref name="att.datable.w3c.attribute.notAfter"/>
-         <ref name="att.datable.w3c.attribute.from"/>
-         <ref name="att.datable.w3c.attribute.to"/>
-         <ref name="att.datable.iso.attribute.when-iso"/>
-         <ref name="att.datable.iso.attribute.notBefore-iso"/>
-         <ref name="att.datable.iso.attribute.notAfter-iso"/>
-         <ref name="att.datable.iso.attribute.from-iso"/>
-         <ref name="att.datable.iso.attribute.to-iso"/>
-         <ref name="att.datable.custom.attribute.when-custom"/>
-         <ref name="att.datable.custom.attribute.notBefore-custom"/>
-         <ref name="att.datable.custom.attribute.notAfter-custom"/>
-         <ref name="att.datable.custom.attribute.from-custom"/>
-         <ref name="att.datable.custom.attribute.to-custom"/>
-         <ref name="att.datable.custom.attribute.datingPoint"/>
-         <ref name="att.datable.custom.attribute.datingMethod"/>
          <attribute name="ident">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies an identifier for the application, independent of its version number or display name.</a:documentation>
             <data type="Name"/>
@@ -3940,9 +3423,10 @@ relatedItem element must be empty</sch:report>
    <define name="profileDesc">
       <element name="profileDesc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text-profile description) provides a detailed description of non-bibliographic aspects of a text, specifically the languages and sublanguages used, the situation in which it was produced, the participants and their setting. [2.4. The Profile Description 2.1.1. The TEI Header and Its Components]</a:documentation>
-         <zeroOrMore>
-            <ref name="model.profileDescPart"/>
-         </zeroOrMore>
+         <group>
+            <ref name="langUsage"/>
+            <ref name="textClass"/>
+         </group>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
@@ -4040,7 +3524,6 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
-         <ref name="att.docStatus.attributes"/>
          <empty/>
       </element>
    </define>
@@ -4049,24 +3532,6 @@ relatedItem element must be empty</sch:report>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(change) documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 11.7. Identifying Changes and Revisions]</a:documentation>
          <ref name="macro.specialPara"/>
          <ref name="att.ascribed.attributes"/>
-         <ref name="att.datable.attribute.calendar"/>
-         <ref name="att.datable.attribute.period"/>
-         <ref name="att.datable.w3c.attribute.when"/>
-         <ref name="att.datable.w3c.attribute.from"/>
-         <ref name="att.datable.w3c.attribute.to"/>
-         <ref name="att.datable.iso.attribute.when-iso"/>
-         <ref name="att.datable.iso.attribute.notBefore-iso"/>
-         <ref name="att.datable.iso.attribute.notAfter-iso"/>
-         <ref name="att.datable.iso.attribute.from-iso"/>
-         <ref name="att.datable.iso.attribute.to-iso"/>
-         <ref name="att.datable.custom.attribute.when-custom"/>
-         <ref name="att.datable.custom.attribute.notBefore-custom"/>
-         <ref name="att.datable.custom.attribute.notAfter-custom"/>
-         <ref name="att.datable.custom.attribute.from-custom"/>
-         <ref name="att.datable.custom.attribute.to-custom"/>
-         <ref name="att.datable.custom.attribute.datingPoint"/>
-         <ref name="att.datable.custom.attribute.datingMethod"/>
-         <ref name="att.docStatus.attributes"/>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
@@ -4096,7 +3561,7 @@ relatedItem element must be empty</sch:report>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(anonymous block) contains any component-level unit of text, acting as a container for phrase or inter level elements analogous to, but without the same constraints as, a paragraph. [16.3. Blocks, Segments, and Anchors]</a:documentation>
          <ref name="macro.abContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="myTEI-ab-abstractModel-structure-ab-in-l-or-lg-constraint-report-13">
+                  id="myTEI-ab-abstractModel-structure-ab-in-l-or-lg-constraint-report-10">
             <rule context="tei:ab">
                <sch:report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns="http://www.tei-c.org/ns/1.0"
@@ -4110,10 +3575,7 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.linking.attribute.corresp"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
-         <ref name="att.declaring.attributes"/>
-         <ref name="att.fragmentable.attributes"/>
          <ref name="att.written.attributes"/>
          <optional>
             <attribute name="type">
@@ -4178,11 +3640,8 @@ relatedItem element must be empty</sch:report>
          </group>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.sortable.attributes"/>
-         <ref name="att.declaring.attributes"/>
-         <ref name="att.docStatus.attributes"/>
          <empty/>
       </element>
    </define>
@@ -4195,15 +3654,7 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.typed.attribute.type"/>
-         <ref name="att.dimensions.attribute.unit"/>
-         <ref name="att.dimensions.attribute.extent"/>
-         <ref name="att.dimensions.attribute.precision"/>
-         <ref name="att.dimensions.attribute.scope"/>
-         <ref name="att.ranging.attribute.atLeast"/>
-         <ref name="att.ranging.attribute.atMost"/>
-         <ref name="att.ranging.attribute.min"/>
-         <ref name="att.ranging.attribute.max"/>
-         <ref name="att.ranging.attribute.confidence"/>
+         <ref name="att.dimensions.attributes"/>
          <empty/>
       </element>
    </define>
@@ -4230,7 +3681,7 @@ relatedItem element must be empty</sch:report>
             </zeroOrMore>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="myTEI-msIdentifier-msId_minimal-constraint-report-14">
+                  id="myTEI-msIdentifier-msId_minimal-constraint-report-11">
             <rule context="tei:msIdentifier">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -4240,7 +3691,6 @@ relatedItem element must be empty</sch:report>
          </pattern>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <empty/>
       </element>
@@ -4288,7 +3738,6 @@ relatedItem element must be empty</sch:report>
          </group>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <empty/>
       </element>
@@ -4308,7 +3757,6 @@ relatedItem element must be empty</sch:report>
          </choice>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <empty/>
       </element>
@@ -4376,105 +3824,6 @@ relatedItem element must be empty</sch:report>
          <empty/>
       </element>
    </define>
-   <define name="att.datable.custom.attributes">
-      <ref name="att.datable.custom.attribute.when-custom"/>
-      <ref name="att.datable.custom.attribute.notBefore-custom"/>
-      <ref name="att.datable.custom.attribute.notAfter-custom"/>
-      <ref name="att.datable.custom.attribute.from-custom"/>
-      <ref name="att.datable.custom.attribute.to-custom"/>
-      <ref name="att.datable.custom.attribute.datingPoint"/>
-      <ref name="att.datable.custom.attribute.datingMethod"/>
-   </define>
-   <define name="att.datable.custom.attribute.when-custom">
-      <optional>
-         <attribute name="when-custom">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the value of a date or time in some custom standard form.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="token">
-                     <param name="pattern">[^\p{C}\p{Z}]+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.datable.custom.attribute.notBefore-custom">
-      <optional>
-         <attribute name="notBefore-custom">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the earliest possible date for the event in some custom standard form.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="token">
-                     <param name="pattern">[^\p{C}\p{Z}]+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.datable.custom.attribute.notAfter-custom">
-      <optional>
-         <attribute name="notAfter-custom">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the latest possible date for the event in some custom standard form.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="token">
-                     <param name="pattern">[^\p{C}\p{Z}]+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.datable.custom.attribute.from-custom">
-      <optional>
-         <attribute name="from-custom">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the starting point of the period in some custom standard form.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="token">
-                     <param name="pattern">[^\p{C}\p{Z}]+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.datable.custom.attribute.to-custom">
-      <optional>
-         <attribute name="to-custom">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the ending point of the period in some custom standard form.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="token">
-                     <param name="pattern">[^\p{C}\p{Z}]+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.datable.custom.attribute.datingPoint">
-      <optional>
-         <attribute name="datingPoint">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a pointer to some location defining a named point in time with reference to which the datable item is understood to have occurred</a:documentation>
-            <data type="anyURI">
-               <param name="pattern">\S+</param>
-            </data>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.datable.custom.attribute.datingMethod">
-      <optional>
-         <attribute name="datingMethod">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a pointer to a <code xmlns="http://www.w3.org/1999/xhtml">&lt;calendar&gt;</code> element or other means of interpreting the values of the custom dating attributes.</a:documentation>
-            <data type="anyURI">
-               <param name="pattern">\S+</param>
-            </data>
-         </attribute>
-      </optional>
-   </define>
    <define name="model.persNamePart">
       <choice>
          <ref name="surname"/>
@@ -4515,113 +3864,6 @@ relatedItem element must be empty</sch:report>
          <ref name="forename"/>
       </oneOrMore>
    </define>
-   <define name="att.datable.iso.attributes">
-      <ref name="att.datable.iso.attribute.when-iso"/>
-      <ref name="att.datable.iso.attribute.notBefore-iso"/>
-      <ref name="att.datable.iso.attribute.notAfter-iso"/>
-      <ref name="att.datable.iso.attribute.from-iso"/>
-      <ref name="att.datable.iso.attribute.to-iso"/>
-   </define>
-   <define name="att.datable.iso.attribute.when-iso">
-      <optional>
-         <attribute name="when-iso">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the value of a date or time in a standard form.</a:documentation>
-            <choice>
-               <data type="date"/>
-               <data type="gYear"/>
-               <data type="gMonth"/>
-               <data type="gDay"/>
-               <data type="gYearMonth"/>
-               <data type="gMonthDay"/>
-               <data type="time"/>
-               <data type="dateTime"/>
-               <data type="token">
-                  <param name="pattern">[0-9.,DHMPRSTWYZ/:+\-]+</param>
-               </data>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.datable.iso.attribute.notBefore-iso">
-      <optional>
-         <attribute name="notBefore-iso">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the earliest possible date for the event in standard form, e.g. yyyy-mm-dd.</a:documentation>
-            <choice>
-               <data type="date"/>
-               <data type="gYear"/>
-               <data type="gMonth"/>
-               <data type="gDay"/>
-               <data type="gYearMonth"/>
-               <data type="gMonthDay"/>
-               <data type="time"/>
-               <data type="dateTime"/>
-               <data type="token">
-                  <param name="pattern">[0-9.,DHMPRSTWYZ/:+\-]+</param>
-               </data>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.datable.iso.attribute.notAfter-iso">
-      <optional>
-         <attribute name="notAfter-iso">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the latest possible date for the event in standard form, e.g. yyyy-mm-dd.</a:documentation>
-            <choice>
-               <data type="date"/>
-               <data type="gYear"/>
-               <data type="gMonth"/>
-               <data type="gDay"/>
-               <data type="gYearMonth"/>
-               <data type="gMonthDay"/>
-               <data type="time"/>
-               <data type="dateTime"/>
-               <data type="token">
-                  <param name="pattern">[0-9.,DHMPRSTWYZ/:+\-]+</param>
-               </data>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.datable.iso.attribute.from-iso">
-      <optional>
-         <attribute name="from-iso">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the starting point of the period in standard form.</a:documentation>
-            <choice>
-               <data type="date"/>
-               <data type="gYear"/>
-               <data type="gMonth"/>
-               <data type="gDay"/>
-               <data type="gYearMonth"/>
-               <data type="gMonthDay"/>
-               <data type="time"/>
-               <data type="dateTime"/>
-               <data type="token">
-                  <param name="pattern">[0-9.,DHMPRSTWYZ/:+\-]+</param>
-               </data>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="att.datable.iso.attribute.to-iso">
-      <optional>
-         <attribute name="to-iso">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the ending point of the period in standard form.</a:documentation>
-            <choice>
-               <data type="date"/>
-               <data type="gYear"/>
-               <data type="gMonth"/>
-               <data type="gDay"/>
-               <data type="gYearMonth"/>
-               <data type="gMonthDay"/>
-               <data type="time"/>
-               <data type="dateTime"/>
-               <data type="token">
-                  <param name="pattern">[0-9.,DHMPRSTWYZ/:+\-]+</param>
-               </data>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
    <define name="orgName">
       <element name="orgName">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(organization name) contains an organizational name. [13.2.2. Organizational Names]</a:documentation>
@@ -4629,23 +3871,6 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
-         <ref name="att.datable.attribute.calendar"/>
-         <ref name="att.datable.attribute.period"/>
-         <ref name="att.datable.w3c.attribute.from"/>
-         <ref name="att.datable.w3c.attribute.to"/>
-         <ref name="att.datable.iso.attribute.when-iso"/>
-         <ref name="att.datable.iso.attribute.notBefore-iso"/>
-         <ref name="att.datable.iso.attribute.notAfter-iso"/>
-         <ref name="att.datable.iso.attribute.from-iso"/>
-         <ref name="att.datable.iso.attribute.to-iso"/>
-         <ref name="att.datable.custom.attribute.when-custom"/>
-         <ref name="att.datable.custom.attribute.notBefore-custom"/>
-         <ref name="att.datable.custom.attribute.notAfter-custom"/>
-         <ref name="att.datable.custom.attribute.from-custom"/>
-         <ref name="att.datable.custom.attribute.to-custom"/>
-         <ref name="att.datable.custom.attribute.datingPoint"/>
-         <ref name="att.datable.custom.attribute.datingMethod"/>
-         <ref name="att.editLike.attributes"/>
          <ref name="att.personal.attribute.sort"/>
          <ref name="att.naming.attribute.nymRef"/>
          <ref name="att.canonical.attribute.key"/>
@@ -4659,27 +3884,7 @@ relatedItem element must be empty</sch:report>
          <ref name="macro.phraseSeq"/>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
-         <ref name="att.datable.attribute.calendar"/>
-         <ref name="att.datable.attribute.period"/>
-         <ref name="att.datable.w3c.attribute.notBefore"/>
-         <ref name="att.datable.w3c.attribute.notAfter"/>
-         <ref name="att.datable.w3c.attribute.from"/>
-         <ref name="att.datable.w3c.attribute.to"/>
-         <ref name="att.datable.iso.attribute.when-iso"/>
-         <ref name="att.datable.iso.attribute.notBefore-iso"/>
-         <ref name="att.datable.iso.attribute.notAfter-iso"/>
-         <ref name="att.datable.iso.attribute.from-iso"/>
-         <ref name="att.datable.iso.attribute.to-iso"/>
-         <ref name="att.datable.custom.attribute.when-custom"/>
-         <ref name="att.datable.custom.attribute.notBefore-custom"/>
-         <ref name="att.datable.custom.attribute.notAfter-custom"/>
-         <ref name="att.datable.custom.attribute.from-custom"/>
-         <ref name="att.datable.custom.attribute.to-custom"/>
-         <ref name="att.datable.custom.attribute.datingPoint"/>
-         <ref name="att.datable.custom.attribute.datingMethod"/>
-         <ref name="att.editLike.attributes"/>
          <ref name="att.personal.attribute.sort"/>
          <ref name="att.naming.attribute.nymRef"/>
          <ref name="att.canonical.attribute.ref"/>
@@ -4720,7 +3925,6 @@ relatedItem element must be empty</sch:report>
          <ref name="macro.phraseSeq"/>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.personal.attribute.full"/>
          <ref name="att.personal.attribute.sort"/>
@@ -4735,7 +3939,6 @@ relatedItem element must be empty</sch:report>
          <ref name="macro.phraseSeq"/>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.personal.attribute.full"/>
          <ref name="att.personal.attribute.sort"/>
@@ -4750,29 +3953,10 @@ relatedItem element must be empty</sch:report>
          <ref name="macro.phraseSeq"/>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.naming.attribute.role"/>
          <ref name="att.naming.attribute.nymRef"/>
          <ref name="att.canonical.attribute.key"/>
-         <ref name="att.datable.attribute.calendar"/>
-         <ref name="att.datable.attribute.period"/>
-         <ref name="att.datable.w3c.attribute.notBefore"/>
-         <ref name="att.datable.w3c.attribute.notAfter"/>
-         <ref name="att.datable.w3c.attribute.from"/>
-         <ref name="att.datable.w3c.attribute.to"/>
-         <ref name="att.datable.iso.attribute.when-iso"/>
-         <ref name="att.datable.iso.attribute.notBefore-iso"/>
-         <ref name="att.datable.iso.attribute.notAfter-iso"/>
-         <ref name="att.datable.iso.attribute.from-iso"/>
-         <ref name="att.datable.iso.attribute.to-iso"/>
-         <ref name="att.datable.custom.attribute.when-custom"/>
-         <ref name="att.datable.custom.attribute.notBefore-custom"/>
-         <ref name="att.datable.custom.attribute.notAfter-custom"/>
-         <ref name="att.datable.custom.attribute.from-custom"/>
-         <ref name="att.datable.custom.attribute.to-custom"/>
-         <ref name="att.datable.custom.attribute.datingPoint"/>
-         <ref name="att.datable.custom.attribute.datingMethod"/>
          <empty/>
       </element>
    </define>
@@ -4782,28 +3966,9 @@ relatedItem element must be empty</sch:report>
          <ref name="macro.phraseSeq"/>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.naming.attribute.role"/>
          <ref name="att.naming.attribute.nymRef"/>
-         <ref name="att.datable.attribute.calendar"/>
-         <ref name="att.datable.attribute.period"/>
-         <ref name="att.datable.w3c.attribute.notBefore"/>
-         <ref name="att.datable.w3c.attribute.notAfter"/>
-         <ref name="att.datable.w3c.attribute.from"/>
-         <ref name="att.datable.w3c.attribute.to"/>
-         <ref name="att.datable.iso.attribute.when-iso"/>
-         <ref name="att.datable.iso.attribute.notBefore-iso"/>
-         <ref name="att.datable.iso.attribute.notAfter-iso"/>
-         <ref name="att.datable.iso.attribute.from-iso"/>
-         <ref name="att.datable.iso.attribute.to-iso"/>
-         <ref name="att.datable.custom.attribute.when-custom"/>
-         <ref name="att.datable.custom.attribute.notBefore-custom"/>
-         <ref name="att.datable.custom.attribute.notAfter-custom"/>
-         <ref name="att.datable.custom.attribute.from-custom"/>
-         <ref name="att.datable.custom.attribute.to-custom"/>
-         <ref name="att.datable.custom.attribute.datingPoint"/>
-         <ref name="att.datable.custom.attribute.datingMethod"/>
          <empty/>
       </element>
    </define>
@@ -4883,7 +4048,6 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
-         <ref name="att.declaring.attributes"/>
          <ref name="att.typed.attributes"/>
          <empty/>
       </element>
@@ -4992,7 +4156,6 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
-         <ref name="att.declaring.attributes"/>
          <empty/>
       </element>
    </define>
@@ -5056,7 +4219,7 @@ relatedItem element must be empty</sch:report>
             </optional>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="myTEI-div-abstractModel-structure-div-in-l-or-lg-constraint-report-15">
+                  id="myTEI-div-abstractModel-structure-div-in-l-or-lg-constraint-report-12">
             <rule context="tei:div">
                <sch:report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns="http://www.tei-c.org/ns/1.0"
@@ -5068,7 +4231,7 @@ relatedItem element must be empty</sch:report>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="myTEI-div-abstractModel-structure-div-in-ab-or-p-constraint-report-16">
+                  id="myTEI-div-abstractModel-structure-div-in-ab-or-p-constraint-report-13">
             <rule context="tei:div">
                <sch:report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns="http://www.tei-c.org/ns/1.0"
@@ -5085,27 +4248,9 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.typed.attributes"/>
-         <ref name="att.declaring.attributes"/>
          <ref name="att.written.attributes"/>
          <empty/>
       </element>
-   </define>
-   <define name="att.global.facs.attributes">
-      <ref name="att.global.facs.attribute.facs"/>
-   </define>
-   <define name="att.global.facs.attribute.facs">
-      <optional>
-         <attribute name="facs">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(facsimile) points to one or more images, portions of an image, or surfaces which correspond to the current element.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="anyURI">
-                     <param name="pattern">\S+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
    </define>
    <define name="att.global.change.attributes">
       <ref name="att.global.change.attribute.change"/>
@@ -5125,22 +4270,11 @@ relatedItem element must be empty</sch:report>
       </optional>
    </define>
    <define name="att.coordinated.attributes">
-      <ref name="att.coordinated.attribute.start"/>
       <ref name="att.coordinated.attribute.ulx"/>
       <ref name="att.coordinated.attribute.uly"/>
       <ref name="att.coordinated.attribute.lrx"/>
       <ref name="att.coordinated.attribute.lry"/>
       <ref name="att.coordinated.attribute.points"/>
-   </define>
-   <define name="att.coordinated.attribute.start">
-      <optional>
-         <attribute name="start">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the element within a transcription of the text containing at least the start of the writing represented by this zone or surface.</a:documentation>
-            <data type="anyURI">
-               <param name="pattern">\S+</param>
-            </data>
-         </attribute>
-      </optional>
    </define>
    <define name="att.coordinated.attribute.ulx">
       <optional>
@@ -5233,9 +4367,7 @@ relatedItem element must be empty</sch:report>
          </oneOrMore>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
-         <ref name="att.declaring.attributes"/>
          <empty/>
       </element>
    </define>
@@ -5266,14 +4398,11 @@ relatedItem element must be empty</sch:report>
          </group>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
-         <ref name="att.coordinated.attribute.start"/>
          <ref name="att.coordinated.attribute.ulx"/>
          <ref name="att.coordinated.attribute.uly"/>
          <ref name="att.coordinated.attribute.lrx"/>
          <ref name="att.coordinated.attribute.lry"/>
-         <ref name="att.declaring.attributes"/>
          <empty/>
       </element>
    </define>
@@ -5293,7 +4422,6 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.linking.attribute.corresp"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.coordinated.attributes"/>
@@ -5354,7 +4482,7 @@ relatedItem element must be empty</sch:report>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(path) defines any line passing through two or more points within a <code xmlns="http://www.w3.org/1999/xhtml">&lt;surface&gt;</code> element. [11.1. Digital Facsimiles 11.2.2. Embedded Transcription]</a:documentation>
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="myTEI-path-pathmustnotbeclosed-constraint-rule-11">
+                  id="myTEI-path-pathmustnotbeclosed-constraint-rule-8">
             <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -5374,9 +4502,7 @@ relatedItem element must be empty</sch:report>
          </pattern>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
-         <ref name="att.coordinated.attribute.start"/>
          <ref name="att.typed.attribute.type"/>
          <ref name="att.written.attributes"/>
          <optional>
@@ -5407,7 +4533,6 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.linking.attribute.corresp"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.placement.attributes"/>
          <ref name="att.written.attributes"/>
@@ -5440,9 +4565,7 @@ relatedItem element must be empty</sch:report>
          </zeroOrMore>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
-         <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
-         <ref name="att.coordinated.attribute.start"/>
          <ref name="att.written.attributes"/>
          <empty/>
       </element>

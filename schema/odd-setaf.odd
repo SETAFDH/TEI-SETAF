@@ -1,0 +1,1744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>SETAF project's ODD</title>
+            <author xml:id="SS">Sonia Solfrini</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Projet SETAF</publisher>
+            <authority>Institut d'Histoire de la Réformation (IHR), université de Genève</authority>
+            <address>
+               <addrLine>22 boulevard des Philosophes</addrLine>
+               <addrLine>CH-1211 Genève</addrLine>
+            </address>
+            <availability status="restricted" n="CC-BY">
+               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+               <p>Creative Commons Attribution 4.0 CC BY 4.0</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <listChange>
+               <change when="2023-10-25">Document creation</change>
+            </listChange>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div rend="toc" xml:id="Introduction">
+            <head>Introduction</head>
+            <p>work in progress</p>
+            <p>This our TEI files' structure:
+               <list>
+                  <item>teiHeader</item>
+                  <item>sourceDoc</item>
+                  <item>body</item>
+               </list>
+            </p>
+            <div rend="toc" xml:id="teiHeader">
+               <head>teiHeader</head>
+               <p>work in progress</p>
+               <p>This is an exemple of teiHeader:
+               </p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <teiHeader>
+                     <fileDesc>
+                        <titleStmt>
+                           <title>Chansons nouvelles demonstrantz plusieurs erreurs et faulsetez. [Neuchâtel] : [Pierre de Vingle], [1534]</title>
+                           <respStmt>
+                              <resp>Direction of SETAF project.</resp>
+                              <persName xml:id="DSC">
+                                 <forename>Daniela</forename>
+                                 <surname>Solfaroli Camillocci</surname>
+                              </persName>
+                           </respStmt>
+                           <respStmt>
+                              <resp>Modelling and document engineering, segmentation and correction of OCR transcription, conversion to TEI, metadata encoding.</resp>
+                              <persName xml:id="SS">
+                                 <forename>Sonia</forename>
+                                 <surname>Solfrini</surname>
+                                 <ptr type="orcid" target="000900097367048X"/>
+                              </persName>
+                           </respStmt>
+                           <respStmt>
+                              <resp>Modelling and document engineering support.</resp>
+                              <persName xml:id="SG">
+                                 <forename>Simon</forename>
+                                 <surname>Gabay</surname>
+                                 <ptr type="orcid" target="0000000190944475"/>
+                              </persName>
+                           </respStmt>
+                        </titleStmt>
+                        <extent>
+                           <measure unit="digitised_facsimile" n="48"/>
+                           <measure unit="processed_images" n="16"/>
+                        </extent> 
+                        <publicationStmt>
+                           <publisher>Projet SETAF</publisher>
+                           <authority>Institut d'Histoire de la Réformation (IHR), université de Genève</authority>
+                           <address>
+                              <addrLine>22 boulevard des Philosophes</addrLine>
+                              <addrLine>CH-1211 Genève</addrLine>
+                           </address>
+                           <availability status="restricted" n="CC-BY">
+                              <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+                              <p>Creative Commons Attribution 4.0 CC BY 4.0</p>
+                           </availability>
+                           <date when="2023-10-18"/>
+                        </publicationStmt>
+                        <sourceDesc>
+                           <msDesc>
+                              <msIdentifier xml:id="ZB_Res_1327">
+                                 <country>Suisse</country>
+                                 <settlement>Zurich</settlement>
+                                 <institution>Zentralbibliothek</institution>
+                                 <idno type="shelfmark">Res 1327</idno>
+                              </msIdentifier>
+                              <msContents>
+                                 <p>
+                                    <biblStruct>
+                                       <monogr>
+                                          <!-- AUTEUR -->
+                                          <author>
+                                             <persName role="presumed_author" ref="isni:0000000083926271">
+                                                <surname>Malingre</surname>
+                                                <forename>Mathieu</forename>
+                                             </persName>
+                                          </author>
+                                          <!-- TITRE -->
+                                          <title type="complete_title">Chansons nouvelles demonstrantz plusieurs erreurs et faulsetez: desquelles le paovre monde est remply par les ministres de Satan.</title> 
+                                          <title type="short_title">Chansons nouvelles demonstrantz plusieurs erreurs et faulsetez.</title>
+                                          <imprint>
+                                             <!-- LIEU DE PUBLICATION ET IMPRIMEUR -->
+                                             <pubPlace cert="medium" ref="geonames:2659496">Neuchâtel</pubPlace>
+                                             <respStmt>
+                                                <resp>Imprimeur</resp>
+                                                <persName role="presumed_printer" ref="isni:000000007752492X">
+                                                   <surname>de Vingle</surname>
+                                                   <forename>Pierre</forename>
+                                                </persName>
+                                             </respStmt>
+                                             <!-- DATE DE PUBLICATION -->
+                                             <date cert="low">1534</date>
+                                          </imprint>
+                                       </monogr>
+                                    </biblStruct>
+                                 </p>
+                              </msContents>         
+                              <physDesc>
+                                 <objectDesc>
+                                    <supportDesc>
+                                       <support>
+                                          <dim>in-8°</dim>
+                                       </support>
+                                    </supportDesc>
+                                 </objectDesc>
+                              </physDesc>
+                              <additional>
+                                 <surrogates>
+                                    <bibl>
+                                       <ref target="https://doi.org/10.3931/e-rara-576"/>
+                                       <relatedItem type="original">
+                                          <ref target="#ZB_Res_1327">e-rara</ref>
+                                       </relatedItem>
+                                    </bibl>
+                                 </surrogates>
+                                 <listBibl>
+                                    <bibl>
+                                       <ref target="https://www.ville-ge.ch/musinfo/bd/bge/gln/notice/?no=GLN-4821">
+                                          <orgName>GLN</orgName>
+                                          <idno>4821</idno>
+                                       </ref>
+                                    </bibl>
+                                    <bibl>
+                                       <ref target="https://www.ustc.ac.uk/editions/73413">
+                                          <orgName>USTC</orgName>
+                                          <idno>73413</idno>
+                                       </ref>
+                                    </bibl>
+                                 </listBibl>
+                              </additional>
+                           </msDesc>
+                        </sourceDesc>
+                     </fileDesc>
+                     <encodingDesc>
+                        <projectDesc>
+                           <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF, dirigé par la Prof·e Daniela Solfaroli Camillocci (IHR) et financé par le FNS. </p>
+                        </projectDesc>
+                        <editorialDecl>
+                           <correction>
+                              <p>Voir le guide de transcription du projet SETAF. La segmentation a été produite manuellement et la transcription issue de l'OCR a été corrigée. </p>
+                           </correction>
+                           <normalization>
+                              <p>Voir le guide de normalisation du projet SETAF. En ce qui concerne la régularisation intermédiaire, cette transcription a été normalisée jusqu'à la page x. En ce qui concerne la régularisation contemporaine, cette transcription n'a pas encore été normalisée.</p>
+                           </normalization>
+                        </editorialDecl>
+                        <appInfo>
+                           <application ident="Kraken" version="4.1">
+                              <label>Kraken</label>
+                              <ptr target="https://github.com/mittagessen/kraken"/>
+                           </application>
+                        </appInfo>
+                        <appInfo>
+                           <application ident="FoNDUE" version="0.1">
+                              <label>FoNDUE</label>
+                              <ptr target="https://test2.fondue.unige.ch/"/>
+                           </application>
+                        </appInfo>
+                        <classDecl>
+                           <taxonomy xml:id="SegmOnto">
+                              <bibl>
+                                 <title>SegmOnto</title>
+                                 <ptr target="https://github.com/segmonto"/>
+                              </bibl>
+                              <category xml:id="SegmOntoZones"/>
+                              <category xml:id="SegmOntoLines"/>
+                           </taxonomy>
+                        </classDecl>
+                     </encodingDesc>   
+                     <profileDesc>
+                        <langUsage>
+                           <language ident="frm">Français du XVIe siècle</language>
+                        </langUsage>
+                        <textClass>
+                           <keywords>
+                              <term type="form">poésie</term>
+                              <term type="segmentation_quality">gold</term>
+                              <term type="transcription_quality">gold</term>
+                              <term type="intermediary_reg_quality">not applicable</term>
+                              <term type="contemporary_reg_quality">not applicable</term>
+                              <term type="ling_annotation_quality">not applicable</term>
+                           </keywords>
+                        </textClass>
+                     </profileDesc>
+                     <revisionDesc>
+                        <change when="2023-10-18" who="#SS">Création du fichier TEI P5 et encodage.</change>
+                     </revisionDesc> 
+                  </teiHeader>
+               </egXML>
+            </div>
+         </div>
+         <div xml:id="Bibliography">
+            <head>Bibliography</head>
+            <listBibl>
+               <bibl xml:id="setaf">
+                  <author>Sonia Solfrini, Geneviève Gross, Brigitte Roux, Nathalie Szczech, Pierre-Olivier Beaulnes, Aurélia M. Oliveira and Daniela Solfaroli Camillocci</author>
+                  <title level="a">Étudier le « groupe de Neuchâtel » : De l'édition des Faits à un corpus numérique de la première Réforme romande.</title>
+                  <title level="m">Colloque Humanistica 2023</title>
+                  <date>2023</date>
+                  <pubPlace>Genève, Suisse</pubPlace>
+                  <ref target="https://hal.science/hal-04097381/"
+                     >https://hal.science/hal-04097381/</ref>
+               </bibl>
+               <bibl xml:id="Kraken2019">
+                  <author>Benjamin Kiessling</author>
+                  <title level="a">Kraken - an Universal Text Recognizer for the Humanities</title>
+                  <title level="m">Digital Humanities 2019 Conference Abstracts</title>
+                  <date when="2019-07">July 2019</date>
+                  <pubPlace>Utrecht, The Netherlands</pubPlace>
+                  <ref target="https://dev.clariah.nl/files/dh2019/boa/0673.html"
+                     >https://dev.clariah.nl/files/dh2019/boa/0673.html</ref>
+               </bibl>
+               <bibl xml:id="segmonto2021">
+                  <author>Simon Gabay, Jean-Baptiste Camps, Ariane Pinche, Claire Jahan</author>
+                  <title level="a">SegmOnto: common vocabulary and practices for analysing the layout of
+                     manuscripts (and more)</title>
+                  <title level="m">1st International Workshop on Computational Paleography (IWCP@ICDAR
+                     2021)</title>
+                  <date when="2021-09">Sep. 2021</date>
+                  <pubPlace>Lausanne, Switzerland</pubPlace>
+                  <ref target="https://hal.archives-ouvertes.fr/hal-03336528"
+                     >https://hal.archives-ouvertes.fr/hal-03336528</ref>
+               </bibl>
+               <bibl xml:id="eScriptorium2019">
+                  <author>Benjamin Kiessling, Robin Tissot, Daniel Stökl Ben Ezra, Peter Stokes</author>
+                  <title level="a">A Modular Region and Text Line Layout Analysis System</title>
+                  <title level="m">Proceedings of the 15th International Conference on Document Analysis
+                     and Recognition</title>
+                  <date when="2019-09">Sep. 2019</date>
+                  <pubPlace>Sydney, Australia</pubPlace>
+                  <ref target="https://ieeexplore.ieee.org/document/8893029"
+                     >https://ieeexplore.ieee.org/document/8893029</ref>
+               </bibl>
+               <bibl xml:id="Scheithauer2023">
+                  <author>Hugo Scheithauer, Alix Chagué and Laurent Romary</author>
+                  <title level="a">Which TEI representation for the output of automatic transcriptions and their metadata? An illustrated proposition.</title>
+                  <title level="m">Version 2</title>
+                  <date when="2023-09">Sep. 2023</date>
+                  <ref target="https://inria.hal.science/hal-04001303"
+                     >https://inria.hal.science/hal-04001303</ref>
+               </bibl>
+               <bibl xml:id="TEIguidelines">
+                  <editor>TEI Consortium</editor>
+                  <title level="m">TEI Guidelines for Electronic Text Encoding and Interchange</title>
+                  <ref target="https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html"
+                     >https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html</ref>
+               </bibl>
+            </listBibl>
+         </div>
+         <div rend="toc" xml:id="Specifications">
+            <head>Specifications</head>
+            <schemaSpec ident="myTEI">
+               <!-- After ident, start=? -->
+               <moduleRef key="tei"/>
+               
+               <!-- Checking module "analysis" -->
+               <!-- Checking module "certainty" -->
+               <!-- Checking module "corpus" -->
+               <!-- Checking module "dictionaries" -->
+               <!-- Checking module "drama" -->
+               <!-- Checking module "figures" -->
+               <!-- Checking module "gaiji" -->
+               <!-- Checking module "iso-fs" -->
+               <!-- Checking module "nets" -->
+               <!-- Checking module "spoken" -->
+               <!-- Checking module "tagdocs" -->
+               <!-- Checking module "textcrit" -->
+               <!-- Checking module verse -->
+               
+               <!-- Checking module "header" -->
+               <moduleRef key="header" include="appInfo application authority availability category change classDecl correction editorialDecl encodingDesc extent fileDesc hyphenation idno keywords langUsage language licence normalization profileDesc projectDesc publicationStmt revisionDesc sourceDesc teiHeader textClass titleStmt taxonomy"/>
+               <!-- Checking element "appInfo" -->
+               <elementSpec ident="appInfo" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "application" -->
+               <elementSpec ident="application" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "authority" -->
+               <elementSpec ident="authority" mode="change">
+                  <constraintSpec ident="authority_check" scheme="schematron">
+                     <constraint>
+                        <sch:rule context="tei:authority">
+                           <sch:assert test="contains(.,'Institut d'Histoire de la Réformation (IHR), université de Genève')">The authority is "Institut d'Histoire de la Réformation (IHR), université de Genève"</sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+                  <attList>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "availability" -->
+               <elementSpec ident="availability" mode="change">
+                  <attList>
+                     <attDef ident="status" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="restricted"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="n" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="CC-BY"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="default" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "category" -->
+               <elementSpec ident="category" mode="change">
+                  <attList>
+                     <attDef ident="xml:id" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="SegmOntoZones"/>
+                           <valItem ident="SegmOntoLines"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "change" -->
+               <elementSpec ident="change" mode="change">
+                  <attList>
+                     <attDef ident="target" mode="delete"/>
+                     <attDef ident="notBefore" mode="delete"/>
+                     <attDef ident="notAfter" mode="delete"/>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "classDecl" -->
+               <elementSpec ident="classDecl" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "correction" -->
+               <elementSpec ident="correction" mode="change">
+                  <attList>
+                     <attDef ident="status" mode="delete"/>
+                     <attDef ident="method" mode="delete"/>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="default" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "editorialDecl" -->
+               <elementSpec ident="editorialDecl" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="default" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "encodingDesc" -->
+               <elementSpec ident="encodingDesc" mode="change">
+                  <content>
+                     <sequence>
+                        <elementRef key="projectDesc" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="editorialDecl" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="appInfo" minOccurs="1" maxOccurs="4"/>
+                        <elementRef key="classDecl" minOccurs="1"/>
+                     </sequence>
+                  </content>
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "extent" -->
+               <elementSpec ident="extent" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "fileDesc" -->
+               <elementSpec ident="fileDesc" mode="change">
+                  <content>
+                     <sequence>
+                        <elementRef key="titleStmt" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="extent" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="publicationStmt" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="sourceDesc" minOccurs="1" maxOccurs="1"/>
+                     </sequence>
+                  </content>
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "hyphenation" -->
+               <elementSpec ident="hyphenation" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="default" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "idno" -->
+               <elementSpec ident="idno" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="shelfmark"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "keywords" -->
+               <elementSpec ident="keywords" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "langUsage" -->
+               <elementSpec ident="langUsage" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="default" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "language" -->
+               <elementSpec ident="language" mode="change">
+                  <attList>
+                     <attDef ident="usage" mode="delete"/>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "licence" -->
+               <elementSpec ident="licence" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "normalization" -->
+               <elementSpec ident="normalization" mode="change">
+                  <attList>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="method" mode="delete"/>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="default" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "profileDesc" -->
+               <elementSpec ident="profileDesc" mode="change">
+                  <content>
+                     <sequence>
+                        <elementRef key="langUsage" minOccurs="1"/>
+                        <elementRef key="textClass" minOccurs="1"/>
+                     </sequence>
+                  </content>
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec> 
+               <!-- Checking element "projectDesc" -->
+               <elementSpec ident="projectDesc" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="default" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "publicationStmt" -->
+               <elementSpec ident="publicationStmt" mode="change">
+                  <content>
+                     <sequence>
+                        <elementRef key="publisher" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="authority" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="address" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="availability" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="date" minOccurs="1" maxOccurs="1"/>
+                     </sequence>
+                  </content>
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "revisionDesc" -->
+               <elementSpec ident="revisionDesc" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "sourceDesc" -->
+               <elementSpec ident="sourceDesc" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="default" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "teiHeader" -->
+               <elementSpec ident="teiHeader" mode="change">
+                  <content>
+                     <sequence>
+                        <elementRef key="fileDesc" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="encodingDesc" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="profileDesc" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="revisionDesc" minOccurs="1" maxOccurs="1"/>
+                     </sequence>
+                  </content>
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>               
+               <!-- Checking element "textClass" -->
+               <elementSpec ident="textClass" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="default" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "titleStmt" -->
+               <elementSpec ident="titleStmt" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "taxonomy" -->
+               <elementSpec ident="taxonomy" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               
+               <!-- Checking module "core" -->
+               <moduleRef key="core" include="addrLine address author bibl biblStruct choice date foreign graphic head hi imprint l label lb lg listBibl measure monogr note orig p pb ptr pubPlace publisher ref reg relatedItem resp respStmt sic sp speaker stage term title"/>
+               <!-- Checking element "addrLine" -->
+               <elementSpec ident="addrLine" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "address" -->
+               <elementSpec ident="address" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "author" -->
+               <elementSpec ident="author" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "bibl" -->
+               <elementSpec ident="bibl" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="default" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "biblStruct" -->
+               <elementSpec ident="biblStruct" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="default" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "choice" -->
+               <elementSpec ident="choice" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "date" -->
+               <elementSpec ident="date" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="unit" mode="delete"/>
+                     <attDef ident="quantity" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                     <attDef ident="cert" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="high"/>
+                           <valItem ident="medium"/>
+                           <valItem ident="low"/>
+                           <valItem ident="unknown"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "foreign" -->
+               <elementSpec ident="foreign" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "graphic" -->
+               <elementSpec ident="graphic" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "head" -->
+               <elementSpec ident="head" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                     <attDef ident="hand" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "hi" -->
+               <elementSpec ident="hi" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="hand" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "imprint" -->
+               <elementSpec ident="imprint" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "l" -->
+               <elementSpec ident="l" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "label" -->
+               <elementSpec ident="label" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                     <attDef ident="place" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "lb" -->
+               <elementSpec ident="lb" mode="change">
+                  <attList>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "lg" -->
+               <elementSpec ident="lg" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="real" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "listBibl" -->
+               <elementSpec ident="listBibl" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="default" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "measure" -->
+               <elementSpec ident="measure" mode="change">
+                  <attList>
+                     <attDef ident="unit" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="digitised_facsimile"/>
+                           <valItem ident="processed_images"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "monogr" -->
+               <elementSpec ident="monogr" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "note" -->
+               <elementSpec ident="note" mode="change">
+                  <attList>
+                     <attDef ident="targetEnd" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="target" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="MarginTextZone"/>
+                           <valItem ident="MarginTextZone:handwrittenAddition"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "orig" -->
+               <elementSpec ident="orig" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "p" -->
+               <elementSpec ident="p" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="part" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "pb" -->
+               <elementSpec ident="pb" mode="change">
+                  <attList>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "ptr" -->
+               <elementSpec ident="ptr" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="orcid"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "pubPlace" -->
+               <elementSpec ident="pubPlace" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="cert" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="high"/>
+                           <valItem ident="medium"/>
+                           <valItem ident="low"/>
+                           <valItem ident="unknown"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "publisher" -->
+               <elementSpec ident="publisher" mode="change">
+                  <constraintSpec ident="publisher_check" scheme="schematron">
+                     <constraint>
+                        <sch:rule context="tei:publisher">
+                           <sch:assert test="contains(.,'Projet SETAF')">The publisher is "Projet SETAF"</sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec> 
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "ref" -->
+               <elementSpec ident="ref" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "reg" -->
+               <elementSpec ident="reg" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="unit" mode="delete"/>
+                     <attDef ident="quantity" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="intermediary"/>
+                           <valItem ident="contemporary"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "relatedItem" -->
+               <elementSpec ident="relatedItem" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="original"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "resp" -->
+               <elementSpec ident="resp" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="notBefore" mode="delete"/>
+                     <attDef ident="notAfter" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "respStmt" -->
+               <elementSpec ident="respStmt" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "sic" -->
+               <elementSpec ident="sic" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "sp" -->
+               <elementSpec ident="sp" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "speaker" -->
+               <elementSpec ident="speaker" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "stage" -->
+               <elementSpec ident="stage" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="who" mode="delete"/>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="place" mode="delete"/>
+                  </attList>
+               </elementSpec>               
+               <!-- Checking element "term" -->
+               <elementSpec ident="term" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="form"/>
+                           <valItem ident="segmentation_quality"/>
+                           <valItem ident="transcription_quality"/>
+                           <valItem ident="intermediary_reg_quality"/>
+                           <valItem ident="contemporary_reg_quality"/>
+                           <valItem ident="ling_annotation_quality"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="target" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "title" -->
+               <elementSpec ident="title" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="complete_title"/>
+                           <valItem ident="short_title"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="level" mode="delete"/>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               
+               <!-- Checking module "linking" -->
+               <moduleRef key="linking" include="ab"/>
+               <elementSpec ident="ab" mode="change">
+                  <attList>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="MainZone"/>
+                           <valItem ident="TitlePageZone"/>
+                           <valItem ident="DropCapitalZone"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               
+               <!-- Checking module "msdescription" -->
+               <moduleRef key="msdescription"
+                  include="additional dim institution msContents msDesc msIdentifier physDesc objectDesc surrogates supportDesc support"/>
+               <elementSpec ident="additional" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="dim" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                     <attDef ident="quantity" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="institution" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="msContents" mode="change">
+                  <attList>
+                     <attDef ident="class" mode="delete"/>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="msDesc" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="msIdentifier" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="physDesc" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="objectDesc" mode="change">
+                  <attList>
+                     <attDef ident="form" mode="delete"/>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="support" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="supportDesc" mode="change">
+                  <attList>
+                     <attDef ident="material" mode="delete"/>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="surrogates" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               
+               <!-- Checking module "namesdates" -->
+               <moduleRef key="namesdates"
+                  include="persName surname forename country settlement orgName"/>
+               <elementSpec ident="persName" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                     <attDef ident="full" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="yes"/>
+                           <valItem ident="no"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="role" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="presumed_author"/>
+                           <valItem ident="presumed_printer"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="surname" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="forename" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="country" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="settlement" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="orgName" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="notBefore" mode="delete"/>
+                     <attDef ident="notAfter" mode="delete"/>
+                     <attDef ident="unit" mode="delete"/>
+                     <attDef ident="quantity" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="full" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               
+               <!-- Checking module "textstructure" -->
+               <moduleRef key="textstructure" include="TEI text body div"/>
+               <!-- Checking element "TEI" -->
+               <elementSpec ident="TEI" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "text" -->
+               <elementSpec ident="text" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="hand" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "body" -->
+               <elementSpec ident="body" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "div" -->
+               <elementSpec ident="div" mode="change">
+                  <attList>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="org" mode="delete"/>
+                     <attDef ident="sample" mode="delete"/>
+                     <attDef ident="real" mode="delete"/>
+                     <attDef ident="part" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               
+               <!-- Checking module "transcr" -->
+               <moduleRef key="transcr" include="fw line sourceDoc surface zone path"/>
+               <!-- Checking element "fw" -->
+               <elementSpec ident="fw" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="NumberingZone"/>
+                           <valItem ident="QuireMarksZone"/>
+                           <valItem ident="RunningTitleZone"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "line" -->
+               <elementSpec ident="line" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="ulx" mode="delete"/>
+                     <attDef ident="uly" mode="delete"/>
+                     <attDef ident="lrx" mode="delete"/>
+                     <attDef ident="lry" mode="delete"/>
+                     <attDef ident="points" mode="delete"/>
+                  </attList>
+               </elementSpec>               
+               <!-- Checking element "sourceDoc" -->
+               <elementSpec ident="sourceDoc" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "surface" -->
+               <elementSpec ident="surface" mode="change">
+                  <attList>
+                     <attDef ident="attachment" mode="delete"/>
+                     <attDef ident="flipping" mode="delete"/>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="points" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "zone" -->
+               <elementSpec ident="zone" mode="change">
+                  <attList>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="DamageZone"/>
+                           <valItem ident="DefaultLine"/>
+                           <valItem ident="DropCapitalLine"/>
+                           <valItem ident="DropCapitalZone"/>
+                           <valItem ident="GraphicZone"/>
+                           <valItem ident="HeadingLine"/>
+                           <valItem ident="InterlinearLine"/>
+                           <valItem ident="MainZone"/>
+                           <valItem ident="MarginTextZone"/>
+                           <valItem ident="MarginTextZone:handwrittenAddition"/>
+                           <valItem ident="NumberingZone"/>
+                           <valItem ident="QuireMarksZone"/>
+                           <valItem ident="RunningTitleZone"/>
+                           <valItem ident="StampZone"/>
+                           <valItem ident="TableZone"/>
+                           <valItem ident="TitlePageZone"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <!-- Checking element "path" -->
+               <elementSpec ident="path" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="cert" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="ulx" mode="delete"/>
+                     <attDef ident="uly" mode="delete"/>
+                     <attDef ident="lrx" mode="delete"/>
+                     <attDef ident="lry" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               
+               <!-- Checking attributes -->
+               <!-- Checking attributes, letter a -->
+               <classSpec ident="att.anchoring" type="atts" mode="delete"/>
+               <classSpec ident="att.ascribed.directed" type="atts" mode="delete"/>
+               <!-- Checking attributes, letter b -->
+               <classSpec ident="att.breaking" type="atts" mode="delete"/>
+               <!-- Checking attributes, letter c -->
+               <classSpec ident="att.citeStructurePart" type="atts" mode="delete"/>
+               <classSpec ident="att.combinable" type="atts" mode="delete"/>
+               <classSpec ident="att.cReferencing" type="atts" mode="delete"/>
+               <classSpec ident="att.citing" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="tog" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.coordinated" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="start" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!-- Checking attributes, letter d -->
+               <classSpec ident="att.damaged" type="atts" mode="delete"/>
+               <classSpec ident="att.datable" type="atts" mode="delete"/>
+               <classSpec ident="att.datable.custom" type="atts" mode="delete"/>
+               <classSpec ident="att.datable.iso" type="atts" mode="delete"/>
+               <classSpec ident="att.datcat" type="atts" mode="delete"/>
+               <classSpec ident="att.declarable" type="atts" mode="delete"/>
+               <classSpec ident="att.declaring" type="atts" mode="delete"/>
+               <classSpec ident="att.deprecated" type="atts" mode="delete"/>
+               <classSpec ident="att.dimensions" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="quantity" mode="delete"/>
+                     <attDef ident="precision" mode="delete"/>
+                     <attDef ident="scope" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.divLike" type="atts" mode="delete"/>
+               <classSpec ident="att.docStatus" type="atts" mode="delete"/>
+               <classSpec ident="att.duration" type="atts" mode="delete"/>
+               <classSpec ident="att.duration.iso" type="atts" mode="delete"/>
+               <classSpec ident="att.duration.w3c" type="atts" mode="delete"/>
+               <!-- Checking attributes, letter e -->
+               <classSpec ident="att.edition" type="atts" mode="delete"/>
+               <classSpec ident="att.editLike" type="atts" mode="delete"/>
+               <classSpec ident="att.enjamb" type="atts" mode="delete"/>
+               <classSpec ident="att.enjamb" type="atts" mode="delete"/>
+               <!-- Checking attributes, letter f -->
+               <classSpec ident="att.formula" type="atts" mode="delete"/>
+               <classSpec ident="att.fragmentable" type="atts" mode="delete"/>
+               <!-- Checking attributes, letter g -->
+               <classSpec ident="att.gaijiProp" type="atts" mode="delete"/>
+               <classSpec ident="att.global" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="xml:space" mode="delete"/>
+                     <attDef ident="xml:lang" mode="delete"/>
+                     <attDef ident="xml:base" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.global.linking" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="synch" mode="delete"/>
+                     <attDef ident="sameAs" mode="delete"/>
+                     <attDef ident="copyOf" mode="delete"/>
+                     <attDef ident="next" mode="delete"/>
+                     <attDef ident="prev" mode="delete"/>
+                     <attDef ident="exclude" mode="delete"/>
+                     <attDef ident="select" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.global.rendition" type="atts" mode="delete"/>
+               <classSpec ident="att.global.analytic" type="atts" mode="delete"/>
+               <classSpec ident="att.global.facs" type="atts" mode="delete"/>
+               <!-- Checking attributes, letter h -->
+               <classSpec ident="att.handFeatures" type="atts" mode="delete"/>
+               <!-- Checking attributes : until letter h (https://tei-c.org/release/doc/tei-p5-doc/en/html/REF-CLASSES-ATTS.html) -->
+               
+            </schemaSpec>
+         </div>
+      </body>
+   </text>
+</TEI>
