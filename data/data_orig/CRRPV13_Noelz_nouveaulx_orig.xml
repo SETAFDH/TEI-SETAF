@@ -71,7 +71,7 @@
                               <pubPlace cert="medium" ref="geonames:2659496">Neuchâtel</pubPlace>
                               <respStmt>
                                  <resp>Imprimeur</resp>
-                                 <persName ref="isni:000000007752492X">
+                                 <persName role="presumed_printer" ref="isni:000000007752492X">
                                     <surname>de Vingle</surname>
                                     <forename>Pierre</forename>
                                  </persName>
