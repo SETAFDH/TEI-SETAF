@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2023-11-08T20:57:04Z. .
+Schema generated from ODD source 2023-11-08T21:42:54Z. .
 TEI Edition: Version 4.6.0. Last updated on
         4th April 2023, revision f18deffba
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0/
@@ -355,25 +355,9 @@ Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inche
    </pattern>
    <define name="att.datable.attributes">
       <ref name="att.datable.w3c.attributes"/>
-      <ref name="att.datable.attribute.calendar"/>
-      <ref name="att.datable.attribute.period"/>
-   </define>
-   <define name="att.datable.attribute.calendar">
-      <optional>
-         <attribute name="calendar">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates one or more systems or calendars to which the date represented by the content of this element belongs.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="anyURI">
-                     <param name="pattern">\S+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="myTEI-att.datable-calendar-calendar-constraint-rule-4">
+            id="myTEI-att.datable-calendar-constraint-rule-4">
       <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -384,20 +368,6 @@ Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inche
             but this <sch:name/> element has no textual content.</sch:assert>
       </sch:rule>
    </pattern>
-   <define name="att.datable.attribute.period">
-      <optional>
-         <attribute name="period">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies pointers to one or more definitions of named periods of time (typically <code xmlns="http://www.w3.org/1999/xhtml">&lt;category&gt;</code>s or <code xmlns="http://www.w3.org/1999/xhtml">&lt;calendar&gt;</code>s) within which the datable item is understood to have occurred.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="anyURI">
-                     <param name="pattern">\S+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
    <define name="att.global.responsibility.attributes">
       <ref name="att.global.responsibility.attribute.cert"/>
       <ref name="att.global.responsibility.attribute.resp"/>
@@ -2743,8 +2713,6 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
-         <ref name="att.datable.attribute.calendar"/>
-         <ref name="att.datable.attribute.period"/>
          <ref name="att.datable.w3c.attribute.when"/>
          <ref name="att.datable.w3c.attribute.from"/>
          <ref name="att.datable.w3c.attribute.to"/>
@@ -3696,8 +3664,6 @@ relatedItem element must be empty</sch:report>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(change) documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 11.7. Identifying Changes and Revisions]</a:documentation>
          <ref name="macro.specialPara"/>
          <ref name="att.ascribed.attributes"/>
-         <ref name="att.datable.attribute.calendar"/>
-         <ref name="att.datable.attribute.period"/>
          <ref name="att.datable.w3c.attribute.when"/>
          <ref name="att.datable.w3c.attribute.from"/>
          <ref name="att.datable.w3c.attribute.to"/>
@@ -4040,8 +4006,6 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
-         <ref name="att.datable.attribute.calendar"/>
-         <ref name="att.datable.attribute.period"/>
          <ref name="att.datable.w3c.attribute.when"/>
          <ref name="att.datable.w3c.attribute.from"/>
          <ref name="att.datable.w3c.attribute.to"/>
