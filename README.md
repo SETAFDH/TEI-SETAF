@@ -6,11 +6,11 @@ Ce dépôt comprend les données TEI produites dans le cadre du projet SETAF.
 
 La liste des textes avec plus de détails se trouve dans le tableau CSV du dépôt : TEI_table.csv
 
-Le dossier "schema" contient l'ODD du projet sous différents formats (odd, html, rng).
+- Le dossier "schema" contient l'ODD du projet sous différents formats (odd, html, rng).
 
-Le dossier "stylesheets" contient les feuilles de style utilisés pour convertir les données (du format ALTO au TEI, etc.).
+- Le dossier "stylesheets" contient les feuilles de style utilisés pour convertir les données (du format ALTO au TEI, etc.).
 
-Dans le dossier "data", vous trouvez les données :
+- Dans le dossier "data", vous trouvez les données :
 1. "data_orig" contient les fichiers TEI où les lignes de texte dans la balise <orig> ont été contrôlé manuellement (qualité "gold") ;
 2. "data_reg" contient les fichiers TEI où les lignes de texte dans la balise <reg type="intermediary"> sont en cours de traitement ;
 3. "data_cont" contient les fichiers TEI où les lignes de texte dans la balise <reg type="contemporary"> sont en cours de traitement.
