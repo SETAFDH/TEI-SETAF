@@ -2,15 +2,15 @@
 
 Ce dépôt est en cours de construction.
 Ce dépôt comprend les données TEI produites dans le cadre du projet SETAF.
+La liste des textes avec plus de détails se trouve dans le tableau CSV du dépôt (TEI_table.csv). 
 
-La liste des textes avec plus de détails se trouve dans le tableau CSV du dépôt : TEI_table.csv
-
+Description :
 - Le dossier "schema" contient l'ODD du projet sous différents formats (odd, html, rng).
 - Le dossier "stylesheets" contient les feuilles de style utilisés pour convertir les données (du format ALTO au TEI, etc.).
-- Dans le dossier "data", vous trouvez les données :
-  - "data_orig" contient les fichiers TEI où les lignes de texte dans la balise <orig> ont été contrôlé manuellement (qualité "gold") ;
-  - "data_reg" contient les fichiers TEI où les lignes de texte dans la balise <reg type="intermediary"> sont en cours de traitement ;
-  - "data_cont" contient les fichiers TEI où les lignes de texte dans la balise <reg type="contemporary"> sont en cours de traitement.
+- Le dossier "data" contient les données :
+  - "data_orig" contient les fichiers TEI où les lignes de texte dans la balise "orig" ont été contrôlé manuellement (qualité "gold") ;
+  - "data_reg" contient les fichiers TEI où les lignes de texte dans la balise "reg type="intermediary"" sont en cours de traitement ;
+  - "data_cont" contient les fichiers TEI où les lignes de texte dans la balise "reg type="contemporary"" sont en cours de traitement.
 
 Pour comprendre l'état d'avancement des textes, il suffit de consulter le tableau CSV du dépôt et/ou le teiHeader des fichiers.
 
