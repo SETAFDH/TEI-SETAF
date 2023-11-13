@@ -1,19 +1,15 @@
 # TEI-SETAF
 
-Ce dépôt est en cours de construction.
+Ce dépôt est en cours de construction. Ce dépôt comprend les données TEI produites dans le cadre du projet SETAF. 
 
-Ce dépôt comprend les données TEI produites dans le cadre du projet SETAF.
-
-La liste des textes avec plus de détails se trouve dans le tableau CSV du dépôt : TEI_table.csv
-
-Le dossier "schema" contient l'ODD du projet sous différents formats (odd, html, rng).
-
-Le dossier "stylesheets" contient les feuilles de style utilisés pour convertir les données (du format ALTO au TEI, etc.).
-
-Dans le dossier "data", vous trouvez les données :
-1. "data_orig" contient les fichiers TEI où les lignes de texte dans la balise <orig> ont été contrôlé manuellement (qualité "gold") ;
-2. "data_reg" contient les fichiers TEI où les lignes de texte dans la balise <reg type="intermediary"> sont en cours de traitement ;
-3. "data_cont" contient les fichiers TEI où les lignes de texte dans la balise <reg type="contemporary"> sont en cours de traitement.
+Description :
+- La liste des textes avec plus de détails se trouve dans le tableau CSV du dépôt. 
+- Le dossier "schema" contient l'ODD du projet sous différents formats (odd, html, rng).
+- Le dossier "stylesheets" contient les feuilles de style utilisés pour convertir les données (du format ALTO au TEI, etc.).
+- Le dossier "data" contient les données :
+  - "data_orig" contient les fichiers TEI où les lignes de texte dans la balise <b>orig</b> ont été contrôlé manuellement (qualité "gold") ;
+  - "data_reg" contient les fichiers TEI où les lignes de texte dans la balise <b>reg type="intermediary"</b> sont en cours de traitement ;
+  - "data_cont" contient les fichiers TEI où les lignes de texte dans la balise <b>reg type="contemporary"</b> sont en cours de traitement.
 
 Pour comprendre l'état d'avancement des textes, il suffit de consulter le tableau CSV du dépôt et/ou le teiHeader des fichiers.
 
@@ -39,4 +35,16 @@ Les transcriptions sont [CC-BY](https://creativecommons.org/licenses/by/4.0), et
 
 ## Citer le dépôt
 
-à venir
+- Version `0.9`: Sonia Solfrini, Geneviève Gross, Pierre-Olivier Beaulnes, Aurélia Marques Oliveira, Simon Gabay et Daniela Solfaroli Camillocci, _Données TEI du projet SETAF_, version `0.9`, Genève, université de Genève, 2023, https://github.com/SETAFDH/TEI-SETAF.
+
+```bibtex
+@misc{solfrini_tei_setaf_2023,
+  author={Solfrini, Sonia and Gross, Geneviève and Beaulnes, Pierre-Olivier and Marques Oliveira, Aurélia, and Gabay, Simon and Solfaroli Camillocci, Daniela},
+  title={Données TEI du projet SETAF},
+  version={0.9},
+  address={Genève},
+  publisher={université de Genève},
+  year={2023},
+  url={https://github.com/SETAFDH/TEI-SETAF},
+}
+```
