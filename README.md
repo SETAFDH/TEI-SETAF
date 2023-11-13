@@ -8,9 +8,9 @@ Description :
 - Le dossier "schema" contient l'ODD du projet sous différents formats (odd, html, rng).
 - Le dossier "stylesheets" contient les feuilles de style utilisés pour convertir les données (du format ALTO au TEI, etc.).
 - Le dossier "data" contient les données :
-  - "data_orig" contient les fichiers TEI où les lignes de texte dans la balise "orig" ont été contrôlé manuellement (qualité "gold") ;
-  - "data_reg" contient les fichiers TEI où les lignes de texte dans la balise "reg type="intermediary"" sont en cours de traitement ;
-  - "data_cont" contient les fichiers TEI où les lignes de texte dans la balise "reg type="contemporary"" sont en cours de traitement.
+  - "data_orig" contient les fichiers TEI où les lignes de texte dans la balise <b>orig</b> ont été contrôlé manuellement (qualité "gold") ;
+  - "data_reg" contient les fichiers TEI où les lignes de texte dans la balise reg type="intermediary" sont en cours de traitement ;
+  - "data_cont" contient les fichiers TEI où les lignes de texte dans la balise reg type="contemporary" sont en cours de traitement.
 
 Pour comprendre l'état d'avancement des textes, il suffit de consulter le tableau CSV du dépôt et/ou le teiHeader des fichiers.
 
