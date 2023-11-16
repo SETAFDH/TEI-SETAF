@@ -62,6 +62,7 @@
                               <persName xml:id="DSC">
                                  <forename>Daniela</forename>
                                  <surname>Solfaroli Camillocci</surname>
+                                 <ptr type="orcid" target="000000022601668X"/>
                               </persName>
                            </respStmt>
                            <respStmt>
@@ -82,7 +83,7 @@
                            </respStmt>
                         </titleStmt>
                         <extent>
-                           <measure unit="digitised_facsimile" n="48"/>
+                           <measure unit="total_images" n="48"/>
                            <measure unit="processed_images" n="16"/>
                         </extent> 
                         <publicationStmt>
@@ -126,8 +127,8 @@
                                              <respStmt>
                                                 <resp>Imprimeur</resp>
                                                 <persName role="presumed_printer" ref="isni:000000007752492X">
-                                                   <surname>de Vingle</surname>
-                                                   <forename>Pierre</forename>
+                                                   <surname>Vingle</surname>
+                                                   <forename>Pierre de</forename>
                                                 </persName>
                                              </respStmt>
                                              <!-- DATE DE PUBLICATION -->
@@ -179,7 +180,7 @@
                         </projectDesc>
                         <editorialDecl>
                            <correction>
-                              <p>Voir le guide de transcription du projet SETAF. La segmentation a été produite manuellement et la transcription issue de l'OCR a été corrigée. </p>
+                              <p>Voir le guide de transcription du projet SETAF : <ref target="https://hal.science/hal-04281804"/>. La segmentation a été produite manuellement et la transcription issue de l'OCR a été corrigée. </p>
                            </correction>
                            <normalization>
                               <p>Voir le guide de normalisation du projet SETAF. En ce qui concerne la régularisation intermédiaire, cette transcription a été normalisée jusqu'à la page x. En ce qui concerne la régularisation contemporaine, cette transcription n'a pas encore été normalisée.</p>
@@ -201,7 +202,7 @@
                            <taxonomy xml:id="SegmOnto">
                               <bibl>
                                  <title>SegmOnto</title>
-                                 <ptr target="https://github.com/segmonto"/>
+                                 <ptr target="https://segmonto.github.io/"/>
                               </bibl>
                               <category xml:id="SegmOntoZones"/>
                               <category xml:id="SegmOntoLines"/>
@@ -224,7 +225,7 @@
                         </textClass>
                      </profileDesc>
                      <revisionDesc>
-                        <change when="2023-10-18" who="#SS">Création du fichier TEI P5 et encodage.</change>
+                        <change when="2023-10-18" who="#SS">Création du fichier TEI P5.</change>
                      </revisionDesc> 
                   </teiHeader>
                </egXML>
@@ -957,7 +958,7 @@
                   <attList>
                      <attDef ident="unit" mode="change">
                         <valList mode="add" type="closed">
-                           <valItem ident="digitised_facsimile"/>
+                           <valItem ident="total_images"/>
                            <valItem ident="processed_images"/>
                         </valList>
                      </attDef>
