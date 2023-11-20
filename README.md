@@ -7,7 +7,7 @@ Description :
 - Le dossier "schema" contient l'ODD du projet sous différents formats (odd, html, rng).
 - Le dossier "stylesheets" contient les feuilles de style utilisés pour convertir les données (du format ALTO au TEI, etc.).
 - Le dossier "data" contient les données 
-  - "data_orig" contient les fichiers TEI où les lignes de texte dans la balise <b>orig</b> (%original form%) ont été contrôlé manuellement (qualité %gold%). Il s'agit de la transcription du texte source produite grâce à un modèle d'OCR et au guide de transcription du projet SETAF.
+  - "data_orig" contient les fichiers TEI où les lignes de texte dans la balise <b>orig</b> (%original form%) ont été contrôlé manuellement (qualité *gold*). Il s'agit de la transcription du texte source produite grâce à un modèle d'OCR et au guide de transcription du projet SETAF.
   - "data_reg" contient les fichiers TEI où les lignes de texte dans la balise <b>reg type="intermediary"</b> sont en cours de traitement. Il s'agit de la régularisation (niveau intermédiaire) du texte source produite grâce au guide de normalisation du projet SETAF.
   - "data_cont" contient les fichiers TEI où les lignes de texte dans la balise <b>reg type="contemporary"</b> sont en cours de traitement. Il s'agit de la traduction du texte source en français contemporaine, une étape qui ne concernera que certains textes.
 
