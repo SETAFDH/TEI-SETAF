@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Plusieurs belles et bonnes chansons. [Neuchâtel] : [Pierre de Vingle], [1533]</title>
+            <title>Chansons nouvelles demonstrantz plusieurs erreurs et faulsetez. [Neuchâtel] : [Pierre de Vingle], [1534]</title>
             <respStmt>
                <resp>Direction of SETAF project.</resp>
                <persName xml:id="DSC">
@@ -32,9 +32,9 @@
             </respStmt>
          </titleStmt>
          <extent>
-            <measure unit="total_images" n="63"/>
-            <measure unit="processed_images" n="48"/>
-         </extent>
+            <measure unit="total_images" n="48"/>
+            <measure unit="processed_images" n="16"/>
+         </extent> 
          <publicationStmt>
             <publisher>Projet SETAF</publisher>
             <authority>Institut d'Histoire de la Réformation (IHR), université de Genève</authority>
@@ -46,20 +46,21 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/"/>
                <p>Creative Commons Attribution 4.0 CC BY 4.0</p>
             </availability>
-            <date when="2023-11-08"/>
+            <date when="2023-10-18"/>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
-               <msIdentifier xml:id="BGE_Bd_1475_Rés">
+               <msIdentifier xml:id="ZB_Res_1327">
                   <country>Suisse</country>
-                  <settlement>Genève</settlement>
-                  <institution>BGE</institution>
-                  <idno type="shelfmark">Bd 1475 Rés</idno>
+                  <settlement>Zurich</settlement>
+                  <institution>Zentralbibliothek</institution>
+                  <idno type="shelfmark">Res 1327</idno>
                </msIdentifier>
                <msContents>
                   <p>
                      <biblStruct>
-                        <monogr><!-- AUTEUR -->
+                        <monogr>
+                           <!-- AUTEUR -->
                            <author>
                               <persName role="presumed_author" ref="isni:0000000083926271">
                                  <surname>Malingre</surname>
@@ -67,9 +68,10 @@
                               </persName>
                            </author>
                            <!-- TITRE -->
-                           <title type="complete_title">S'ensuivent plusieurs belles et bonnes chansons, que les chrestiens peuvent chanter en grande affection de cueur : pour et affin de soulager leurs esperitz et de leur donner repos en Dieu, au nom duquel elles sont composées par rithmes, au plus près de l'esperit de Jesus Christ, contenu ès sainctes Escriptures.</title>
-                           <title type="short_title">Plusieurs belles et bonnes chansons</title>
-                           <imprint><!-- LIEU DE PUBLICATION ET IMPRIMEUR -->
+                           <title type="complete_title">Chansons nouvelles demonstrantz plusieurs erreurs et faulsetez: desquelles le paovre monde est remply par les ministres de Satan.</title> 
+                           <title type="short_title">Chansons nouvelles demonstrantz plusieurs erreurs et faulsetez.</title>
+                           <imprint>
+                              <!-- LIEU DE PUBLICATION ET IMPRIMEUR -->
                               <pubPlace cert="medium" ref="geonames:2659496">Neuchâtel</pubPlace>
                               <respStmt>
                                  <resp>Imprimeur</resp>
@@ -79,17 +81,17 @@
                                  </persName>
                               </respStmt>
                               <!-- DATE DE PUBLICATION -->
-                              <date cert="high">1533</date>
+                              <date cert="low">1534</date>
                            </imprint>
                         </monogr>
                      </biblStruct>
                   </p>
-               </msContents>
+               </msContents>         
                <physDesc>
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <dim>In-8°</dim>
+                           <dim>in-8°</dim>
                         </support>
                      </supportDesc>
                   </objectDesc>
@@ -97,23 +99,23 @@
                <additional>
                   <surrogates>
                      <bibl>
-                        <ref target="http://dx.doi.org/10.3931/e-rara-6934"/>
+                        <ref target="https://doi.org/10.3931/e-rara-576"/>
                         <relatedItem type="original">
-                           <ref target="#BGE_Bd_1475_Rés">e-rara</ref>
+                           <ref target="#ZB_Res_1327">e-rara</ref>
                         </relatedItem>
                      </bibl>
                   </surrogates>
                   <listBibl>
                      <bibl>
-                        <ref target="https://www.ville-ge.ch/musinfo/bd/bge/gln/notice/?no=4822">
+                        <ref target="https://www.ville-ge.ch/musinfo/bd/bge/gln/notice/?no=GLN-4821">
                            <orgName>GLN</orgName>
-                           <idno>4822</idno>
+                           <idno>4821</idno>
                         </ref>
                      </bibl>
                      <bibl>
-                        <ref target="https://www.ustc.ac.uk/editions/9720">
+                        <ref target="https://www.ustc.ac.uk/editions/73413">
                            <orgName>USTC</orgName>
-                           <idno>9720</idno>
+                           <idno>73413</idno>
                         </ref>
                      </bibl>
                   </listBibl>
@@ -155,14 +157,14 @@
                <category xml:id="SegmOntoLines"/>
             </taxonomy>
          </classDecl>
-      </encodingDesc>
+      </encodingDesc>   
       <profileDesc>
          <langUsage>
             <language ident="frm">Français du XVIe siècle</language>
          </langUsage>
          <textClass>
             <keywords>
-               <term type="form">poésie et prose</term>
+               <term type="form">poésie</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
                <term type="intermediary_reg_quality">not applicable</term>
@@ -172,8 +174,8 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-11-08" who="#SS">Création du fichier TEI P5.</change>
-      </revisionDesc>
+         <change when="2023-10-18" who="#SS">Création du fichier TEI P5.</change>
+      </revisionDesc> 
    </teiHeader>
    <sourceDoc>
       <surface xml:id="f1" ulx="0" uly="0" lrx="1137" lry="1501">
