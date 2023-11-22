@@ -46,7 +46,7 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/"/>
                <p>Creative Commons Attribution 4.0 CC BY 4.0</p>
             </availability>
-            <date when="2023-11-08"/>
+            <date when="2023-10-27"/>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -59,7 +59,8 @@
                <msContents>
                   <p>
                      <biblStruct>
-                        <monogr><!-- AUTEUR -->
+                        <monogr>
+                           <!-- AUTEUR -->
                            <author>
                               <persName role="presumed_author" ref="isni:0000000083926271">
                                  <surname>Malingre</surname>
@@ -69,7 +70,8 @@
                            <!-- TITRE -->
                            <title type="complete_title">S'ensuivent plusieurs belles et bonnes chansons, que les chrestiens peuvent chanter en grande affection de cueur : pour et affin de soulager leurs esperitz et de leur donner repos en Dieu, au nom duquel elles sont composées par rithmes, au plus près de l'esperit de Jesus Christ, contenu ès sainctes Escriptures.</title>
                            <title type="short_title">Plusieurs belles et bonnes chansons</title>
-                           <imprint><!-- LIEU DE PUBLICATION ET IMPRIMEUR -->
+                           <imprint>
+                              <!-- LIEU DE PUBLICATION ET IMPRIMEUR -->
                               <pubPlace cert="medium" ref="geonames:2659496">Neuchâtel</pubPlace>
                               <respStmt>
                                  <resp>Imprimeur</resp>
@@ -123,7 +125,7 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF, dirigé par la Prof·e Daniela Solfaroli Camillocci (IHR) et financé par le FNS. </p>
+            <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF, dirigé par la Prof·e Daniela Solfaroli Camillocci (IHR) et financé par le FNS : <ref target="https://data.snf.ch/grants/grant/205056"/>. </p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -172,7 +174,7 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-11-08" who="#SS">Création du fichier TEI P5.</change>
+         <change when="2023-10-27" who="#SS">Création du fichier TEI P5.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
