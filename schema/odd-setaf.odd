@@ -176,7 +176,7 @@
                      </fileDesc>
                      <encodingDesc>
                         <projectDesc>
-                           <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF, dirigé par la Prof·e Daniela Solfaroli Camillocci (IHR) et financé par le FNS. </p>
+                           <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF, dirigé par la Prof·e Daniela Solfaroli Camillocci (IHR) et financé par le FNS : <ref target="https://data.snf.ch/grants/grant/205056"/>. </p>
                         </projectDesc>
                         <editorialDecl>
                            <correction>
@@ -1072,6 +1072,12 @@
                            <valItem ident="unknown"/>
                         </valList>
                      </attDef>
+                     <attDef ident="role" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="presumed_address"/>
+                           <valItem ident="false_address"/>
+                        </valList>
+                     </attDef>
                   </attList>
                </elementSpec>
                <!-- Checking element "publisher" -->
@@ -1421,6 +1427,8 @@
                         <valList mode="add" type="closed">
                            <valItem ident="presumed_author"/>
                            <valItem ident="presumed_printer"/>
+                           <valItem ident="false_printer"/>
+                           <valItem ident="false_author"/>
                         </valList>
                      </attDef>
                   </attList>
@@ -1621,6 +1629,7 @@
                            <valItem ident="GraphicZone"/>
                            <valItem ident="HeadingLine"/>
                            <valItem ident="InterlinearLine"/>
+                           <valItem ident="CustomLine:Faits"/>
                            <valItem ident="MainZone"/>
                            <valItem ident="MarginTextZone"/>
                            <valItem ident="MarginTextZone:handwrittenAddition"/>
@@ -1649,7 +1658,7 @@
                   </attList>
                </elementSpec>
                
-               <!-- Checking attributes -->
+               <!-- Checking attributes (https://tei-c.org/release/doc/tei-p5-doc/en/html/REF-CLASSES-ATTS.html) -->
                <!-- Checking attributes, letter a -->
                <classSpec ident="att.anchoring" type="atts" mode="delete"/>
                <classSpec ident="att.ascribed.directed" type="atts" mode="delete"/>
@@ -1729,7 +1738,92 @@
                <classSpec ident="att.global.facs" type="atts" mode="delete"/>
                <!-- Checking attributes, letter h -->
                <classSpec ident="att.handFeatures" type="atts" mode="delete"/>
-               <!-- Checking attributes : until letter h (https://tei-c.org/release/doc/tei-p5-doc/en/html/REF-CLASSES-ATTS.html) -->
+               <!-- Checking attributes, letter i -->
+               <classSpec ident="att.identified" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="predeclare" mode="delete"/>
+                     <attDef ident="module" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.internetMedia" type="atts" mode="delete"/>
+               <classSpec ident="att.interpLike" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="inst" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!-- Checking attributes, letter l -->
+               <classSpec ident="att.lexicographic" type="atts" mode="delete"/>
+               <classSpec ident="att.linguistic" type="atts" mode="delete"/>
+               <classSpec ident="att.locatable" type="atts" mode="delete"/>
+               <classSpec ident="att.lexicographic.normalized" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="norm" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!-- Checking attributes, letter m -->
+               <classSpec ident="att.metrical" type="atts" mode="delete"/>
+               <classSpec ident="att.msExcerpt" type="atts" mode="delete"/>
+               <classSpec ident="att.msClass" type="atts" mode="delete"/>
+               <classSpec ident="att.measurement" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="unitRef" mode="delete"/>
+                     <attDef ident="quantity" mode="delete"/>
+                     <attDef ident="commodity" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.media" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="scale" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!-- Checking attributes, letter n -->
+               <classSpec ident="att.namespaceable" type="atts" mode="delete"/>
+               <classSpec ident="att.naming" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="nymRef" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.notated" type="atts" mode="delete"/>
+               <!-- Checking attributes, letter p -->
+               <classSpec ident="att.patternReplacement" type="atts" mode="delete"/>
+               <classSpec ident="att.personal" type="atts" mode="delete"/>
+               <classSpec ident="att.placement" type="atts" mode="delete"/>
+               <classSpec ident="att.pointing" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="targetLang" mode="delete"/>
+                     <attDef ident="evaluate" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.pointing.group" type="atts" mode="delete"/>
+               <classSpec ident="att.predicate" type="atts" mode="delete"/>
+               <!-- Checking attributes, letter r -->
+               <classSpec ident="att.ranging" type="atts" mode="delete"/>
+               <classSpec ident="att.rdgPart" type="atts" mode="delete"/>
+               <classSpec ident="att.repeatable" type="atts" mode="delete"/>
+               <!-- Checking attributes, letter s -->
+               <classSpec ident="att.scoping" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="match" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.segLike" type="atts" mode="delete"/>
+               <classSpec ident="att.sortable" type="atts" mode="delete"/>
+               <classSpec ident="att.spanning" type="atts" mode="delete"/>
+               <classSpec ident="att.styleDef" type="atts" mode="delete"/>
+               <!-- Checking attributes, letter t -->
+               <classSpec ident="att.timed" type="atts" mode="delete"/>
+               <classSpec ident="att.textCritical" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="cause" mode="delete"/>
+                     <attDef ident="varSeq" mode="delete"/>
+                     <attDef ident="require" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.transcriptional" type="atts" mode="delete"/>
+               <classSpec ident="att.translatable" type="atts" mode="delete"/>
+               <!-- Checking attributes, letter w -->
+               <classSpec ident="att.witnessed" type="atts" mode="delete"/>
+               <classSpec ident="att.written" type="atts" mode="delete"/>
                
             </schemaSpec>
          </div>
