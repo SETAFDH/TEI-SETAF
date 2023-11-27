@@ -998,6 +998,7 @@
                         <valList mode="add" type="closed">
                            <valItem ident="MarginTextZone"/>
                            <valItem ident="MarginTextZone:handwrittenAddition"/>
+                           <valItem ident="TableZone"/>
                         </valList>
                      </attDef>
                      <attDef ident="subtype" mode="delete"/>
@@ -1778,11 +1779,6 @@
                </classSpec>
                <!-- Checking attributes, letter n -->
                <classSpec ident="att.namespaceable" type="atts" mode="delete"/>
-               <classSpec ident="att.naming" type="atts" mode="change">
-                  <attList>
-                     <attDef ident="nymRef" mode="delete"/>
-                  </attList>
-               </classSpec>
                <classSpec ident="att.notated" type="atts" mode="delete"/>
                <!-- Checking attributes, letter p -->
                <classSpec ident="att.patternReplacement" type="atts" mode="delete"/>
