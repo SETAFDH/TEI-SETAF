@@ -1,6 +1,8 @@
 # TEI-SETAF
 
-Ce dépôt est en cours de construction. Ce dépôt comprend les données TEI produites dans le cadre du projet SETAF. 
+Ce dépôt est en cours de construction. 
+
+Ce dépôt comprend les données TEI produites dans le cadre du projet SETAF. 
 
 Description :
 - La liste des textes avec plus de détails se trouve dans le tableau CSV du dépôt. 
