@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2023-11-23T15:03:38Z. .
+Schema generated from ODD source 2023-11-24T17:33:45Z. .
 TEI Edition: Version 4.6.0. Last updated on
         4th April 2023, revision f18deffba
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0/
@@ -430,6 +430,20 @@ Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inche
                <oneOrMore>
                   <data type="token">
                      <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="att.naming.attribute.nymRef">
+      <optional>
+         <attribute name="nymRef">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference to the canonical name) provides a means of locating the canonical form (nym) of the names associated with the object named by the element bearing it.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI">
+                     <param name="pattern">\S+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -2220,6 +2234,8 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>MarginTextZone:handwrittenAddition</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>TableZone</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                </choice>
             </attribute>
          </optional>
@@ -2355,6 +2371,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.naming.attribute.role"/>
+         <ref name="att.naming.attribute.nymRef"/>
          <ref name="att.datable.attributes"/>
          <empty/>
       </element>
@@ -2489,6 +2506,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
+         <ref name="att.naming.attribute.nymRef"/>
          <ref name="att.canonical.attribute.key"/>
          <ref name="att.canonical.attribute.ref"/>
          <optional>
@@ -3515,6 +3533,7 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.source.attribute.source"/>
+         <ref name="att.naming.attribute.nymRef"/>
          <ref name="att.canonical.attribute.key"/>
          <empty/>
       </element>
@@ -3685,6 +3704,7 @@ relatedItem element must be empty</sch:report>
          <ref name="att.datable.w3c.attribute.from"/>
          <ref name="att.datable.w3c.attribute.to"/>
          <ref name="att.personal.attribute.sort"/>
+         <ref name="att.naming.attribute.nymRef"/>
          <ref name="att.canonical.attribute.key"/>
          <ref name="att.typed.attributes"/>
          <empty/>
@@ -3699,6 +3719,7 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.datable.attributes"/>
          <ref name="att.personal.attribute.sort"/>
+         <ref name="att.naming.attribute.nymRef"/>
          <ref name="att.canonical.attribute.ref"/>
          <optional>
             <attribute name="role">
@@ -3731,6 +3752,7 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.personal.attribute.sort"/>
          <ref name="att.naming.attribute.role"/>
+         <ref name="att.naming.attribute.nymRef"/>
          <empty/>
       </element>
    </define>
@@ -3743,6 +3765,7 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.personal.attribute.sort"/>
          <ref name="att.naming.attribute.role"/>
+         <ref name="att.naming.attribute.nymRef"/>
          <empty/>
       </element>
    </define>
@@ -3754,6 +3777,7 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.naming.attribute.role"/>
+         <ref name="att.naming.attribute.nymRef"/>
          <ref name="att.canonical.attribute.key"/>
          <ref name="att.datable.attributes"/>
          <empty/>
@@ -3767,6 +3791,7 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.naming.attribute.role"/>
+         <ref name="att.naming.attribute.nymRef"/>
          <ref name="att.datable.attributes"/>
          <empty/>
       </element>
