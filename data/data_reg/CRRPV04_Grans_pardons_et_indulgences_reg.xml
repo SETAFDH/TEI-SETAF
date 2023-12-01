@@ -35,7 +35,15 @@
                <persName xml:id="POB">
                   <forename>Pierre-Olivier</forename>
                   <surname>Beaulnes</surname>
-                  <ptr type="orcid" target="0009000924756017"/>
+                  <ptr type="orcid" target="0009000924756017"/>              
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Normalization (intermediary).</resp>
+               <persName xml:id="AMO">
+                  <forename>Aurélia</forename>
+                  <surname>Marques Oliveira</surname>
+                  <ptr type="orcid" target="0009000996789811"/>
                </persName>
             </respStmt>
          </titleStmt>
@@ -140,7 +148,7 @@
                <p>Voir le guide de transcription du projet SETAF : <ref target="https://hal.science/hal-04281804"/>. La segmentation a été produite manuellement et la transcription issue de l'OCR a été corrigée. </p>
             </correction>
             <normalization>
-               <p>Voir le guide de normalisation du projet SETAF. En ce qui concerne la régularisation intermédiaire, cette transcription a été normalisée jusqu'à la page 29. En ce qui concerne la régularisation contemporaine, cette transcription n'a pas encore été normalisée.</p>
+               <p>Voir le guide de normalisation du projet SETAF. En ce qui concerne la régularisation intermédiaire, cette transcription a été normalisée. En ce qui concerne la régularisation contemporaine, cette transcription n'a pas encore été normalisée.</p>
             </normalization>
          </editorialDecl>
          <appInfo>
@@ -175,7 +183,7 @@
                <term type="form">prose</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
-               <term type="intermediary_reg_quality">not applicable</term>
+               <term type="intermediary_reg_quality">gold</term>
                <term type="contemporary_reg_quality">not applicable</term>
                <term type="ling_annotation_quality">not applicable</term>
             </keywords>
@@ -183,7 +191,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2023-10-27" who="#SS">Création du fichier TEI P5.</change>
-         <change when="2023-11-27" who="#AMO">Régularisation intermédiaire terminée.</change>
+         <change when="2023-12-01" who="#AMO">Régularisation intermédiaire terminée.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
@@ -18987,7 +18995,7 @@
                <lb corresp="#f1_eSc_line_cdce5708_ligne_18"/>
                <choice>
                   <orig>1.Ioan.4.</orig>
-                  <reg type="intermediary">1.Joan.4.</reg>
+                  <reg type="intermediary">1.Ioan.4.</reg>
                   <reg type="contemporary">1.Ioan.4.</reg>
                </choice>
             </hi>
@@ -19030,7 +19038,7 @@
             <lb corresp="#f1_eSc_line_74377892_ligne_5"/>
             <choice>
                <orig>Ioan.19.</orig>
-               <reg type="intermediary">Joan.19.</reg>
+               <reg type="intermediary">Ioan.19.</reg>
                <reg type="contemporary">Ioan.19.</reg>
             </choice>
             <lb corresp="#f1_eSc_line_2e508362_ligne_6"/>
@@ -19232,7 +19240,7 @@
             <lb corresp="#f3_eSc_line_1c90369c_ligne_2"/>
             <choice>
                <orig>Ioan.17.</orig>
-               <reg type="intermediary">Joan.17.</reg>
+               <reg type="intermediary">Ioan.17.</reg>
                <reg type="contemporary">Ioan.17.</reg>
             </choice>
             <lb corresp="#f3_eSc_line_9870900d_ligne_3"/>
@@ -19298,7 +19306,7 @@
             <lb corresp="#f3_eSc_line_a1c1e301_ligne_2"/>
             <choice>
                <orig>1.Ioã.5.</orig>
-               <reg type="intermediary">1.Joã.5.</reg>
+               <reg type="intermediary">1.Ioã.5.</reg>
                <reg type="contemporary">1.Ioã.5.</reg>
             </choice>
          </note>
@@ -19606,7 +19614,7 @@
             <lb corresp="#f5_eSc_line_356dab1f_ligne_14"/>
             <choice>
                <orig>nostredict sainct pere que les poures</orig>
-               <reg type="intermediary">nostre dict sainct pere que les poures</reg>
+               <reg type="intermediary">nostredict sainct pere que les poures</reg>
                <reg type="contemporary">nostredict sainct pere que les poures</reg>
             </choice>
             <lb corresp="#f5_eSc_line_6ea6aa9c_ligne_15"/>
@@ -19736,7 +19744,7 @@
             <lb corresp="#f5_eSc_line_9424f0be_ligne_2"/>
             <choice>
                <orig>Ioan.7.</orig>
-               <reg type="intermediary">Joan.7.</reg>
+               <reg type="intermediary">Ioan.7.</reg>
                <reg type="contemporary">Ioan.7.</reg>
             </choice>
             <lb corresp="#f5_eSc_line_8794c78c_ligne_3"/>
@@ -19788,12 +19796,6 @@
                <reg type="intermediary">dons.</reg>
                <reg type="contemporary">dons.</reg>
             </choice>
-            <lb corresp="#f6_eSc_line_ef57d2af_ligne_5"/>
-            <choice>
-               <orig>ordõne nostre</orig>
-               <reg type="intermediary">ordonne nostre</reg>
-               <reg type="contemporary">ordõne nostre</reg>
-            </choice>
             <hi>
                <lb corresp="#f6_eSc_line_94a9665d_ligne_6"/>
                <choice>
@@ -19802,6 +19804,12 @@
                   <reg type="contemporary">Premieremẽt</reg>
                </choice>
             </hi>
+            <lb corresp="#f6_eSc_line_ef57d2af_ligne_5"/>
+            <choice>
+               <orig>ordõne nostre</orig>
+               <reg type="intermediary">ordonne nostre</reg>
+               <reg type="contemporary">ordõne nostre</reg>
+            </choice>
             <lb corresp="#f6_eSc_line_e4ef7075_ligne_7"/>
             <choice>
                <orig>saĩct pere, que</orig>
@@ -19907,7 +19915,7 @@
             <lb corresp="#f6_eSc_line_a4d60620_ligne_24"/>
             <choice>
                <orig>assemblãt/ unissãt/ ⁊ receuãt nostreð</orig>
-               <reg type="intermediary">assemblant/ unissant/ et recevant nostre</reg>
+               <reg type="intermediary">assemblant/ unissant/ et recevant nostredict</reg>
                <reg type="contemporary">assemblãt/ unissãt/ et receuãt nostreð</reg>
             </choice>
             <lb corresp="#f6_eSc_line_24692557_ligne_25"/>
@@ -19963,7 +19971,7 @@
             <lb corresp="#f6_eSc_line_c4dc9f8d_ligne_6"/>
             <choice>
                <orig>Ioan.5.</orig>
-               <reg type="intermediary">Joan.5.</reg>
+               <reg type="intermediary">Ioan.5.</reg>
                <reg type="contemporary">Ioan.5.</reg>
             </choice>
             <lb corresp="#f6_eSc_line_eaf2d7af_ligne_7"/>
@@ -19977,7 +19985,7 @@
             <lb corresp="#f6_eSc_line_d7850528_ligne_2"/>
             <choice>
                <orig>Ioan.3.</orig>
-               <reg type="intermediary">Joan.3.</reg>
+               <reg type="intermediary">Ioan.3.</reg>
                <reg type="contemporary">Ioan.3.</reg>
             </choice>
             <lb corresp="#f6_eSc_line_776065f0_ligne_3"/>
@@ -20031,7 +20039,7 @@
             <lb corresp="#f6_eSc_line_b77d1e66_ligne_4"/>
             <choice>
                <orig>Ioã.17.</orig>
-               <reg type="intermediary">Joã.17.</reg>
+               <reg type="intermediary">Ioã.17.</reg>
                <reg type="contemporary">Ioã.17.</reg>
             </choice>
             <lb corresp="#f6_eSc_line_e6fcc148_ligne_5"/>
@@ -20451,7 +20459,7 @@
             <lb corresp="#f8_eSc_line_9abbf740_ligne_2"/>
             <choice>
                <orig>Ioan.16.</orig>
-               <reg type="intermediary">Joan.16.</reg>
+               <reg type="intermediary">Ioan.16.</reg>
                <reg type="contemporary">Ioan.16.</reg>
             </choice>
             <lb corresp="#f8_eSc_line_c4d3049c_ligne_3"/>
@@ -20469,7 +20477,7 @@
             <lb corresp="#f8_eSc_line_c068f3d4_ligne_5"/>
             <choice>
                <orig>1.Ioã.4.</orig>
-               <reg type="intermediary">1.Joã.4.</reg>
+               <reg type="intermediary">1.Ioã.4.</reg>
                <reg type="contemporary">1.Ioã.4.</reg>
             </choice>
          </note>
@@ -21277,7 +21285,7 @@
             <lb corresp="#f12_eSc_line_6b1bbf42_ligne_2"/>
             <choice>
                <orig>Ioã.4.</orig>
-               <reg type="intermediary">Joã.4.</reg>
+               <reg type="intermediary">Ioã.4.</reg>
                <reg type="contemporary">Ioã.4.</reg>
             </choice>
          </note>
@@ -21311,7 +21319,7 @@
             <lb corresp="#f12_eSc_line_ce147ffe_ligne_3"/>
             <choice>
                <orig>Ioan.4.</orig>
-               <reg type="intermediary">Joan.4.</reg>
+               <reg type="intermediary">Ioan.4.</reg>
                <reg type="contemporary">Ioan.4.</reg>
             </choice>
          </note>
@@ -21500,7 +21508,7 @@
             <lb corresp="#f13_eSc_line_bafe5e42_ligne_2"/>
             <choice>
                <orig>Ioan.13.</orig>
-               <reg type="intermediary">Joan.13.</reg>
+               <reg type="intermediary">Ioan.13.</reg>
                <reg type="contemporary">Ioan.13.</reg>
             </choice>
             <lb corresp="#f13_eSc_line_019e8fc7_ligne_3"/>
@@ -21530,7 +21538,7 @@
             <lb corresp="#f13_eSc_line_235de843_ligne_2"/>
             <choice>
                <orig>1.Ioã.3.</orig>
-               <reg type="intermediary">1.Joã.3.</reg>
+               <reg type="intermediary">1.Ioã.3.</reg>
                <reg type="contemporary">1.Ioã.3.</reg>
             </choice>
          </note>
@@ -21914,7 +21922,7 @@
             <lb corresp="#f15_eSc_line_0bdff230_ligne_4"/>
             <choice>
                <orig>1.Ioã.5.</orig>
-               <reg type="intermediary">1.Joã.5.</reg>
+               <reg type="intermediary">1.Ioã.5.</reg>
                <reg type="contemporary">1.Ioã.5.</reg>
             </choice>
          </note>
@@ -22344,7 +22352,7 @@
             <lb corresp="#f17_eSc_line_23201454_ligne_23"/>
             <choice>
                <orig>hõnestete. Ne uoulãt point nostredict</orig>
-               <reg type="intermediary">honnestete. Ne voulant point nostre dict</reg>
+               <reg type="intermediary">honnestete. Ne voulant point nostredict</reg>
                <reg type="contemporary">hõnestete. Ne uoulãt point nostredict</reg>
             </choice>
             <lb corresp="#f17_eSc_line_cbb25d40_ligne_24"/>
@@ -22376,7 +22384,7 @@
             <lb corresp="#f17_eSc_line_46bd9c24_ligne_2"/>
             <choice>
                <orig>Leuit̃.12.</orig>
-               <reg type="intermediary">Levit̃.12.</reg>
+               <reg type="intermediary">Leuit̃.12.</reg>
                <reg type="contemporary">Leuit̃.12.</reg>
             </choice>
             <lb corresp="#f17_eSc_line_e9c5c9b3_ligne_3"/>
@@ -22886,7 +22894,7 @@
             <lb corresp="#f19_eSc_line_13b868da_ligne_4"/>
             <choice>
                <orig>ꝓuer.30.</orig>
-               <reg type="intermediary">prover.30.</reg>
+               <reg type="intermediary">prouer.30.</reg>
                <reg type="contemporary">prouer.30.</reg>
             </choice>
             <lb corresp="#f19_eSc_line_70c06deb_ligne_5"/>
@@ -22912,7 +22920,7 @@
             <lb corresp="#f19_eSc_line_1f29e527_ligne_2"/>
             <choice>
                <orig>Ioan.10.</orig>
-               <reg type="intermediary">Joan.10.</reg>
+               <reg type="intermediary">Ioan.10.</reg>
                <reg type="contemporary">Ioan.10.</reg>
             </choice>
             <lb corresp="#f19_eSc_line_adae8aef_ligne_3"/>
@@ -23348,7 +23356,7 @@
             <lb corresp="#f21_eSc_line_75887027_ligne_8"/>
             <choice>
                <orig>2.Ioan.</orig>
-               <reg type="intermediary">2.Joan.</reg>
+               <reg type="intermediary">2.Ioan.</reg>
                <reg type="contemporary">2.Ioan.</reg>
             </choice>
          </note>
@@ -23374,7 +23382,7 @@
             <lb corresp="#f21_eSc_line_928287cd_ligne_5"/>
             <choice>
                <orig>Iud.</orig>
-               <reg type="intermediary">Jud.</reg>
+               <reg type="intermediary">Iud.</reg>
                <reg type="contemporary">Iud.</reg>
             </choice>
             <lb corresp="#f21_eSc_line_24f32096_ligne_6"/>
@@ -23673,13 +23681,13 @@
             <lb corresp="#f22_eSc_line_a3f53586_ligne_8"/>
             <choice>
                <orig>Ioan.10.</orig>
-               <reg type="intermediary">Joan.10.</reg>
+               <reg type="intermediary">Ioan.10.</reg>
                <reg type="contemporary">Ioan.10.</reg>
             </choice>
             <lb corresp="#f22_eSc_line_7c44c1cb_ligne_9"/>
             <choice>
                <orig>Iude.</orig>
-               <reg type="intermediary">Jude.</reg>
+               <reg type="intermediary">Iude.</reg>
                <reg type="contemporary">Iude.</reg>
             </choice>
             <lb corresp="#f22_eSc_line_5150c961_ligne_10"/>
@@ -24161,7 +24169,7 @@
             <lb corresp="#f24_eSc_line_f5953996_ligne_5"/>
             <choice>
                <orig>ꝓuer.30.</orig>
-               <reg type="intermediary">prover.30.</reg>
+               <reg type="intermediary">prouer.30.</reg>
                <reg type="contemporary">prouer.30.</reg>
             </choice>
             <lb corresp="#f24_eSc_line_84abb475_ligne_6"/>
@@ -24187,7 +24195,7 @@
             <lb corresp="#f24_eSc_line_bff7c215_ligne_3"/>
             <choice>
                <orig>1.Ioã.3.</orig>
-               <reg type="intermediary">1.Joã.3.</reg>
+               <reg type="intermediary">1.Ioã.3.</reg>
                <reg type="contemporary">1.Ioã.3.</reg>
             </choice>
             <lb corresp="#f24_eSc_line_4d694f51_ligne_4"/>
@@ -24277,13 +24285,13 @@
             <lb corresp="#f24_eSc_line_887ea19e_ligne_18"/>
             <choice>
                <orig>1.Ioã.2.</orig>
-               <reg type="intermediary">1.Joã.2.</reg>
+               <reg type="intermediary">1.Ioã.2.</reg>
                <reg type="contemporary">1.Ioã.2.</reg>
             </choice>
             <lb corresp="#f24_eSc_line_7c2f4698_ligne_19"/>
             <choice>
                <orig>Iude.</orig>
-               <reg type="intermediary">Jude.</reg>
+               <reg type="intermediary">Iude.</reg>
                <reg type="contemporary">Iude.</reg>
             </choice>
             <lb corresp="#f24_eSc_line_9a7538af_ligne_20"/>
@@ -24476,7 +24484,7 @@
             <lb corresp="#f25_eSc_line_f961a422_ligne_2"/>
             <choice>
                <orig>Io.8.10.</orig>
-               <reg type="intermediary">Jo.8.10.</reg>
+               <reg type="intermediary">Io.8.10.</reg>
                <reg type="contemporary">Io.8.10.</reg>
             </choice>
          </note>
@@ -24743,7 +24751,7 @@
             <lb corresp="#f26_eSc_line_7d27106a_ligne_5"/>
             <choice>
                <orig>ꝓuerb.3.</orig>
-               <reg type="intermediary">proverb.3.</reg>
+               <reg type="intermediary">prouerb.3.</reg>
                <reg type="contemporary">prouerb.3.</reg>
             </choice>
             <lb corresp="#f26_eSc_line_ec7ddc1f_ligne_6"/>
@@ -24781,7 +24789,7 @@
             <lb corresp="#f26_eSc_line_1f8527b8_ligne_5"/>
             <choice>
                <orig>Ioã.1.3.</orig>
-               <reg type="intermediary">Joã.1.3.</reg>
+               <reg type="intermediary">Ioã.1.3.</reg>
                <reg type="contemporary">Ioã.1.3.</reg>
             </choice>
          </note>
@@ -25155,7 +25163,7 @@
             <lb corresp="#f28_eSc_line_2b17e317_ligne_19"/>
             <choice>
                <orig>dement plaisante a dieu/ cest assauoir</orig>
-               <reg type="intermediary">dement plaisante a dieu/ c'est assauoir</reg>
+               <reg type="intermediary">dement plaisante a dieu/ c'est assavoir</reg>
                <reg type="contemporary">dement plaisante a dieu/ cest assauoir</reg>
             </choice>
             <lb corresp="#f28_eSc_line_4c6903bc_ligne_20"/>
@@ -25307,25 +25315,25 @@
             <lb corresp="#f28_eSc_line_37fd6735_ligne_18"/>
             <choice>
                <orig>1.Io.2.4.</orig>
-               <reg type="intermediary">1.Jo.2.4.</reg>
+               <reg type="intermediary">1.Io.2.4.</reg>
                <reg type="contemporary">1.Io.2.4.</reg>
             </choice>
             <lb corresp="#f28_eSc_line_93fd1649_ligne_19"/>
             <choice>
                <orig>Iud.</orig>
-               <reg type="intermediary">Jud.</reg>
+               <reg type="intermediary">Iud.</reg>
                <reg type="contemporary">Iud.</reg>
             </choice>
             <lb corresp="#f28_eSc_line_54c0f8a5_ligne_20"/>
             <choice>
                <orig>2.Ioan.</orig>
-               <reg type="intermediary">2.Joan.</reg>
+               <reg type="intermediary">2.Ioan.</reg>
                <reg type="contemporary">2.Ioan.</reg>
             </choice>
             <lb corresp="#f28_eSc_line_6a47b81e_ligne_21"/>
             <choice>
                <orig>Iud.</orig>
-               <reg type="intermediary">Jud.</reg>
+               <reg type="intermediary">Iud.</reg>
                <reg type="contemporary">Iud.</reg>
             </choice>
             <lb corresp="#f28_eSc_line_5b84b9de_ligne_22"/>
@@ -25349,7 +25357,7 @@
             <lb corresp="#f28_eSc_line_da48fd77_ligne_25"/>
             <choice>
                <orig>Ioã.10.</orig>
-               <reg type="intermediary">Joã.10.</reg>
+               <reg type="intermediary">Ioã.10.</reg>
                <reg type="contemporary">Ioã.10.</reg>
             </choice>
             <lb corresp="#f28_eSc_line_0b0dc81e_ligne_26"/>
