@@ -1,0 +1,42 @@
+cff-version: 1.0
+title: Données TEI du projet SETAF
+type: dataset
+message: >-
+  If you use this dataset, please cite it using the
+  metadata from this file.
+authors:
+  - family-names: Solfrini
+    given-names: Sonia
+    affiliation: University of Geneva
+    orcid: 0009-0009-7367-048X
+  - family-names: Gabay
+    given-names: Simon
+    affiliation: University of Geneva
+    orcid: 0000-0001-9094-4475
+  - family-names: Gross
+    given-names: Geneviève
+    affiliation: University of Geneva
+    orcid: 0009-0006-5367-4262
+  - family-names: Beaulnes
+    given-names: Pierre-Olivier
+    affiliation: University of Geneva
+    orcid: 0009-0009-2475-6017
+  - family-names: Marques Oliveira
+    given-names: Aurélia
+    affiliation: University of Geneva
+    orcid: 0009-0009-9678-9811
+  - family-names: Solfaroli Camillocci
+    given-names: Daniela
+    affiliation: University of Geneva
+repository-code: 'https://github.com/SETAFDH/TEI-SETAF'
+url: 'https://github.com/SETAFDH/TEI-SETAF'
+abstract: >-
+  TEI data for the SETAF project.
+keywords:
+  - TEI
+  - french
+  - modern
+  - prints
+license: CC-BY-4.0
+version: 1.0
+date-released: 2023-12-07
