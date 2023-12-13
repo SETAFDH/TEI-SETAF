@@ -11179,7 +11179,7 @@
                <lb type="DropCapitalLine" corresp="#f2_eSc_line_9a970a4f_ligne_2"/>
                <choice>
                   <orig>I</orig>
-                  <reg type="intermediary">J</reg>
+                  <reg type="intermediary">J¬</reg>
                   <reg type="contemporary">I</reg>
                </choice>
             </hi>
@@ -11374,7 +11374,7 @@
             <lb type="DefaultLine" corresp="#f2_eSc_line_389446dc_ligne_13"/>
             <choice>
                <orig>Iude.1.e</orig>
-               <reg type="intermediary">Iude.1.e</reg>
+               <reg type="intermediary">Jude.1.e</reg>
                <reg type="contemporary">Iude.1.e</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f2_eSc_line_ba14501d_ligne_14"/>
@@ -11599,7 +11599,7 @@
             <lb type="DefaultLine" corresp="#f3_eSc_line_9a222484_ligne_2"/>
             <choice>
                <orig>Io.15.a.b</orig>
-               <reg type="intermediary">Io.15.a.b</reg>
+               <reg type="intermediary">Jo.15.a.b</reg>
                <reg type="contemporary">Io.15.a.b</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_70475729_ligne_3"/>
@@ -11611,7 +11611,7 @@
             <lb type="DefaultLine" corresp="#f3_eSc_line_e398fda6_ligne_4"/>
             <choice>
                <orig>Ioã.17.b</orig>
-               <reg type="intermediary">Ioã.17.b</reg>
+               <reg type="intermediary">Joã.17.b</reg>
                <reg type="contemporary">Ioã.17.b</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_5845d2dc_ligne_5"/>
@@ -11643,7 +11643,7 @@
             <lb type="DefaultLine" corresp="#f3_eSc_line_426ef9f5_ligne_4"/>
             <choice>
                <orig>Ioã.17.c</orig>
-               <reg type="intermediary">Ioã.17.c</reg>
+               <reg type="intermediary">Joã.17.c</reg>
                <reg type="contemporary">Ioã.17.c</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_da591eec_ligne_5"/>
@@ -11844,7 +11844,7 @@
             <lb type="DefaultLine" corresp="#f4_eSc_line_79c969a2_ligne_4"/>
             <choice>
                <orig>Ioel.2.f</orig>
-               <reg type="intermediary">Ioel.2.f</reg>
+               <reg type="intermediary">Joel.2.f</reg>
                <reg type="contemporary">Ioel.2.f</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_51d4580a_ligne_5"/>
@@ -11926,7 +11926,7 @@
             <lb type="DefaultLine" corresp="#f4_eSc_line_585f0402_ligne_2"/>
             <choice>
                <orig>Ioã.12.g</orig>
-               <reg type="intermediary">Ioã.12.g</reg>
+               <reg type="intermediary">Joã.12.g</reg>
                <reg type="contemporary">Ioã.12.g</reg>
             </choice>
          </note>
@@ -12125,7 +12125,7 @@
             <lb type="DefaultLine" corresp="#f5_eSc_line_848852d9_ligne_3"/>
             <choice>
                <orig>Io.17.◊</orig>
-               <reg type="intermediary">Io.17.◊</reg>
+               <reg type="intermediary">Jo.17.◊</reg>
                <reg type="contemporary">Io.17.◊</reg>
             </choice>
          </note>
@@ -12155,7 +12155,7 @@
             <lb type="DefaultLine" corresp="#f5_eSc_line_a9cead7e_ligne_2"/>
             <choice>
                <orig>Ioã.21.g</orig>
-               <reg type="intermediary">Ioã.21.g</reg>
+               <reg type="intermediary">Joã.21.g</reg>
                <reg type="contemporary">Ioã.21.g</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_ea65e35b_ligne_3"/>
@@ -12175,7 +12175,7 @@
             <lb type="DefaultLine" corresp="#f5_eSc_line_de30f4ea_ligne_2"/>
             <choice>
                <orig>Ioã.6.◊</orig>
-               <reg type="intermediary">Ioã.6.◊</reg>
+               <reg type="intermediary">Joã.6.◊</reg>
                <reg type="contemporary">Ioã.6.◊</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_fb1668c2_ligne_3"/>
@@ -12235,7 +12235,7 @@
                <lb type="DropCapitalLine" corresp="#f6_eSc_line_e37a6a4f_ligne_2"/>
                <choice>
                   <orig>C</orig>
-                  <reg type="intermediary">C</reg>
+                  <reg type="intermediary">C¬</reg>
                   <reg type="contemporary">C</reg>
                </choice>
             </hi>
@@ -12754,20 +12754,20 @@
             <lb type="DefaultLine" corresp="#f8_eSc_line_d44cec8b_ligne_5"/>
             <choice>
                <orig>Uoicy il</orig>
-               <reg type="intermediary">Uoicy il</reg>
+               <reg type="intermediary">Voicy il</reg>
                <reg type="contemporary">Uoicy il</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f8_eSc_line_2b032e33_ligne_6"/>
             <choice>
                <orig>est es ĩte¬</orig>
-               <reg type="intermediary">est es ĩte¬</reg>
+               <reg type="intermediary">est es inte¬</reg>
                <reg type="contemporary">est es ĩte¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f8_eSc_line_247dc1e0_ligne_7"/>
             <choice>
                <orig>riores ꝑ.</orig>
-               <reg type="intermediary">riores ꝑ.</reg>
-               <reg type="contemporary">riores ꝑ.</reg>
+               <reg type="intermediary">riores par¬</reg>
+               <reg type="contemporary">riores ꝑ¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f8_eSc_line_90a5984e_ligne_8"/>
             <choice>
@@ -13071,13 +13071,13 @@
             <lb type="DefaultLine" corresp="#f9_eSc_line_a710630d_ligne_2"/>
             <choice>
                <orig>Plusieͬs</orig>
-               <reg type="intermediary">Plusieͬs</reg>
+               <reg type="intermediary">Plusieurs</reg>
                <reg type="contemporary">Plusieͬs</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f9_eSc_line_c7185fad_ligne_3"/>
             <choice>
                <orig>uiẽdront</orig>
-               <reg type="intermediary">uiẽdront</reg>
+               <reg type="intermediary">viendront</reg>
                <reg type="contemporary">uiẽdront</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f9_eSc_line_b005ec0b_ligne_4"/>
@@ -13095,7 +13095,7 @@
             <lb type="DefaultLine" corresp="#f9_eSc_line_af25f148_ligne_6"/>
             <choice>
                <orig>sãs/ ie su</orig>
-               <reg type="intermediary">sãs/ ie su</reg>
+               <reg type="intermediary">sans/ je su</reg>
                <reg type="contemporary">sãs/ ie su</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f9_eSc_line_8a380411_ligne_7"/>
@@ -13107,13 +13107,13 @@
             <lb type="DefaultLine" corresp="#f9_eSc_line_04ed5118_ligne_8"/>
             <choice>
                <orig>seduirõt</orig>
-               <reg type="intermediary">seduirõt</reg>
+               <reg type="intermediary">seduiront</reg>
                <reg type="contemporary">seduirõt</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f9_eSc_line_a9ad8ed1_ligne_9"/>
             <choice>
                <orig>plusieͬs.</orig>
-               <reg type="intermediary">plusieͬs.</reg>
+               <reg type="intermediary">plusieurs.</reg>
                <reg type="contemporary">plusieͬs.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f9_eSc_line_dfa90a33_ligne_10"/>
@@ -13378,7 +13378,7 @@
                <lb type="DropCapitalLine" corresp="#f11_eSc_line_9e89f073_ligne_2"/>
                <choice>
                   <orig>P</orig>
-                  <reg type="intermediary">P</reg>
+                  <reg type="intermediary">P¬</reg>
                   <reg type="contemporary">P</reg>
                </choice>
             </hi>
@@ -13585,7 +13585,7 @@
             <lb type="DefaultLine" corresp="#f11_eSc_line_c5a6208a_ligne_3"/>
             <choice>
                <orig>Io.15.d</orig>
-               <reg type="intermediary">Io.15.d</reg>
+               <reg type="intermediary">Jo.15.d</reg>
                <reg type="contemporary">Io.15.d</reg>
             </choice>
          </note>
@@ -13605,7 +13605,7 @@
             <lb type="DefaultLine" corresp="#f11_eSc_line_32b589f0_ligne_4"/>
             <choice>
                <orig>1.Io.2.a</orig>
-               <reg type="intermediary">1.Io.2.a</reg>
+               <reg type="intermediary">1.Jo.2.a</reg>
                <reg type="contemporary">1.Io.2.a</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f11_eSc_line_f7a394f7_ligne_5"/>
@@ -13659,7 +13659,7 @@
             <lb type="DefaultLine" corresp="#f11_eSc_line_19199ba9_ligne_4"/>
             <choice>
                <orig>Ioã.10.a</orig>
-               <reg type="intermediary">Ioã.10.a</reg>
+               <reg type="intermediary">Joã.10.a</reg>
                <reg type="contemporary">Ioã.10.a</reg>
             </choice>
          </note>
@@ -14050,14 +14050,14 @@
                <lb type="DropCapitalLine" corresp="#f13_eSc_line_a937e493_ligne_2"/>
                <choice>
                   <orig>C</orig>
-                  <reg type="intermediary">C</reg>
+                  <reg type="intermediary">C¬</reg>
                   <reg type="contemporary">C</reg>
                </choice>
             </hi>
             <lb type="DefaultLine" corresp="#f13_eSc_line_8d81df30_ligne_17"/>
             <choice>
                <orig>Est une paoure chantrerie/</orig>
-               <reg type="intermediary">Est une paovre chantrerie/</reg>
+               <reg type="intermediary">'Est une paovre chantrerie/</reg>
                <reg type="contemporary">Est une paoure chantrerie/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f13_eSc_line_ca5a465a_ligne_18"/>
@@ -14169,13 +14169,13 @@
             <lb type="DefaultLine" corresp="#f13_eSc_line_df765a32_ligne_5"/>
             <choice>
                <orig>Ioã.13.d</orig>
-               <reg type="intermediary">Ioã.13.d</reg>
+               <reg type="intermediary">Joã.13.d</reg>
                <reg type="contemporary">Ioã.13.d</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f13_eSc_line_f925d7ad_ligne_6"/>
             <choice>
                <orig>Ioã.15.a</orig>
-               <reg type="intermediary">Ioã.15.a</reg>
+               <reg type="intermediary">Joã.15.a</reg>
                <reg type="contemporary">Ioã.15.a</reg>
             </choice>
          </note>
@@ -14408,7 +14408,7 @@
             <lb type="DefaultLine" corresp="#f14_eSc_line_842e3a80_ligne_2"/>
             <choice>
                <orig>Ioã.14.a</orig>
-               <reg type="intermediary">Ioã.14.a</reg>
+               <reg type="intermediary">Joã.14.a</reg>
                <reg type="contemporary">Ioã.14.a</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f14_eSc_line_92b1632c_ligne_3"/>
@@ -14432,7 +14432,7 @@
             <lb type="DefaultLine" corresp="#f14_eSc_line_04eaee20_ligne_6"/>
             <choice>
                <orig>1.Ioã.2.c</orig>
-               <reg type="intermediary">1.Ioã.2.c</reg>
+               <reg type="intermediary">1.Joã.2.c</reg>
                <reg type="contemporary">1.Ioã.2.c</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f14_eSc_line_ac15ed7b_ligne_7"/>
@@ -14468,7 +14468,7 @@
             <lb type="DefaultLine" corresp="#f14_eSc_line_527d0562_ligne_3"/>
             <choice>
                <orig>Ioã.15.a</orig>
-               <reg type="intermediary">Ioã.15.a</reg>
+               <reg type="intermediary">Joã.15.a</reg>
                <reg type="contemporary">Ioã.15.a</reg>
             </choice>
          </note>
