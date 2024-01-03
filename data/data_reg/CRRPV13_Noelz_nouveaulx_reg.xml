@@ -15,7 +15,7 @@
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Modelling and document engineering, segmentation and correction of OCR transcription, conversion to TEI, metadata encoding, intermediary normalization.</resp>
+               <resp>Modelling and document engineering, segmentation and correction of OCR transcription, conversion to TEI and metadata encoding, normalization (intermediary).</resp>
                <persName xml:id="SS">
                   <forename>Sonia</forename>
                   <surname>Solfrini</surname>
@@ -69,7 +69,8 @@
                            <!-- TITRE -->
                            <title type="complete_title">Noelz nouveaulx. Musiciens amateurs des Cantiques, Au nom de Dieu, chantez noelz nouveaulx, Lesquelz sont faictz sur les vieulx et antiques : Je vous supply, delaissez les lubriques : Ne chantez point brayant comme noz veaulx, Glorieux chantres, ne vault point deux naveaux Recordez vous que Dieu veult l'humble coeur En foy contrict. Note cela chanteur.</title>
                            <title type="short_title">Noelz nouveaulx</title>
-                           <imprint><!-- LIEU DE PUBLICATION ET IMPRIMEUR -->
+                           <imprint>
+                              <!-- LIEU DE PUBLICATION ET IMPRIMEUR -->
                               <pubPlace cert="medium" ref="geonames:2659496">Neuchâtel</pubPlace>
                               <respStmt>
                                  <resp>Imprimeur</resp>
@@ -130,7 +131,7 @@
                <p>Voir le guide de transcription du projet SETAF : <ref target="https://hal.science/hal-04281804"/>. La segmentation a été produite manuellement et la transcription issue de l'OCR a été corrigée. </p>
             </correction>
             <normalization>
-               <p>Voir le guide de normalisation du projet SETAF. En ce qui concerne la régularisation intermédiaire, cette transcription a été normalisée jusqu'à la page 20. En ce qui concerne la régularisation contemporaine, cette transcription n'a pas encore été normalisée.</p>
+               <p>Voir le guide de normalisation du projet SETAF. En ce qui concerne la régularisation intermédiaire, cette transcription a été normalisée. En ce qui concerne la régularisation contemporaine, cette transcription n'a pas encore été normalisée.</p>
             </normalization>
          </editorialDecl>
          <appInfo>
@@ -165,7 +166,7 @@
                <term type="form">poésie</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
-               <term type="intermediary_reg_quality">not applicable</term>
+               <term type="intermediary_reg_quality">gold</term>
                <term type="contemporary_reg_quality">not applicable</term>
                <term type="ling_annotation_quality">not applicable</term>
             </keywords>
@@ -173,6 +174,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2023-10-27" who="#SS">Création du fichier TEI P5.</change>
+         <change when="2024-01-03" who="#SS">Régularisation intermédiaire terminée.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
@@ -30090,7 +30092,7 @@
                <lb type="HeadingLine" corresp="#f48_eSc_line_c741a2f2_ligne_26"/>
                <choice>
                   <orig>¶ Fin des Noelz nouueaulx.</orig>
-                  <reg type="intermediary">¶ Fin des Noelz nouveaulx.</reg>
+                  <reg type="intermediary">¶ Fin des Noelz nouv eaulx.</reg>
                   <reg type="contemporary">¶ Fin des Noelz nouueaulx.</reg>
                </choice>
             </hi>
