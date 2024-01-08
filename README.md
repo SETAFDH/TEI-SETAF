@@ -4,8 +4,6 @@ Ce dépôt est en cours de construction.
 
 Ce dépôt comprend les données TEI produites dans le cadre du projet SETAF. 
 
-Les ouvrages attribués au poète réformé M. Malingre (c.1500-1572) se trouvent également dans le dépôt suivant : https://github.com/SETAFDH/TEI-Malingre.
-
 Description :
 - La liste des textes avec plus de détails se trouve dans le tableau CSV du dépôt. 
 - Le dossier "schema" contient l'ODD du projet sous différents formats (odd, html, rng).
