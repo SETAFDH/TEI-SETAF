@@ -132,7 +132,7 @@
                <p>Voir le guide de transcription du projet SETAF : <ref target="https://hal.science/hal-04281804"/>. La segmentation a été produite manuellement et la transcription issue de l'OCR a été corrigée. </p>
             </correction>
             <normalization>
-               <p>Voir le guide de normalisation du projet SETAF. En ce qui concerne la régularisation intermédiaire, cette transcription a été normalisée jusqu'à la page 25. En ce qui concerne la régularisation contemporaine, cette transcription n'a pas encore été normalisée.</p>
+               <p>Voir le guide de normalisation du projet SETAF. En ce qui concerne la régularisation intermédiaire, cette transcription a été normalisée jusqu'à la page 36. En ce qui concerne la régularisation contemporaine, cette transcription n'a pas encore été normalisée.</p>
             </normalization>
          </editorialDecl>
          <appInfo>
@@ -30370,7 +30370,7 @@
             <lb type="DefaultLine" corresp="#f26_eSc_line_92a82d4c_ligne_7"/>
             <choice>
                <orig>Si les sainctz escriptz uous scauez</orig>
-               <reg type="intermediary">Si les sainctz escriptz uous scauez</reg>
+               <reg type="intermediary">Si les sainctz escriptz vous scavez</reg>
                <reg type="contemporary">Si les sainctz escriptz uous scauez</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f26_eSc_line_0b7233c9_ligne_8"/>
@@ -30382,7 +30382,7 @@
             <lb type="DefaultLine" corresp="#f26_eSc_line_91781e80_ligne_9"/>
             <choice>
                <orig>¶ Cent mille escuz ie uous donray</orig>
-               <reg type="intermediary">¶ Cent mille escuz ie uous donray</reg>
+               <reg type="intermediary">¶ Cent mille escuz je vous donray</reg>
                <reg type="contemporary">¶ Cent mille escuz ie uous donray</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f26_eSc_line_955302b6_ligne_10"/>
@@ -30394,19 +30394,19 @@
             <lb type="DefaultLine" corresp="#f26_eSc_line_5c4acebc_ligne_11"/>
             <choice>
                <orig>Laissez leuangile/ urayement</orig>
-               <reg type="intermediary">Laissez leuangile/ urayement</reg>
+               <reg type="intermediary">Laissez l'evangile/ vrayement</reg>
                <reg type="contemporary">Laissez leuangile/ urayement</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f26_eSc_line_94d95e8c_ligne_12"/>
             <choice>
                <orig>Doulx ⁊ begnin/ ie uous seray</orig>
-               <reg type="intermediary">Doulx et begnin/ ie uous seray</reg>
+               <reg type="intermediary">Doulx et begnin/ je vous seray</reg>
                <reg type="contemporary">Doulx et begnin/ ie uous seray</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f26_eSc_line_74892e0e_ligne_13"/>
             <choice>
                <orig>Si ne le faictes/ uous feray</orig>
-               <reg type="intermediary">Si ne le faictes/ uous feray</reg>
+               <reg type="intermediary">Si ne le faictes/ vous feray</reg>
                <reg type="contemporary">Si ne le faictes/ uous feray</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f26_eSc_line_4f998769_ligne_14"/>
@@ -30418,31 +30418,31 @@
             <lb type="DefaultLine" corresp="#f26_eSc_line_d74eab7e_ligne_15"/>
             <choice>
                <orig>Et en ung feu/ uous brusleray:</orig>
-               <reg type="intermediary">Et en ung feu/ uous brusleray:</reg>
+               <reg type="intermediary">Et en ung feu/ vous brusleray:</reg>
                <reg type="contemporary">Et en ung feu/ uous brusleray:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f26_eSc_line_e874b2a8_ligne_16"/>
             <choice>
                <orig>Respondz Luther/ ueulx tu mourir.</orig>
-               <reg type="intermediary">Respondz Luther/ ueulx tu mourir.</reg>
+               <reg type="intermediary">Respondz Luther/ veulx tu mourir.</reg>
                <reg type="contemporary">Respondz Luther/ ueulx tu mourir.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f26_eSc_line_2c9fd4eb_ligne_17"/>
             <choice>
                <orig>¶ Mieux noꝰ uault mourir ꝑ tes maĩs</orig>
-               <reg type="intermediary">¶ Mieux noꝰ uault mourir ꝑ tes maĩs</reg>
+               <reg type="intermediary">¶ Mieux nous vault mourir par tes mains</reg>
                <reg type="contemporary">¶ Mieux noꝰ uault mourir ꝑ tes maĩs</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f26_eSc_line_d49afb63_ligne_18"/>
             <choice>
                <orig>Que de seruir/ aux bougerons</orig>
-               <reg type="intermediary">Que de seruir/ aux bougerons</reg>
+               <reg type="intermediary">Que de servir/ aux bougerons</reg>
                <reg type="contemporary">Que de seruir/ aux bougerons</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f26_eSc_line_55bfb6dc_ligne_19"/>
             <choice>
                <orig>Dauecques Christ/ ne bougerons:</orig>
-               <reg type="intermediary">Dauecques Christ/ ne bougerons:</reg>
+               <reg type="intermediary">D'avecques Christ/ ne bougerons:</reg>
                <reg type="contemporary">Dauecques Christ/ ne bougerons:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f26_eSc_line_561f3ca7_ligne_20"/>
@@ -30454,19 +30454,19 @@
             <lb type="DefaultLine" corresp="#f26_eSc_line_abc72342_ligne_21"/>
             <choice>
                <orig>Toutesfoys iamais/ aux Romains</orig>
-               <reg type="intermediary">Toutesfoys iamais/ aux Romains</reg>
+               <reg type="intermediary">Toutesfoys jamais/ aux Romains</reg>
                <reg type="contemporary">Toutesfoys iamais/ aux Romains</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f26_eSc_line_aeebd541_ligne_22"/>
             <choice>
                <orig>Na tous leurs droictz/</orig>
-               <reg type="intermediary">Na tous leurs droictz/</reg>
+               <reg type="intermediary">N'a tous leurs droictz/</reg>
                <reg type="contemporary">Na tous leurs droictz/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f26_eSc_line_f39ae425_ligne_23"/>
             <choice>
                <orig>Ne seruirons/ car inhumains</orig>
-               <reg type="intermediary">Ne seruirons/ car inhumains</reg>
+               <reg type="intermediary">Ne servirons/ car inhumains</reg>
                <reg type="contemporary">Ne seruirons/ car inhumains</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f26_eSc_line_24216987_ligne_24"/>
@@ -30478,13 +30478,13 @@
             <lb type="DefaultLine" corresp="#f26_eSc_line_835675e9_ligne_25"/>
             <choice>
                <orig>¶ En Iesus nous/ aurons repos</orig>
-               <reg type="intermediary">¶ En Iesus nous/ aurons repos</reg>
+               <reg type="intermediary">¶ En Jesus nous/ aurons repos</reg>
                <reg type="contemporary">¶ En Iesus nous/ aurons repos</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f26_eSc_line_12ae0c0c_ligne_26"/>
             <choice>
                <orig>Qui oeuure lhuys/ non pas Clement:</orig>
-               <reg type="intermediary">Qui oeuure lhuys/ non pas Clement:</reg>
+               <reg type="intermediary">Qui oeuvre l'huys/ non pas Clement:</reg>
                <reg type="contemporary">Qui oeuure lhuys/ non pas Clement:</reg>
             </choice>
          </ab>
@@ -30498,7 +30498,7 @@
             <lb type="DefaultLine" corresp="#f26_eSc_line_46e870b4_ligne_3"/>
             <choice>
                <orig>spõce de</orig>
-               <reg type="intermediary">spõce de</reg>
+               <reg type="intermediary">sponce de</reg>
                <reg type="contemporary">spõce de</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f26_eSc_line_09eafff3_ligne_4"/>
@@ -30525,7 +30525,7 @@
             <lb type="DefaultLine" corresp="#f27_eSc_line_075133e1_ligne_4"/>
             <choice>
                <orig>Leuangile est/ nostre propos</orig>
-               <reg type="intermediary">Leuangile est/ nostre propos</reg>
+               <reg type="intermediary">L'evangile est/ nostre propos</reg>
                <reg type="contemporary">Leuangile est/ nostre propos</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f27_eSc_line_447afff9_ligne_5"/>
@@ -30558,7 +30558,7 @@
                <lb type="HeadingLine" corresp="#f27_eSc_line_5914272c_ligne_9"/>
                <choice>
                   <orig>toutes fleͬs/ Iayme la marguerite.</orig>
-                  <reg type="intermediary">toutes fleͬs/ Iayme la marguerite.</reg>
+                  <reg type="intermediary">toutes fleurs/ J'ayme la marguerite.</reg>
                   <reg type="contemporary">toutes fleͬs/ Iayme la marguerite.</reg>
                </choice>
             </hi>
@@ -30566,32 +30566,32 @@
                <lb type="DropCapitalLine" corresp="#f27_eSc_line_19b5d016_ligne_2"/>
                <choice>
                   <orig>E</orig>
-                  <reg type="intermediary">E</reg>
+                  <reg type="intermediary">E¬</reg>
                   <reg type="contemporary">E</reg>
                </choice>
             </hi>
             <lb type="DefaultLine" corresp="#f27_eSc_line_e808a676_ligne_10"/>
             <choice>
                <orig>n toy mõ dieu iay mismõ esperãce</orig>
-               <reg type="intermediary">n toy mõ dieu iay mismõ esperãce</reg>
+               <reg type="intermediary">n toy mon dieu j'ay mis mon esperance</reg>
                <reg type="contemporary">n toy mõ dieu iay mismõ esperãce</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f27_eSc_line_506ca2b5_ligne_11"/>
             <choice>
                <orig>Ne me cõfondz/ pas eternellemẽt</orig>
-               <reg type="intermediary">Ne me cõfondz/ pas eternellemẽt</reg>
+               <reg type="intermediary">Ne me confondz/ pas eternellement</reg>
                <reg type="contemporary">Ne me cõfondz/ pas eternellemẽt</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f27_eSc_line_f60027e9_ligne_12"/>
             <choice>
                <orig>Tous ceulx qui ont/ en toy leur cõfiãce</orig>
-               <reg type="intermediary">Tous ceulx qui ont/ en toy leur cõfiãce</reg>
+               <reg type="intermediary">Tous ceulx qui ont/ en toy leur confiance</reg>
                <reg type="contemporary">Tous ceulx qui ont/ en toy leur cõfiãce</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f27_eSc_line_653f9e71_ligne_13"/>
             <choice>
                <orig>Cõfuz ne sont/ ains ilz sont seurement</orig>
-               <reg type="intermediary">Cõfuz ne sont/ ains ilz sont seurement</reg>
+               <reg type="intermediary">Confuz ne sont/ ains ilz sont seurement</reg>
                <reg type="contemporary">Cõfuz ne sont/ ains ilz sont seurement</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f27_eSc_line_90c07dd8_ligne_14"/>
@@ -30603,25 +30603,25 @@
             <lb type="DefaultLine" corresp="#f27_eSc_line_f92949ac_ligne_15"/>
             <choice>
                <orig>¶ De toy seul est/ mõ secoͬs/ ma defẽce</orig>
-               <reg type="intermediary">¶ De toy seul est/ mõ secoͬs/ ma defẽce</reg>
+               <reg type="intermediary">¶ De toy seul est/ mon secours/ ma defence</reg>
                <reg type="contemporary">¶ De toy seul est/ mõ secoͬs/ ma defẽce</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f27_eSc_line_2ff16e24_ligne_16"/>
             <choice>
                <orig>Qui tiẽs ciel/ mer/ ⁊ terre/ ẽtre tes maĩs</orig>
-               <reg type="intermediary">Qui tiẽs ciel/ mer/ et terre/ ẽtre tes maĩs</reg>
+               <reg type="intermediary">Qui tiens ciel/ mer/ et terre/ entre tes mains</reg>
                <reg type="contemporary">Qui tiẽs ciel/ mer/ et terre/ ẽtre tes maĩs</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f27_eSc_line_1157f050_ligne_17"/>
             <choice>
                <orig>Lhõme est mauldict/ qui ne se fie en ce</orig>
-               <reg type="intermediary">Lhõme est mauldict/ qui ne se fie en ce</reg>
+               <reg type="intermediary">L'homme est mauldict/ qui ne se fie en ce</reg>
                <reg type="contemporary">Lhõme est mauldict/ qui ne se fie en ce</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f27_eSc_line_d4368a6e_ligne_18"/>
             <choice>
                <orig>Quãd est de moy/ ie suis ⁊ soir ⁊ maĩs</orig>
-               <reg type="intermediary">Quãd est de moy/ ie suis et soir et maĩs</reg>
+               <reg type="intermediary">Quand est de moy/ je suis et soir et mains</reg>
                <reg type="contemporary">Quãd est de moy/ ie suis et soir et maĩs</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f27_eSc_line_c3ff65d0_ligne_19"/>
@@ -30633,25 +30633,25 @@
             <lb type="DefaultLine" corresp="#f27_eSc_line_4ee8da17_ligne_20"/>
             <choice>
                <orig>¶ Cõme le cerf/ en ung estang se lance</orig>
-               <reg type="intermediary">¶ Cõme le cerf/ en ung estang se lance</reg>
+               <reg type="intermediary">¶ Comme le cerf/ en ung estang se lance</reg>
                <reg type="contemporary">¶ Cõme le cerf/ en ung estang se lance</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f27_eSc_line_737cef41_ligne_21"/>
             <choice>
                <orig>Quãd est chasse/ des ueneͬs ⁊ des chiẽs</orig>
-               <reg type="intermediary">Quãd est chasse/ des ueneͬs et des chiẽs</reg>
+               <reg type="intermediary">Quand est chasse/ des veneurs et des chiens</reg>
                <reg type="contemporary">Quãd est chasse/ des ueneͬs et des chiẽs</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f27_eSc_line_b279fba4_ligne_22"/>
             <choice>
                <orig>Sẽblablemẽt/ quãt mõ ame est en trãse</orig>
-               <reg type="intermediary">Sẽblablemẽt/ quãt mõ ame est en trãse</reg>
+               <reg type="intermediary">Semblablememt/ quant mon ame est en transe</reg>
                <reg type="contemporary">Sẽblablemẽt/ quãt mõ ame est en trãse</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f27_eSc_line_5836ea85_ligne_23"/>
             <choice>
                <orig>A toy ie cours/ ⁊ par foy me soustiens</orig>
-               <reg type="intermediary">A toy ie cours/ et par foy me soustiens</reg>
+               <reg type="intermediary">A toy je cours/ et par foy me soustiens</reg>
                <reg type="contemporary">A toy ie cours/ et par foy me soustiens</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f27_eSc_line_b8bae3f7_ligne_24"/>
@@ -30663,25 +30663,25 @@
             <lb type="DefaultLine" corresp="#f27_eSc_line_3d89f8c2_ligne_25"/>
             <choice>
                <orig>¶ Riẽ ne mysert/ frãcois/ ne sa grãt mã</orig>
-               <reg type="intermediary">¶ Riẽ ne mysert/ frãcois/ ne sa grãt mã</reg>
+               <reg type="intermediary">¶ Rien ne my sert/ francois/ ne sa grant man¬</reg>
                <reg type="contemporary">¶ Riẽ ne mysert/ frãcois/ ne sa grãt mã</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f27_eSc_line_d30cdc70_ligne_26"/>
             <choice>
                <orig>(ce</orig>
-               <reg type="intermediary">(ce</reg>
+               <reg type="intermediary">ce</reg>
                <reg type="contemporary">(ce</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f27_eSc_line_9fa6718c_ligne_27"/>
             <choice>
                <orig>Estre uestu/ de noir/ de blãc/ ou gris</orig>
-               <reg type="intermediary">Estre uestu/ de noir/ de blãc/ ou gris</reg>
+               <reg type="intermediary">Estre vestu/ de noir/ de blanc/ ou gris</reg>
                <reg type="contemporary">Estre uestu/ de noir/ de blãc/ ou gris</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f27_eSc_line_0bc21bf3_ligne_28"/>
             <choice>
                <orig>Ie laisse aussi/ dominicque ⁊ sa pance</orig>
-               <reg type="intermediary">Ie laisse aussi/ dominicque et sa pance</reg>
+               <reg type="intermediary">Je laisse aussi/ dominicque et sa pance</reg>
                <reg type="contemporary">Ie laisse aussi/ dominicque et sa pance</reg>
             </choice>
          </ab>
@@ -30736,7 +30736,7 @@
             <lb type="DefaultLine" corresp="#f28_eSc_line_c0555560_ligne_2"/>
             <choice>
                <orig>Ie uiẽs a toy/ car tout bien est cõprins</orig>
-               <reg type="intermediary">Ie uiẽs a toy/ car tout bien est cõprins</reg>
+               <reg type="intermediary">Je viens a toy/ car tout bien est comprins</reg>
                <reg type="contemporary">Ie uiẽs a toy/ car tout bien est cõprins</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f28_eSc_line_78337bda_ligne_3"/>
@@ -30748,7 +30748,7 @@
             <lb type="DefaultLine" corresp="#f28_eSc_line_5013c2e7_ligne_4"/>
             <choice>
                <orig>¶ De le seruir/ faisons tous diligence.</orig>
-               <reg type="intermediary">¶ De le seruir/ faisons tous diligence.</reg>
+               <reg type="intermediary">¶ De le servir/ faisons tous diligence.</reg>
                <reg type="contemporary">¶ De le seruir/ faisons tous diligence.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f28_eSc_line_143ac425_ligne_5"/>
@@ -30778,25 +30778,25 @@
             <lb type="DefaultLine" corresp="#f28_eSc_line_eeacf5f4_ligne_9"/>
             <choice>
                <orig>¶ Rien ne noꝰ sert/ la chair ⁊ sa prudẽce</orig>
-               <reg type="intermediary">¶ Rien ne noꝰ sert/ la chair et sa prudẽce</reg>
+               <reg type="intermediary">¶ Rien ne nous sert/ la chair et sa prudence</reg>
                <reg type="contemporary">¶ Rien ne noꝰ sert/ la chair et sa prudẽce</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f28_eSc_line_c6499965_ligne_10"/>
             <choice>
                <orig>Lesprit regist/ tout hõme en uerite</orig>
-               <reg type="intermediary">Lesprit regist/ tout hõme en uerite</reg>
+               <reg type="intermediary">L'esprit regist/ tout homme en verite</reg>
                <reg type="contemporary">Lesprit regist/ tout hõme en uerite</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f28_eSc_line_a737ffd0_ligne_11"/>
             <choice>
                <orig>Et si le faict/ auoir ferme creance</orig>
-               <reg type="intermediary">Et si le faict/ auoir ferme creance</reg>
+               <reg type="intermediary">Et si le faict/ avoir ferme creance</reg>
                <reg type="contemporary">Et si le faict/ auoir ferme creance</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f28_eSc_line_8fffc910_ligne_12"/>
             <choice>
                <orig>Et patience/ au temps daduersite</orig>
-               <reg type="intermediary">Et patience/ au temps daduersite</reg>
+               <reg type="intermediary">Et patience/ au temps d'adversite</reg>
                <reg type="contemporary">Et patience/ au temps daduersite</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f28_eSc_line_6ec91101_ligne_13"/>
@@ -30808,13 +30808,13 @@
             <lb type="DefaultLine" corresp="#f28_eSc_line_eecb4303_ligne_14"/>
             <choice>
                <orig>¶ Prince regnãt/ en ta haulte excellẽce</orig>
-               <reg type="intermediary">¶ Prince regnãt/ en ta haulte excellẽce</reg>
+               <reg type="intermediary">¶ Prince regnant/ en ta haulte excellence</reg>
                <reg type="contemporary">¶ Prince regnãt/ en ta haulte excellẽce</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f28_eSc_line_3e826f69_ligne_15"/>
             <choice>
                <orig>Dauoir mal faict/ y me uint mal a gre</orig>
-               <reg type="intermediary">Dauoir mal faict/ y me uint mal a gre</reg>
+               <reg type="intermediary">D'avoir mal faict/ y me vint mal a gre</reg>
                <reg type="contemporary">Dauoir mal faict/ y me uint mal a gre</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f28_eSc_line_a8755b4d_ligne_16"/>
@@ -30826,13 +30826,13 @@
             <lb type="DefaultLine" corresp="#f28_eSc_line_605943d1_ligne_17"/>
             <choice>
                <orig>Helas rẽdz moy/ en ung meilleur degre</orig>
-               <reg type="intermediary">Helas rẽdz moy/ en ung meilleur degre</reg>
+               <reg type="intermediary">Helas rendz moy/ en ung meilleur degre</reg>
                <reg type="contemporary">Helas rẽdz moy/ en ung meilleur degre</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f28_eSc_line_a1bdeee3_ligne_18"/>
             <choice>
                <orig>En toy mõ dieu/ iay mis mon esperãce.</orig>
-               <reg type="intermediary">En toy mõ dieu/ iay mis mon esperãce.</reg>
+               <reg type="intermediary">En toy mon dieu/ j'ay mis mon esperance.</reg>
                <reg type="contemporary">En toy mõ dieu/ iay mis mon esperãce.</reg>
             </choice>
             <hi>
@@ -30847,7 +30847,7 @@
                <lb type="HeadingLine" corresp="#f28_eSc_line_1b5aea2d_ligne_20"/>
                <choice>
                   <orig>cheur se cõplainct a dieu/ en luy de¬</orig>
-                  <reg type="intermediary">cheur se cõplainct a dieu/ en luy de¬</reg>
+                  <reg type="intermediary">cheur se complainct a dieu/ en luy de¬</reg>
                   <reg type="contemporary">cheur se cõplainct a dieu/ en luy de¬</reg>
                </choice>
             </hi>
@@ -30855,7 +30855,7 @@
                <lb type="HeadingLine" corresp="#f28_eSc_line_1e3ad933_ligne_21"/>
                <choice>
                   <orig>mandãt secours des assaulx que luy</orig>
-                  <reg type="intermediary">mandãt secours des assaulx que luy</reg>
+                  <reg type="intermediary">mandant secours des assaulx que luy</reg>
                   <reg type="contemporary">mandãt secours des assaulx que luy</reg>
                </choice>
             </hi>
@@ -30871,7 +30871,7 @@
                <lb type="HeadingLine" corresp="#f28_eSc_line_b8720067_ligne_23"/>
                <choice>
                   <orig>chãt/ De mon dueil triste ⁊ desp. ⁊c.</orig>
-                  <reg type="intermediary">chãt/ De mon dueil triste et desp. etc.</reg>
+                  <reg type="intermediary">chant/ De mon dueil triste et desp. etc.</reg>
                   <reg type="contemporary">chãt/ De mon dueil triste et desp. etc.</reg>
                </choice>
             </hi>
@@ -30879,7 +30879,7 @@
                <lb type="DropCapitalLine" corresp="#f28_eSc_line_497bbb22_ligne_2"/>
                <choice>
                   <orig>D</orig>
-                  <reg type="intermediary">D</reg>
+                  <reg type="intermediary">D¬</reg>
                   <reg type="contemporary">D</reg>
                </choice>
             </hi>
@@ -30892,13 +30892,13 @@
             <lb type="DefaultLine" corresp="#f28_eSc_line_0f3ab644_ligne_25"/>
             <choice>
                <orig>A toy mõ dieu/ ie my cõplains</orig>
-               <reg type="intermediary">A toy mõ dieu/ ie my cõplains</reg>
+               <reg type="intermediary">A toy mon dieu/ je my complains</reg>
                <reg type="contemporary">A toy mõ dieu/ ie my cõplains</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f28_eSc_line_7d748ab1_ligne_26"/>
             <choice>
                <orig>Sans grace auoir/ ie suis deffaict</orig>
-               <reg type="intermediary">Sans grace auoir/ ie suis deffaict</reg>
+               <reg type="intermediary">Sans grace avoir/ je suis deffaict</reg>
                <reg type="contemporary">Sans grace auoir/ ie suis deffaict</reg>
             </choice>
          </ab>
@@ -30915,7 +30915,7 @@
             <lb type="DefaultLine" corresp="#f29_eSc_line_347234f0_ligne_2"/>
             <choice>
                <orig>Ses assaulx sõt/ plus que inhumains</orig>
-               <reg type="intermediary">Ses assaulx sõt/ plus que inhumains</reg>
+               <reg type="intermediary">Ses assaulx sont/ plus que inhumains</reg>
                <reg type="contemporary">Ses assaulx sõt/ plus que inhumains</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f29_eSc_line_9e95167d_ligne_3"/>
@@ -30939,37 +30939,37 @@
             <lb type="DefaultLine" corresp="#f29_eSc_line_52fde661_ligne_6"/>
             <choice>
                <orig>Mon dieu sans toy/ Cõme ie croy/</orig>
-               <reg type="intermediary">Mon dieu sans toy/ Cõme ie croy/</reg>
+               <reg type="intermediary">Mon dieu sans toy/ Comme je croy/</reg>
                <reg type="contemporary">Mon dieu sans toy/ Cõme ie croy/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f29_eSc_line_1049e8ac_ligne_7"/>
             <choice>
                <orig>Cest le plus fort.</orig>
-               <reg type="intermediary">Cest le plus fort.</reg>
+               <reg type="intermediary">C'est le plus fort.</reg>
                <reg type="contemporary">Cest le plus fort.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f29_eSc_line_0f92ec72_ligne_8"/>
             <choice>
                <orig>¶ Il massault/ du peche dorgueil</orig>
-               <reg type="intermediary">¶ Il massault/ du peche dorgueil</reg>
+               <reg type="intermediary">¶ Il m'assault/ du peche d'orgueil</reg>
                <reg type="contemporary">¶ Il massault/ du peche dorgueil</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f29_eSc_line_897d86e0_ligne_9"/>
             <choice>
                <orig>Et me garde/ dhumilier</orig>
-               <reg type="intermediary">Et me garde/ dhumilier</reg>
+               <reg type="intermediary">Et me garde/ d'humilier</reg>
                <reg type="contemporary">Et me garde/ dhumilier</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f29_eSc_line_7a3b78d4_ligne_10"/>
             <choice>
                <orig>Deuant toy/ mon cueur/ ⁊ mon oeil</orig>
-               <reg type="intermediary">Deuant toy/ mon cueur/ et mon oeil</reg>
+               <reg type="intermediary">Devant toy/ mon cueur/ et mon oeil</reg>
                <reg type="contemporary">Deuant toy/ mon cueur/ et mon oeil</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f29_eSc_line_fd8167e2_ligne_11"/>
             <choice>
                <orig>Dassaulx il ha/ ung millier:</orig>
-               <reg type="intermediary">Dassaulx il ha/ ung millier:</reg>
+               <reg type="intermediary">D'assaulx il ha/ ung millier:</reg>
                <reg type="contemporary">Dassaulx il ha/ ung millier:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f29_eSc_line_60722a39_ligne_12"/>
@@ -30981,7 +30981,7 @@
             <lb type="DefaultLine" corresp="#f29_eSc_line_b302ff3d_ligne_13"/>
             <choice>
                <orig>Me uient lier/</orig>
-               <reg type="intermediary">Me uient lier/</reg>
+               <reg type="intermediary">Me vient lier/</reg>
                <reg type="contemporary">Me uient lier/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f29_eSc_line_6d0b9c9b_ligne_14"/>
@@ -30993,7 +30993,7 @@
             <lb type="DefaultLine" corresp="#f29_eSc_line_606bc7e0_ligne_15"/>
             <choice>
                <orig>Dambition/</orig>
-               <reg type="intermediary">Dambition/</reg>
+               <reg type="intermediary">D'ambition/</reg>
                <reg type="contemporary">Dambition/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f29_eSc_line_8ca45c50_ligne_16"/>
@@ -31011,7 +31011,7 @@
             <lb type="DefaultLine" corresp="#f29_eSc_line_fcbfca29_ligne_18"/>
             <choice>
                <orig>¶ Dauarice/ sens la douleur</orig>
-               <reg type="intermediary">¶ Dauarice/ sens la douleur</reg>
+               <reg type="intermediary">¶ D'avarice/ sens la douleur</reg>
                <reg type="contemporary">¶ Dauarice/ sens la douleur</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f29_eSc_line_cd264a24_ligne_19"/>
@@ -31023,13 +31023,13 @@
             <lb type="DefaultLine" corresp="#f29_eSc_line_546872aa_ligne_20"/>
             <choice>
                <orig>Et regnier/ Christ mon sauueur/</orig>
-               <reg type="intermediary">Et regnier/ Christ mon sauueur/</reg>
+               <reg type="intermediary">Et regnier/ Christ mon sauveur/</reg>
                <reg type="contemporary">Et regnier/ Christ mon sauueur/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f29_eSc_line_ba415e5a_ligne_21"/>
             <choice>
                <orig>Mauldit est/ qui la ueult aymer:</orig>
-               <reg type="intermediary">Mauldit est/ qui la ueult aymer:</reg>
+               <reg type="intermediary">Mauldit est/ qui la veult aymer:</reg>
                <reg type="contemporary">Mauldit est/ qui la ueult aymer:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f29_eSc_line_0f157b71_ligne_22"/>
@@ -31053,7 +31053,7 @@
             <lb type="DefaultLine" corresp="#f29_eSc_line_4e0eff5e_ligne_25"/>
             <choice>
                <orig>Pourtant ie dis/</orig>
-               <reg type="intermediary">Pourtant ie dis/</reg>
+               <reg type="intermediary">Pourtant je dis/</reg>
                <reg type="contemporary">Pourtant ie dis/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f29_eSc_line_4d4b42b6_ligne_26"/>
@@ -31067,7 +31067,7 @@
             <lb type="DefaultLine" corresp="#f29_eSc_line_5b5464fd_ligne_2"/>
             <choice>
                <orig>Iob.9.</orig>
-               <reg type="intermediary">Iob.9.</reg>
+               <reg type="intermediary">Job.9.</reg>
                <reg type="contemporary">Iob.9.</reg>
             </choice>
          </note>
@@ -31092,19 +31092,19 @@
             <lb type="DefaultLine" corresp="#f30_eSc_line_0833d2da_ligne_2"/>
             <choice>
                <orig>Telz gens nont pas.</orig>
-               <reg type="intermediary">Telz gens nont pas.</reg>
+               <reg type="intermediary">Telz gens n'ont pas.</reg>
                <reg type="contemporary">Telz gens nont pas.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f30_eSc_line_b791552d_ligne_3"/>
             <choice>
                <orig>¶ Luxure uient secretement/</orig>
-               <reg type="intermediary">¶ Luxure uient secretement/</reg>
+               <reg type="intermediary">¶ Luxure vient secretement/</reg>
                <reg type="contemporary">¶ Luxure uient secretement/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f30_eSc_line_3d301074_ligne_4"/>
             <choice>
                <orig>Massaillir par/ ses doulx regardz/</orig>
-               <reg type="intermediary">Massaillir par/ ses doulx regardz/</reg>
+               <reg type="intermediary">M'assaillir par/ ses doulx regardz/</reg>
                <reg type="contemporary">Massaillir par/ ses doulx regardz/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f30_eSc_line_b4089f47_ligne_5"/>
@@ -31116,7 +31116,7 @@
             <lb type="DefaultLine" corresp="#f30_eSc_line_32c2bde5_ligne_6"/>
             <choice>
                <orig>Ie suis brusle/ par elle ⁊ ars/</orig>
-               <reg type="intermediary">Ie suis brusle/ par elle et ars/</reg>
+               <reg type="intermediary">Je suis brusle/ par elle et ars/</reg>
                <reg type="contemporary">Ie suis brusle/ par elle et ars/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f30_eSc_line_5b797653_ligne_7"/>
@@ -31140,43 +31140,43 @@
             <lb type="DefaultLine" corresp="#f30_eSc_line_86df97aa_ligne_10"/>
             <choice>
                <orig>Ie my consens/</orig>
-               <reg type="intermediary">Ie my consens/</reg>
+               <reg type="intermediary">Je my consens/</reg>
                <reg type="contemporary">Ie my consens/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f30_eSc_line_17414371_ligne_11"/>
             <choice>
                <orig>Suyuant mon sens/</orig>
-               <reg type="intermediary">Suyuant mon sens/</reg>
+               <reg type="intermediary">Suyvant mon sens/</reg>
                <reg type="contemporary">Suyuant mon sens/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f30_eSc_line_2774763b_ligne_12"/>
             <choice>
                <orig>Uoyla le poinct.</orig>
-               <reg type="intermediary">Uoyla le poinct.</reg>
+               <reg type="intermediary">Voyla le poinct.</reg>
                <reg type="contemporary">Uoyla le poinct.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f30_eSc_line_4c893f2e_ligne_13"/>
             <choice>
                <orig>¶ Ire me faict/ assaulx diuers/</orig>
-               <reg type="intermediary">¶ Ire me faict/ assaulx diuers/</reg>
+               <reg type="intermediary">¶ Ire me faict/ assaulx divers/</reg>
                <reg type="contemporary">¶ Ire me faict/ assaulx diuers/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f30_eSc_line_f577971b_ligne_14"/>
             <choice>
                <orig>De me uenger/ cest mon soucy/</orig>
-               <reg type="intermediary">De me uenger/ cest mon soucy/</reg>
+               <reg type="intermediary">De me venger/ c'est mon soucy/</reg>
                <reg type="contemporary">De me uenger/ cest mon soucy/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f30_eSc_line_86138805_ligne_15"/>
             <choice>
                <orig>Ire me faict/ meschant/ peruers/</orig>
-               <reg type="intermediary">Ire me faict/ meschant/ peruers/</reg>
+               <reg type="intermediary">Ire me faict/ meschant/ pervers/</reg>
                <reg type="contemporary">Ire me faict/ meschant/ peruers/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f30_eSc_line_9e0f5fae_ligne_16"/>
             <choice>
                <orig>Iureur/ blasphemateur aussi:</orig>
-               <reg type="intermediary">Iureur/ blasphemateur aussi:</reg>
+               <reg type="intermediary">Jureur/ blasphemateur aussi:</reg>
                <reg type="contemporary">Iureur/ blasphemateur aussi:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f30_eSc_line_ca578d38_ligne_17"/>
@@ -31194,7 +31194,7 @@
             <lb type="DefaultLine" corresp="#f30_eSc_line_e666aeda_ligne_19"/>
             <choice>
                <orig>Me uengeray/</orig>
-               <reg type="intermediary">Me uengeray/</reg>
+               <reg type="intermediary">Me vengeray/</reg>
                <reg type="contemporary">Me uengeray/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f30_eSc_line_a765c60d_ligne_20"/>
@@ -31212,31 +31212,31 @@
             <lb type="DefaultLine" corresp="#f30_eSc_line_70652c30_ligne_22"/>
             <choice>
                <orig>Ie les tueray.</orig>
-               <reg type="intermediary">Ie les tueray.</reg>
+               <reg type="intermediary">Je les tueray.</reg>
                <reg type="contemporary">Ie les tueray.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f30_eSc_line_86987dfa_ligne_23"/>
             <choice>
                <orig>¶ Puis gloutonnie/ y uient apres</orig>
-               <reg type="intermediary">¶ Puis gloutonnie/ y uient apres</reg>
+               <reg type="intermediary">¶ Puis gloutonnie/ y vient apres</reg>
                <reg type="contemporary">¶ Puis gloutonnie/ y uient apres</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f30_eSc_line_4e91f765_ligne_24"/>
             <choice>
                <orig>Qui par exces/ faict boire uin</orig>
-               <reg type="intermediary">Qui par exces/ faict boire uin</reg>
+               <reg type="intermediary">Qui par exces/ faict boire vin</reg>
                <reg type="contemporary">Qui par exces/ faict boire uin</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f30_eSc_line_fe21ab31_ligne_25"/>
             <choice>
                <orig>Et les poures/ qui sont au pres</orig>
-               <reg type="intermediary">Et les poures/ qui sont au pres</reg>
+               <reg type="intermediary">Et les povres/ qui sont au pres</reg>
                <reg type="contemporary">Et les poures/ qui sont au pres</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f30_eSc_line_9b19fbcb_ligne_26"/>
             <choice>
                <orig>Meurent de fain/ uoila la fin</orig>
-               <reg type="intermediary">Meurent de fain/ uoila la fin</reg>
+               <reg type="intermediary">Meurent de fain/ voila la fin</reg>
                <reg type="contemporary">Meurent de fain/ uoila la fin</reg>
             </choice>
          </ab>
@@ -31297,13 +31297,13 @@
             <lb type="DefaultLine" corresp="#f31_eSc_line_26bbac72_ligne_7"/>
             <choice>
                <orig>Uoyla mes dieux.</orig>
-               <reg type="intermediary">Uoyla mes dieux.</reg>
+               <reg type="intermediary">Voyla mes dieux.</reg>
                <reg type="contemporary">Uoyla mes dieux.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f31_eSc_line_a3b5f3ba_ligne_8"/>
             <choice>
                <orig>¶ Enuie aussi/ accourt a moy/</orig>
-               <reg type="intermediary">¶ Enuie aussi/ accourt a moy/</reg>
+               <reg type="intermediary">¶ Envie aussi/ accourt a moy/</reg>
                <reg type="contemporary">¶ Enuie aussi/ accourt a moy/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f31_eSc_line_6e00e943_ligne_9"/>
@@ -31315,43 +31315,43 @@
             <lb type="DefaultLine" corresp="#f31_eSc_line_390d8c2f_ligne_10"/>
             <choice>
                <orig>Du bien daultruy/ puis quand ie uoy</orig>
-               <reg type="intermediary">Du bien daultruy/ puis quand ie uoy</reg>
+               <reg type="intermediary">Du bien d'aultruy/ puis quand je voy</reg>
                <reg type="contemporary">Du bien daultruy/ puis quand ie uoy</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f31_eSc_line_99d57f5c_ligne_11"/>
             <choice>
                <orig>Quil pert le sien/ ien suis content:</orig>
-               <reg type="intermediary">Quil pert le sien/ ien suis content:</reg>
+               <reg type="intermediary">Qu'il pert le sien/ j'en suis content:</reg>
                <reg type="contemporary">Quil pert le sien/ ien suis content:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f31_eSc_line_4b112ccb_ligne_12"/>
             <choice>
                <orig>Cela prouient/</orig>
-               <reg type="intermediary">Cela prouient/</reg>
+               <reg type="intermediary">Cela provient/</reg>
                <reg type="contemporary">Cela prouient/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f31_eSc_line_1be9c372_ligne_13"/>
             <choice>
                <orig>Dung iugement/</orig>
-               <reg type="intermediary">Dung iugement/</reg>
+               <reg type="intermediary">D'ung jugement/</reg>
                <reg type="contemporary">Dung iugement/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f31_eSc_line_b2ca9125_ligne_14"/>
             <choice>
                <orig>Peruers/ maling/</orig>
-               <reg type="intermediary">Peruers/ maling/</reg>
+               <reg type="intermediary">Pervers/ maling/</reg>
                <reg type="contemporary">Peruers/ maling/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f31_eSc_line_11de660b_ligne_15"/>
             <choice>
                <orig>Qui ne peult ueoir/</orig>
-               <reg type="intermediary">Qui ne peult ueoir/</reg>
+               <reg type="intermediary">Qui ne peult veoir/</reg>
                <reg type="contemporary">Qui ne peult ueoir/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f31_eSc_line_3590404f_ligne_16"/>
             <choice>
                <orig>Ne amour auoir/</orig>
-               <reg type="intermediary">Ne amour auoir/</reg>
+               <reg type="intermediary">Ne amour avoir/</reg>
                <reg type="contemporary">Ne amour auoir/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f31_eSc_line_f51a0972_ligne_17"/>
@@ -31369,7 +31369,7 @@
             <lb type="DefaultLine" corresp="#f31_eSc_line_825f2027_ligne_19"/>
             <choice>
                <orig>Que de te seruir/ ie suis las</orig>
-               <reg type="intermediary">Que de te seruir/ ie suis las</reg>
+               <reg type="intermediary">Que de te servir/ je suis las</reg>
                <reg type="contemporary">Que de te seruir/ ie suis las</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f31_eSc_line_342d6214_ligne_20"/>
@@ -31381,13 +31381,13 @@
             <lb type="DefaultLine" corresp="#f31_eSc_line_e400fa1f_ligne_21"/>
             <choice>
                <orig>Ie ny prens ioye/ ne soulas:</orig>
-               <reg type="intermediary">Ie ny prens ioye/ ne soulas:</reg>
+               <reg type="intermediary">Je ny prens joye/ ne soulas:</reg>
                <reg type="contemporary">Ie ny prens ioye/ ne soulas:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f31_eSc_line_9e50adad_ligne_22"/>
             <choice>
                <orig>Ien crie helas/</orig>
-               <reg type="intermediary">Ien crie helas/</reg>
+               <reg type="intermediary">J'en crie helas/</reg>
                <reg type="contemporary">Ien crie helas/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f31_eSc_line_623cb310_ligne_23"/>
@@ -31405,7 +31405,7 @@
             <lb type="DefaultLine" corresp="#f31_eSc_line_65e3966e_ligne_25"/>
             <choice>
                <orig>Uiens ⁊ accours/</orig>
-               <reg type="intermediary">Uiens et accours/</reg>
+               <reg type="intermediary">Viens et accours/</reg>
                <reg type="contemporary">Uiens et accours/</reg>
             </choice>
          </ab>
@@ -31440,13 +31440,13 @@
             <lb type="DefaultLine" corresp="#f32_eSc_line_9e455d7e_ligne_4"/>
             <choice>
                <orig>¶ Attendz support pouure pecheur</orig>
-               <reg type="intermediary">¶ Attendz support pouure pecheur</reg>
+               <reg type="intermediary">¶ Attendz support pouvre pecheur</reg>
                <reg type="contemporary">¶ Attendz support pouure pecheur</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f32_eSc_line_dd2d1b0b_ligne_5"/>
             <choice>
                <orig>De moy/ car ie te ueulx sauuer</orig>
-               <reg type="intermediary">De moy/ car ie te ueulx sauuer</reg>
+               <reg type="intermediary">De moy/ car je te veulx sauver</reg>
                <reg type="contemporary">De moy/ car ie te ueulx sauuer</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f32_eSc_line_ddea2bed_ligne_6"/>
@@ -31458,7 +31458,7 @@
             <lb type="DefaultLine" corresp="#f32_eSc_line_68580c6f_ligne_7"/>
             <choice>
                <orig>Cest pour mieulx/ ta foy esprouuer:</orig>
-               <reg type="intermediary">Cest pour mieulx/ ta foy esprouuer:</reg>
+               <reg type="intermediary">C'est pour mieulx/ ta foy esprouver:</reg>
                <reg type="contemporary">Cest pour mieulx/ ta foy esprouuer:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f32_eSc_line_1434828c_ligne_8"/>
@@ -31470,7 +31470,7 @@
             <lb type="DefaultLine" corresp="#f32_eSc_line_539514d2_ligne_9"/>
             <choice>
                <orig>Ie ueulx prouuer/</orig>
-               <reg type="intermediary">Ie ueulx prouuer/</reg>
+               <reg type="intermediary">Je veulx prouver/</reg>
                <reg type="contemporary">Ie ueulx prouuer/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f32_eSc_line_399b674c_ligne_10"/>
@@ -31501,7 +31501,7 @@
                <lb type="HeadingLine" corresp="#f32_eSc_line_9297c40d_ligne_14"/>
                <choice>
                   <orig>¶ Aultre chãson/ sur le chant Ie my</orig>
-                  <reg type="intermediary">¶ Aultre chãson/ sur le chant Ie my</reg>
+                  <reg type="intermediary">¶ Aultre chanson/ sur le chant Je my</reg>
                   <reg type="contemporary">¶ Aultre chãson/ sur le chant Ie my</reg>
                </choice>
             </hi>
@@ -31509,7 +31509,7 @@
                <lb type="HeadingLine" corresp="#f32_eSc_line_7d985146_ligne_15"/>
                <choice>
                   <orig>repens de uous auoir aymee ⁊c.</orig>
-                  <reg type="intermediary">repens de uous auoir aymee etc.</reg>
+                  <reg type="intermediary">repens de vous avoir aymee etc.</reg>
                   <reg type="contemporary">repens de uous auoir aymee etc.</reg>
                </choice>
             </hi>
@@ -31517,38 +31517,38 @@
                <lb type="DropCapitalLine" corresp="#f32_eSc_line_64203443_ligne_2"/>
                <choice>
                   <orig>I</orig>
-                  <reg type="intermediary">I</reg>
+                  <reg type="intermediary">J¬</reg>
                   <reg type="contemporary">I</reg>
                </choice>
             </hi>
             <lb type="DefaultLine" corresp="#f32_eSc_line_55a2b87f_ligne_16"/>
             <choice>
                <orig>e uoꝰ rescripz/ ma seͬ tres biẽ aymee</orig>
-               <reg type="intermediary">e uoꝰ rescripz/ ma seͬ tres biẽ aymee</reg>
+               <reg type="intermediary">e vous rescripz/ ma seur tres bien aymee</reg>
                <reg type="contemporary">e uoꝰ rescripz/ ma seͬ tres biẽ aymee</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f32_eSc_line_ba4621ab_ligne_17"/>
             <choice>
                <orig>Une chãson/ cõmẽt saĩct Symeon</orig>
-               <reg type="intermediary">Une chãson/ cõmẽt saĩct Symeon</reg>
+               <reg type="intermediary">Une chanson/ comment sainct Symeon</reg>
                <reg type="contemporary">Une chãson/ cõmẽt saĩct Symeon</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f32_eSc_line_49652071_ligne_18"/>
             <choice>
                <orig>Receut Iesus/ au temple Salomon</orig>
-               <reg type="intermediary">Receut Iesus/ au temple Salomon</reg>
+               <reg type="intermediary">Receut Jesus/ au temple Salomon</reg>
                <reg type="contemporary">Receut Iesus/ au temple Salomon</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f32_eSc_line_8f0087d5_ligne_19"/>
             <choice>
                <orig>Or la chantez/ de uoix bien accordee.</orig>
-               <reg type="intermediary">Or la chantez/ de uoix bien accordee.</reg>
+               <reg type="intermediary">Or la chantez/ de voix bien accordee.</reg>
                <reg type="contemporary">Or la chantez/ de uoix bien accordee.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f32_eSc_line_96ce1265_ligne_20"/>
             <choice>
                <orig>¶ Quãt Symeon tenoit Iesꝰ au tẽple</orig>
-               <reg type="intermediary">¶ Quãt Symeon tenoit Iesꝰ au tẽple</reg>
+               <reg type="intermediary">¶ Quant Symeon tenoit Jesus au temple</reg>
                <reg type="contemporary">¶ Quãt Symeon tenoit Iesꝰ au tẽple</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f32_eSc_line_ebba3ae3_ligne_21"/>
@@ -31560,31 +31560,31 @@
             <lb type="DefaultLine" corresp="#f32_eSc_line_bbd9ec29_ligne_22"/>
             <choice>
                <orig>Mon dieu tu es/ ton seruiteur tenant</orig>
-               <reg type="intermediary">Mon dieu tu es/ ton seruiteur tenant</reg>
+               <reg type="intermediary">Mon dieu tu es/ ton serviteur tenant</reg>
                <reg type="contemporary">Mon dieu tu es/ ton seruiteur tenant</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f32_eSc_line_e9f4d6df_ligne_23"/>
             <choice>
                <orig>En saĩcte paix/ iouxte ta parolle ãple.</orig>
-               <reg type="intermediary">En saĩcte paix/ iouxte ta parolle ãple.</reg>
+               <reg type="intermediary">En saincte paix/ jouxte ta parolle ample.</reg>
                <reg type="contemporary">En saĩcte paix/ iouxte ta parolle ãple.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f32_eSc_line_b12d0b2d_ligne_24"/>
             <choice>
                <orig>¶ Car mes deux yeulx ont ueu tõ salu</orig>
-               <reg type="intermediary">¶ Car mes deux yeulx ont ueu tõ salu</reg>
+               <reg type="intermediary">¶ Car mes deux yeulx ont veu ton salu¬</reg>
                <reg type="contemporary">¶ Car mes deux yeulx ont ueu tõ salu</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f32_eSc_line_b6562493_ligne_25"/>
             <choice>
                <orig>(taire</orig>
-               <reg type="intermediary">(taire</reg>
+               <reg type="intermediary">taire</reg>
                <reg type="contemporary">(taire</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f32_eSc_line_53f0c9a6_ligne_26"/>
             <choice>
                <orig>Cest Iesꝰ christ/ de noꝰ tãt attẽdu</orig>
-               <reg type="intermediary">Cest Iesꝰ christ/ de noꝰ tãt attẽdu</reg>
+               <reg type="intermediary">C'est Jesus christ/ de nous tant attendu</reg>
                <reg type="contemporary">Cest Iesꝰ christ/ de noꝰ tãt attẽdu</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f32_eSc_line_c9c9a114_ligne_27"/>
@@ -31598,13 +31598,13 @@
             <lb type="DefaultLine" corresp="#f32_eSc_line_77f757f2_ligne_2"/>
             <choice>
                <orig>Dieu re</orig>
-               <reg type="intermediary">Dieu re</reg>
+               <reg type="intermediary">Dieu re¬</reg>
                <reg type="contemporary">Dieu re</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f32_eSc_line_b22622d3_ligne_3"/>
             <choice>
                <orig>spõd au</orig>
-               <reg type="intermediary">spõd au</reg>
+               <reg type="intermediary">spond au</reg>
                <reg type="contemporary">spõd au</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f32_eSc_line_58b7dd41_ligne_4"/>
@@ -31626,7 +31626,7 @@
             <lb type="DefaultLine" corresp="#f32_eSc_line_e9710feb_ligne_2"/>
             <choice>
                <orig>Nũc di¬</orig>
-               <reg type="intermediary">Nũc di¬</reg>
+               <reg type="intermediary">Nunc di¬</reg>
                <reg type="contemporary">Nũc di¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f32_eSc_line_b6902c58_ligne_3"/>
@@ -31646,7 +31646,7 @@
             <lb type="DefaultLine" corresp="#f32_eSc_line_9e63b065_ligne_3"/>
             <choice>
                <orig>uiderũn.</orig>
-               <reg type="intermediary">uiderũn.</reg>
+               <reg type="intermediary">viderũn.</reg>
                <reg type="contemporary">uiderũn.</reg>
             </choice>
          </note>
@@ -31655,19 +31655,19 @@
             <lb type="DefaultLine" corresp="#f33_eSc_line_af5eb16b_ligne_2"/>
             <choice>
                <orig>Uenu a nous/ pour nostre salut faire.</orig>
-               <reg type="intermediary">Uenu a nous/ pour nostre salut faire.</reg>
+               <reg type="intermediary">Venu a nous/ pour nostre salut faire.</reg>
                <reg type="contemporary">Uenu a nous/ pour nostre salut faire.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_88f78c4f_ligne_3"/>
             <choice>
                <orig>¶ Il est uenu/ pour la gent iudaicque</orig>
-               <reg type="intermediary">¶ Il est uenu/ pour la gent iudaicque</reg>
+               <reg type="intermediary">¶ Il est venu/ pour la gent judaicque</reg>
                <reg type="contemporary">¶ Il est uenu/ pour la gent iudaicque</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_46472fe1_ligne_4"/>
             <choice>
                <orig>Nõ seulemẽt/ mais aussi pour les gẽtz</orig>
-               <reg type="intermediary">Nõ seulemẽt/ mais aussi pour les gẽtz</reg>
+               <reg type="intermediary">Non seulement/ mais aussi pour les gentz</reg>
                <reg type="contemporary">Nõ seulemẽt/ mais aussi pour les gẽtz</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_48583866_ligne_5"/>
@@ -31685,61 +31685,61 @@
             <lb type="DefaultLine" corresp="#f33_eSc_line_6b2483f1_ligne_7"/>
             <choice>
                <orig>¶ Cest le soleil/ ⁊ la splendeur de gloire</orig>
-               <reg type="intermediary">¶ Cest le soleil/ et la splendeur de gloire</reg>
+               <reg type="intermediary">¶ C'est le soleil/ et la splendeur de gloire</reg>
                <reg type="contemporary">¶ Cest le soleil/ et la splendeur de gloire</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_5dc30860_ligne_8"/>
             <choice>
                <orig>Limage aussi/ de toy pere eternel</orig>
-               <reg type="intermediary">Limage aussi/ de toy pere eternel</reg>
+               <reg type="intermediary">L'image aussi/ de toy pere eternel</reg>
                <reg type="contemporary">Limage aussi/ de toy pere eternel</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_e9ef4aa3_ligne_9"/>
             <choice>
                <orig>Qui est uenu/ le uray emmanuel:</orig>
-               <reg type="intermediary">Qui est uenu/ le uray emmanuel:</reg>
+               <reg type="intermediary">Qui est venu/ le vray emmanuel:</reg>
                <reg type="contemporary">Qui est uenu/ le uray emmanuel:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_262835cb_ligne_10"/>
             <choice>
                <orig>Dieu auec noꝰ/ cela noꝰ debuõs croyre.</orig>
-               <reg type="intermediary">Dieu auec noꝰ/ cela noꝰ debuõs croyre.</reg>
+               <reg type="intermediary">Dieu avec nous/ cela nous debvons croyre.</reg>
                <reg type="contemporary">Dieu auec noꝰ/ cela noꝰ debuõs croyre.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_a3f4231f_ligne_11"/>
             <choice>
                <orig>¶ Au tẽple il fut/ poͬ noꝰ sõ sãg espãdre</orig>
-               <reg type="intermediary">¶ Au tẽple il fut/ poͬ noꝰ sõ sãg espãdre</reg>
+               <reg type="intermediary">¶ Au temple il fut/ pour nous son sang espandre</reg>
                <reg type="contemporary">¶ Au tẽple il fut/ poͬ noꝰ sõ sãg espãdre</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_99410287_ligne_12"/>
             <choice>
                <orig>La circõcis/ pour obseruer la loy:</orig>
-               <reg type="intermediary">La circõcis/ pour obseruer la loy:</reg>
+               <reg type="intermediary">La circoncis/ pour observer la loy:</reg>
                <reg type="contemporary">La circõcis/ pour obseruer la loy:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_7a8f5587_ligne_13"/>
             <choice>
                <orig>Et pour mõstrer/ q̃ lhõme par la foy</orig>
-               <reg type="intermediary">Et pour mõstrer/ que lhõme par la foy</reg>
+               <reg type="intermediary">Et pour monstrer/ que l'homme par la foy</reg>
                <reg type="contemporary">Et pour mõstrer/ que lhõme par la foy</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_81176c5f_ligne_14"/>
             <choice>
                <orig>Estre le doibt/ en esprit: doulx ⁊ tẽdre.</orig>
-               <reg type="intermediary">Estre le doibt/ en esprit: doulx et tẽdre.</reg>
+               <reg type="intermediary">Estre le doibt/ en esprit: doulx et tendre.</reg>
                <reg type="contemporary">Estre le doibt/ en esprit: doulx et tẽdre.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_8133f037_ligne_15"/>
             <choice>
                <orig>¶ Puis symeon/ ainsi dist a la uierge</orig>
-               <reg type="intermediary">¶ Puis symeon/ ainsi dist a la uierge</reg>
+               <reg type="intermediary">¶ Puis symeon/ ainsi dist a la vierge</reg>
                <reg type="contemporary">¶ Puis symeon/ ainsi dist a la uierge</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_40a356bd_ligne_16"/>
             <choice>
                <orig>Lame de toy/ dũg glaiue moult trẽchãt</orig>
-               <reg type="intermediary">Lame de toy/ dũg glaiue moult trẽchãt</reg>
+               <reg type="intermediary">L'ame de toy/ d'ung glaive moult trenchant</reg>
                <reg type="contemporary">Lame de toy/ dũg glaiue moult trẽchãt</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_1f6b4c14_ligne_17"/>
@@ -31751,19 +31751,19 @@
             <lb type="DefaultLine" corresp="#f33_eSc_line_a03f21c2_ligne_18"/>
             <choice>
                <orig>Il soit les cueͬs sa ꝑolle est ung cierge</orig>
-               <reg type="intermediary">Il soit les cueͬs sa ꝑolle est ung cierge</reg>
+               <reg type="intermediary">Il soit les cueurs sa parolle est ung cierge</reg>
                <reg type="contemporary">Il soit les cueͬs sa ꝑolle est ung cierge</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_11f90b7f_ligne_19"/>
             <choice>
                <orig>¶ Il dist apres/ qͥl seroit mis en signe</orig>
-               <reg type="intermediary">¶ Il dist apres/ quil seroit mis en signe</reg>
+               <reg type="intermediary">¶ Il dist apres/ qu'il seroit mis en signe</reg>
                <reg type="contemporary">¶ Il dist apres/ quil seroit mis en signe</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_259b77eb_ligne_20"/>
             <choice>
                <orig>Et pour obiect/ de cõtradiction</orig>
-               <reg type="intermediary">Et pour obiect/ de cõtradiction</reg>
+               <reg type="intermediary">Et pour obiect/ de contradiction</reg>
                <reg type="contemporary">Et pour obiect/ de cõtradiction</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_cd17f7ba_ligne_21"/>
@@ -31781,7 +31781,7 @@
             <lb type="DefaultLine" corresp="#f33_eSc_line_13102a6a_ligne_23"/>
             <choice>
                <orig>¶ Or maintenant/ tu uoys la ꝓphetie</orig>
-               <reg type="intermediary">¶ Or maintenant/ tu uoys la prophetie</reg>
+               <reg type="intermediary">¶ Or maintenant/ tu voys la prophetie</reg>
                <reg type="contemporary">¶ Or maintenant/ tu uoys la prophetie</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_f2efb4a9_ligne_24"/>
@@ -31793,13 +31793,13 @@
             <lb type="DefaultLine" corresp="#f33_eSc_line_18664e10_ligne_25"/>
             <choice>
                <orig>Quãt ton salut grace ⁊ pardon attẽdz</orig>
-               <reg type="intermediary">Quãt ton salut grace et pardon attẽdz</reg>
+               <reg type="intermediary">Quant ton salut grace et pardon attendz</reg>
                <reg type="contemporary">Quãt ton salut grace et pardon attẽdz</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_bebdc9b0_ligne_26"/>
             <choice>
                <orig>Dũg autre christ/ certes cest grãd folie.</orig>
-               <reg type="intermediary">Dũg autre christ/ certes cest grãd folie.</reg>
+               <reg type="intermediary">D'ung autre christ/ certes c'est grand folie.</reg>
                <reg type="contemporary">Dũg autre christ/ certes cest grãd folie.</reg>
             </choice>
          </ab>
@@ -31833,7 +31833,7 @@
             <lb type="DefaultLine" corresp="#f33_eSc_line_a5fb6cb2_ligne_3"/>
             <choice>
                <orig>ad reue¬</orig>
-               <reg type="intermediary">ad reue¬</reg>
+               <reg type="intermediary">ad reve¬</reg>
                <reg type="contemporary">ad reue¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_78ea81b0_ligne_4"/>
@@ -31856,13 +31856,13 @@
             <lb type="DefaultLine" corresp="#f34_eSc_line_bdeb8155_ligne_2"/>
             <choice>
                <orig>¶ Ne uois tu poĩt/ auioͬdhuy les idoles</orig>
-               <reg type="intermediary">¶ Ne uois tu poĩt/ auioͬdhuy les idoles</reg>
+               <reg type="intermediary">¶ Ne vois tu point/ aujourd'huy les idoles</reg>
                <reg type="contemporary">¶ Ne uois tu poĩt/ auioͬdhuy les idoles</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_ceed948e_ligne_3"/>
             <choice>
                <orig>En plusieurs lieux/ esleuez haultemẽt</orig>
-               <reg type="intermediary">En plusieurs lieux/ esleuez haultemẽt</reg>
+               <reg type="intermediary">En plusieurs lieux/ esleuez haultement</reg>
                <reg type="contemporary">En plusieurs lieux/ esleuez haultemẽt</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_75806d8d_ligne_4"/>
@@ -31874,73 +31874,73 @@
             <lb type="DefaultLine" corresp="#f34_eSc_line_9cd8241a_ligne_5"/>
             <choice>
                <orig>Le noꝰ deffẽd/ par ses saĩctes parolles.</orig>
-               <reg type="intermediary">Le noꝰ deffẽd/ par ses saĩctes parolles.</reg>
+               <reg type="intermediary">Le nous deffend/ par ses sainctes parolles.</reg>
                <reg type="contemporary">Le noꝰ deffẽd/ par ses saĩctes parolles.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_c0f42058_ligne_6"/>
             <choice>
                <orig>¶ Cest contredit/ de mettre sa fiance</orig>
-               <reg type="intermediary">¶ Cest contredit/ de mettre sa fiance</reg>
+               <reg type="intermediary">¶ C'est contredit/ de mettre sa fiance</reg>
                <reg type="contemporary">¶ Cest contredit/ de mettre sa fiance</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_bfb9b3b9_ligne_7"/>
             <choice>
                <orig>Et son salut/ en ung hõme mortel</orig>
-               <reg type="intermediary">Et son salut/ en ung hõme mortel</reg>
+               <reg type="intermediary">Et son salut/ en ung homme mortel</reg>
                <reg type="contemporary">Et son salut/ en ung hõme mortel</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_8cbb8ab9_ligne_8"/>
             <choice>
-               <orig>Sainct Picrre dit/ es actes ung mot tel</orig>
-               <reg type="intermediary">Sainct Picrre dit/ es actes ung mot tel</reg>
-               <reg type="contemporary">Sainct Picrre dit/ es actes ung mot tel</reg>
+               <orig>Sainct Pierre dit/ es actes ung mot tel</orig>
+               <reg type="intermediary">Sainct Pierre dit/ es actes ung mot tel</reg>
+               <reg type="contemporary">Sainct Pierre dit/ es actes ung mot tel</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_8e615805_ligne_9"/>
             <choice>
                <orig>Nul aultre nom/ ne peult sauuer q̃ ce.</orig>
-               <reg type="intermediary">Nul aultre nom/ ne peult sauuer que ce.</reg>
+               <reg type="intermediary">Nul aultre nom/ ne peult sauver que ce.</reg>
                <reg type="contemporary">Nul aultre nom/ ne peult sauuer que ce.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_473409a9_ligne_10"/>
             <choice>
                <orig>¶ Cest cõtredit/ quãt Iesꝰ noꝰ enseigne</orig>
-               <reg type="intermediary">¶ Cest cõtredit/ quãt Iesꝰ noꝰ enseigne</reg>
+               <reg type="intermediary">¶ C'est contredit/ quant Jesus nous enseigne</reg>
                <reg type="contemporary">¶ Cest cõtredit/ quãt Iesꝰ noꝰ enseigne</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_ae49f99d_ligne_11"/>
             <choice>
                <orig>Quil nous fault toꝰ/ auoir humilite</orig>
-               <reg type="intermediary">Quil nous fault toꝰ/ auoir humilite</reg>
+               <reg type="intermediary">Qu'il nous fault tous/ avoir humilite</reg>
                <reg type="contemporary">Quil nous fault toꝰ/ auoir humilite</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_1cfe69b5_ligne_12"/>
             <choice>
                <orig>Cõme il appert/ a sa natiuite</orig>
-               <reg type="intermediary">Cõme il appert/ a sa natiuite</reg>
+               <reg type="intermediary">Comme il appert/ a sa nativite</reg>
                <reg type="contemporary">Cõme il appert/ a sa natiuite</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_dd207136_ligne_13"/>
             <choice>
                <orig>Et si uoulõs/ dorgueil porter lẽseigne.</orig>
-               <reg type="intermediary">Et si uoulõs/ dorgueil porter lẽseigne.</reg>
+               <reg type="intermediary">Et si voulons/ d'orgueil porter l'enseigne.</reg>
                <reg type="contemporary">Et si uoulõs/ dorgueil porter lẽseigne.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_b2f31cae_ligne_14"/>
             <choice>
                <orig>¶ Cest ꝯtredit/ quãt noꝰ aymõs richesse</orig>
-               <reg type="intermediary">¶ Cest ꝯtredit/ quãt noꝰ aymõs richesse</reg>
+               <reg type="intermediary">¶ C'est contredit/ quant nous aymons richesse</reg>
                <reg type="contemporary">¶ Cest ꝯtredit/ quãt noꝰ aymõs richesse</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_88dec6b3_ligne_15"/>
             <choice>
                <orig>Hõneurs mõdains/ argẽt/ or ⁊ thresors</orig>
-               <reg type="intermediary">Hõneurs mõdains/ argẽt/ or et thresors</reg>
+               <reg type="intermediary">Honneurs mondains/ argent/ or et thresors</reg>
                <reg type="contemporary">Hõneurs mõdains/ argẽt/ or et thresors</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_75dbde80_ligne_16"/>
             <choice>
                <orig>Lesquelz Iesus/ cõe uilz ⁊ tres ors</orig>
-               <reg type="intermediary">Lesquelz Iesus/ cõe uilz et tres ors</reg>
+               <reg type="intermediary">Lesquelz Jesus/ come vilz et tres ors</reg>
                <reg type="contemporary">Lesquelz Iesus/ cõe uilz et tres ors</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_b48462e6_ligne_17"/>
@@ -31952,7 +31952,7 @@
             <lb type="DefaultLine" corresp="#f34_eSc_line_1d06191a_ligne_18"/>
             <choice>
                <orig>¶ Cest cõtredit/ dauoir mulle solenne</orig>
-               <reg type="intermediary">¶ Cest cõtredit/ dauoir mulle solenne</reg>
+               <reg type="intermediary">¶ C'est contredit/ d'avoir mulle solenne</reg>
                <reg type="contemporary">¶ Cest cõtredit/ dauoir mulle solenne</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_76f95b15_ligne_19"/>
@@ -31964,43 +31964,43 @@
             <lb type="DefaultLine" corresp="#f34_eSc_line_d96812fd_ligne_20"/>
             <choice>
                <orig>Trop plus braues/ urayemẽt q̃ nõt les</orig>
-               <reg type="intermediary">Trop plus braues/ urayemẽt que nõt les</reg>
+               <reg type="intermediary">Trop plus braves/ vrayement que n'ont les</reg>
                <reg type="contemporary">Trop plus braues/ urayemẽt que nõt les</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_c69b3074_ligne_21"/>
             <choice>
                <orig>Et iesꝰ christ/ est mõte dessꝰ lasne. (laiz</orig>
-               <reg type="intermediary">Et iesꝰ christ/ est mõte dessꝰ lasne. (laiz</reg>
+               <reg type="intermediary">Et jesus christ/ est monte dessus l'asne. (laiz</reg>
                <reg type="contemporary">Et iesꝰ christ/ est mõte dessꝰ lasne. (laiz</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_2a03de02_ligne_22"/>
             <choice>
                <orig>¶ Cest cõtredit/ de fort bander la porte</orig>
-               <reg type="intermediary">¶ Cest cõtredit/ de fort bander la porte</reg>
+               <reg type="intermediary">¶ C'est contredit/ de fort bander la porte</reg>
                <reg type="contemporary">¶ Cest cõtredit/ de fort bander la porte</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_546ba42f_ligne_23"/>
             <choice>
                <orig>Aux poures gẽs/ nudz qͥ meurẽt de fain</orig>
-               <reg type="intermediary">Aux poures gẽs/ nudz qui meurẽt de fain</reg>
+               <reg type="intermediary">Aux povres gens/ nudz qui meurent de fain</reg>
                <reg type="contemporary">Aux poures gẽs/ nudz qui meurẽt de fain</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_a9d7bb77_ligne_24"/>
             <choice>
                <orig>Car Iesus christ/ multiplia le pain</orig>
-               <reg type="intermediary">Car Iesus christ/ multiplia le pain</reg>
+               <reg type="intermediary">Car Jesus christ/ multiplia le pain</reg>
                <reg type="contemporary">Car Iesus christ/ multiplia le pain</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_4494b1e1_ligne_25"/>
             <choice>
                <orig>Poͬ en dõner/ cõe saĩct Iehã rapporte.</orig>
-               <reg type="intermediary">Poͬ en dõner/ cõe saĩct Iehã rapporte.</reg>
+               <reg type="intermediary">Pour en donner/ come sainct Jehan rapporte.</reg>
                <reg type="contemporary">Poͬ en dõner/ cõe saĩct Iehã rapporte.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_a2fe9751_ligne_26"/>
             <choice>
                <orig>¶ Cest cõtredit/ dempescher la parolle</orig>
-               <reg type="intermediary">¶ Cest cõtredit/ dempescher la parolle</reg>
+               <reg type="intermediary">¶ C'est contredit/ d'empescher la parolle</reg>
                <reg type="contemporary">¶ Cest cõtredit/ dempescher la parolle</reg>
             </choice>
          </ab>
@@ -32016,7 +32016,7 @@
             <lb type="DefaultLine" corresp="#f34_eSc_line_ddfd10fd_ligne_2"/>
             <choice>
                <orig>Ioan.6.</orig>
-               <reg type="intermediary">Ioan.6.</reg>
+               <reg type="intermediary">Joan.6.</reg>
                <reg type="contemporary">Ioan.6.</reg>
             </choice>
          </note>
@@ -32025,7 +32025,7 @@
             <lb type="DefaultLine" corresp="#f35_eSc_line_1480f281_ligne_2"/>
             <choice>
                <orig>De Iesꝰ christ/ aux urays p̃dicateurs</orig>
-               <reg type="intermediary">De Iesꝰ christ/ aux urays p̃dicateurs</reg>
+               <reg type="intermediary">De Jesus christ/ aux vrays predicateurs</reg>
                <reg type="contemporary">De Iesꝰ christ/ aux urays p̃dicateurs</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_3d4daed9_ligne_3"/>
@@ -32037,19 +32037,19 @@
             <lb type="DefaultLine" corresp="#f35_eSc_line_b4dd5f8a_ligne_4"/>
             <choice>
                <orig>Lont deffẽdu/ en leur meschãte escolle.</orig>
-               <reg type="intermediary">Lont deffẽdu/ en leur meschãte escolle.</reg>
+               <reg type="intermediary">L'ont deffendu/ en leur meschante escolle.</reg>
                <reg type="contemporary">Lont deffẽdu/ en leur meschãte escolle.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_677fabcf_ligne_5"/>
             <choice>
                <orig>¶ mõ dieu ꝯfõdz/ ces maudictz hypocri</orig>
-               <reg type="intermediary">¶ mõ dieu ꝯfõdz/ ces maudictz hypocri</reg>
+               <reg type="intermediary">¶ mon dieu confondz/ ces maudictz hypocri¬</reg>
                <reg type="contemporary">¶ mõ dieu ꝯfõdz/ ces maudictz hypocri</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_e5224904_ligne_6"/>
             <choice>
                <orig>Iusq̃s a quãt? sire les soustiẽs tu? (tes</orig>
-               <reg type="intermediary">Iusques a quãt? sire les soustiẽs tu? (tes</reg>
+               <reg type="intermediary">tes Jusques a quant? sire les soustiens tu?</reg>
                <reg type="contemporary">Iusques a quãt? sire les soustiẽs tu? (tes</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_29b01bb4_ligne_7"/>
@@ -32067,32 +32067,32 @@
             <lb type="DefaultLine" corresp="#f35_eSc_line_2bc70fdd_ligne_9"/>
             <choice>
                <orig>¶ Toꝰ leurs abuz/ uolũtiers chãteroye</orig>
-               <reg type="intermediary">¶ Toꝰ leurs abuz/ uolũtiers chãteroye</reg>
+               <reg type="intermediary">¶ Tous leurs abuz/ voluntiers chanteroye</reg>
                <reg type="contemporary">¶ Toꝰ leurs abuz/ uolũtiers chãteroye</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_63b45383_ligne_10"/>
             <choice>
                <orig>Prenez en gre/ de chanter ie suis las</orig>
-               <reg type="intermediary">Prenez en gre/ de chanter ie suis las</reg>
+               <reg type="intermediary">Prenez en gre/ de chanter je suis las</reg>
                <reg type="contemporary">Prenez en gre/ de chanter ie suis las</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_525c5070_ligne_11"/>
             <choice>
                <orig>Cercheõs en Christ/ ꝯfort ioye ⁊ soulas</orig>
-               <reg type="intermediary">Cercheõs en Christ/ ꝯfort ioye et soulas</reg>
+               <reg type="intermediary">Cercheons en Christ/ confort joye et soulas</reg>
                <reg type="contemporary">Cercheõs en Christ/ ꝯfort ioye et soulas</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_772dbaf2_ligne_12"/>
             <choice>
                <orig>Il est tout seul/ uerite/ uie/ ⁊ uoye.</orig>
-               <reg type="intermediary">Il est tout seul/ uerite/ uie/ et uoye.</reg>
+               <reg type="intermediary">Il est tout seul/ verite/ vie/ et voye.</reg>
                <reg type="contemporary">Il est tout seul/ uerite/ uie/ et uoye.</reg>
             </choice>
             <hi>
                <lb type="HeadingLine" corresp="#f35_eSc_line_2220d44a_ligne_13"/>
                <choice>
                   <orig>¶ Aultre chãson/ sur le chant Qui la</orig>
-                  <reg type="intermediary">¶ Aultre chãson/ sur le chant Qui la</reg>
+                  <reg type="intermediary">¶ Aultre chanson/ sur le chant Qui la</reg>
                   <reg type="contemporary">¶ Aultre chãson/ sur le chant Qui la</reg>
                </choice>
             </hi>
@@ -32100,7 +32100,7 @@
                <lb type="HeadingLine" corresp="#f35_eSc_line_a86f0e79_ligne_14"/>
                <choice>
                   <orig>dira la douscur de mon cueur.</orig>
-                  <reg type="intermediary">dira la douscur de mon cueur.</reg>
+                  <reg type="intermediary">dira la douscwur de mon cueur.</reg>
                   <reg type="contemporary">dira la douscur de mon cueur.</reg>
                </choice>
             </hi>
@@ -32108,62 +32108,62 @@
                <lb type="DropCapitalLine" corresp="#f35_eSc_line_960610d8_ligne_2"/>
                <choice>
                   <orig>Q</orig>
-                  <reg type="intermediary">Q</reg>
+                  <reg type="intermediary">Q¬</reg>
                   <reg type="contemporary">Q</reg>
                </choice>
             </hi>
             <lb type="DefaultLine" corresp="#f35_eSc_line_ed011c64_ligne_15"/>
             <choice>
                <orig>Ui la dira/ la douleur de mõ cueͬ</orig>
-               <reg type="intermediary">Ui la dira/ la douleur de mõ cueͬ</reg>
+               <reg type="intermediary">Ui la dira/ la douleur de mon cueur</reg>
                <reg type="contemporary">Ui la dira/ la douleur de mõ cueͬ</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_ad23a85b_ligne_16"/>
             <choice>
                <orig>Et le soucy/ q̃ poͬ mõ peche porte</orig>
-               <reg type="intermediary">Et le soucy/ que poͬ mõ peche porte</reg>
+               <reg type="intermediary">Et le soucy/ que pour mon peche porte</reg>
                <reg type="contemporary">Et le soucy/ que poͬ mõ peche porte</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_66a132fb_ligne_17"/>
             <choice>
                <orig>Ie ny soustiẽs/ q̃ ennuy/ peine/ ⁊ douleͬ</orig>
-               <reg type="intermediary">Ie ny soustiẽs/ que ennuy/ peine/ et douleͬ</reg>
+               <reg type="intermediary">je ny soustiens/ que ennuy/ peine/ et douleur</reg>
                <reg type="contemporary">Ie ny soustiẽs/ que ennuy/ peine/ et douleͬ</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_62cbd649_ligne_18"/>
             <choice>
                <orig>Et si nest nul/ (mõ dieu) qͥ me cõforte.</orig>
-               <reg type="intermediary">Et si nest nul/ (mõ dieu) qui me cõforte.</reg>
+               <reg type="intermediary">Et si n'est nul/ (mon dieu) qui me conforte.</reg>
                <reg type="contemporary">Et si nest nul/ (mõ dieu) qui me cõforte.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_b70a2f89_ligne_19"/>
             <choice>
                <orig>¶ O seigͬ dieu/ qͥ metz dehors desmoy</orig>
-               <reg type="intermediary">¶ O seigͬ dieu/ qui metz dehors desmoy</reg>
+               <reg type="intermediary">¶ O seigneur dieu/ qui metz dehors d'esmoy</reg>
                <reg type="contemporary">¶ O seigͬ dieu/ qui metz dehors desmoy</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_1749a9d4_ligne_20"/>
             <choice>
                <orig>Tes seruiteurs/ par ta misericorde</orig>
-               <reg type="intermediary">Tes seruiteurs/ par ta misericorde</reg>
+               <reg type="intermediary">Tes serviteurs/ par ta misericorde</reg>
                <reg type="contemporary">Tes seruiteurs/ par ta misericorde</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_77d8ac73_ligne_21"/>
             <choice>
                <orig>Ton plaisir soit/ auoir mercy de moy</orig>
-               <reg type="intermediary">Ton plaisir soit/ auoir mercy de moy</reg>
+               <reg type="intermediary">Ton plaisir soit/ avoir mercy de moy</reg>
                <reg type="contemporary">Ton plaisir soit/ auoir mercy de moy</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_37026972_ligne_22"/>
             <choice>
                <orig>Par mõ peche/ iay desseruy la chorde.</orig>
-               <reg type="intermediary">Par mõ peche/ iay desseruy la chorde.</reg>
+               <reg type="intermediary">Par mon peche/ j'ay desservy la chorde.</reg>
                <reg type="contemporary">Par mõ peche/ iay desseruy la chorde.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_0f5f4416_ligne_23"/>
             <choice>
                <orig>¶ Efface donc/ toute liniquite</orig>
-               <reg type="intermediary">¶ Efface donc/ toute liniquite</reg>
+               <reg type="intermediary">¶ Efface donc/ toute l'iniquite</reg>
                <reg type="contemporary">¶ Efface donc/ toute liniquite</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_0ee226e4_ligne_24"/>
@@ -32175,13 +32175,13 @@
             <lb type="DefaultLine" corresp="#f35_eSc_line_515d5b3a_ligne_25"/>
             <choice>
                <orig>Ie ne uaulx rien/ car ie suis uanite</orig>
-               <reg type="intermediary">Ie ne uaulx rien/ car ie suis uanite</reg>
+               <reg type="intermediary">Je ne vaulx rien/ car je suis vanite</reg>
                <reg type="contemporary">Ie ne uaulx rien/ car ie suis uanite</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_a67ccd10_ligne_26"/>
             <choice>
                <orig>Et a mal faire/ iay mistout mõ estude.</orig>
-               <reg type="intermediary">Et a mal faire/ iay mistout mõ estude.</reg>
+               <reg type="intermediary">Et a mal faire/ j'ay mis tout mon estude.</reg>
                <reg type="contemporary">Et a mal faire/ iay mistout mõ estude.</reg>
             </choice>
          </ab>
@@ -32198,55 +32198,55 @@
             <lb type="DefaultLine" corresp="#f36_eSc_line_aebe486e_ligne_2"/>
             <choice>
                <orig>¶ Par mon peche/ ie suis deuãt toy uil</orig>
-               <reg type="intermediary">¶ Par mon peche/ ie suis deuãt toy uil</reg>
+               <reg type="intermediary">¶ Par mon peche/ je suis devant toy vil</reg>
                <reg type="contemporary">¶ Par mon peche/ ie suis deuãt toy uil</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_395890e4_ligne_3"/>
             <choice>
                <orig>Or laue moy/ de plus en plꝰ par grace</orig>
-               <reg type="intermediary">Or laue moy/ de plus en plꝰ par grace</reg>
+               <reg type="intermediary">Or lave moy/ de plus en plus par grace</reg>
                <reg type="contemporary">Or laue moy/ de plus en plꝰ par grace</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_fa80f6f4_ligne_4"/>
             <choice>
                <orig>Car sans lauoir/ tout hõme est inutil</orig>
-               <reg type="intermediary">Car sans lauoir/ tout hõme est inutil</reg>
+               <reg type="intermediary">Car sans l'avoir/ tout homme est inutil</reg>
                <reg type="contemporary">Car sans lauoir/ tout hõme est inutil</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_02184b49_ligne_5"/>
             <choice>
                <orig>Et desplaisant/ deuant ta saincte face.</orig>
-               <reg type="intermediary">Et desplaisant/ deuant ta saincte face.</reg>
+               <reg type="intermediary">Et desplaisant/ devant ta saincte face.</reg>
                <reg type="contemporary">Et desplaisant/ deuant ta saincte face.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_d967426c_ligne_6"/>
             <choice>
                <orig>¶ Toꝰ mes pechez/ ie cõfesse ⁊ cõgnois</orig>
-               <reg type="intermediary">¶ Toꝰ mes pechez/ ie cõfesse et cõgnois</reg>
+               <reg type="intermediary">¶ Tous mes pechez/ je confesse et congnois</reg>
                <reg type="contemporary">¶ Toꝰ mes pechez/ ie cõfesse et cõgnois</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_b4d1a5ba_ligne_7"/>
             <choice>
                <orig>En general/ ie delaisse les branches</orig>
-               <reg type="intermediary">En general/ ie delaisse les branches</reg>
+               <reg type="intermediary">En general/ je delaisse les branches</reg>
                <reg type="contemporary">En general/ ie delaisse les branches</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_14a241b3_ligne_8"/>
             <choice>
                <orig>Car ie ne suis/ cõme bien iapercoys</orig>
-               <reg type="intermediary">Car ie ne suis/ cõme bien iapercoys</reg>
+               <reg type="intermediary">Car je ne suis/ comme bien j'apercoys</reg>
                <reg type="contemporary">Car ie ne suis/ cõme bien iapercoys</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_456eab5c_ligne_9"/>
             <choice>
                <orig>Rien que peche/ ⁊ mes uolũtez frãches.</orig>
-               <reg type="intermediary">Rien que peche/ et mes uolũtez frãches.</reg>
+               <reg type="intermediary">Rien que peche/ et mes voluntez franches.</reg>
                <reg type="contemporary">Rien que peche/ et mes uolũtez frãches.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_b439f8b9_ligne_10"/>
             <choice>
                <orig>¶ Iay desseruy/ seigneur ⁊ merite</orig>
-               <reg type="intermediary">¶ Iay desseruy/ seigneur et merite</reg>
+               <reg type="intermediary">¶ J'ay desservy/ seigneur et merite</reg>
                <reg type="contemporary">¶ Iay desseruy/ seigneur et merite</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_59781c94_ligne_11"/>
@@ -32258,49 +32258,49 @@
             <lb type="DefaultLine" corresp="#f36_eSc_line_136f3c18_ligne_12"/>
             <choice>
                <orig>Faictz moy pardõ/ lors uaincra uerite</orig>
-               <reg type="intermediary">Faictz moy pardõ/ lors uaincra uerite</reg>
+               <reg type="intermediary">Faictz moy pardon/ lors vaincra verite</reg>
                <reg type="contemporary">Faictz moy pardõ/ lors uaincra uerite</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_c1c21e46_ligne_13"/>
             <choice>
                <orig>Lhõe nest riẽ/ mais a toy ie me adresse.</orig>
-               <reg type="intermediary">Lhõe nest riẽ/ mais a toy ie me adresse.</reg>
+               <reg type="intermediary">L'home n'est rien/ mais a toy je me adresse.</reg>
                <reg type="contemporary">Lhõe nest riẽ/ mais a toy ie me adresse.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_51e24721_ligne_14"/>
             <choice>
                <orig>¶ Lhõe est a mal/ par sa nature enclin</orig>
-               <reg type="intermediary">¶ Lhõe est a mal/ par sa nature enclin</reg>
+               <reg type="intermediary">¶ L'home est a mal/ par sa nature enclin</reg>
                <reg type="contemporary">¶ Lhõe est a mal/ par sa nature enclin</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_4fa48873_ligne_15"/>
             <choice>
                <orig>Adam luy a/ laisse cest heritage</orig>
-               <reg type="intermediary">Adam luy a/ laisse cest heritage</reg>
+               <reg type="intermediary">Adam luy a/ laisse c'est heritage</reg>
                <reg type="contemporary">Adam luy a/ laisse cest heritage</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_49e5b0ba_ligne_16"/>
             <choice>
                <orig>Mais toy seigñr/ par tõ regard begnin</orig>
-               <reg type="intermediary">Mais toy seigñr/ par tõ regard begnin</reg>
+               <reg type="intermediary">Mais toy seigneur/ par ton regard begnin</reg>
                <reg type="contemporary">Mais toy seigñr/ par tõ regard begnin</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_b70a2e9f_ligne_17"/>
             <choice>
                <orig>Tu las este/ ⁊ mis hors de seruage.</orig>
-               <reg type="intermediary">Tu las este/ et mis hors de seruage.</reg>
+               <reg type="intermediary">Tu l'as este/ et mis hors de servage.</reg>
                <reg type="contemporary">Tu las este/ et mis hors de seruage.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_27f4dcc2_ligne_18"/>
             <choice>
                <orig>¶ Iespere aussi/ que tu me arrouseras</orig>
-               <reg type="intermediary">¶ Iespere aussi/ que tu me arrouseras</reg>
+               <reg type="intermediary">¶ J'espere aussi/ que tu me arrouseras</reg>
                <reg type="contemporary">¶ Iespere aussi/ que tu me arrouseras</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_e3a91477_ligne_19"/>
             <choice>
                <orig>De leaue de grace/ ⁊ en nouuelle sorte</orig>
-               <reg type="intermediary">De leaue de grace/ et en nouuelle sorte</reg>
+               <reg type="intermediary">De l'eaue de grace/ et en nouvelle sorte</reg>
                <reg type="contemporary">De leaue de grace/ et en nouuelle sorte</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_c812410e_ligne_20"/>
@@ -32318,13 +32318,13 @@
             <lb type="DefaultLine" corresp="#f36_eSc_line_fa9943ea_ligne_22"/>
             <choice>
                <orig>¶ Lors ie seray/ par telle ablution</orig>
-               <reg type="intermediary">¶ Lors ie seray/ par telle ablution</reg>
+               <reg type="intermediary">¶ Lors je seray/ par telle ablution</reg>
                <reg type="contemporary">¶ Lors ie seray/ par telle ablution</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_01a01afe_ligne_23"/>
             <choice>
                <orig>Tout console/ quand ie orray de souye</orig>
-               <reg type="intermediary">Tout console/ quand ie orray de souye</reg>
+               <reg type="intermediary">Tout console/ quand je orray de souye</reg>
                <reg type="contemporary">Tout console/ quand ie orray de souye</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_87a81fa3_ligne_24"/>
@@ -32336,13 +32336,13 @@
             <lb type="DefaultLine" corresp="#f36_eSc_line_984cbea9_ligne_25"/>
             <choice>
                <orig>Iamais ne fut/ telle liesse ouye.</orig>
-               <reg type="intermediary">Iamais ne fut/ telle liesse ouye.</reg>
+               <reg type="intermediary">Jamais ne fut/ telle liesse ouye.</reg>
                <reg type="contemporary">Iamais ne fut/ telle liesse ouye.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_26753e04_ligne_26"/>
             <choice>
                <orig>¶ Ie laisse la/ donc toꝰ les pardõneurs</orig>
-               <reg type="intermediary">¶ Ie laisse la/ donc toꝰ les pardõneurs</reg>
+               <reg type="intermediary">¶ Je laisse la/ donc tous les pardonneurs</reg>
                <reg type="contemporary">¶ Ie laisse la/ donc toꝰ les pardõneurs</reg>
             </choice>
          </ab>
