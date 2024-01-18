@@ -25411,7 +25411,7 @@
                <lb type="HeadingLine" corresp="#f3_eSc_line_fd5494ae_ligne_2"/>
                <choice>
                   <orig>¶ Chãson des dix cõmãdemẽtz de dieu</orig>
-                  <reg type="intermediary">¶ Chanson des dix commamdementz de dieu</reg>
+                  <reg type="intermediary">¶ Chanson des dix commandementz de dieu</reg>
                   <reg type="contemporary">¶ Chãson des dix cõmãdemẽtz de dieu</reg>
                </choice>
             </hi>
@@ -26206,9 +26206,9 @@
             </choice>
             <lb type="DefaultLine" corresp="#f6_eSc_line_b5a9788a_ligne_12"/>
             <choice>
-               <orig>Mais mariage/ est plein d hõnestete</orig>
-               <reg type="intermediary">Mais mariage/ est plein d honnestete</reg>
-               <reg type="contemporary">Mais mariage/ est plein d hõnestete</reg>
+               <orig>Mais mariage/ est plein dhõnestete</orig>
+               <reg type="intermediary">Mais mariage/ est plein d'honnestete</reg>
+               <reg type="contemporary">Mais mariage/ est plein dhõnestete</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f6_eSc_line_4917fa80_ligne_13"/>
             <choice>
@@ -26464,7 +26464,7 @@
             <lb type="DefaultLine" corresp="#f7_eSc_line_90a8d4fa_ligne_15"/>
             <choice>
                <orig>Dauid le dit/ cela nest point mõ songe</orig>
-               <reg type="intermediary">Dauid le dit/ cela n'est point mon songe</reg>
+               <reg type="intermediary">David le dit/ cela n'est point mon songe</reg>
                <reg type="contemporary">Dauid le dit/ cela nest point mõ songe</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f7_eSc_line_3ed71e47_ligne_16"/>
@@ -26673,13 +26673,13 @@
             <lb type="DefaultLine" corresp="#f8_eSc_line_566155b5_ligne_6"/>
             <choice>
                <orig>Nul ne uouldroit/ quõ luy fit desplaisir</orig>
-               <reg type="intermediary">Nul ne vouldroit/ quon luy fit desplaisir</reg>
+               <reg type="intermediary">Nul ne vouldroit/ qu'on luy fit desplaisir</reg>
                <reg type="contemporary">Nul ne uouldroit/ quõ luy fit desplaisir</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f8_eSc_line_409de639_ligne_7"/>
             <choice>
                <orig>Mais quõ luy fist tout seruice: ⁊ plaisir</orig>
-               <reg type="intermediary">Mais quon luy fist tout service: et plaisir</reg>
+               <reg type="intermediary">Mais qu'on luy fist tout service: et plaisir</reg>
                <reg type="contemporary">Mais quõ luy fist tout seruice: et plaisir</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f8_eSc_line_e3707c02_ligne_8"/>
@@ -26759,7 +26759,7 @@
             <lb type="DefaultLine" corresp="#f8_eSc_line_aab33c71_ligne_20"/>
             <choice>
                <orig>Uiure ne peult/ car nr̃e chair sapplicq̃</orig>
-               <reg type="intermediary">Viure ne peult/ car nostre chair s'applicque</reg>
+               <reg type="intermediary">Vivre ne peult/ car nostre chair s'applicque</reg>
                <reg type="contemporary">Uiure ne peult/ car nr̃e chair sapplicque</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f8_eSc_line_fbdc520a_ligne_21"/>
@@ -26978,13 +26978,13 @@
             <lb type="DefaultLine" corresp="#f9_eSc_line_57ae8ec2_ligne_22"/>
             <choice>
                <orig>Uierge aussi mere/ obstãt q̃ soit merueil</orig>
-               <reg type="intermediary">Vierge aussi mere/ obstant que soit merveil</reg>
+               <reg type="intermediary">Vierge aussi mere/ obstant que soit merveil¬</reg>
                <reg type="contemporary">Uierge aussi mere/ obstãt que soit merueil</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f9_eSc_line_6ff68294_ligne_23"/>
             <choice>
                <orig>(le</orig>
-               <reg type="intermediary">(le</reg>
+               <reg type="intermediary">le</reg>
                <reg type="contemporary">(le</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f9_eSc_line_b7b484b0_ligne_24"/>
@@ -27141,13 +27141,13 @@
             <lb type="DefaultLine" corresp="#f10_eSc_line_b47fe859_ligne_9"/>
             <choice>
                <orig>Ensepuelit/ le corps de linnocent:</orig>
-               <reg type="intermediary">Ensepuelit/ le corps de l'innocent:</reg>
+               <reg type="intermediary">Ensepvelit/ le corps de l'innocent:</reg>
                <reg type="contemporary">Ensepuelit/ le corps de linnocent:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f10_eSc_line_ff8d4f31_ligne_10"/>
             <choice>
                <orig>De la descend/ es enfers sansdoubtãce</orig>
-               <reg type="intermediary">De la descend/ es enfers sansdoubtance</reg>
+               <reg type="intermediary">De la descend/ es enfers sans doubtance</reg>
                <reg type="contemporary">De la descend/ es enfers sansdoubtãce</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f10_eSc_line_387516a9_ligne_11"/>
@@ -27852,7 +27852,7 @@
             <lb type="DefaultLine" corresp="#f13_eSc_line_9f40800e_ligne_5"/>
             <choice>
                <orig>En nostre chair/ helas poure obstine</orig>
-               <reg type="intermediary">En nostre chair/ helas poure obstine</reg>
+               <reg type="intermediary">En nostre chair/ helas povre obstine</reg>
                <reg type="contemporary">En nostre chair/ helas poure obstine</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f13_eSc_line_dab8d413_ligne_6"/>
@@ -29038,7 +29038,7 @@
                <lb type="DropCapitalLine" corresp="#f18_eSc_line_7aef6cd7_ligne_2"/>
                <choice>
                   <orig>M</orig>
-                  <reg type="intermediary">M</reg>
+                  <reg type="intermediary">M¬</reg>
                   <reg type="contemporary">M</reg>
                </choice>
             </hi>
@@ -30089,7 +30089,7 @@
             <lb type="DefaultLine" corresp="#f24_eSc_line_9c7f47d3_ligne_11"/>
             <choice>
                <orig>¶ Par les uilles/ ⁊ par les champs</orig>
-               <reg type="intermediary">¶ Par les uilles/ et par les champs</reg>
+               <reg type="intermediary">¶ Par les villes/ et par les champs</reg>
                <reg type="contemporary">¶ Par les uilles/ et par les champs</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f24_eSc_line_fe7656ef_ligne_12"/>
@@ -31382,7 +31382,7 @@
             <lb type="DefaultLine" corresp="#f31_eSc_line_e400fa1f_ligne_21"/>
             <choice>
                <orig>Ie ny prens ioye/ ne soulas:</orig>
-               <reg type="intermediary">Je ny prens joye/ ne soulas:</reg>
+               <reg type="intermediary">Je n'y prens joye/ ne soulas:</reg>
                <reg type="contemporary">Ie ny prens ioye/ ne soulas:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f31_eSc_line_9e50adad_ligne_22"/>
@@ -31971,7 +31971,7 @@
             <lb type="DefaultLine" corresp="#f34_eSc_line_c69b3074_ligne_21"/>
             <choice>
                <orig>Et iesꝰ christ/ est mõte dessꝰ lasne. (laiz</orig>
-               <reg type="intermediary">Et jesus christ/ est monte dessus l'asne. (laiz</reg>
+               <reg type="intermediary">laiz Et jesus christ/ est monte dessus l'asne.</reg>
                <reg type="contemporary">Et iesꝰ christ/ est mõte dessꝰ lasne. (laiz</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f34_eSc_line_2a03de02_ligne_22"/>
@@ -32101,7 +32101,7 @@
                <lb type="HeadingLine" corresp="#f35_eSc_line_a86f0e79_ligne_14"/>
                <choice>
                   <orig>dira la douscur de mon cueur.</orig>
-                  <reg type="intermediary">dira la douscwur de mon cueur.</reg>
+                  <reg type="intermediary">dira la dousceur de mon cueur.</reg>
                   <reg type="contemporary">dira la douscur de mon cueur.</reg>
                </choice>
             </hi>
@@ -32128,7 +32128,7 @@
             <lb type="DefaultLine" corresp="#f35_eSc_line_66a132fb_ligne_17"/>
             <choice>
                <orig>Ie ny soustiẽs/ q̃ ennuy/ peine/ ⁊ douleͬ</orig>
-               <reg type="intermediary">je ny soustiens/ que ennuy/ peine/ et douleur</reg>
+               <reg type="intermediary">je n'y soustiens/ que ennuy/ peine/ et douleur</reg>
                <reg type="contemporary">Ie ny soustiẽs/ que ennuy/ peine/ et douleͬ</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_62cbd649_ligne_18"/>
@@ -33523,7 +33523,7 @@
             <lb type="DefaultLine" corresp="#f44_eSc_line_0162e2dd_ligne_4"/>
             <choice>
                <orig>Mais sil uous griefue destre ainsi</orig>
-               <reg type="intermediary">Mais s'il vous griefve destre ainsi</reg>
+               <reg type="intermediary">Mais s'il vous griefve d'estre ainsi</reg>
                <reg type="contemporary">Mais sil uous griefue destre ainsi</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f44_eSc_line_56f8f21e_ligne_5"/>
@@ -33810,7 +33810,7 @@
             <lb type="DefaultLine" corresp="#f45_eSc_line_01f58419_ligne_24"/>
             <choice>
                <orig>Qui de peche/ ny trouue la deliurance.</orig>
-               <reg type="intermediary">Qui de peche/ ny trouve la delivrance.</reg>
+               <reg type="intermediary">Qui de peche/ n'y trouve la delivrance.</reg>
                <reg type="contemporary">Qui de peche/ ny trouue la deliurance.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f45_eSc_line_a7998b4f_ligne_25"/>
