@@ -39,7 +39,7 @@
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Correction of OCR transcription and metadata encoding.</resp>
+               <resp>Correction of OCR transcription and metadata encoding, normalization (intermediary).</resp>
                <persName xml:id="POB">
                   <forename>Pierre-Olivier</forename>
                   <surname>Beaulnes</surname>
@@ -144,7 +144,7 @@
                <p>Voir le guide de transcription du projet SETAF : <ref target="https://hal.science/hal-04281804"/>. La segmentation a été produite manuellement et la transcription issue de l'OCR a été corrigée. </p>
             </correction>
             <normalization>
-               <p>Voir le guide de normalisation du projet SETAF. En ce qui concerne la régularisation intermédiaire, cette transcription a été normalisée jusqu'à la page x. En ce qui concerne la régularisation contemporaine, cette transcription n'a pas encore été normalisée.</p>
+               <p>Voir le guide de normalisation du projet SETAF. En ce qui concerne la régularisation intermédiaire, cette transcription a été normalisée. En ce qui concerne la régularisation contemporaine, cette transcription n'a pas encore été normalisée.</p>
             </normalization>
          </editorialDecl>
          <appInfo>
@@ -179,7 +179,7 @@
                <term type="form">prose</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
-               <term type="intermediary_reg_quality">not applicable</term>
+               <term type="intermediary_reg_quality">gold</term>
                <term type="contemporary_reg_quality">not applicable</term>
                <term type="ling_annotation_quality">not applicable</term>
             </keywords>
@@ -187,6 +187,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2023-11-22" who="#SS">Création du fichier TEI P5.</change>
+         <change when="2024-01-29" who="#POB">Régularisation intermédiaire terminée.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
