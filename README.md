@@ -8,10 +8,10 @@ Description :
 - La liste des textes avec plus de détails se trouve dans le tableau CSV du dépôt. 
 - Le dossier "schema" contient l'ODD du projet sous différents formats (odd, html, rng).
 - Le dossier "stylesheets" contient les feuilles de style utilisés pour convertir les données (du format ALTO au TEI, etc.).
-- Le dossier "data" contient les données 
+- Le dossier "data" contient les textes au format XML-TEI :
   - "data_orig" contient les fichiers TEI où les lignes de texte dans la balise <b>orig</b> (*original form*) ont été contrôlé manuellement (qualité *gold*). Il s'agit de la transcription du texte source produite grâce à un modèle d'OCR et au guide de transcription du projet SETAF.
-  - "data_reg" contient les fichiers TEI où les lignes de texte dans la balise <b>reg type="intermediary"</b> sont en cours de traitement. Il s'agit de la régularisation (niveau intermédiaire) du texte source produite grâce au guide de normalisation du projet SETAF.
-  - "data_cont" contient les fichiers TEI où les lignes de texte dans la balise <b>reg type="contemporary"</b> sont en cours de traitement. Il s'agit de la traduction du texte source en français contemporain, une étape qui ne concerne que certains textes.
+  - "data_reg" contient les fichiers TEI où les lignes de texte dans la balise <b>reg type="intermediary"</b> sont en cours de traitement ou normalisées. Il s'agit de la régularisation (niveau intermédiaire) du texte source produite grâce au guide de normalisation du projet SETAF.
+  - "data_cont" contient les fichiers TEI où les lignes de texte dans la balise <b>reg type="contemporary"</b> sont en cours de traitement ou normalisées. Il s'agit de la traduction du texte source en français contemporain, une étape qui ne concerne que certains textes.
 
 Pour comprendre l'état d'avancement des textes, il suffit de consulter le tableau CSV du dépôt et/ou le teiHeader des fichiers.
 
