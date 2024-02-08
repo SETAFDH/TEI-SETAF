@@ -18,7 +18,7 @@ Description des fichiers HTML :
   - Chaque fichier .html <b>reg_int</b> présente, de façon plus lisible, les lignes de texte tirées des balises <b>reg type="intermediary"</b>. Il s'agit de la régularisation (niveau intermédiaire) du texte source produite grâce au guide de normalisation du projet SETAF.
   - Chaque fichier .html <b>reg_cont</b> présente, de façon plus lisible, les lignes de texte tirées des balises <b>reg type="contemporary"</b>. Il s'agit de la traduction du texte source en français contemporain, une étape qui ne concerne que certains textes.
 
-Chaque version .html <b>orig</b>, <b>reg_int</b> ou <b>reg_cont</b>, est ajoutée quand le travail sur les lignes de texte tirées des balises corréspodantes, dans le fichier XML-TEI, est terminé (qualité *gold*).
+Chaque version .html <b>orig</b>, <b>reg_int</b> ou <b>reg_cont</b>, est ajoutée quand le travail sur les lignes de texte tirées des balises correspodantes, dans le fichier XML-TEI, est terminé (qualité *gold*).
 
 Pour comprendre l'état d'avancement des textes (qualité *gold*, *en cours* ou *à venir*), il suffit de consulter le [tableau CSV](https://github.com/SETAFDH/TEI-Varia-Malingre/blob/main/TEI-Varia-Malingre_Table.csv) du dépôt et/ou le teiHeader des fichiers XML-TEI.
 
