@@ -36124,16 +36124,16 @@
             <hi>
                <lb type="HeadingLine" corresp="#f1_eSc_line_5af739d2_ligne_3"/>
                <choice>
-                  <orig>chascun pourra facilement congnoistre la grãde difference de entre eulx: nouuel-</orig>
-                  <reg type="intermediary">chascun pourra facilement congnoistre la grãde difference de entre eulx: nouuel-</reg>
-                  <reg type="contemporary">chascun pourra facilement congnoistre la grãde difference de entre eulx: nouuel-</reg>
+                  <orig>chascun pourra facilement congnoistre la grãde difference de entre eulx: nouuel¬</orig>
+                  <reg type="intermediary">chascun pourra facilement congnoistre la grande difference de entre eulx: nouvel¬</reg>
+                  <reg type="contemporary">chascun pourra facilement congnoistre la grãde difference de entre eulx: nouuel¬</reg>
                </choice>
             </hi>
             <hi>
                <lb type="HeadingLine" corresp="#f1_eSc_line_480d6251_ligne_4"/>
                <choice>
                   <orig>lemẽt reueuz/ corrigez/ ⁊ augmentez/ selon la uerite de la saincte Escripture/ ⁊ des</orig>
-                  <reg type="intermediary">lemẽt reueuz/ corrigez/ et augmentez/ selon la uerite de la saincte Escripture/ et des</reg>
+                  <reg type="intermediary">lement reveuz/ corrigez/ et augmentez/ selon la verite de la saincte Escripture/ et des</reg>
                   <reg type="contemporary">lemẽt reueuz/ corrigez/ et augmentez/ selon la uerite de la saincte Escripture/ et des</reg>
                </choice>
             </hi>
@@ -36154,7 +36154,7 @@
             <lb type="DefaultLine" corresp="#f1_eSc_line_d24f6a58_ligne_7"/>
             <choice>
                <orig>Quam male conueniant cum Christi pectore Iesu.</orig>
-               <reg type="intermediary">Quam male conueniant cum Christi pectore Iesu.</reg>
+               <reg type="intermediary">Quam male conveniant cum Christi pectore Jesu.</reg>
                <reg type="contemporary">Quam male conueniant cum Christi pectore Iesu.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_dc564eab_ligne_8"/>
@@ -36166,7 +36166,7 @@
             <lb type="DefaultLine" corresp="#f1_eSc_line_fa32246c_ligne_9"/>
             <choice>
                <orig>Hec lege: qui uere pietatis amore teneris.</orig>
-               <reg type="intermediary">Hec lege: qui uere pietatis amore teneris.</reg>
+               <reg type="intermediary">Hec lege: qui vere pietatis amore teneris.</reg>
                <reg type="contemporary">Hec lege: qui uere pietatis amore teneris.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_132e8018_ligne_10"/>
@@ -36184,13 +36184,13 @@
             <lb type="DefaultLine" corresp="#f1_eSc_line_2eda621b_ligne_12"/>
             <choice>
                <orig>Lecteur tu uois/ les faictz de Iesus Christ</orig>
-               <reg type="intermediary">Lecteur tu uois/ les faictz de Jesus Christ</reg>
+               <reg type="intermediary">Lecteur tu vois/ les faictz de Jesus Christ</reg>
                <reg type="contemporary">Lecteur tu uois/ les faictz de Iesus Christ</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_165e53e3_ligne_13"/>
             <choice>
                <orig>En ce liuret/ aussi les meurs du pape</orig>
-               <reg type="intermediary">En ce liuret/ aussi les meurs du pape</reg>
+               <reg type="intermediary">En ce livret/ aussi les meurs du pape</reg>
                <reg type="contemporary">En ce liuret/ aussi les meurs du pape</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_121bbdc4_ligne_14"/>
@@ -36214,7 +36214,7 @@
             <lb type="DefaultLine" corresp="#f1_eSc_line_bf321725_ligne_17"/>
             <choice>
                <orig>priui</orig>
-               <reg type="intermediary">priui</reg>
+               <reg type="intermediary">privi¬</reg>
                <reg type="contemporary">priui</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_7e37d0f8_ligne_18"/>
@@ -36259,7 +36259,7 @@
                <lb type="HeadingLine" corresp="#f3_eSc_line_c162e6fb_ligne_3"/>
                <choice>
                   <orig>stre Seigneur Iesus son vray filz/ qui soit habitãt au coeur dung chascun/</orig>
-                  <reg type="intermediary">stre Seigneur Jesus son vray filz/ qui soit habitãt au coeur dung chascun/</reg>
+                  <reg type="intermediary">stre Seigneur Jesus son vray filz/ qui soit habitant au coeur d'ung chascun/</reg>
                   <reg type="contemporary">stre Seigneur Iesus son vray filz/ qui soit habitãt au coeur dung chascun/</reg>
                </choice>
             </hi>
@@ -36274,19 +36274,19 @@
             <lb type="DefaultLine" corresp="#f3_eSc_line_20600ad2_ligne_5"/>
             <choice>
                <orig>E grand soleil de iustice nostre Sauueur ⁊ redempteur Iesus/ est si tres¬</orig>
-               <reg type="intermediary">E grand soleil de iustice nostre Sauueur et redempteur Jesus/ est si tres¬</reg>
+               <reg type="intermediary">E grand soleil de justice nostre Sauveur et redempteur Jesus/ est si tres</reg>
                <reg type="contemporary">E grand soleil de iustice nostre Sauueur et redempteur Iesus/ est si tres¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_90f03ed9_ligne_6"/>
             <choice>
                <orig>clair ⁊ si resplendissant quil ny a si aueugle/ quil ne uoye bien la grosse</orig>
-               <reg type="intermediary">clair et si resplendissant quil ny a si aueugle/ quil ne uoye bien la grosse</reg>
+               <reg type="intermediary">clair et si resplendissant qu'il n'y a si aveugle/ qu'il ne voye bien la grosse</reg>
                <reg type="contemporary">clair et si resplendissant quil ny a si aueugle/ quil ne uoye bien la grosse</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_3aff67df_ligne_7"/>
             <choice>
                <orig>differẽce entre la clarte du Sauueur/ ⁊ les grosses tenebres du Pape/ en¬</orig>
-               <reg type="intermediary">differẽce entre la clarte du Sauueur/ et les grosses tenebres du Pape/ en¬</reg>
+               <reg type="intermediary">difference entre la clarte du Sauveur/ et les grosses tenebres du Pape/ en¬</reg>
                <reg type="contemporary">differẽce entre la clarte du Sauueur/ et les grosses tenebres du Pape/ en¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_09470571_ligne_8"/>
@@ -36298,13 +36298,13 @@
             <lb type="DefaultLine" corresp="#f3_eSc_line_abd34fa0_ligne_9"/>
             <choice>
                <orig>tres de lestat papisticque. Tellement quon tiendroit a bon droict celuy</orig>
-               <reg type="intermediary">tres de lestat papisticque. Tellement quon tiendroit a bon droict celuy</reg>
+               <reg type="intermediary">tres de l'estat papisticque. Tellement qu'on tiendroit a bon droict celuy</reg>
                <reg type="contemporary">tres de lestat papisticque. Tellement quon tiendroit a bon droict celuy</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_7d420bdb_ligne_10"/>
             <choice>
                <orig>sot ⁊ fort despourueu de sens/ qui se trauailleroit/ de mõstrer que Iesus ⁊ les siens/ nont</orig>
-               <reg type="intermediary">sot et fort despourueu de sens/ qui se trauailleroit/ de mõstrer que Jesus et les siens/ nont</reg>
+               <reg type="intermediary">sot et fort despourveu de sens/ qui se travailleroit/ de monstrer que Jesus et les siens/ n'ont</reg>
                <reg type="contemporary">sot et fort despourueu de sens/ qui se trauailleroit/ de mõstrer que Iesus et les siens/ nont</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_ff064c94_ligne_11"/>
@@ -36316,67 +36316,67 @@
             <lb type="DefaultLine" corresp="#f3_eSc_line_68765488_ligne_12"/>
             <choice>
                <orig>trainct de comparer Iesus auec le Pape: non point pour affection mauuaise/ ou par ire/</orig>
-               <reg type="intermediary">trainct de comparer Jesus auec le Pape: non point pour affection mauuaise/ ou par ire/</reg>
+               <reg type="intermediary">trainct de comparer Jesus auec le Pape: non point pour affection mauvaise/ ou par ire/</reg>
                <reg type="contemporary">trainct de comparer Iesus auec le Pape: non point pour affection mauuaise/ ou par ire/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_66cac2fb_ligne_13"/>
             <choice>
                <orig>maleuolence ne mal talent: comme nostre Seigneur scait ⁊ cõgnoist/ lequel par sa gran¬</orig>
-               <reg type="intermediary">maleuolence ne mal talent: comme nostre Seigneur scait et cõgnoist/ lequel par sa gran¬</reg>
+               <reg type="intermediary">malevolence ne mal talent: comme nostre Seigneur scait et congnoist/ lequel par sa gran¬</reg>
                <reg type="contemporary">maleuolence ne mal talent: comme nostre Seigneur scait et cõgnoist/ lequel par sa gran¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_70997975_ligne_14"/>
             <choice>
                <orig>de misericorde uueille tous illuminer/ tant le Pape que tous Euesques/ prestres/ moy¬</orig>
-               <reg type="intermediary">de misericorde uueille tous illuminer/ tant le Pape que tous Euesques/ prestres/ moy¬</reg>
+               <reg type="intermediary">de misericorde vueille tous illuminer/ tant le Pape que tous Evesques/ prestres/ moy¬</reg>
                <reg type="contemporary">de misericorde uueille tous illuminer/ tant le Pape que tous Euesques/ prestres/ moy¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_6ebd04f9_ligne_15"/>
             <choice>
                <orig>nes/ ⁊ tous ceulx qui tiennent de leur part: affin que ilz croyent ⁊ suyuent la parolle de</orig>
-               <reg type="intermediary">nes/ et tous ceulx qui tiennent de leur part: affin que ilz croyent et suyuent la parolle de</reg>
+               <reg type="intermediary">nes/ et tous ceulx qui tiennent de leur part: affin que ilz croyent et suyvent la parolle de</reg>
                <reg type="contemporary">nes/ et tous ceulx qui tiennent de leur part: affin que ilz croyent et suyuent la parolle de</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_9d3bc178_ligne_16"/>
             <choice>
                <orig>Dieu/ estans sains en foy ⁊ uiuans tous purement. Car ne desirons que le salut dung</orig>
-               <reg type="intermediary">Dieu/ estans sains en foy et uiuans tous purement. Car ne desirons que le salut dung</reg>
+               <reg type="intermediary">Dieu/ estans sains en foy et vivans tous purement. Car ne desirons que le salut d'ung</reg>
                <reg type="contemporary">Dieu/ estans sains en foy et uiuans tous purement. Car ne desirons que le salut dung</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_15496d69_ligne_17"/>
             <choice>
                <orig>chascun: ⁊ que tous uiennent a la congnoissance de uerite/ priant tous qui ce liure lirõt/</orig>
-               <reg type="intermediary">chascun: et que tous uiennent a la congnoissance de uerite/ priant tous qui ce liure lirõt/</reg>
+               <reg type="intermediary">chascun: et que tous viennent a la congnoissance de verite/ priant tous qui ce livre liront/</reg>
                <reg type="contemporary">chascun: et que tous uiennent a la congnoissance de uerite/ priant tous qui ce liure lirõt/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_c8bcf66a_ligne_18"/>
             <choice>
                <orig>quilz prient nostre Seigneur pour tous de coeur ⁊ daffection. Il est tout certain que tout</orig>
-               <reg type="intermediary">quilz prient nostre Seigneur pour tous de coeur et daffection. Il est tout certain que tout</reg>
+               <reg type="intermediary">qu'ilz prient nostre Seigneur pour tous de coeur et d'affection. Il est tout certain que tout</reg>
                <reg type="contemporary">quilz prient nostre Seigneur pour tous de coeur et daffection. Il est tout certain que tout</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_91972e8e_ligne_19"/>
             <choice>
                <orig>le monde crie contre le Pape ⁊ son esglise/ a cause des paouretez ⁊ ordures qui y sont: ⁊ ny</orig>
-               <reg type="intermediary">le monde crie contre le Pape et son esglise/ a cause des paouretez et ordures qui y sont: et ny</reg>
+               <reg type="intermediary">le monde crie contre le Pape et son esglise/ a cause des paovretez et ordures qui y sont: et n'y</reg>
                <reg type="contemporary">le monde crie contre le Pape et son esglise/ a cause des paouretez et ordures qui y sont: et ny</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_76f3d270_ligne_20"/>
             <choice>
                <orig>a personne qui ne blasme ⁊ condemne ce paoure ⁊ mauldit estat ou ouuertement de bou¬</orig>
-               <reg type="intermediary">a personne qui ne blasme et condemne ce paoure et mauldit estat ou ouuertement de bou¬</reg>
+               <reg type="intermediary">a personne qui ne blasme et condemne ce paovre et mauldit estat ou ouvertement de bou¬</reg>
                <reg type="contemporary">a personne qui ne blasme et condemne ce paoure et mauldit estat ou ouuertement de bou¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_34be9a8d_ligne_21"/>
             <choice>
                <orig>che/ ou secretement en son coeur/ ⁊ mesme le Pape ⁊ les siens se congnoissent telz/ quilz</orig>
-               <reg type="intermediary">che/ ou secretement en son coeur/ et mesme le Pape et les siens se congnoissent telz/ quilz</reg>
+               <reg type="intermediary">che/ ou secretement en son coeur/ et mesme le Pape et les siens se congnoissent telz/ qu'ilz</reg>
                <reg type="contemporary">che/ ou secretement en son coeur/ et mesme le Pape et les siens se congnoissent telz/ quilz</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_ff0bfa3b_ligne_22"/>
             <choice>
                <orig>ont honte deulx mesmes/ ne cerchant que se cacher/ ⁊ aucunement soy entretenir/ par le</orig>
-               <reg type="intermediary">ont honte deulx mesmes/ ne cerchant que se cacher/ et aucunement soy entretenir/ par le</reg>
+               <reg type="intermediary">ont honte d'eulx mesmes/ ne cerchant que se cacher/ et aucunement soy entretenir/ par le</reg>
                <reg type="contemporary">ont honte deulx mesmes/ ne cerchant que se cacher/ et aucunement soy entretenir/ par le</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_8c2a3f1f_ligne_23"/>
@@ -36388,55 +36388,55 @@
             <lb type="DefaultLine" corresp="#f3_eSc_line_a437adf9_ligne_24"/>
             <choice>
                <orig>ceulx qui monstrent leur estat/ ⁊ a ce par tous moyens quil est possible de penser trauail¬</orig>
-               <reg type="intermediary">ceulx qui monstrent leur estat/ et a ce par tous moyens quil est possible de penser trauail¬</reg>
+               <reg type="intermediary">ceulx qui monstrent leur estat/ et a ce par tous moyens qu'il est possible de penser travail¬</reg>
                <reg type="contemporary">ceulx qui monstrent leur estat/ et a ce par tous moyens quil est possible de penser trauail¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_af50ebcc_ligne_25"/>
             <choice>
                <orig>lent par legatz/ messagiers/ dons/ promesses/ ⁊ aultres uoyes. Mais par cecy nest con¬</orig>
-               <reg type="intermediary">lent par legatz/ messagiers/ dons/ promesses/ et aultres uoyes. Mais par cecy nest con¬</reg>
+               <reg type="intermediary">lent par legatz/ messagiers/ dons/ promesses/ et aultres voyes. Mais par cecy n'est con¬</reg>
                <reg type="contemporary">lent par legatz/ messagiers/ dons/ promesses/ et aultres uoyes. Mais par cecy nest con¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_bcfcf850_ligne_26"/>
             <choice>
                <orig>gneue la racine du mal: pourtant quon ne regarde que la uie du Pape ⁊ des siens: car la</orig>
-               <reg type="intermediary">gneue la racine du mal: pourtant quon ne regarde que la uie du Pape et des siens: car la</reg>
+               <reg type="intermediary">gneue la racine du mal: pourtant qu'on ne regarde que la vie du Pape et des siens: car la</reg>
                <reg type="contemporary">gneue la racine du mal: pourtant quon ne regarde que la uie du Pape et des siens: car la</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_d93f1f85_ligne_27"/>
             <choice>
                <orig>plus part des hommes pensent que si le Pape ⁊ les siens uiuoyent selon leur estat/ selon</orig>
-               <reg type="intermediary">plus part des hommes pensent que si le Pape et les siens uiuoyent selon leur estat/ selon</reg>
+               <reg type="intermediary">plus part des hommes pensent que si le Pape et les siens vivoyent selon leur estat/ selon</reg>
                <reg type="contemporary">plus part des hommes pensent que si le Pape et les siens uiuoyent selon leur estat/ selon</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_70aa3bb7_ligne_28"/>
             <choice>
                <orig>leurs rigles ⁊ decretz quilz seroyent gens de bien: ⁊ sont en cecy grandement abusez. Car</orig>
-               <reg type="intermediary">leurs rigles et decretz quilz seroyent gens de bien: et sont en cecy grandement abusez. Car</reg>
+               <reg type="intermediary">leurs rigles et decretz qu'ilz seroyent gens de bien: et sont en cecy grandement abusez. Car</reg>
                <reg type="contemporary">leurs rigles et decretz quilz seroyent gens de bien: et sont en cecy grandement abusez. Car</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_938bd95e_ligne_29"/>
             <choice>
                <orig>nonobstant que la uie ⁊ le train du Pape soit trespaoure ⁊ fort meschant/ beaucoup plus</orig>
-               <reg type="intermediary">nonobstant que la uie et le train du Pape soit trespaoure et fort meschant/ beaucoup plus</reg>
+               <reg type="intermediary">nonobstant que la vie et le train du Pape soit tres paovre et fort meschant/ beaucoup plus</reg>
                <reg type="contemporary">nonobstant que la uie et le train du Pape soit trespaoure et fort meschant/ beaucoup plus</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_ca9937b9_ligne_30"/>
             <choice>
                <orig>est sa doctrine et ses ordonnances paoure/ meschante/ horrible/ damnable/ ⁊ detestable.</orig>
-               <reg type="intermediary">est sa doctrine et ses ordonnances paoure/ meschante/ horrible/ damnable/ et detestable.</reg>
+               <reg type="intermediary">est sa doctrine et ses ordonnances paovre/ meschante/ horrible/ damnable/ et detestable.</reg>
                <reg type="contemporary">est sa doctrine et ses ordonnances paoure/ meschante/ horrible/ damnable/ et detestable.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_def360ca_ligne_31"/>
             <choice>
                <orig>Affin donc quon congnoisse lestat du Pape en soy quel il est/ quelles sont ses ordonnan¬</orig>
-               <reg type="intermediary">Affin donc quon congnoisse lestat du Pape en soy quel il est/ quelles sont ses ordonnan¬</reg>
+               <reg type="intermediary">Affin donc qu'on congnoisse l'estat du Pape en soy quel il est/ quelles sont ses ordonnan¬</reg>
                <reg type="contemporary">Affin donc quon congnoisse lestat du Pape en soy quel il est/ quelles sont ses ordonnan¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_f69a532d_ligne_32"/>
             <choice>
                <orig>ces/ sans faire mention des uies des Papes/ comme des fardemens/ enchanterie/ ⁊ tou¬</orig>
-               <reg type="intermediary">ces/ sans faire mention des uies des Papes/ comme des fardemens/ enchanterie/ et tou¬</reg>
+               <reg type="intermediary">ces/ sans faire mention des vies des Papes/ comme des fardemens/ enchanterie/ et tou¬</reg>
                <reg type="contemporary">ces/ sans faire mention des uies des Papes/ comme des fardemens/ enchanterie/ et tou¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_39cada3f_ligne_33"/>
@@ -36448,13 +36448,13 @@
             <lb type="DefaultLine" corresp="#f3_eSc_line_88890acc_ligne_34"/>
             <choice>
                <orig>auec sa fille propre Lucresse: de laquelle auoit la compaignie son frere le Duc de Ualen¬</orig>
-               <reg type="intermediary">auec sa fille propre Lucresse: de laquelle auoit la compaignie son frere le Duc de Ualen¬</reg>
+               <reg type="intermediary">avec sa fille propre Lucresse: de laquelle avoit la compaignie son frere le Duc de Valen¬</reg>
                <reg type="contemporary">auec sa fille propre Lucresse: de laquelle auoit la compaignie son frere le Duc de Ualen¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_20ce76f6_ligne_35"/>
             <choice>
                <orig>tinoys filz dudict Alexandre/ pourquoy Lepitaphe de celle Lucresse contenoit quelle</orig>
-               <reg type="intermediary">tinoys filz dudict Alexandre/ pourquoy Lepitaphe de celle Lucresse contenoit quelle</reg>
+               <reg type="intermediary">tinoys filz dudict Alexandre/ pourquoy L'epitaphe de celle Lucresse contenoit quelle</reg>
                <reg type="contemporary">tinoys filz dudict Alexandre/ pourquoy Lepitaphe de celle Lucresse contenoit quelle</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_f1cd82a8_ligne_36"/>
@@ -36466,13 +36466,13 @@
             <lb type="DefaultLine" corresp="#f3_eSc_line_df5e1957_ligne_37"/>
             <choice>
                <orig>de sang de Iulle/ auec son yurongnerie et execrable paillardise/ ne de la gourmandi¬</orig>
-               <reg type="intermediary">de sang de Iulle/ auec son yurongnerie et execrable paillardise/ ne de la gourmandi¬</reg>
+               <reg type="intermediary">de sang de Julle/ auec son yvrongnerie et execrable paillardise/ ne de la gourmandi¬</reg>
                <reg type="contemporary">de sang de Iulle/ auec son yurongnerie et execrable paillardise/ ne de la gourmandi¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_36dac96d_ligne_38"/>
             <choice>
                <orig>se et uie detestable de Leon/ ne des enchanteries/ empoisonnemens trahisons parri¬</orig>
-               <reg type="intermediary">se et uie detestable de Leon/ ne des enchanteries/ empoisonnemens trahisons parri¬</reg>
+               <reg type="intermediary">se et vie detestable de Leon/ ne des enchanteries/ empoisonnemens trahisons parri¬</reg>
                <reg type="contemporary">se et uie detestable de Leon/ ne des enchanteries/ empoisonnemens trahisons parri¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_8df85a1f_ligne_39"/>
@@ -36484,7 +36484,7 @@
             <lb type="DefaultLine" corresp="#f3_eSc_line_d5c56cf3_ligne_40"/>
             <choice>
                <orig>Mais mettrons Iesus dung coste uray Filz de Dieu/ chief et Sauueur unicque de</orig>
-               <reg type="intermediary">Mais mettrons Jesus dung coste uray Filz de Dieu/ chief et Sauueur unicque de</reg>
+               <reg type="intermediary">Mais mettrons Jesus d'ung coste vray Filz de Dieu/ chief et Sauveur unicque de</reg>
                <reg type="contemporary">Mais mettrons Iesus dung coste uray Filz de Dieu/ chief et Sauueur unicque de</reg>
             </choice>
          </ab>
@@ -36501,13 +36501,13 @@
             <lb type="DefaultLine" corresp="#f4_eSc_line_109a7a44_ligne_2"/>
             <choice>
                <orig>la saincte eglise quil a faict ⁊ commande. Et de lautre le Pape chief de leglise Rom¬</orig>
-               <reg type="intermediary">la saincte eglise quil a faict et commande. Et de lautre le Pape chief de leglise Rom¬</reg>
+               <reg type="intermediary">la saincte eglise qu'il a faict et commande. Et de l'autre le Pape chief de l'eglise Rom¬</reg>
                <reg type="contemporary">la saincte eglise quil a faict et commande. Et de lautre le Pape chief de leglise Rom¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_4698144c_ligne_3"/>
             <choice>
                <orig>maine ⁊ ses decretz ⁊ ordonnances: affin que les consciences craintiues/ qui ont pen¬</orig>
-               <reg type="intermediary">maine et ses decretz et ordonnances: affin que les consciences craintiues/ qui ont pen¬</reg>
+               <reg type="intermediary">maine et ses decretz et ordonnances: affin que les consciences craintives/ qui ont pen¬</reg>
                <reg type="contemporary">maine et ses decretz et ordonnances: affin que les consciences craintiues/ qui ont pen¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_951cbd4a_ligne_4"/>
@@ -36519,49 +36519,49 @@
             <lb type="DefaultLine" corresp="#f4_eSc_line_2b82b4bc_ligne_5"/>
             <choice>
                <orig>⁊ plus craint de passer les ordonnances papales/ que la loy de Dieu soyent deliurees de</orig>
-               <reg type="intermediary">et plus craint de passer les ordonnances papales/ que la loy de Dieu soyent deliurees de</reg>
+               <reg type="intermediary">et plus craint de passer les ordonnances papales/ que la loy de Dieu soyent delivrees de</reg>
                <reg type="contemporary">et plus craint de passer les ordonnances papales/ que la loy de Dieu soyent deliurees de</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_c1c8fb17_ligne_6"/>
             <choice>
                <orig>ceste tyrannie/ ⁊ que plainement se retournẽt au uray Dieu par nostre Seigneur Iesus/</orig>
-               <reg type="intermediary">ceste tyrannie/ et que plainement se retournẽt au uray Dieu par nostre Seigneur Jesus/</reg>
+               <reg type="intermediary">ceste tyrannie/ et que plainement se retournent au vray Dieu par nostre Seigneur Jesus/</reg>
                <reg type="contemporary">ceste tyrannie/ et que plainement se retournẽt au uray Dieu par nostre Seigneur Iesus/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_d224e120_ligne_7"/>
             <choice>
                <orig>suyuant iceluy seul/ ⁊ sarrestant a sa saincte parolle/ tellement que tout le monde deliure</orig>
-               <reg type="intermediary">suyuant iceluy seul/ et sarrestant a sa saincte parolle/ tellement que tout le monde deliure</reg>
+               <reg type="intermediary">suyvant iceluy seul/ et s'arrestant a sa saincte parolle/ tellement que tout le monde delivre</reg>
                <reg type="contemporary">suyuant iceluy seul/ et sarrestant a sa saincte parolle/ tellement que tout le monde deliure</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_90c5d787_ligne_8"/>
             <choice>
                <orig>de lerreur ⁊ abusion papisticque/ delaissant uanite/ suyue la uerite/ retournant au uray</orig>
-               <reg type="intermediary">de lerreur et abusion papisticque/ delaissant uanite/ suyue la uerite/ retournant au uray</reg>
+               <reg type="intermediary">de l'erreur et abusion papisticque/ delaissant vanite/ suyve la verite/ retournant au vray</reg>
                <reg type="contemporary">de lerreur et abusion papisticque/ delaissant uanite/ suyue la uerite/ retournant au uray</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_9eb907dc_ligne_9"/>
             <choice>
                <orig>Dieu qui a faict le ciel ⁊ la terre/ ladorant ⁊ seruant a luy seul/ uiuant tous comme freres</orig>
-               <reg type="intermediary">Dieu qui a faict le ciel et la terre/ ladorant et seruant a luy seul/ uiuant tous comme freres</reg>
+               <reg type="intermediary">Dieu qui a faict le ciel et la terre/ l'adorant et servant a luy seul/ vivant tous comme freres</reg>
                <reg type="contemporary">Dieu qui a faict le ciel et la terre/ ladorant et seruant a luy seul/ uiuant tous comme freres</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_8bae408d_ligne_10"/>
             <choice>
                <orig>en uraye charite sans tuer ⁊ meurtrir lung laultre/ comme lon a faict iusques a present</orig>
-               <reg type="intermediary">en uraye charite sans tuer et meurtrir lung laultre/ comme lon a faict iusques a present</reg>
+               <reg type="intermediary">en vraye charite sans tuer et meurtrir l'ung l'aultre/ comme l'on a faict jusques a present</reg>
                <reg type="contemporary">en uraye charite sans tuer et meurtrir lung laultre/ comme lon a faict iusques a present</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_7abf2e2f_ligne_11"/>
             <choice>
                <orig>espanchant le sang innocent/ persecutant Iesus en ses membres/ par feu/ glaiue/ ⁊ aul¬</orig>
-               <reg type="intermediary">espanchant le sang innocent/ persecutant Jesus en ses membres/ par feu/ glaiue/ et aul¬</reg>
+               <reg type="intermediary">espanchant le sang innocent/ persecutant Jesus en ses membres/ par feu/ glaive/ et aul¬</reg>
                <reg type="contemporary">espanchant le sang innocent/ persecutant Iesus en ses membres/ par feu/ glaiue/ et aul¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_905abb88_ligne_12"/>
             <choice>
                <orig>tres tormentz par faulte de congnoistre Iesus ⁊ sa parolle: ⁊ ce a linstigation du Pape ⁊</orig>
-               <reg type="intermediary">tres tormentz par faulte de congnoistre Jesus et sa parolle: et ce a linstigation du Pape et</reg>
+               <reg type="intermediary">tres tormentz par faulte de congnoistre Jesus et sa parolle: et ce a l'instigation du Pape et</reg>
                <reg type="contemporary">tres tormentz par faulte de congnoistre Iesus et sa parolle: et ce a linstigation du Pape et</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_1454bd8b_ligne_13"/>
@@ -36573,61 +36573,61 @@
             <lb type="DefaultLine" corresp="#f4_eSc_line_6730dc7b_ligne_14"/>
             <choice>
                <orig>Dieu plain de toute bonte ⁊ misericorde illumine tellemẽt le coeur dung chascun/ que</orig>
-               <reg type="intermediary">Dieu plain de toute bonte et misericorde illumine tellemẽt le coeur dung chascun/ que</reg>
+               <reg type="intermediary">Dieu plain de toute bonte et misericorde illumine tellement le coeur d'ung chascun/ que</reg>
                <reg type="contemporary">Dieu plain de toute bonte et misericorde illumine tellemẽt le coeur dung chascun/ que</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_46461808_ligne_15"/>
             <choice>
                <orig>tous uoyent ⁊ congnoissent la uerite/ le chemin de uie ⁊ de salut/ ⁊ que tous le tiennent</orig>
-               <reg type="intermediary">tous uoyent et congnoissent la uerite/ le chemin de uie et de salut/ et que tous le tiennent</reg>
+               <reg type="intermediary">tous voyent et congnoissent la verite/ le chemin de vie et de salut/ et que tous le tiennent</reg>
                <reg type="contemporary">tous uoyent et congnoissent la uerite/ le chemin de uie et de salut/ et que tous le tiennent</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_d734509a_ligne_16"/>
             <choice>
                <orig>uiuant tous sainctement en une loy/ foy/ ⁊ Euãgile de uerite en lhõneur ⁊ gloire du nom</orig>
-               <reg type="intermediary">uiuant tous sainctement en une loy/ foy/ et Euãgile de uerite en lhõneur et gloire du nom</reg>
+               <reg type="intermediary">vivant tous sainctement en une loy/ foy/ et Evangile de verite en l'honneur et gloire du nom</reg>
                <reg type="contemporary">uiuant tous sainctement en une loy/ foy/ et Euãgile de uerite en lhõneur et gloire du nom</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_18e80ded_ligne_17"/>
             <choice>
                <orig>de Dieu/ ⁊ edification lung de laultre/ tellement quen Leglise ny aye aultre chief que Ie¬</orig>
-               <reg type="intermediary">de Dieu/ et edification lung de laultre/ tellement quen Leglise ny aye aultre chief que Ie¬</reg>
+               <reg type="intermediary">de Dieu/ et edification l'ung de l'aultre/ tellement quen L'eglise n'y aye aultre chief que Je¬</reg>
                <reg type="contemporary">de Dieu/ et edification lung de laultre/ tellement quen Leglise ny aye aultre chief que Ie¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_49467787_ligne_18"/>
             <choice>
                <orig>sus/ quon ne tienne aultre chose que ce quil a ordonne purement ⁊ simplement: ainsi que</orig>
-               <reg type="intermediary">sus/ quon ne tienne aultre chose que ce quil a ordonne purement et simplement: ainsi que</reg>
+               <reg type="intermediary">sus/ qu'on ne tienne aultre chose que ce qu'il a ordonne purement et simplement: ainsi que</reg>
                <reg type="contemporary">sus/ quon ne tienne aultre chose que ce quil a ordonne purement et simplement: ainsi que</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_74b5ebcb_ligne_19"/>
             <choice>
                <orig>ses bons seruiteurs les sainctz Apostres ⁊ Euangelistes ont presche.</orig>
-               <reg type="intermediary">ses bons seruiteurs les sainctz Apostres et Euangelistes ont presche.</reg>
+               <reg type="intermediary">ses bons serviteurs les sainctz Apostres et Evangelistes ont presche.</reg>
                <reg type="contemporary">ses bons seruiteurs les sainctz Apostres et Euangelistes ont presche.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_59c7b05a_ligne_20"/>
             <choice>
                <orig>Le bon plaisir du Seigneur de tous/ qui tout a faict/ soit par sa bõte enuoyer par tou¬</orig>
-               <reg type="intermediary">Le bon plaisir du Seigneur de tous/ qui tout a faict/ soit par sa bõte enuoyer par tou¬</reg>
+               <reg type="intermediary">Le bon plaisir du Seigneur de tous/ qui tout a faict/ soit par sa bonte envoyer par tou¬</reg>
                <reg type="contemporary">Le bon plaisir du Seigneur de tous/ qui tout a faict/ soit par sa bõte enuoyer par tou¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_d19e4419_ligne_21"/>
             <choice>
                <orig>te la terre urays annonciateurs du S. Euangile/ qui sainctement ⁊ purement preschent</orig>
-               <reg type="intermediary">te la terre urays annonciateurs du S. Euangile/ qui sainctement et purement preschent</reg>
+               <reg type="intermediary">te la terre vrays annonciateurs du S. Evangile/ qui sainctement et purement preschent</reg>
                <reg type="contemporary">te la terre urays annonciateurs du S. Euangile/ qui sainctement et purement preschent</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_66fa98c4_ligne_22"/>
             <choice>
                <orig>la uerite/ comme le uray sauueur Iesus/ a cõmande sans y riens mesler/ faisant que tous</orig>
-               <reg type="intermediary">la uerite/ comme le uray sauueur Jesus/ a cõmande sans y riens mesler/ faisant que tous</reg>
+               <reg type="intermediary">la verite/ comme le vray sauveur Jesus/ a commande sans y riens mesler/ faisant que tous</reg>
                <reg type="contemporary">la uerite/ comme le uray sauueur Iesus/ a cõmande sans y riens mesler/ faisant que tous</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_a6f8608d_ligne_23"/>
             <choice>
                <orig>prennent la uerite/ ⁊ que tous soyõs amenez au troupeau de Iesus faictz tous ung trou¬</orig>
-               <reg type="intermediary">prennent la uerite/ et que tous soyõs amenez au troupeau de Jesus faictz tous ung trou¬</reg>
+               <reg type="intermediary">prennent la verite/ et que tous soyons amenez au troupeau de Jesus faictz tous ung trou¬</reg>
                <reg type="contemporary">prennent la uerite/ et que tous soyõs amenez au troupeau de Iesus faictz tous ung trou¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_ba1ece72_ligne_24"/>
@@ -36639,7 +36639,7 @@
             <lb type="DefaultLine" corresp="#f4_eSc_line_722c78f5_ligne_25"/>
             <choice>
                <orig>meine ⁊ conduise tous par le droict chemin iusques a la fin. Amen.</orig>
-               <reg type="intermediary">meine et conduise tous par le droict chemin iusques a la fin. Amen.</reg>
+               <reg type="intermediary">meine et conduise tous par le droict chemin jusques a la fin. Amen.</reg>
                <reg type="contemporary">meine et conduise tous par le droict chemin iusques a la fin. Amen.</reg>
             </choice>
          </ab>
@@ -36662,25 +36662,25 @@
             <lb type="DefaultLine" corresp="#f5_eSc_line_b1e29623_ligne_4"/>
             <choice>
                <orig>¶ Ie suis ung</orig>
-               <reg type="intermediary">¶ Ie suis ung</reg>
+               <reg type="intermediary">¶ Je suis ung</reg>
                <reg type="contemporary">¶ Ie suis ung</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_b7417e27_ligne_5"/>
             <choice>
                <orig>uer ⁊ non pas hõ¬</orig>
-               <reg type="intermediary">uer et non pas hõ¬</reg>
+               <reg type="intermediary">ver et non pas hom¬</reg>
                <reg type="contemporary">uer et non pas hõ¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_993fa05d_ligne_6"/>
             <choice>
                <orig>me/ la derisiõ des</orig>
-               <reg type="intermediary">me/ la derisiõ des</reg>
+               <reg type="intermediary">me/ la derision des</reg>
                <reg type="contemporary">me/ la derisiõ des</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_9108c3c5_ligne_7"/>
             <choice>
                <orig>hõmes/ ⁊ le mes¬</orig>
-               <reg type="intermediary">hõmes/ et le mes¬</reg>
+               <reg type="intermediary">hommes/ et le mes¬</reg>
                <reg type="contemporary">hõmes/ et le mes¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_2281b082_ligne_8"/>
@@ -36698,13 +36698,13 @@
             <lb type="DefaultLine" corresp="#f5_eSc_line_554e4ccd_ligne_10"/>
             <choice>
                <orig>¶ Le filz de lhõ¬</orig>
-               <reg type="intermediary">¶ Le filz de lhõ¬</reg>
+               <reg type="intermediary">¶ Le filz de l'hom¬</reg>
                <reg type="contemporary">¶ Le filz de lhõ¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_09d44cde_ligne_11"/>
             <choice>
                <orig>me nest point ue¬</orig>
-               <reg type="intermediary">me nest point ue¬</reg>
+               <reg type="intermediary">me n'est point ve¬</reg>
                <reg type="contemporary">me nest point ue¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_5a6b464b_ligne_12"/>
@@ -36716,19 +36716,19 @@
             <lb type="DefaultLine" corresp="#f5_eSc_line_3dc24aaa_ligne_13"/>
             <choice>
                <orig>uy: mais pour ser</orig>
-               <reg type="intermediary">uy: mais pour ser</reg>
+               <reg type="intermediary">vy: mais pour ser¬</reg>
                <reg type="contemporary">uy: mais pour ser</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_0f9cba8b_ligne_14"/>
             <choice>
                <orig>uir. Mat.20.</orig>
-               <reg type="intermediary">uir. Mat.20.</reg>
+               <reg type="intermediary">vir. Mat.20.</reg>
                <reg type="contemporary">uir. Mat.20.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_34cc2a62_ligne_15"/>
             <choice>
                <orig>¶ Christ sest a¬</orig>
-               <reg type="intermediary">¶ Christ sest a¬</reg>
+               <reg type="intermediary">¶ Christ s'est a¬</reg>
                <reg type="contemporary">¶ Christ sest a¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_97341feb_ligne_16"/>
@@ -36746,7 +36746,7 @@
             <lb type="DefaultLine" corresp="#f5_eSc_line_4696cf94_ligne_18"/>
             <choice>
                <orig>forme du seruiteͬ/</orig>
-               <reg type="intermediary">forme du seruiteͬ/</reg>
+               <reg type="intermediary">forme du serviteur/</reg>
                <reg type="contemporary">forme du seruiteͬ/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_9614ad8b_ligne_19"/>
@@ -36758,19 +36758,19 @@
             <lb type="DefaultLine" corresp="#f5_eSc_line_2cf41df4_ligne_20"/>
             <choice>
                <orig>tude des hõmes/</orig>
-               <reg type="intermediary">tude des hõmes/</reg>
+               <reg type="intermediary">tude des hommes/</reg>
                <reg type="contemporary">tude des hõmes/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_3cdcc33d_ligne_21"/>
             <choice>
                <orig>⁊ trouue en habit</orig>
-               <reg type="intermediary">et trouue en habit</reg>
+               <reg type="intermediary">et trouve en habit</reg>
                <reg type="contemporary">et trouue en habit</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_d155fde5_ligne_22"/>
             <choice>
                <orig>cõe/ hõme/ il sest</orig>
-               <reg type="intermediary">cõe/ hõme/ il sest</reg>
+               <reg type="intermediary">come/ homme/ il s'est</reg>
                <reg type="contemporary">cõe/ hõme/ il sest</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_953f8e35_ligne_23"/>
@@ -36788,7 +36788,7 @@
             <lb type="DefaultLine" corresp="#f5_eSc_line_75ab9aab_ligne_25"/>
             <choice>
                <orig>obediẽt iusques a</orig>
-               <reg type="intermediary">obediẽt iusques a</reg>
+               <reg type="intermediary">obedient jusques a</reg>
                <reg type="contemporary">obediẽt iusques a</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_39164810_ligne_26"/>
@@ -36824,79 +36824,79 @@
             <lb type="DefaultLine" corresp="#f5_eSc_line_7477f564_ligne_31"/>
             <choice>
                <orig>uous laissant exemple: affin que ensuyuez ses uoyes. 1.Pet.2.</orig>
-               <reg type="intermediary">uous laissant exemple: affin que ensuyuez ses uoyes. 1.Pet.2.</reg>
+               <reg type="intermediary">vous laissant exemple: affin que ensuyvez ses voyes. 1.Pet.2.</reg>
                <reg type="contemporary">uous laissant exemple: affin que ensuyuez ses uoyes. 1.Pet.2.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_0cfea122_ligne_32"/>
             <choice>
                <orig>¶ Il ny a en luy ne beaulte/ ne forme/ mesprise ⁊ plus uilipende que tous. Item nous la¬</orig>
-               <reg type="intermediary">¶ Il ny a en luy ne beaulte/ ne forme/ mesprise et plus uilipende que tous. Item nous la¬</reg>
+               <reg type="intermediary">¶ Il n'y a en luy ne beaulte/ ne forme/ mesprise et plus vilipende que tous. Item nous l'a¬</reg>
                <reg type="contemporary">¶ Il ny a en luy ne beaulte/ ne forme/ mesprise et plus uilipende que tous. Item nous la¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_6ce7da67_ligne_33"/>
             <choice>
                <orig>uons estime comme ung lepreux/ ⁊ auons este gueris par la basture diceluy. Esaye.53.</orig>
-               <reg type="intermediary">uons estime comme ung lepreux/ et auons este gueris par la basture diceluy. Esaye.53.</reg>
+               <reg type="intermediary">vons estime comme ung lepreux/ et avons este gueris par la basture d'iceluy. Esaye.53.</reg>
                <reg type="contemporary">uons estime comme ung lepreux/ et auons este gueris par la basture diceluy. Esaye.53.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_acb23297_ligne_34"/>
             <choice>
                <orig>¶ Le Pape. ¶ Nous auos la seigneurie de toute la terre/ car a nous appartiẽt</orig>
-               <reg type="intermediary">¶ Le Pape. ¶ Nous auos la seigneurie de toute la terre/ car a nous appartiẽt</reg>
+               <reg type="intermediary">¶ Le Pape. ¶ Nous avons la seigneurie de toute la terre/ car a nous appartient</reg>
                <reg type="contemporary">¶ Le Pape. ¶ Nous auos la seigneurie de toute la terre/ car a nous appartiẽt</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_0f1516a6_ligne_35"/>
             <choice>
                <orig>iuger de toutes causes: ⁊ a nul de iuger de nous/ ne de nostre iugement. 9.q.3. Cuncta.</orig>
-               <reg type="intermediary">iuger de toutes causes: et a nul de iuger de nous/ ne de nostre iugement. 9.q.3. Cuncta.</reg>
+               <reg type="intermediary">juger de toutes causes: et a nul de juger de nous/ ne de nostre jugement. 9.q.3. Cuncta.</reg>
                <reg type="contemporary">iuger de toutes causes: et a nul de iuger de nous/ ne de nostre iugement. 9.q.3. Cuncta.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_5ca33e05_ligne_36"/>
             <choice>
                <orig>Nemo aliorũ facta. Car nous auons tous les droictz cachez en larche de nostre coeur.</orig>
-               <reg type="intermediary">Nemo aliorũ facta. Car nous auons tous les droictz cachez en larche de nostre coeur.</reg>
+               <reg type="intermediary">Nemo aliorum facta. Car nous avons tous les droictz cachez en l'arche de nostre coeur.</reg>
                <reg type="contemporary">Nemo aliorũ facta. Car nous auons tous les droictz cachez en larche de nostre coeur.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_3d64237f_ligne_37"/>
             <choice>
                <orig>Nõ pas de pur homme: mais du uray Dieu sommes lieutenãs en terre. c. quãto de trans¬</orig>
-               <reg type="intermediary">Nõ pas de pur homme: mais du uray Dieu sommes lieutenãs en terre. c. quãto de trans¬</reg>
+               <reg type="intermediary">Non pas de pur homme: mais du vray Dieu sommes lieutenans en terre. c. quanto de trans¬</reg>
                <reg type="contemporary">Nõ pas de pur homme: mais du uray Dieu sommes lieutenãs en terre. c. quãto de trans¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_49a989e2_ligne_38"/>
             <choice>
                <orig>la. Nous sommes assis sur la chaire de p̃minẽce. de sepul. suꝑ ca. Tous princes romains</orig>
-               <reg type="intermediary">la. Nous sommes assis sur la chaire de p̃minẽce. de sepul. suꝑ ca. Tous princes romains</reg>
+               <reg type="intermediary">la. Nous sommes assis sur la chaire de preminence. de sepul. super ca. Tous princes romains</reg>
                <reg type="contemporary">la. Nous sommes assis sur la chaire de p̃minẽce. de sepul. suꝑ ca. Tous princes romains</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_ad18e64a_ligne_39"/>
             <choice>
                <orig>ont adore nr̃e siege. de iureiur. in Clemẽ. Roma. prin. ¶ Le Pape se dit seruus seruorũ:</orig>
-               <reg type="intermediary">ont adore nr̃e siege. de iureiur. in Clemẽ. Roma. prin. ¶ Le Pape se dit seruus seruorũ:</reg>
+               <reg type="intermediary">ont adore notre siege. de jurejur. in Clemen. Roma. prin. ¶ Le Pape se dit servus servorum:</reg>
                <reg type="contemporary">ont adore nr̃e siege. de iureiur. in Clemẽ. Roma. prin. ¶ Le Pape se dit seruus seruorũ:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_b048c736_ligne_40"/>
             <choice>
                <orig>affin quõ cõgnoisse qͥl est le uray Chanaã qͥ est mauldict. Geñ.9. Et en ce monstre clere¬</orig>
-               <reg type="intermediary">affin quõ cõgnoisse quil est le uray Chanaã qui est mauldict. Geñ.9. Et en ce monstre clere¬</reg>
+               <reg type="intermediary">affin qu'on congnoisse qu'il est le vray Chanaan qui est mauldict. Geñ.9. Et en ce monstre clere¬</reg>
                <reg type="contemporary">affin quõ cõgnoisse quil est le uray Chanaã qui est mauldict. Geñ.9. Et en ce monstre clere¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_f6c9b5c9_ligne_41"/>
             <choice>
                <orig>ment son hypocrisie/ ueu quil usurpe autorite sur tous. Et se faict appeller sanctissimus</orig>
-               <reg type="intermediary">ment son hypocrisie/ ueu quil usurpe autorite sur tous. Et se faict appeller sanctissimus</reg>
+               <reg type="intermediary">ment son hypocrisie/ veu qu'il usurpe autorite sur tous. Et se faict appeller sanctissimus</reg>
                <reg type="contemporary">ment son hypocrisie/ ueu quil usurpe autorite sur tous. Et se faict appeller sanctissimus</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_e1166252_ligne_42"/>
             <choice>
                <orig>pr̃/ pere tressainct/ cõe estant sur le pere/ lequel Iesus appelle pr̃ sancte. Io.17. ¶ Il a prins</orig>
-               <reg type="intermediary">pr̃/ pere tressainct/ cõe estant sur le pere/ lequel Jesus appelle pr̃ sancte. Io.17. ¶ Il a prins</reg>
+               <reg type="intermediary">pater/ pere tressainct/ come estant sur le pere/ lequel Jesus appelle pater sancte. Jo.17. ¶ Il a prins</reg>
                <reg type="contemporary">pr̃/ pere tressainct/ cõe estant sur le pere/ lequel Iesus appelle pr̃ sancte. Io.17. ¶ Il a prins</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_f6f880de_ligne_43"/>
             <choice>
                <orig>ce nom des idolatres cõme Paulus pere de Aphricanus/ estoit appelle. Macrobius de</orig>
-               <reg type="intermediary">ce nom des idolatres cõme Paulus pere de Aphricanus/ estoit appelle. Macrobius de</reg>
+               <reg type="intermediary">ce nom des idolatres comme Paulus pere de Aphricanus/ estoit appelle. Macrobius de</reg>
                <reg type="contemporary">ce nom des idolatres cõme Paulus pere de Aphricanus/ estoit appelle. Macrobius de</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_2d0ef37a_ligne_44"/>
