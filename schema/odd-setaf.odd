@@ -176,14 +176,14 @@
                      </fileDesc>
                      <encodingDesc>
                         <projectDesc>
-                           <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF, dirigé par la Prof·e Daniela Solfaroli Camillocci (IHR) et financé par le FNS : <ref target="https://data.snf.ch/grants/grant/205056"/>. </p>
+                           <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF, financé par le FNS : <ref target="https://data.snf.ch/grants/grant/205056"/>.</p>
                         </projectDesc>
                         <editorialDecl>
                            <correction>
-                              <p>Voir le guide de transcription du projet SETAF : <ref target="https://hal.science/hal-04281804"/>. La segmentation a été produite manuellement et la transcription issue de l'OCR a été corrigée. </p>
+                              <p>Voir le guide de transcription du projet SETAF : <ref target="https://hal.science/hal-04281804"/>. La transcription issue de l'OCR a été corrigée.</p>
                            </correction>
                            <normalization>
-                              <p>Voir le guide de normalisation du projet SETAF. En ce qui concerne la régularisation intermédiaire, cette transcription a été normalisée jusqu'à la page x. En ce qui concerne la régularisation contemporaine, cette transcription n'a pas encore été normalisée.</p>
+                              <p>Voir le guide de normalisation du projet SETAF : en cours de publication.</p>
                            </normalization>
                         </editorialDecl>
                         <appInfo>
@@ -234,7 +234,7 @@
          <div xml:id="Bibliography">
             <head>Bibliography</head>
             <listBibl>
-               <bibl xml:id="setaf">
+               <bibl xml:id="SETAF2023">
                   <author>Sonia Solfrini, Geneviève Gross, Brigitte Roux, Nathalie Szczech, Pierre-Olivier Beaulnes, Aurélia M. Oliveira and Daniela Solfaroli Camillocci.</author>
                   <title level="a">Étudier le « groupe de Neuchâtel » : De l'édition des Faits à un corpus numérique de la première Réforme romande.</title>
                   <title level="m">Colloque Humanistica 2023,</title>
@@ -243,21 +243,33 @@
                   <ref target="https://hal.science/hal-04097381/"
                      >https://hal.science/hal-04097381/</ref>
                </bibl>
-               <bibl xml:id="Kraken2019">
-                  <author>Benjamin Kiessling.</author>
-                  <title level="a">Kraken - an Universal Text Recognizer for the Humanities.</title>
-                  <title level="m">Digital Humanities 2019 Conference Abstracts.</title>
-                  <date when="2019-07">July 2019,</date>
-                  <pubPlace>Utrecht, The Netherlands,</pubPlace>
-                  <ref target="https://dev.clariah.nl/files/dh2019/boa/0673.html"
-                     >https://dev.clariah.nl/files/dh2019/boa/0673.html</ref>
+               <bibl xml:id="Scheithauer2023">
+                  <author>Hugo Scheithauer, Alix Chagué and Laurent Romary.</author>
+                  <title level="a">Which TEI representation for the output of automatic transcriptions and their metadata? An illustrated proposition.</title>
+                  <title level="m">Version 2,</title>
+                  <date when="2023-09">Sep. 2023,</date>
+                  <ref target="https://inria.hal.science/hal-04001303"
+                     >https://inria.hal.science/hal-04001303</ref>
                </bibl>
-               <bibl xml:id="segmonto2021">
+               <bibl xml:id="BVH2017">
+                  <author>Nicole Dufournaud et al.</author>
+                  <title level="a">Manuel d’encodage XML-TEI Renaissance et temps modernes (Imprimés - manuscrits).</title>
+                  <title level="m">Version 4,</title>
+                  <date when="2017-10-09">09 octobre 2017,</date>
+                  <ref target="https://www.bvh.univ-tours.fr/XML-TEI/index.asp"
+                     >https://www.bvh.univ-tours.fr/XML-TEI/index.asp</ref>
+               </bibl>
+               <bibl xml:id="Gallicorpora">
+                  <author>Benoît Sagot, Laurent Romary, Rachel Bawden, Pedro Javier Ortiz Suárez, Simon Gabay, Ariane Pinche, and Jean-Baptiste Camps.</author>
+                  <title level="a">Gallic(orpor)a: extraction, annotation et diffusion de l'information textuelle et visuelle en diachronie longue.</title>
+                  <ref target="https://github.com/Gallicorpora/Gallicorpora.github.io"
+                     >https://github.com/Gallicorpora/Gallicorpora.github.io</ref>
+               </bibl>
+               <bibl xml:id="Segmonto2021">
                   <author>Simon Gabay, Jean-Baptiste Camps, Ariane Pinche and Claire Jahan.</author>
                   <title level="a">SegmOnto: common vocabulary and practices for analysing the layout of
                      manuscripts (and more).</title>
-                  <title level="m">1st International Workshop on Computational Paleography (IWCP@ICDAR
-                     2021).</title>
+                  <title level="m">1st International Workshop on Computational Paleography (IWCP@ICDAR 2021).</title>
                   <date when="2021-09">Sep. 2021,</date>
                   <pubPlace>Lausanne, Switzerland,</pubPlace>
                   <ref target="https://hal.archives-ouvertes.fr/hal-03336528"
@@ -272,13 +284,14 @@
                   <ref target="https://ieeexplore.ieee.org/document/8893029"
                      >https://ieeexplore.ieee.org/document/8893029</ref>
                </bibl>
-               <bibl xml:id="Scheithauer2023">
-                  <author>Hugo Scheithauer, Alix Chagué and Laurent Romary.</author>
-                  <title level="a">Which TEI representation for the output of automatic transcriptions and their metadata? An illustrated proposition.</title>
-                  <title level="m">Version 2,</title>
-                  <date when="2023-09">Sep. 2023,</date>
-                  <ref target="https://inria.hal.science/hal-04001303"
-                     >https://inria.hal.science/hal-04001303</ref>
+               <bibl xml:id="Kraken2019">
+                  <author>Benjamin Kiessling.</author>
+                  <title level="a">Kraken - an Universal Text Recognizer for the Humanities.</title>
+                  <title level="m">Digital Humanities 2019 Conference Abstracts.</title>
+                  <date when="2019-07">July 2019,</date>
+                  <pubPlace>Utrecht, The Netherlands,</pubPlace>
+                  <ref target="https://dev.clariah.nl/files/dh2019/boa/0673.html"
+                     >https://dev.clariah.nl/files/dh2019/boa/0673.html</ref>
                </bibl>
                <bibl xml:id="TEIguidelines">
                   <editor>TEI Consortium.</editor>
