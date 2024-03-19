@@ -560,7 +560,7 @@
       <surface xml:id="f2" ulx="0" uly="0" lrx="2479" lry="3508"/>
       <surface xml:id="f3" ulx="0" uly="0" lrx="2479" lry="3508">
          <zone xml:id="f3_eSc_textblock_6e422183"
-               type="GraphicZone"
+               type="DropCapitalZone"
                n="1"
                ulx="227"
                uly="583"
@@ -36269,6 +36269,14 @@
                   <orig>par le S. Esperit.</orig>
                   <reg type="intermediary">par le S. Esperit.</reg>
                   <reg type="contemporary">par le S. Esperit.</reg>
+               </choice>
+            </hi>
+            <hi>
+               <lb type="DropCapitalLine" corresp="#f3_eSc_line_a82942d6_ligne_2"/>
+               <choice>
+                  <orig>L</orig>
+                  <reg type="intermediary">L</reg>
+                  <reg type="contemporary">L</reg>
                </choice>
             </hi>
             <lb type="DefaultLine" corresp="#f3_eSc_line_20600ad2_ligne_5"/>
