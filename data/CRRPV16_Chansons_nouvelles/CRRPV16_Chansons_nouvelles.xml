@@ -12303,7 +12303,7 @@
             <lb type="DefaultLine" corresp="#f6_eSc_line_00e06eec_ligne_14"/>
             <choice>
                <orig>Par qui leglise/ si tresmal est regie/</orig>
-               <reg type="intermediary">Par qui l'eglise/ si tresmal est regie/</reg>
+               <reg type="intermediary">Par qui l'eglise/ si tres mal est regie/</reg>
                <reg type="advanced">Par qui l'église/ si très mal est régie/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f6_eSc_line_2d075132_ligne_15"/>
@@ -14640,7 +14640,7 @@
             <lb type="DefaultLine" corresp="#f15_eSc_line_9ba4e39f_ligne_25"/>
             <choice>
                <orig>Gloire au seigñr aux treshaultz lieux:</orig>
-               <reg type="intermediary">Gloire au seigneur aux treshaultz lieux:</reg>
+               <reg type="intermediary">Gloire au seigneur aux tres haultz lieux:</reg>
                <reg type="advanced">Gloire au seigneur aux très hauts lieux:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f15_eSc_line_d12df2dc_ligne_26"/>
