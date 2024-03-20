@@ -219,7 +219,7 @@
                               <term type="segmentation_quality">gold</term>
                               <term type="transcription_quality">gold</term>
                               <term type="intermediary_reg_quality">not applicable</term>
-                              <term type="contemporary_reg_quality">not applicable</term>
+                              <term type="advanced_reg_quality">not applicable</term>
                               <term type="ling_annotation_quality">not applicable</term>
                            </keywords>
                         </textClass>
@@ -1141,7 +1141,7 @@
                      <attDef ident="type" mode="change">
                         <valList mode="add" type="closed">
                            <valItem ident="intermediary"/>
-                           <valItem ident="contemporary"/>
+                           <valItem ident="advanced"/>
                         </valList>
                      </attDef>
                   </attList>
@@ -1246,7 +1246,7 @@
                            <valItem ident="segmentation_quality"/>
                            <valItem ident="transcription_quality"/>
                            <valItem ident="intermediary_reg_quality"/>
-                           <valItem ident="contemporary_reg_quality"/>
+                           <valItem ident="advanced_reg_quality"/>
                            <valItem ident="ling_annotation_quality"/>
                         </valList>
                      </attDef>
