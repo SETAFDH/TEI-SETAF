@@ -11697,8 +11697,8 @@
             <lb type="DefaultLine" corresp="#f4_eSc_line_01f912d3_ligne_7"/>
             <choice>
                <orig>Par Iesus Christ plaisant</orig>
-               <reg type="intermediary">Par Iesus Christ plaisant</reg>
-               <reg type="advanced">Par Jésus Christ plaisant</reg>
+               <reg type="intermediary">Par Jesus Christ plaisant</reg>
+               <reg type="advanced">Par Jésus-Christ plaisant</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_80699306_ligne_8"/>
             <choice>
@@ -11764,7 +11764,7 @@
             <choice>
                <orig>Iesus Christ se fist homme/</orig>
                <reg type="intermediary">Jesus Christ se fist homme/</reg>
-               <reg type="advanced">Jésus Christ se fit homme/</reg>
+               <reg type="advanced">Jésus-Christ se fit homme/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f4_eSc_line_81d15af6_ligne_19"/>
             <choice>
@@ -13964,8 +13964,8 @@
             <lb type="DefaultLine" corresp="#f13_eSc_line_b959d18e_ligne_5"/>
             <choice>
                <orig>Iesuchrist qui est mort pour tous.</orig>
-               <reg type="intermediary">Jesuchrist qui est mort pour tous.</reg>
-               <reg type="advanced">Jésus Christ qui est mort pour tous.</reg>
+               <reg type="intermediary">Jesus christ qui est mort pour tous.</reg>
+               <reg type="advanced">Jésus-Christ qui est mort pour tous.</reg>
             </choice>
             <hi>
                <lb type="HeadingLine" corresp="#f13_eSc_line_b324b29b_ligne_6"/>
@@ -14278,7 +14278,7 @@
             <choice>
                <orig>Iesus christ nostre redempteur/</orig>
                <reg type="intermediary">Jesus christ nostre redempteur/</reg>
-               <reg type="advanced">Jésus Christ notre rédempteur/</reg>
+               <reg type="advanced">Jésus-Christ notre rédempteur/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f14_eSc_line_7b4f4516_ligne_10"/>
             <choice>
