@@ -12390,14 +12390,14 @@
             <lb type="DefaultLine" corresp="#f7_eSc_line_61916d7d_ligne_2"/>
             <choice>
                <orig>¶ Toꝰ mes chasteaulx/ prieurez/ autelz/ chapel</orig>
-               <reg type="intermediary">¶ Tous mes chasteaulx/ prieurez/ autelz/ chapel</reg>
-               <reg type="advanced">¶ Tous mes châteaux/ prieurés/ autels/ chapel</reg>
+               <reg type="intermediary">¶ Tous mes chasteaulx/ prieurez/ autelz/ chapel¬</reg>
+               <reg type="advanced">¶ Tous mes châteaux/ prieurés/ autels/ chapel¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f7_eSc_line_4a41dc24_ligne_3"/>
             <choice>
                <orig>Clochiers ⁊ croix/ monasteres ⁊ cures: (les/</orig>
-               <reg type="intermediary">¬les/ Clochiers et croix/ monasteres et cures:</reg>
-               <reg type="advanced">¬les/ clochers et croix/ monastères et curés:</reg>
+               <reg type="intermediary">les/ Clochiers et croix/ monasteres et cures:</reg>
+               <reg type="advanced">les/ clochers et croix/ monastères et curés:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f7_eSc_line_8b9cf27f_ligne_4"/>
             <choice>
@@ -12631,7 +12631,7 @@
             <lb type="DefaultLine" corresp="#f8_eSc_line_d4506adb_ligne_14"/>
             <choice>
                <orig>(poinct</orig>
-               <reg type="intermediary">(poinct</reg>
+               <reg type="intermediary">poinct</reg>
                <reg type="advanced">point</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f8_eSc_line_c39c2a48_ligne_15"/>
@@ -12709,7 +12709,7 @@
             <lb type="DefaultLine" corresp="#f8_eSc_line_6b576f9f_ligne_27"/>
             <choice>
                <orig>(dernier</orig>
-               <reg type="intermediary">(dernier</reg>
+               <reg type="intermediary">dernier</reg>
                <reg type="advanced">dernier</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f8_eSc_line_5d7e715f_ligne_28"/>
@@ -12960,7 +12960,7 @@
             <lb type="DefaultLine" corresp="#f9_eSc_line_9af07fcb_ligne_24"/>
             <choice>
                <orig>(pardõs:</orig>
-               <reg type="intermediary">(pardons:</reg>
+               <reg type="intermediary">pardons:</reg>
                <reg type="advanced">pardons:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f9_eSc_line_d760f5ca_ligne_25"/>
