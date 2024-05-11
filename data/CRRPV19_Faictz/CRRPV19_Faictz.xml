@@ -43561,7 +43561,7 @@
             <lb type="DefaultLine" corresp="#f31_eSc_line_fbf9a710_ligne_46"/>
             <choice>
                <orig>due/ ⁊ noꝰ ne dõnons pas par pris la grace du S. Esprit: aultremẽt qͥl soit oste cõe imi</orig>
-               <reg type="intermediary">due/ et nous ne donnons pas par pris la grace du S. Esprit: aultrement qu'il soit oste come imi¬</reg>
+               <reg type="intermediary">due/ et nous ne donnons pas par pris la grace du Sainct Esprit: aultrement qu'il soit oste come imi¬</reg>
                <reg type="advanced">due/ et noꝰ ne dõnons pas par pris la grace du S. Esprit: aultremẽt quil soit oste cõe imi</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f31_eSc_line_7814cc18_ligne_47"/>
@@ -43796,7 +43796,7 @@
             <lb type="DefaultLine" corresp="#f32_eSc_line_24006eeb_ligne_30"/>
             <choice>
                <orig>Ioan.7. ¶ Cecy ont suyui les urays disciples de Iesus Christ non pas Iudas</orig>
-               <reg type="intermediary">Ioan.7. ¶ Cecy ont suyvi les vrays disciples de Jesus Christ non pas Judas</reg>
+               <reg type="intermediary">Joan.7. ¶ Cecy ont suyvi les vrays disciples de Jesus Christ non pas Judas</reg>
                <reg type="advanced">Ioan.7. ¶ Cecy ont suyui les urays disciples de Iesus Christ non pas Iudas</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f32_eSc_line_c837b3c2_ligne_31"/>
@@ -44021,7 +44021,7 @@
             <lb type="DefaultLine" corresp="#f33_eSc_line_c6ad1291_ligne_28"/>
             <choice>
                <orig>Iam uero. Et pourtant noꝰ uoulons quon baille la .x. partie de toutes choses/ soit</orig>
-               <reg type="intermediary">Jam uero. Et pourtant nous voulons qu'on baille la .x. partie de toutes choses/ soit</reg>
+               <reg type="intermediary">Jam vero. Et pourtant nous voulons qu'on baille la .x. partie de toutes choses/ soit</reg>
                <reg type="advanced">Iam uero. Et pourtant noꝰ uoulons quon baille la .x. partie de toutes choses/ soit</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f33_eSc_line_f3ef281f_ligne_29"/>
@@ -45040,7 +45040,7 @@
             <lb type="DefaultLine" corresp="#f36_eSc_line_e11c3cb7_ligne_7"/>
             <choice>
                <orig>de la chair/ combien plus fort le sang de Christ: qui par le S. Esperit sest offert a</orig>
-               <reg type="intermediary">de la chair/ combien plus fort le sang de Christ: qui par le Sainct Esperit sest offert a</reg>
+               <reg type="intermediary">de la chair/ combien plus fort le sang de Christ: qui par le Sainct Esperit s'est offert a</reg>
                <reg type="advanced">de la chair/ combien plus fort le sang de Christ: qui par le S. Esperit sest offert a</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f36_eSc_line_12630cad_ligne_8"/>
@@ -45464,9 +45464,9 @@
             </choice>
             <lb type="DefaultLine" corresp="#f37_eSc_line_acfd15b6_ligne_25"/>
             <choice>
-               <orig>aunonce/ lequel il fault que le ciel receoiue iusques au temps de la restitution de</orig>
-               <reg type="intermediary">aunonce/ lequel il fault que le ciel receoive jusques au temps de la restitution de</reg>
-               <reg type="advanced">aunonce/ lequel il fault que le ciel receoiue iusques au temps de la restitution de</reg>
+               <orig>annonce/ lequel il fault que le ciel receoiue iusques au temps de la restitution de</orig>
+               <reg type="intermediary">annonce/ lequel il fault que le ciel receoive jusques au temps de la restitution de</reg>
+               <reg type="advanced">annonce/ lequel il fault que le ciel receoiue iusques au temps de la restitution de</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f37_eSc_line_bbd41f32_ligne_26"/>
             <choice>
@@ -45800,7 +45800,7 @@
             <lb type="DefaultLine" corresp="#f38_eSc_line_83aaeb18_ligne_17"/>
             <choice>
                <orig>me temps/ cest quon attende</orig>
-               <reg type="intermediary">me temps/ c'est quon attende</reg>
+               <reg type="intermediary">me temps/ c'est qu'on attende</reg>
                <reg type="advanced">me temps/ cest quon attende</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f38_eSc_line_bec4f119_ligne_18"/>
@@ -46255,7 +46255,7 @@
             <lb type="DefaultLine" corresp="#f39_eSc_line_3f7461a4_ligne_41"/>
             <choice>
                <orig>chante messe/ cõme il a este cõclud au concile tenu a Cõstance enuiron .1416. La</orig>
-               <reg type="intermediary">chante messe/ comme il a este conclud au concile tenu a Constance enuiron .1416. La</reg>
+               <reg type="intermediary">chante messe/ comme il a este conclud au concile tenu a Constance environ .1416. La</reg>
                <reg type="advanced">chante messe/ cõme il a este cõclud au concile tenu a Cõstance enuiron .1416. La</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f39_eSc_line_7d40777b_ligne_42"/>
