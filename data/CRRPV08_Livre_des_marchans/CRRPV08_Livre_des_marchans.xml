@@ -17874,7 +17874,7 @@
                <lb type="DropCapitalLine" corresp="#f3_eSc_line_7ecb2df9_ligne_2"/>
                <choice>
                   <orig>E¬</orig>
-                  <reg type="intermediary">E</reg>
+                  <reg type="intermediary">E¬</reg>
                   <reg type="advanced">E</reg>
                </choice>
             </hi>
