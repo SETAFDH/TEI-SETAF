@@ -332,7 +332,7 @@
                      xml:id="f1_eSc_line_1c99876e_baseline_10"
                      type="baseline"
                      points="151,685 780,693 "/>
-               <line xml:id="f1_eSc_line_1c99876e_ligne_10">En foy contrict. Rote cela chanteur.</line>
+               <line xml:id="f1_eSc_line_1c99876e_ligne_10">En foy contrict. Note cela chanteur.</line>
             </zone>
             <zone xml:id="f1_eSc_line_7c891192"
                   type="HeadingLine"
@@ -22119,9 +22119,9 @@
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_1c99876e_ligne_10"/>
             <choice>
-               <orig>En foy contrict. Rote cela chanteur.</orig>
-               <reg type="intermediary">En foy contrict. Rote cela chanteur.</reg>
-               <reg type="advanced">En foy contrict. Rote cela chanteur.</reg>
+               <orig>En foy contrict. Note cela chanteur.</orig>
+               <reg type="intermediary">En foy contrict. Note cela chanteur.</reg>
+               <reg type="advanced">En foy contrict. Note cela chanteur.</reg>
             </choice>
             <hi>
                <lb type="HeadingLine" corresp="#f1_eSc_line_7c891192_ligne_11"/>

@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-03-20T12:56:18Z. .
+Schema generated from ODD source 2024-05-24T06:03:09Z. .
 TEI Edition: Version 4.6.0. Last updated on
         4th April 2023, revision f18deffba
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0/
@@ -2920,7 +2920,7 @@ relatedItem element must be empty</sch:report>
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:authority">
-               <sch:assert test="contains(.,'Institut d'Histoire de la Réformation (IHR), université de Genève')">The authority is "Institut d'Histoire de la Réformation (IHR), université de Genève"</sch:assert>
+               <sch:assert test="contains(.,'Institut Histoire de la Réformation (IHR), université de Genève')">The authority is "Institut d'Histoire de la Réformation (IHR), université de Genève"</sch:assert>
             </sch:rule>
          </pattern>
          <ref name="att.global.attribute.xmlid"/>
