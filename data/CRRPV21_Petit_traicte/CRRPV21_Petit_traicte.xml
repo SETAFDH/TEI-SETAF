@@ -38,6 +38,14 @@
                   <ptr type="orcid" target="0009000096969868"/>
                </persName>
             </respStmt>
+            <respStmt>
+               <resp>Normalization (intermediary).</resp>
+               <persName xml:id="POB">
+                  <forename>Pierre-Olivier</forename>
+                  <surname>Beaulnes</surname>
+                  <ptr type="orcid" target="0009000924756017"/>
+               </persName>
+            </respStmt>
          </titleStmt>
          <extent>
             <measure unit="total_images" n="86"/>
@@ -171,7 +179,7 @@
                <term type="form">prose</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
-               <term type="intermediary_reg_quality">not applicable</term>
+               <term type="intermediary_reg_quality">gold</term>
                <term type="advanced_reg_quality">not applicable</term>
                <term type="ling_annotation_quality">not applicable</term>
             </keywords>
@@ -179,6 +187,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2024-06-18" who="#SS">Création du fichier TEI P5.</change>
+         <change when="2024-07-12" who="#POB">Normalisation intermédiaire.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
@@ -49806,7 +49815,7 @@
             <lb type="DefaultLine" corresp="#f66_eSc_line_dac6d684_ligne_2"/>
             <choice>
                <orig>au bõ seruiteur de Dieu Moyse/ par</orig>
-               <reg type="intermediary">au bon seruiteur de Dieu Moyse/ par</reg>
+               <reg type="intermediary">au bon serviteur de Dieu Moyse/ par</reg>
                <reg type="advanced">au bõ seruiteur de Dieu Moyse/ par</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f66_eSc_line_50e7b950_ligne_3"/>
