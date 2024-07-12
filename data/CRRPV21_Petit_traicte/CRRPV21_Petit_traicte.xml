@@ -48569,6 +48569,12 @@
                <reg type="intermediary">siroit: dequoy il est loue et approuve.</reg>
                <reg type="advanced">siroit: dequoy il est loue et approuue.</reg>
             </choice>
+            <lb type="DefaultLine"/>
+            <choice>
+               <orig>Or est il ainsi que Dieu ne auoit</orig>
+               <reg type="intermediary">Or est il ainsi que Dieu ne avoit</reg>
+               <reg type="advanced">Or est il ainsi que Dieu ne auoit</reg>
+            </choice>
             <lb type="DefaultLine" corresp="#f58_eSc_line_76ee1714_ligne_24"/>
             <choice>
                <orig>point dict q̃ on le adorast/ ⁊ que on le</orig>
