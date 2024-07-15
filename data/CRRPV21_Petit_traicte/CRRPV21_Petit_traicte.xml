@@ -187,7 +187,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2024-06-18" who="#SS">Création du fichier TEI P5.</change>
-         <change when="2024-07-12" who="#POB">Normalisation intermédiaire.</change>
+         <change when="2024-07-12" who="#POB">Normalisation intermédiaire terminée.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
