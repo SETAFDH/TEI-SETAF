@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Moralité de la maladie de Chrestienté, a .xiij. personnage. [Neuchâtel] : [Pierre de Vingle], 1533.</title>
+            <title>Moralité de la maladie de Chrestienté, a .xiij. personnages. [Neuchâtel] : [Pierre de Vingle], 1533.</title>
             <respStmt>
                <resp>Direction of SETAF project.</resp>
                <persName xml:id="DSC">
@@ -69,7 +69,7 @@
                            </author>
                            <!-- TITRE -->
                            <title type="complete_title">Moralité de la maladie de Chrestienté, a .xiij. personnages : en laquelle sont monstrez plusieurs abuz, advenuz au monde, par la poison de peché et l'hypocrisie des hereticques. Foy. Esperance. Charité. Chrestienté. Bon oeuvre. Hypocrisie. Peché. Le medecin celeste. Inspiration. L'aveugle. Son varlet. L'apoticaire. Le docteur. Ceste moralité reprend Les abuz de Chrestienté, Celuy qui est en Christ enté Jamais à la mort ne mesprend. Y ME VINT MAL A GRE.</title>
-                           <title type="short_title">Moralité de la maladie de Chrestienté, a .xiij. personnage.</title>
+                           <title type="short_title">Moralité de la maladie de Chrestienté, a .xiij. personnages.</title>
                            <imprint>
                               <!-- LIEU DE PUBLICATION ET IMPRIMEUR -->
                               <pubPlace role="false_address" cert="high" ref="geonames:2988506">Paris</pubPlace>
