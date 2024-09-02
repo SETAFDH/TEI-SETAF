@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Chansons nouvelles demonstrantz plusieurs erreurs et faulsetez. [Neuchâtel] : [Pierre de Vingle], [1534]</title>
+            <title>Chansons nouvelles demonstrantz plusieurs erreurs et faulsetez. [Neuchâtel] : [Pierre de Vingle], [1534?].</title>
             <respStmt>
                <resp>Direction of SETAF project.</resp>
                <persName xml:id="DSC">
@@ -53,7 +53,7 @@
                <msIdentifier xml:id="ZB_Res_1327">
                   <country>Suisse</country>
                   <settlement>Zurich</settlement>
-                  <institution>Zentralbibliothek</institution>
+                  <institution>Zentralbibliothek (ZB)</institution>
                   <idno type="shelfmark">Res 1327</idno>
                </msIdentifier>
                <msContents>

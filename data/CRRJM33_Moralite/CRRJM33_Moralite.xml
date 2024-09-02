@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Moralité de la maladie de chrestienté. [Genève] : [Jean Michel], [1538/1544]</title>
+            <title>Moralité de la maladie de chrestienté. [Genève] : [Jean Michel], [1538/1544].</title>
             <respStmt>
                <resp>Direction of SETAF project.</resp>
                <persName xml:id="DSC">
@@ -53,7 +53,7 @@
                <msIdentifier xml:id="NB_48.V.87">
                   <country>Autriche</country>
                   <settlement>Vienne</settlement>
-                  <institution>Österreichische Nationalbibliothek</institution>
+                  <institution>Österreichische Nationalbibliothek (ONB)</institution>
                   <idno type="shelfmark">48.V.87</idno>
                </msIdentifier>
                <msContents>
@@ -67,7 +67,7 @@
                               </persName>
                            </author>
                            <title type="complete_title">Moralité de la maladie de chrestienté, a .xiij. personnages : en laquelle sont monstrez plusieurs abuz, advenuz au monde, par la poison de peché et lhypocrisie des hereticques. Foy. Le medecin celeste. Esperance. Inspiration. Charité. Laveugle. Chrestienté. Son varlet. Bon oeuvre. Lapoticaire. Hypocrisie. Le docteur. Peché. Ceste moralité reprend les abuz de Chrestienté.</title>
-                           <title type="short_title">Moralité de la maladie de chrestienté</title>
+                           <title type="short_title">Moralité de la maladie de chrestienté.</title>
                            <imprint>
                               <pubPlace cert="medium" ref="geonames:2660646">Genève</pubPlace>
                               <respStmt>

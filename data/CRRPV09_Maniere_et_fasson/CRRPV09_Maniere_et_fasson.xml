@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Maniere et fasson quon tient en baillant le sainct baptesme, et en espousant, et à la saincte Cene. Neuchâtel : Pierre de Vingle, 1533</title>
+            <title>Maniere et fasson qu'on tient en baillant le sainct baptesme, et en espousant, et à la saincte Cene. Neuchâtel : Pierre de Vingle, 1533.</title>
             <respStmt>
                <resp>Direction of SETAF project.</resp>
                <persName xml:id="DSC">
@@ -66,11 +66,11 @@
          </publicationStmt>
          <sourceDesc>
             <msDesc>
-               <msIdentifier xml:id="BGE_Bd_1474_Rés">
+               <msIdentifier xml:id="BGE_Bd_1474">
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <institution>BGE</institution>
-                  <idno type="shelfmark">Bd 1474 Rés</idno>
+                  <institution>Bibliothèque de Genève (BGE)</institution>
+                  <idno type="shelfmark">Bd 1474</idno>
                </msIdentifier>
                <msContents>
                   <p>
@@ -83,7 +83,7 @@
                               </persName>
                            </author>
                            <title type="complete_title">La maniere et fasson qu'on tient en baillant le sainct baptesme en la saincte congregation de Dieu : et en espousant ceulx qui viennent au sainct mariage, et à la saincte Cene de nostre seigneur, es lieux lesquelz Dieu de sa grace a visité, faisant que selon sa saincte parolle ce qu'il a deffendu en son eglise soit rejecté, et ce qu'il a commandé soit tenu. Aussi la maniere comment la predication commence, moyenne et finit, avec les prieres et exhortations qu'on faict à tous et pour tous, et de la visitation des malades.</title>
-                           <title type="short_title">Maniere et fasson qu'on tient en baillant le sainct baptesme, et en espousant, et à la saincte Cene</title>
+                           <title type="short_title">Maniere et fasson qu'on tient en baillant le sainct baptesme, et en espousant, et à la saincte Cene.</title>
                            <imprint>
                               <pubPlace cert="high" ref="geonames:2659496">Neuchâtel</pubPlace>
                               <respStmt>
@@ -113,7 +113,7 @@
                      <bibl>
                         <ref target="http://dx.doi.org/10.3931/e-rara-5945"/>
                         <relatedItem type="original">
-                           <ref target="#BGE_Bd_1474_Rés">e-rara</ref>
+                           <ref target="#BGE_Bd_1474">e-rara</ref>
                         </relatedItem>
                      </bibl>
                   </surrogates>

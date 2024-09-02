@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Moralité de la maladie de Chrestienté, a .xiij. personnages. [Neuchâtel] : [Pierre de Vingle], 1533</title>
+            <title>Moralité de la maladie de Chrestienté, a .xiij. personnage. [Neuchâtel] : [Pierre de Vingle], 1533.</title>
             <respStmt>
                <resp>Direction of SETAF project.</resp>
                <persName xml:id="DSC">
@@ -53,7 +53,7 @@
                <msIdentifier xml:id="ZB_Res_1331">
                   <country>Suisse</country>
                   <settlement>Zurich</settlement>
-                  <institution>ZB</institution>
+                  <institution>Zentralbibliothek (ZB)</institution>
                   <idno type="shelfmark">Res 1331</idno>
                </msIdentifier>
                <msContents>

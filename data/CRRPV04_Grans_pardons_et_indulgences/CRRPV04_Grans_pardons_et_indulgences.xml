@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Grans pardons et indulgences, le tresgrand Jubile de plainiere remission. [Genève] : [Pierre de Vingle], [1533]</title>
+            <title>Grans pardons et indulgences, le tresgrand Jubile de plainiere remission. [Genève] : [Pierre de Vingle], [1533?].</title>
             <respStmt>
                <resp>Direction of SETAF project.</resp>
                <persName xml:id="DSC">
@@ -69,7 +69,7 @@
                <msIdentifier xml:id="BPU_A.F._C_30">
                   <country>Suisse</country>
                   <settlement>Neuchâtel</settlement>
-                  <institution>BPU</institution>
+                  <institution>Bibliothèque publique et universitaire (BPU)</institution>
                   <idno type="shelfmark">A.F. C 30</idno>
                </msIdentifier>
                <msContents>

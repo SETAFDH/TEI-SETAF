@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Petit traicte tres utile et salutaire de la saincte eucharistie. [Neuchâtel]: [Pierre de Vingle], 1534</title>
+            <title>Petit traicté tres utile et salutaire de la saincte eucharistie. [Neuchâtel]: [Pierre de Vingle], 1534.</title>
             <respStmt>
                <resp>Direction of SETAF project.</resp>
                <persName xml:id="DSC">
@@ -69,7 +69,7 @@
                <msIdentifier xml:id="BPU_A.F._C_49_D">
                   <country>Suisse</country>
                   <settlement>Neuchâtel</settlement>
-                  <institution>BPU</institution>
+                  <institution>Bibliothèque publique et universitaire (BPU)</institution>
                   <idno type="shelfmark">A.F. C 49 D</idno>
                </msIdentifier>
                <msContents>
@@ -82,7 +82,7 @@
                                  <forename>Antoine</forename>
                               </persName>
                            </author>
-                           <title type="complete_title">Petit traicte tres utile, et salutaire de la saincte eucharistie de nostre Seigneur Jesuchrist</title>
+                           <title type="complete_title">Petit traicté tres utile, et salutaire de la saincte eucharistie de nostre Seigneur Jesuchrist.</title>
                            <title type="short_title">Petit traicté tres utile, et salutaire de la saincte eucharistie.</title>
                            <imprint>
                               <pubPlace cert="medium" ref="geonames:2659496">Neuchâtel</pubPlace>

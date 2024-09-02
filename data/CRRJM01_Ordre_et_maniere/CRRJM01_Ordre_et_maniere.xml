@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ordre et maniere qu'on tient en administrant les sainctz sacremens. [Genève] : [Jean Michel], 1538</title>
+            <title>Ordre et maniere qu'on tient en administrant les sainctz sacremens. [Genève] : [Jean Michel], 1538.</title>
             <respStmt>
                <resp>Direction of SETAF project.</resp>
                <persName xml:id="DSC">
@@ -66,11 +66,11 @@
          </publicationStmt>
          <sourceDesc>
             <msDesc>
-               <msIdentifier xml:id="BGE_Bd_1473_Rés">
+               <msIdentifier xml:id="BGE_Bd_1473">
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <institution>BGE</institution>
-                  <idno type="shelfmark">Bd 1473 Rés</idno>
+                  <institution>Bibliothèque de Genève (BGE)</institution>
+                  <idno type="shelfmark">Bd 1473</idno>
                </msIdentifier>
                <msContents>
                   <p>
@@ -113,7 +113,7 @@
                      <bibl>
                         <ref target="http://dx.doi.org/10.3931/e-rara-5896"/>
                         <relatedItem type="original">
-                           <ref target="#BGE_Bd_1473_Rés">e-rara</ref>
+                           <ref target="#BGE_Bd_1473">e-rara</ref>
                         </relatedItem>
                      </bibl>
                   </surrogates>

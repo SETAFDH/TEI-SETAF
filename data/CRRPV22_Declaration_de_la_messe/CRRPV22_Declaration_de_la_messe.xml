@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Declaration de la messe. [Neuchâtel] : [Pierre de Vingle], [1534]</title>
+            <title>Declaration de la messe. [Neuchâtel] : [Pierre de Vingle], [1534].</title>
             <respStmt>
                <resp>Direction of SETAF project.</resp>
                <persName xml:id="DSC">
@@ -61,7 +61,7 @@
                <msIdentifier xml:id="BPU_A.F._C_49_B">
                   <country>Suisse</country>
                   <settlement>Neuchâtel</settlement>
-                  <institution>BPU</institution>
+                  <institution>Bibliothèque publique et universitaire (BPU)</institution>
                   <idno type="shelfmark">A.F. C 49 B</idno>
                </msIdentifier>
                <msContents>
@@ -74,7 +74,7 @@
                                  <forename>Antoine</forename>
                               </persName>
                            </author>
-                           <title type="complete_title">Declaration de la messe, Le fruict d'icelle, la cause, et le moyen, pourquoy et comment on la doibt maintenir</title>
+                           <title type="complete_title">Declaration de la messe, Le fruict d'icelle, la cause, et le moyen, pourquoy et comment on la doibt maintenir.</title>
                            <title type="short_title">Declaration de la messe.</title>
                            <imprint>
                               <pubPlace cert="medium" ref="geonames:2659496">Neuchâtel</pubPlace>

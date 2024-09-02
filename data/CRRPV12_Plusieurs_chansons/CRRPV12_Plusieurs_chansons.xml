@@ -50,11 +50,11 @@
          </publicationStmt>
          <sourceDesc>
             <msDesc>
-               <msIdentifier xml:id="BGE_Bd_1475_Rés">
+               <msIdentifier xml:id="BGE_Bd_1475">
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <institution>BGE</institution>
-                  <idno type="shelfmark">Bd 1475 Rés</idno>
+                  <institution>Bibliothèque de Genève (BGE)</institution>
+                  <idno type="shelfmark">Bd 1475</idno>
                </msIdentifier>
                <msContents>
                   <p>
@@ -69,7 +69,7 @@
                            </author>
                            <!-- TITRE -->
                            <title type="complete_title">S'ensuivent plusieurs belles et bonnes chansons, que les chrestiens peuvent chanter en grande affection de cueur : pour et affin de soulager leurs esperitz et de leur donner repos en Dieu, au nom duquel elles sont composées par rithmes, au plus près de l'esperit de Jesus Christ, contenu ès sainctes Escriptures.</title>
-                           <title type="short_title">Plusieurs belles et bonnes chansons</title>
+                           <title type="short_title">Plusieurs belles et bonnes chansons.</title>
                            <imprint>
                               <!-- LIEU DE PUBLICATION ET IMPRIMEUR -->
                               <pubPlace cert="medium" ref="geonames:2659496">Neuchâtel</pubPlace>
@@ -101,7 +101,7 @@
                      <bibl>
                         <ref target="http://dx.doi.org/10.3931/e-rara-6934"/>
                         <relatedItem type="original">
-                           <ref target="#BGE_Bd_1475_Rés">e-rara</ref>
+                           <ref target="#BGE_Bd_1475">e-rara</ref>
                         </relatedItem>
                      </bibl>
                   </surrogates>

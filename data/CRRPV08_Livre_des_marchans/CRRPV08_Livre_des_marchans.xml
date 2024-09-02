@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Livre des marchans. [Neuchâtel] : [Pierre de Vingle], 1533</title>
+            <title>Livre des marchans. [Neuchâtel] : [Pierre de Vingle], 1533.</title>
             <respStmt>
                <resp>Direction of SETAF project.</resp>
                <persName xml:id="DSC">
@@ -58,11 +58,11 @@
          </publicationStmt>
          <sourceDesc>
             <msDesc>
-               <msIdentifier xml:id="ZB_Rés_1330">
+               <msIdentifier xml:id="ZB_Res_1330">
                   <country>Suisse</country>
                   <settlement>Zurich</settlement>
-                  <institution>ZB</institution>
-                  <idno type="shelfmark">Rés 1330</idno>
+                  <institution>Zentralbibliothek (ZB)</institution>
+                  <idno type="shelfmark">Res 1330</idno>
                </msIdentifier>
                <msContents>
                   <p>
@@ -74,8 +74,8 @@
                                  <forename>Antoine</forename>
                               </persName>
                            </author>
-                           <title type="complete_title">Le livre des marchans, fort utile a toutes gens nouvellement composé par le sire Pantopole, bien expert en tel affaire, prochain voysin du seigneur Pantagruel</title>
-                           <title type="short_title">Livre des marchans</title>
+                           <title type="complete_title">Le livre des marchans, fort utile a toutes gens nouvellement composé par le sire Pantopole, bien expert en tel affaire, prochain voysin du seigneur Pantagruel.</title>
+                           <title type="short_title">Livre des marchans.</title>
                            <imprint>
                               <pubPlace role="false_address" cert="high" ref="geonames:259289">Corinthe</pubPlace>
                               <pubPlace role="presumed_address" cert="medium" ref="geonames:2659496">Neuchâtel</pubPlace>
@@ -106,7 +106,7 @@
                      <bibl>
                         <ref target="http://dx.doi.org/10.3931/e-rara-539"/>
                         <relatedItem type="original">
-                           <ref target="#ZB_Rés_1330">e-rara</ref>
+                           <ref target="#ZB_Res_1330">e-rara</ref>
                         </relatedItem>
                      </bibl>
                   </surrogates>

@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Faictz de Jesus Christ et du Pape : nouvellement reveuz, corrigez, et augmentez. [Neuchâtel] : [Pierre de Vingle], [1534]</title>
+            <title>Faictz de Jesus Christ et du Pape : nouvellement reveuz, corrigez, et augmentez. [Neuchâtel] : [Pierre de Vingle], [1534?].</title>
             <respStmt>
                <resp>Direction of SETAF project.</resp>
                <persName xml:id="DSC">
@@ -89,7 +89,7 @@
                                  <surname>Anonyme</surname>
                               </persName>
                            </author>
-                           <title type="complete_title">Les faictz de Jesus Christ et du Pape, par lesquelz chascun pourra facilement congnoistre la grande difference de entre eulx : nouvellement reveuz, corrigez, et augmentez, selon la verite de la saincte Escripture, et des droictz canons, par le lecteur du sainct Palais</title>
+                           <title type="complete_title">Les faictz de Jesus Christ et du Pape, par lesquelz chascun pourra facilement congnoistre la grande difference de entre eulx : nouvellement reveuz, corrigez, et augmentez, selon la verite de la saincte Escripture, et des droictz canons, par le lecteur du sainct Palais.</title>
                            <title type="short_title">Faictz de Jesus Christ et du Pape : nouvellement reveuz, corrigez, et augmentez.</title>
                            <imprint>
                               <pubPlace role="false_address" cert="high" ref="geonames:3169070">Rome</pubPlace>

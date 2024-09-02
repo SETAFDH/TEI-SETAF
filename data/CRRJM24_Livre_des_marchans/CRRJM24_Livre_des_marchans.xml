@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Livre des marchans, reveu et augmenté. [Genève] : [Jean Michel], 1544</title>
+            <title>Livre des marchans, reveu et augmenté. [Genève] : [Jean Michel], 1544.</title>
             <respStmt>
                <resp>Direction of SETAF project.</resp>
                <persName xml:id="DSC">
@@ -74,7 +74,7 @@
                                  <forename>Antoine</forename>
                               </persName>
                            </author>
-                           <title type="complete_title">Le livre des marchans, fort utile a toutes gens, pour cognoistre de quelles marchandises on se doit garder destre trompé. Nouvellement reveu et augmenté, par son premier autheur M. Anthoine Marcourt, bien cognoissant telles affaires</title>
+                           <title type="complete_title">Le livre des marchans, fort utile a toutes gens, pour cognoistre de quelles marchandises on se doit garder destre trompé. Nouvellement reveu et augmenté, par son premier autheur M. Anthoine Marcourt, bien cognoissant telles affaires.</title>
                            <title type="short_title">Livre des marchans, reveu et augmenté.</title>
                            <imprint>
                               <pubPlace cert="medium" ref="geonames:2660646">Genève</pubPlace>

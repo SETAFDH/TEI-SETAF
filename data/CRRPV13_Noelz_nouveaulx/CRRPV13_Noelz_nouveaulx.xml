@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Noelz nouveaulx. [Neuchâtel] : [Pierre de Vingle], [1533]</title>
+            <title>Noelz nouveaulx. [Neuchâtel] : [Pierre de Vingle], [1533?].</title>
             <respStmt>
                <resp>Direction of SETAF project.</resp>
                <persName xml:id="DSC">
@@ -53,7 +53,7 @@
                <msIdentifier xml:id="ZB_Res_1332">
                   <country>Suisse</country>
                   <settlement>Zurich</settlement>
-                  <institution>ZB</institution>
+                  <institution>Zentralbibliothek (ZB)</institution>
                   <idno type="shelfmark">Res 1332</idno>
                </msIdentifier>
                <msContents>
@@ -68,7 +68,7 @@
                            </author>
                            <!-- TITRE -->
                            <title type="complete_title">Noelz nouveaulx. Musiciens amateurs des Cantiques, Au nom de Dieu, chantez noelz nouveaulx, Lesquelz sont faictz sur les vieulx et antiques : Je vous supply, delaissez les lubriques : Ne chantez point brayant comme noz veaulx, Glorieux chantres, ne vault point deux naveaux Recordez vous que Dieu veult l'humble coeur En foy contrict. Note cela chanteur.</title>
-                           <title type="short_title">Noelz nouveaulx</title>
+                           <title type="short_title">Noelz nouveaulx.</title>
                            <imprint>
                               <!-- LIEU DE PUBLICATION ET IMPRIMEUR -->
                               <pubPlace cert="medium" ref="geonames:2659496">Neuchâtel</pubPlace>
