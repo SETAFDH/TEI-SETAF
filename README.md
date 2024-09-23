@@ -7,7 +7,6 @@ Ce dépôt comprend les données TEI produites dans le cadre du projet SETAF.
 Description :
 - La liste des textes avec plus de détails se trouve dans le [tableau CSV](https://github.com/SETAFDH/TEI-SETAF/blob/main/TEI_table.csv) du dépôt.
 - Le dossier "schema" contient l'ODD du projet sous différents formats (.odd, .html, .rng).
-- Le dossier "stylesheets" contient les feuilles de style utilisés pour convertir les données (du format ALTO au format TEI, etc.).
 - Le dossier "data" contient les textes au format XML-TEI et HTML.
 
 Description des fichiers XML-TEI :
