@@ -19,7 +19,7 @@ Description des fichiers HTML :
 
 Chaque version .html <b>orig</b>, <b>reg_int</b> ou <b>reg_adv</b>, est ajoutée quand le travail sur les lignes de texte tirées des balises correspodantes, dans le fichier XML-TEI, est terminé (qualité *gold*).
 
-Pour comprendre l'état d'avancement des textes (qualité *gold*, *en cours* ou *à venir*), il suffit de consulter le [tableau CSV](https://github.com/SETAFDH/TEI-Varia-Malingre/blob/main/TEI-Varia-Malingre_Table.csv) du dépôt et/ou le teiHeader des fichiers XML-TEI.
+Pour comprendre l'état d'avancement des textes (qualité *gold*, *en cours* ou *à venir*), il suffit de consulter le [tableau CSV](https://github.com/SETAFDH/TEI-SETAF/blob/main/TEI_table.csv) du dépôt et/ou le teiHeader des fichiers XML-TEI.
 
 
 ## Projet SETAF
