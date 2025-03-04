@@ -52385,7 +52385,7 @@
             <lb type="DefaultLine" corresp="#f59_eSc_line_a8f462ec_ligne_22"/>
             <choice>
                <orig>Lesquelz sont daultruy mes disãtz/</orig>
-               <reg type="intermediary">Lesquelz sont d'aultruy mes disantz/</reg>
+               <reg type="intermediary">Lesquelz sont d'aultruy mesdisantz/</reg>
                <reg type="advanced">Lesquelz sont daultruy mes disãtz/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f59_eSc_line_53dff143_ligne_23"/>
@@ -52763,7 +52763,7 @@
             <lb type="DefaultLine" corresp="#f61_eSc_line_45b60764_ligne_27"/>
             <choice>
                <orig>Dont uient telle ideuotion?</orig>
-               <reg type="intermediary">Dont vient telle idevotion?</reg>
+               <reg type="intermediary">Dont vient telle indevotion?</reg>
                <reg type="advanced">Dont uient telle ideuotion?</reg>
             </choice>
          </ab>
@@ -57873,7 +57873,7 @@
             <lb type="DefaultLine" corresp="#f91_eSc_line_46839d40_ligne_27"/>
             <choice>
                <orig>En me uedãt leurs faulx merites/</orig>
-               <reg type="intermediary">En me vedant leurs faulx merites/</reg>
+               <reg type="intermediary">En me vendant leurs faulx merites/</reg>
                <reg type="advanced">En me uedãt leurs faulx merites/</reg>
             </choice>
          </ab>
