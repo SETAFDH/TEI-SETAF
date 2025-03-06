@@ -171,7 +171,7 @@
                <term type="form">prose</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
-               <term type="intermediary_reg_quality">not applicable</term>
+               <term type="intermediary_reg_quality">gold</term>
                <term type="advanced_reg_quality">not applicable</term>
                <term type="ling_annotation_quality">not applicable</term>
             </keywords>
@@ -179,6 +179,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2024-11-19" who="#SS">Création du fichier TEI P5.</change>
+         <change when="2024-11-21" who="#MD">Normalisation intermédiaire terminée.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
