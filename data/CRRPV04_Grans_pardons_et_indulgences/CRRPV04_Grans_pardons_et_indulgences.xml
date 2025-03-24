@@ -20634,7 +20634,7 @@
             <lb corresp="#f9_eSc_line_2e06a013_ligne_23"/>
             <choice>
                <orig>de perseuerer iusques a la fin, ne uou</orig>
-               <reg type="intermediary">de perseverer jusques a la fin, ne vou</reg>
+               <reg type="intermediary">de perseverer jusques a la fin, ne vou¬</reg>
                <reg type="advanced">de perseuerer iusques a la fin, ne uou</reg>
             </choice>
             <lb corresp="#f9_eSc_line_4fa9b713_ligne_24"/>
@@ -20715,7 +20715,7 @@
             <lb corresp="#f10_eSc_line_eda2f0fa_ligne_3"/>
             <choice>
                <orig>saincte obedience ⁊ sus la peine dexcõ</orig>
-               <reg type="intermediary">saincte obedience et sus la peine d'excom-</reg>
+               <reg type="intermediary">saincte obedience et sus la peine d'excom¬</reg>
                <reg type="advanced">saincte obedience et sus la peine dexcõ</reg>
             </choice>
             <lb corresp="#f10_eSc_line_4f81bc38_ligne_4"/>
