@@ -109,6 +109,20 @@
                         </relatedItem>
                      </bibl>
                   </surrogates>
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://www.ville-ge.ch/musinfo/bd/bge/gln/notice/?no=GLN-1329">
+                           <orgName>GLN</orgName>
+                           <idno>1329</idno>
+                        </ref>
+                     </bibl>
+                     <bibl>
+                        <ref target="https://www.ustc.ac.uk/editions/9536">
+                           <orgName>USTC</orgName>
+                           <idno>9536</idno>
+                        </ref>
+                     </bibl>
+                  </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
