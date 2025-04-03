@@ -33041,14 +33041,6 @@
          <pb corresp="p.3"/>
          <ab corresp="#f3_eSc_textblock_6d50fe43" type="MainZone">
             <hi>
-               <lb type="DropCapitalLine" corresp="#f3_eSc_line_2c9db6c1_ligne_2"/>
-               <choice>
-                  <orig>T</orig>
-                  <reg type="intermediary">T¬</reg>
-                  <reg type="advanced">T</reg>
-               </choice>
-            </hi>
-            <hi>
                <lb type="HeadingLine" corresp="#f3_eSc_line_290aa182_ligne_2"/>
                <choice>
                   <orig>A TRES CHRESTIENNE PRIN¬</orig>
@@ -33094,6 +33086,14 @@
                   <orig>IESVS CHRIST.</orig>
                   <reg type="intermediary">JESUS CHRIST.</reg>
                   <reg type="advanced">IESVS CHRIST.</reg>
+               </choice>
+            </hi>
+            <hi>
+               <lb type="DropCapitalLine" corresp="#f3_eSc_line_2c9db6c1_ligne_2"/>
+               <choice>
+                  <orig>T</orig>
+                  <reg type="intermediary">T¬</reg>
+                  <reg type="advanced">T</reg>
                </choice>
             </hi>
             <lb type="DefaultLine" corresp="#f3_eSc_line_31e13450_ligne_8"/>
