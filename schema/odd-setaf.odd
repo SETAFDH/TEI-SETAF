@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ODD du corpus du projet SETAF</title>
+            <title>ODD du corpus du projet SETAF, par Sonia Solfrini</title>
             <author xml:id="SS">Sonia Solfrini</author>
          </titleStmt>
          <publicationStmt>
@@ -39,80 +39,10 @@
    <text>
       <body>
          <div rend="toc" xml:id="Introduction">
-            <head>Introduction</head>
+            <head>Introduction : ODD du corpus du projet SETAF</head>
             <p>Notre ODD se limite pour l’instant à la documentation technique de nos choix d’encodage. Il permet de générer un schéma XML-TEI personnalisé, 
                assurant la validation automatique de nos fichiers. Un document complémentaire, rédigé en langage naturel et accompagné d’exemples, 
                sera prochainement mis à disposition.</p>
-         </div>
-         <div xml:id="Bibliography">
-            <head>Bibliography</head>
-            <listBibl>
-               <bibl xml:id="SETAF2023">
-                  <author>Sonia Solfrini, Geneviève Gross, Brigitte Roux, Nathalie Szczech, Pierre-Olivier Beaulnes, Aurélia M. Oliveira and Daniela Solfaroli Camillocci.</author>
-                  <title level="a">Étudier le « groupe de Neuchâtel » : De l'édition des Faits à un corpus numérique de la première Réforme romande.</title>
-                  <title level="m">Colloque Humanistica 2023,</title>
-                  <date>June 2023,</date>
-                  <pubPlace>Genève, Suisse,</pubPlace>
-                  <ref target="https://hal.science/hal-04097381/"
-                     >https://hal.science/hal-04097381/</ref>
-               </bibl>
-               <bibl xml:id="Scheithauer2023">
-                  <author>Hugo Scheithauer, Alix Chagué and Laurent Romary.</author>
-                  <title level="a">Which TEI representation for the output of automatic transcriptions and their metadata? An illustrated proposition.</title>
-                  <title level="m">Version 2,</title>
-                  <date when="2023-09">Sep. 2023,</date>
-                  <ref target="https://inria.hal.science/hal-04001303"
-                     >https://inria.hal.science/hal-04001303</ref>
-               </bibl>
-               <bibl xml:id="BVH2017">
-                  <author>Nicole Dufournaud et al.</author>
-                  <title level="a">Manuel d’encodage XML-TEI Renaissance et temps modernes (Imprimés - manuscrits).</title>
-                  <title level="m">Version 4,</title>
-                  <date when="2017-10-09">09 octobre 2017,</date>
-                  <ref target="https://www.bvh.univ-tours.fr/XML-TEI/index.asp"
-                     >https://www.bvh.univ-tours.fr/XML-TEI/index.asp</ref>
-               </bibl>
-               <bibl xml:id="Gallicorpora">
-                  <author>Benoît Sagot, Laurent Romary, Rachel Bawden, Pedro Javier Ortiz Suárez, Simon Gabay, Ariane Pinche, and Jean-Baptiste Camps.</author>
-                  <title level="a">Gallic(orpor)a: extraction, annotation et diffusion de l'information textuelle et visuelle en diachronie longue.</title>
-                  <ref target="https://github.com/Gallicorpora/Gallicorpora.github.io"
-                     >https://github.com/Gallicorpora/Gallicorpora.github.io</ref>
-               </bibl>
-               <bibl xml:id="Segmonto2021">
-                  <author>Simon Gabay, Jean-Baptiste Camps, Ariane Pinche and Claire Jahan.</author>
-                  <title level="a">SegmOnto: common vocabulary and practices for analysing the layout of
-                     manuscripts (and more).</title>
-                  <title level="m">1st International Workshop on Computational Paleography (IWCP@ICDAR 2021).</title>
-                  <date when="2021-09">Sep. 2021,</date>
-                  <pubPlace>Lausanne, Switzerland,</pubPlace>
-                  <ref target="https://hal.archives-ouvertes.fr/hal-03336528"
-                     >https://hal.archives-ouvertes.fr/hal-03336528</ref>
-               </bibl>
-               <bibl xml:id="eScriptorium2019">
-                  <author>Benjamin Kiessling, Robin Tissot, Daniel Stökl Ben Ezra and Peter Stokes.</author>
-                  <title level="a">eScriptorium: An Open Source Platform for Historical Document Analysis.</title>
-                  <title level="m">2019 International Conference on Document Analysis and Recognition Workshops (ICDARW).</title>
-                  <date when="2019-09">Sep. 2019,</date>
-                  <pubPlace>Sydney, Australia,</pubPlace>
-                  <ref target="https://ieeexplore.ieee.org/document/8893029"
-                     >https://ieeexplore.ieee.org/document/8893029</ref>
-               </bibl>
-               <bibl xml:id="Kraken2019">
-                  <author>Benjamin Kiessling.</author>
-                  <title level="a">Kraken - an Universal Text Recognizer for the Humanities.</title>
-                  <title level="m">Digital Humanities 2019 Conference Abstracts.</title>
-                  <date when="2019-07">July 2019,</date>
-                  <pubPlace>Utrecht, The Netherlands,</pubPlace>
-                  <ref target="https://dev.clariah.nl/files/dh2019/boa/0673.html"
-                     >https://dev.clariah.nl/files/dh2019/boa/0673.html</ref>
-               </bibl>
-               <bibl xml:id="TEIguidelines">
-                  <editor>TEI Consortium.</editor>
-                  <title level="m">TEI Guidelines for Electronic Text Encoding and Interchange.</title>
-                  <ref target="https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html"
-                     >https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html</ref>
-               </bibl>
-            </listBibl>
          </div>
          <div rend="toc" xml:id="Specifications">
             <head>Specifications</head>
