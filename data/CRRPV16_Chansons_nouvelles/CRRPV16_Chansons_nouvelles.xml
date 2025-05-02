@@ -15,7 +15,7 @@
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Supervision et modélisation de l’édition, encodage du texte, encodage et révision des métadonnées, révision de l’OCR et normalisation du texte.</resp>
+               <resp>Supervision et modélisation de l’édition, encodage du texte, encodage et révision des métadonnées, analyse de mise en page (zonage) et révision de l’OCR, normalisation du texte.</resp>
                <persName xml:id="SS">
                   <forename>Sonia</forename>
                   <surname>Solfrini</surname>
@@ -140,11 +140,13 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF <ref target="https://www.unige.ch/setaf/"/>, dirigé par la Prof·e Daniela Solfaroli Camillocci (IHR) et financé par le FNS : <ref target="https://data.snf.ch/grants/grant/205056"/>.</p>
+            <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF <ref target="https://www.unige.ch/setaf/"/>, dirigé par la Prof·e Daniela Solfaroli Camillocci (IHR) 
+               et financé par le FNS : <ref target="https://data.snf.ch/grants/grant/205056"/>.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
-               <p>Voir le guide de transcription du projet SETAF : <ref target="https://hal.science/hal-04281804"/>. La segmentation a été produite manuellement et la transcription issue de l'OCR a été vérifiée.</p>
+               <p>Voir le guide de transcription du projet SETAF : <ref target="https://hal.science/hal-04281804"/>. La segmentation a été produite manuellement 
+                  et la transcription issue de l'OCR a été vérifiée.</p>
             </correction>
             <normalization>
                <p>Un guide de normalisation est en cours de publication. Concernant la normalisation intermédiaire ou semi-diplomatique, cette transcription a été normalisée.</p>
@@ -185,7 +187,7 @@
                <term type="transcription_quality">gold</term>
                <term type="intermediary_reg_quality">gold</term>
                <term type="advanced_reg_quality">gold</term>
-               <term type="ling_annotation_quality">not applicable yet</term>
+               <term type="ling_annotation_quality">not applicable</term>
             </keywords>
          </textClass>
       </profileDesc>
