@@ -7,27 +7,35 @@
          <titleStmt>
             <title>Chansons nouvelles demonstrantz plusieurs erreurs et faulsetez. [Neuchâtel] : [Pierre de Vingle], [1534?].</title>
             <respStmt>
-               <resp>Direction of SETAF project.</resp>
+               <resp>Direction du projet SETAF.</resp>
                <persName xml:id="DSC">
                   <forename>Daniela</forename>
                   <surname>Solfaroli Camillocci</surname>
-                  <ptr type="orcid" target="000000022601668X"/>
+                  <ptr type="orcid" target="0000-0002-2601-668X"/>
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Modelling and document engineering, segmentation and correction of OCR transcription, conversion to TEI and metadata encoding, normalization (intermediary and advanced).</resp>
+               <resp>Supervision et modélisation de l’édition, encodage du texte, encodage et révision des métadonnées, révision de l’OCR et normalisation du texte.</resp>
                <persName xml:id="SS">
                   <forename>Sonia</forename>
                   <surname>Solfrini</surname>
-                  <ptr type="orcid" target="000900097367048X"/>
+                  <ptr type="orcid" target="0009-0009-7367-048X"/>
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Modelling and document engineering support.</resp>
+               <resp>Collaboration à la modélisation de l’édition et accompagnement à l’encodage.</resp>
                <persName xml:id="SG">
                   <forename>Simon</forename>
                   <surname>Gabay</surname>
-                  <ptr type="orcid" target="0000000190944475"/>
+                  <ptr type="orcid" target="0000-0001-9094-4475"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mise en ligne de l’édition via TEI Publisher et accompagnement à l’encodage.</resp>
+               <persName xml:id="EL">
+                  <forename>Elina</forename>
+                  <surname>Leblanc</surname>
+                  <ptr type="orcid" target="0009-0009-4556-8840"/>
                </persName>
             </respStmt>
          </titleStmt>
@@ -92,6 +100,7 @@
                      <supportDesc>
                         <support>
                            <dim>in-8°</dim>
+                           <signatures>A-A8</signatures>
                         </support>
                      </supportDesc>
                   </objectDesc>
@@ -103,12 +112,18 @@
                         <relatedItem type="original">
                            <ref target="#ZB_Res_1327">e-rara</ref>
                         </relatedItem>
+                        <availability>
+                           <licence target="https://creativecommons.org/publicdomain/mark/1.0/deed.en"/>
+                           <p>Images : Public Domain Mark (e-rara)</p>
+                           <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+                           <p>Édition : CC BY</p>
+                        </availability>
                      </bibl>
                   </surrogates>
                   <listBibl>
                      <bibl>
                         <ref target="https://www.ville-ge.ch/musinfo/bd/bge/gln/notice/?no=GLN-4821">
-                           <orgName>GLN</orgName>
+                           <orgName>GLN 15-16</orgName>
                            <idno>4821</idno>
                         </ref>
                      </bibl>
@@ -125,14 +140,14 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF, dirigé par la Prof·e Daniela Solfaroli Camillocci (IHR) et financé par le FNS : <ref target="https://data.snf.ch/grants/grant/205056"/>. </p>
+            <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF <ref target="https://www.unige.ch/setaf/"/>, dirigé par la Prof·e Daniela Solfaroli Camillocci (IHR) et financé par le FNS : <ref target="https://data.snf.ch/grants/grant/205056"/>.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
-               <p>Voir le guide de transcription du projet SETAF : <ref target="https://hal.science/hal-04281804"/>. La segmentation a été produite manuellement et la transcription issue de l'OCR a été corrigée. </p>
+               <p>Voir le guide de transcription du projet SETAF : <ref target="https://hal.science/hal-04281804"/>. La segmentation a été produite manuellement et la transcription issue de l'OCR a été vérifiée.</p>
             </correction>
             <normalization>
-               <p>Un guide de normalisation est en cours de publication. En ce qui concerne la régularisation intermédiaire, cette transcription a été normalisée. En ce qui concerne la régularisation avancée, cette transcription a été normalisée.</p>
+               <p>Un guide de normalisation est en cours de publication. Concernant la normalisation intermédiaire ou semi-diplomatique, cette transcription a été normalisée.</p>
             </normalization>
          </editorialDecl>
          <appInfo>
@@ -164,19 +179,21 @@
          </langUsage>
          <textClass>
             <keywords>
+               <term type="genre">recueil de chansons</term>
                <term type="form">poésie</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
                <term type="intermediary_reg_quality">gold</term>
                <term type="advanced_reg_quality">gold</term>
-               <term type="ling_annotation_quality">not applicable</term>
+               <term type="ling_annotation_quality">not applicable yet</term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
          <change when="2023-10-27" who="#SS">Création du fichier TEI P5.</change>
-         <change when="2023-11-23" who="#SS">Régularisation intermédiaire terminée.</change>
-         <change when="2024-01-09" who="#SS">Régularisation avancée terminée.</change>
+         <change when="2023-11-23" who="#SS">Normalisation intermédiaire ou semi-diplomatique terminée.</change>
+         <change when="2024-01-09" who="#SS">Normalisation avancée terminée.</change>
+         <change when="2025-05-02" who="#SS">Révision des métadonnées.</change>
       </revisionDesc> 
    </teiHeader>
    <sourceDoc>
@@ -11037,7 +11054,7 @@
                <lb type="HeadingLine" corresp="#f1_eSc_line_85c6b601_ligne_5"/>
                <choice>
                   <orig>paoure mõde est rẽply</orig>
-                  <reg type="intermediary">pauvre monde est remply</reg>
+                  <reg type="intermediary">paovre monde est remply</reg>
                   <reg type="advanced">pauvre monde est rempli</reg>
                </choice>
             </hi>

@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>SETAF project's ODD</title>
+            <title>ODD du corpus du projet SETAF</title>
             <author xml:id="SS">Sonia Solfrini</author>
          </titleStmt>
          <publicationStmt>
@@ -30,7 +30,8 @@
       <revisionDesc>
          <listChange>
             <listChange>
-               <change when="2023-10-25">Document creation</change>
+               <change when="2023-10-25">Création du document.</change>
+               <change when="2025-05-02">Ajout de l'élément "signatures" et de la valeur "genre" pour l'attribut "type" de l'élément "term".</change>
             </listChange>
          </listChange>
       </revisionDesc>
@@ -39,197 +40,9 @@
       <body>
          <div rend="toc" xml:id="Introduction">
             <head>Introduction</head>
-            <p>work in progress</p>
-            <p>This is the structure of our TEI files:
-               <list>
-                  <item>teiHeader</item>
-                  <item>sourceDoc</item>
-                  <item>body</item>
-               </list>
-            </p>
-            <div rend="toc" xml:id="teiHeader">
-               <head>teiHeader</head>
-               <p>work in progress</p>
-               <p>This is an exemple of teiHeader:
-               </p>
-               <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                  <teiHeader>
-                     <fileDesc>
-                        <titleStmt>
-                           <title>Chansons nouvelles demonstrantz plusieurs erreurs et faulsetez. [Neuchâtel] : [Pierre de Vingle], [1534]</title>
-                           <respStmt>
-                              <resp>Direction of SETAF project.</resp>
-                              <persName xml:id="DSC">
-                                 <forename>Daniela</forename>
-                                 <surname>Solfaroli Camillocci</surname>
-                                 <ptr type="orcid" target="000000022601668X"/>
-                              </persName>
-                           </respStmt>
-                           <respStmt>
-                              <resp>Modelling and document engineering, segmentation and correction of OCR transcription, conversion to TEI, metadata encoding.</resp>
-                              <persName xml:id="SS">
-                                 <forename>Sonia</forename>
-                                 <surname>Solfrini</surname>
-                                 <ptr type="orcid" target="000900097367048X"/>
-                              </persName>
-                           </respStmt>
-                           <respStmt>
-                              <resp>Modelling and document engineering support.</resp>
-                              <persName xml:id="SG">
-                                 <forename>Simon</forename>
-                                 <surname>Gabay</surname>
-                                 <ptr type="orcid" target="0000000190944475"/>
-                              </persName>
-                           </respStmt>
-                        </titleStmt>
-                        <extent>
-                           <measure unit="total_images" n="48"/>
-                           <measure unit="processed_images" n="16"/>
-                        </extent> 
-                        <publicationStmt>
-                           <publisher>Projet SETAF</publisher>
-                           <authority>Institut d'Histoire de la Réformation (IHR), université de Genève</authority>
-                           <address>
-                              <addrLine>22 boulevard des Philosophes</addrLine>
-                              <addrLine>CH-1211 Genève</addrLine>
-                           </address>
-                           <availability status="restricted" n="CC-BY">
-                              <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-                              <p>Creative Commons Attribution 4.0 CC BY 4.0</p>
-                           </availability>
-                           <date when="2023-10-18"/>
-                        </publicationStmt>
-                        <sourceDesc>
-                           <msDesc>
-                              <msIdentifier xml:id="ZB_Res_1327">
-                                 <country>Suisse</country>
-                                 <settlement>Zurich</settlement>
-                                 <institution>Zentralbibliothek</institution>
-                                 <idno type="shelfmark">Res 1327</idno>
-                              </msIdentifier>
-                              <msContents>
-                                 <p>
-                                    <biblStruct>
-                                       <monogr>
-                                          <!-- AUTEUR -->
-                                          <author>
-                                             <persName role="presumed_author" ref="isni:0000000083926271">
-                                                <surname>Malingre</surname>
-                                                <forename>Mathieu</forename>
-                                             </persName>
-                                          </author>
-                                          <!-- TITRE -->
-                                          <title type="complete_title">Chansons nouvelles demonstrantz plusieurs erreurs et faulsetez: desquelles le paovre monde est remply par les ministres de Satan.</title> 
-                                          <title type="short_title">Chansons nouvelles demonstrantz plusieurs erreurs et faulsetez.</title>
-                                          <imprint>
-                                             <!-- LIEU DE PUBLICATION ET IMPRIMEUR -->
-                                             <pubPlace cert="medium" ref="geonames:2659496">Neuchâtel</pubPlace>
-                                             <respStmt>
-                                                <resp>Imprimeur</resp>
-                                                <persName role="presumed_printer" ref="isni:000000007752492X">
-                                                   <surname>Vingle</surname>
-                                                   <forename>Pierre de</forename>
-                                                </persName>
-                                             </respStmt>
-                                             <!-- DATE DE PUBLICATION -->
-                                             <date cert="low">1534</date>
-                                          </imprint>
-                                       </monogr>
-                                    </biblStruct>
-                                 </p>
-                              </msContents>         
-                              <physDesc>
-                                 <objectDesc>
-                                    <supportDesc>
-                                       <support>
-                                          <dim>in-8°</dim>
-                                       </support>
-                                    </supportDesc>
-                                 </objectDesc>
-                              </physDesc>
-                              <additional>
-                                 <surrogates>
-                                    <bibl>
-                                       <ref target="https://doi.org/10.3931/e-rara-576"/>
-                                       <relatedItem type="original">
-                                          <ref target="#ZB_Res_1327">e-rara</ref>
-                                       </relatedItem>
-                                    </bibl>
-                                 </surrogates>
-                                 <listBibl>
-                                    <bibl>
-                                       <ref target="https://www.ville-ge.ch/musinfo/bd/bge/gln/notice/?no=GLN-4821">
-                                          <orgName>GLN</orgName>
-                                          <idno>4821</idno>
-                                       </ref>
-                                    </bibl>
-                                    <bibl>
-                                       <ref target="https://www.ustc.ac.uk/editions/73413">
-                                          <orgName>USTC</orgName>
-                                          <idno>73413</idno>
-                                       </ref>
-                                    </bibl>
-                                 </listBibl>
-                              </additional>
-                           </msDesc>
-                        </sourceDesc>
-                     </fileDesc>
-                     <encodingDesc>
-                        <projectDesc>
-                           <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF, financé par le FNS : <ref target="https://data.snf.ch/grants/grant/205056"/>.</p>
-                        </projectDesc>
-                        <editorialDecl>
-                           <correction>
-                              <p>Voir le guide de transcription du projet SETAF : <ref target="https://hal.science/hal-04281804"/>. La transcription issue de l'OCR a été corrigée.</p>
-                           </correction>
-                           <normalization>
-                              <p>Voir le guide de normalisation du projet SETAF : en cours de publication.</p>
-                           </normalization>
-                        </editorialDecl>
-                        <appInfo>
-                           <application ident="Kraken" version="4.1">
-                              <label>Kraken</label>
-                              <ptr target="https://github.com/mittagessen/kraken"/>
-                           </application>
-                        </appInfo>
-                        <appInfo>
-                           <application ident="FoNDUE" version="0.1">
-                              <label>FoNDUE</label>
-                              <ptr target="https://test2.fondue.unige.ch/"/>
-                           </application>
-                        </appInfo>
-                        <classDecl>
-                           <taxonomy xml:id="SegmOnto">
-                              <bibl>
-                                 <title>SegmOnto</title>
-                                 <ptr target="https://segmonto.github.io/"/>
-                              </bibl>
-                              <category xml:id="SegmOntoZones"/>
-                              <category xml:id="SegmOntoLines"/>
-                           </taxonomy>
-                        </classDecl>
-                     </encodingDesc>   
-                     <profileDesc>
-                        <langUsage>
-                           <language ident="frm">Français du XVIe siècle</language>
-                        </langUsage>
-                        <textClass>
-                           <keywords>
-                              <term type="form">poésie</term>
-                              <term type="segmentation_quality">gold</term>
-                              <term type="transcription_quality">gold</term>
-                              <term type="intermediary_reg_quality">not applicable</term>
-                              <term type="advanced_reg_quality">not applicable</term>
-                              <term type="ling_annotation_quality">not applicable</term>
-                           </keywords>
-                        </textClass>
-                     </profileDesc>
-                     <revisionDesc>
-                        <change when="2023-10-18" who="#SS">Création du fichier TEI P5.</change>
-                     </revisionDesc> 
-                  </teiHeader>
-               </egXML>
-            </div>
+            <p>Notre ODD se limite pour l’instant à la documentation technique de nos choix d’encodage. Il permet de générer un schéma XML-TEI personnalisé, 
+               assurant la validation automatique de nos fichiers. Un document complémentaire, rédigé en langage naturel et accompagné d’exemples, 
+               sera prochainement mis à disposition.</p>
          </div>
          <div xml:id="Bibliography">
             <head>Bibliography</head>
@@ -1242,6 +1055,7 @@
                   <attList>
                      <attDef ident="type" mode="change">
                         <valList mode="add" type="closed">
+                           <valItem ident="genre"/>
                            <valItem ident="form"/>
                            <valItem ident="segmentation_quality"/>
                            <valItem ident="transcription_quality"/>
@@ -1304,7 +1118,7 @@
                
                <!-- Checking module "msdescription" -->
                <moduleRef key="msdescription"
-                  include="additional dim institution msContents msDesc msIdentifier physDesc objectDesc surrogates supportDesc support"/>
+                  include="additional dim signatures institution msContents msDesc msIdentifier physDesc objectDesc surrogates supportDesc support"/>
                <elementSpec ident="additional" mode="change">
                   <attList>
                      <attDef ident="corresp" mode="delete"/>
