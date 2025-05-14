@@ -187,7 +187,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2023-11-24" who="#SS">Création du fichier TEI P5.</change>
-         <change when="2025-05-12" who="#AMO">Normalisation intermédiaire terminée.</change>
+         <change when="2025-05-14" who="#AMO">Normalisation intermédiaire terminée.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
@@ -44932,133 +44932,133 @@
             <lb corresp="#f36_eSc_line_35790a20_ligne_3"/>
             <choice>
                <orig>Il cõmande/ quen mãgeãt ⁊ beuuãt</orig>
-               <reg type="intermediary">Il cõmande/ quen mãgeãt ⁊ beuuãt</reg>
+               <reg type="intermediary">Il commande/ qu'en mangeant et beuvant</reg>
                <reg type="advanced">Il cõmande/ quen mãgeãt ⁊ beuuãt</reg>
             </choice>
             <lb corresp="#f36_eSc_line_399e52b5_ligne_4"/>
             <choice>
                <orig>en sa table/ cela soit faict en sa memoi</orig>
-               <reg type="intermediary">en sa table/ cela soit faict en sa memoi</reg>
+               <reg type="intermediary">en sa table/ cela soit faict en sa memoi¬</reg>
                <reg type="advanced">en sa table/ cela soit faict en sa memoi</reg>
             </choice>
             <lb corresp="#f36_eSc_line_c117d238_ligne_5"/>
             <choice>
                <orig>re/ cest que toutesfoys que lon prẽt le</orig>
-               <reg type="intermediary">re/ cest que toutesfoys que lon prẽt le</reg>
+               <reg type="intermediary">re/ c'est que toutesfoys que l'on prent le</reg>
                <reg type="advanced">re/ cest que toutesfoys que lon prẽt le</reg>
             </choice>
             <lb corresp="#f36_eSc_line_3e377860_ligne_6"/>
             <choice>
                <orig>pain ⁊ lon boit du calice/ quon annon</orig>
-               <reg type="intermediary">pain ⁊ lon boit du calice/ quon annon</reg>
+               <reg type="intermediary">pain et l'on boit du calice/ qu'on annon¬</reg>
                <reg type="advanced">pain ⁊ lon boit du calice/ quon annon</reg>
             </choice>
             <lb corresp="#f36_eSc_line_7ac23ba8_ligne_7"/>
             <choice>
                <orig>ce la mort de nr̃e Seigñr Iesuchrist/</orig>
-               <reg type="intermediary">ce la mort de nr̃e Seigñr Iesuchrist/</reg>
+               <reg type="intermediary">ce la mort de nostre Seigneur Jesuchrist/</reg>
                <reg type="advanced">ce la mort de nr̃e Seigñr Iesuchrist/</reg>
             </choice>
             <lb corresp="#f36_eSc_line_3c0974ae_ligne_8"/>
             <choice>
                <orig>comme il est mort pour nous/ en don</orig>
-               <reg type="intermediary">comme il est mort pour nous/ en don</reg>
+               <reg type="intermediary">comme il est mort pour nous/ en don¬</reg>
                <reg type="advanced">comme il est mort pour nous/ en don</reg>
             </choice>
             <lb corresp="#f36_eSc_line_04cdb46d_ligne_9"/>
             <choice>
                <orig>nant son corps/ cõme signifie le pain/</orig>
-               <reg type="intermediary">nant son corps/ cõme signifie le pain/</reg>
+               <reg type="intermediary">nant son corps/ comme signifie le pain/</reg>
                <reg type="advanced">nant son corps/ cõme signifie le pain/</reg>
             </choice>
             <lb corresp="#f36_eSc_line_d0e4c115_ligne_10"/>
             <choice>
                <orig>⁊ a espandu son sang pour nous/ cõ¬</orig>
-               <reg type="intermediary">⁊ a espandu son sang pour nous/ cõ¬</reg>
+               <reg type="intermediary">et a espandu son sang pour nous/ com¬</reg>
                <reg type="advanced">⁊ a espandu son sang pour nous/ cõ¬</reg>
             </choice>
             <lb corresp="#f36_eSc_line_0f7c58d7_ligne_11"/>
             <choice>
                <orig>me signifie le calice. Pourtant leuez</orig>
-               <reg type="intermediary">me signifie le calice. Pourtant leuez</reg>
+               <reg type="intermediary">me signifie le calice. Pourtant levez</reg>
                <reg type="advanced">me signifie le calice. Pourtant leuez</reg>
             </choice>
             <lb corresp="#f36_eSc_line_bf0fcb9c_ligne_12"/>
             <choice>
                <orig>uoz cueurs en hault/ cerchans les cho</orig>
-               <reg type="intermediary">uoz cueurs en hault/ cerchans les cho</reg>
+               <reg type="intermediary">voz cueurs en hault/ cerchans les cho¬</reg>
                <reg type="advanced">uoz cueurs en hault/ cerchans les cho</reg>
             </choice>
             <lb corresp="#f36_eSc_line_84b9aa8d_ligne_13"/>
             <choice>
                <orig>ses celestielles es cieux ou Iesuchrist</orig>
-               <reg type="intermediary">ses celestielles es cieux ou Iesuchrist</reg>
+               <reg type="intermediary">ses celestielles es cieux ou Jesuchrist</reg>
                <reg type="advanced">ses celestielles es cieux ou Iesuchrist</reg>
             </choice>
             <lb corresp="#f36_eSc_line_23269cee_ligne_14"/>
             <choice>
                <orig>est assis en la dextre du Pere/ sãs uoꝰ</orig>
-               <reg type="intermediary">est assis en la dextre du Pere/ sãs uoꝰ</reg>
+               <reg type="intermediary">est assis en la dextre du Pere/ sans vous</reg>
                <reg type="advanced">est assis en la dextre du Pere/ sãs uoꝰ</reg>
             </choice>
             <lb corresp="#f36_eSc_line_63fee3c6_ligne_15"/>
             <choice>
                <orig>arrester aux choses uisibles/ qͥ se cor¬</orig>
-               <reg type="intermediary">arrester aux choses uisibles/ qͥ se cor¬</reg>
+               <reg type="intermediary">arrester aux choses visibles/ qui se cor¬</reg>
                <reg type="advanced">arrester aux choses uisibles/ qͥ se cor¬</reg>
             </choice>
             <lb corresp="#f36_eSc_line_acc98206_ligne_16"/>
             <choice>
                <orig>rõpent par lusaige. En ioye de cueur/</orig>
-               <reg type="intermediary">rõpent par lusaige. En ioye de cueur/</reg>
+               <reg type="intermediary">rompent par l'usaige. En joye de cueur/</reg>
                <reg type="advanced">rõpent par lusaige. En ioye de cueur/</reg>
             </choice>
             <lb corresp="#f36_eSc_line_3e2a7d2b_ligne_17"/>
             <choice>
                <orig>en union fraternelle/ uenez tous prẽ</orig>
-               <reg type="intermediary">en union fraternelle/ uenez tous prẽ</reg>
+               <reg type="intermediary">en union fraternelle/ venez tous pren¬</reg>
                <reg type="advanced">en union fraternelle/ uenez tous prẽ</reg>
             </choice>
             <lb corresp="#f36_eSc_line_7b2695ad_ligne_18"/>
             <choice>
                <orig>dre de la table de nostre Seigñr/ luy</orig>
-               <reg type="intermediary">dre de la table de nostre Seigñr/ luy</reg>
+               <reg type="intermediary">dre de la table de nostre Seigneur/ luy</reg>
                <reg type="advanced">dre de la table de nostre Seigñr/ luy</reg>
             </choice>
             <lb corresp="#f36_eSc_line_e0930c5c_ligne_19"/>
             <choice>
                <orig>rẽdant graces de la tresgrande chari¬</orig>
-               <reg type="intermediary">rẽdant graces de la tresgrande chari¬</reg>
+               <reg type="intermediary">rendant graces de la tres grande chari¬</reg>
                <reg type="advanced">rẽdant graces de la tresgrande chari¬</reg>
             </choice>
             <lb corresp="#f36_eSc_line_ddb4681d_ligne_20"/>
             <choice>
                <orig>te qͥl nous a monstre/ ayez la mort de</orig>
-               <reg type="intermediary">te qͥl nous a monstre/ ayez la mort de</reg>
+               <reg type="intermediary">te qu'il nous a monstre/ ayez la mort de</reg>
                <reg type="advanced">te qͥl nous a monstre/ ayez la mort de</reg>
             </choice>
             <lb corresp="#f36_eSc_line_cfc5b653_ligne_21"/>
             <choice>
                <orig>ce bõ Sauueͬ escripte en uoz cueurs/</orig>
-               <reg type="intermediary">ce bõ Sauueͬ escripte en uoz cueurs/</reg>
+               <reg type="intermediary">ce bon Sauveur escripte en voz cueurs/</reg>
                <reg type="advanced">ce bõ Sauueͬ escripte en uoz cueurs/</reg>
             </choice>
             <lb corresp="#f36_eSc_line_fbf3eda0_ligne_22"/>
             <choice>
                <orig>en souuenance eternelle pour estre en¬</orig>
-               <reg type="intermediary">en souuenance eternelle pour estre en¬</reg>
+               <reg type="intermediary">en souvenance eternelle pour estre en¬</reg>
                <reg type="advanced">en souuenance eternelle pour estre en¬</reg>
             </choice>
             <lb corresp="#f36_eSc_line_6c15b466_ligne_23"/>
             <choice>
                <orig>flambez/ et pour esmouuoir aussi les</orig>
-               <reg type="intermediary">flambez/ et pour esmouuoir aussi les</reg>
+               <reg type="intermediary">flambez/ et pour esmouvoir aussi les</reg>
                <reg type="advanced">flambez/ et pour esmouuoir aussi les</reg>
             </choice>
             <lb corresp="#f36_eSc_line_67a9db88_ligne_24"/>
             <choice>
                <orig>aultres a lamour de Dieu/ a suyure</orig>
-               <reg type="intermediary">aultres a lamour de Dieu/ a suyure</reg>
+               <reg type="intermediary">aultres a l'amour de Dieu/ a suyvre</reg>
                <reg type="advanced">aultres a lamour de Dieu/ a suyure</reg>
             </choice>
             <lb corresp="#f36_eSc_line_51e655e0_ligne_25"/>
@@ -45071,7 +45071,7 @@
                <lb corresp="#f36_eSc_line_c837369f_ligne_26"/>
                <choice>
                   <orig>¶ En donnant le pain leq̃l soit sans</orig>
-                  <reg type="intermediary">¶ En donnant le pain leq̃l soit sans</reg>
+                  <reg type="intermediary">¶ En donnant le pain lequel soit sans</reg>
                   <reg type="advanced">¶ En donnant le pain leq̃l soit sans</reg>
                </choice>
             </hi>
@@ -45079,7 +45079,7 @@
                <lb corresp="#f36_eSc_line_6a46be23_ligne_27"/>
                <choice>
                   <orig>image/ ne permettant quon ladore/ le</orig>
-                  <reg type="intermediary">image/ ne permettant quon ladore/ le</reg>
+                  <reg type="intermediary">image/ ne permettant qu'on l'adore/ le</reg>
                   <reg type="advanced">image/ ne permettant quon ladore/ le</reg>
                </choice>
             </hi>
@@ -45087,7 +45087,7 @@
                <lb corresp="#f36_eSc_line_0f57792f_ligne_28"/>
                <choice>
                   <orig>baillant a tous en la main: affin qͥlz</orig>
-                  <reg type="intermediary">baillant a tous en la main: affin qͥlz</reg>
+                  <reg type="intermediary">baillant a tous en la main: affin qu'ilz</reg>
                   <reg type="advanced">baillant a tous en la main: affin qͥlz</reg>
                </choice>
             </hi>
