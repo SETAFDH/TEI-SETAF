@@ -198,6 +198,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2023-10-27" who="#SS">Création du fichier TEI P5.</change>
+         <change when="2025-03-04" who="#SS">Normalisation intermédiaire ou semi-diplomatique terminée.</change>
          <change when="2025-05-15" who="#SS">Révision des métadonnées.</change>
       </revisionDesc>
    </teiHeader>
