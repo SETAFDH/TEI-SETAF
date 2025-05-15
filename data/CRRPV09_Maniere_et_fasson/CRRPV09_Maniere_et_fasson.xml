@@ -39,6 +39,14 @@
                </persName>
             </respStmt>
             <respStmt>
+               <resp>Collaboration à la supervision de l’édition.</resp>
+               <persName xml:id="GG">
+                  <forename>Geneviève</forename>
+                  <surname>Gross</surname>
+                  <ptr type="orcid" target="0009-0006-5367-4262"/>
+               </persName>
+            </respStmt>
+            <respStmt>
                <resp>Collaboration à la modélisation de l’édition et accompagnement à l’encodage.</resp>
                <persName xml:id="SG">
                   <forename>Simon</forename>
@@ -153,12 +161,12 @@
       <encodingDesc>
          <projectDesc>
             <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF <ref target="https://www.unige.ch/setaf/"/>, dirigé par la Prof·e Daniela Solfaroli Camillocci (IHR) 
-               et financé par le FNS : <ref target="https://data.snf.ch/grants/grant/205056"/>. </p>
+               et financé par le FNS : <ref target="https://data.snf.ch/grants/grant/205056"/>.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
                <p>Voir le guide de transcription du projet SETAF : <ref target="https://hal.science/hal-04281804"/>. La segmentation a été produite manuellement 
-                  et la transcription issue de l'OCR a été vérifiée. </p>
+                  et la transcription issue de l'OCR a été vérifiée.</p>
             </correction>
             <normalization>
                <p>Un guide de normalisation est en cours de publication. Concernant la normalisation intermédiaire ou semi-diplomatique, cette transcription a été normalisée.</p>
