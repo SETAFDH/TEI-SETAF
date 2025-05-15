@@ -7,41 +7,49 @@
          <titleStmt>
             <title>Epistre tres utile envoyée à la Royne de Navarre. [Genève] : [Jean Girard], 1539.</title>
             <respStmt>
-               <resp>Direction of SETAF project.</resp>
+               <resp>Direction du projet SETAF.</resp>
                <persName xml:id="DSC">
                   <forename>Daniela</forename>
                   <surname>Solfaroli Camillocci</surname>
-                  <ptr type="orcid" target="000000022601668X"/>
+                  <ptr type="orcid" target="0000-0002-2601-668X"/>
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Modelling and document engineering. Medata encoding.</resp>
+               <resp>Supervision et modélisation de l’édition, encodage du texte, encodage et révision des métadonnées.</resp>
                <persName xml:id="SS">
                   <forename>Sonia</forename>
                   <surname>Solfrini</surname>
-                  <ptr type="orcid" target="000900097367048X"/>
+                  <ptr type="orcid" target="0009-0009-7367-048X"/>
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Modelling and document engineering support.</resp>
-               <persName xml:id="SG">
-                  <forename>Simon</forename>
-                  <surname>Gabay</surname>
-                  <ptr type="orcid" target="0000000190944475"/>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>Segmentation and correction of OCR transcription.</resp>
+               <resp>Analyse de mise en page (zonage), révision de l’OCR et normalisation du texte.</resp>
                <persName xml:id="MD">
                   <forename>Mylène</forename>
                   <surname>Dejouy</surname>
-                  <ptr type="orcid" target="0009000096969868"/>
+                  <ptr type="orcid" target="0009-0000-9696-9868"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Collaboration à la modélisation de l’édition et accompagnement à l’encodage.</resp>
+               <persName xml:id="SG">
+                  <forename>Simon</forename>
+                  <surname>Gabay</surname>
+                  <ptr type="orcid" target="0000-0001-9094-4475"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mise en ligne de l’édition via TEI Publisher et accompagnement à l’encodage.</resp>
+               <persName xml:id="EL">
+                  <forename>Elina</forename>
+                  <surname>Leblanc</surname>
+                  <ptr type="orcid" target="0009-0009-4556-8840"/>
                </persName>
             </respStmt>
          </titleStmt>
          <extent>
-            <measure unit="total_images" n="70"/>
-            <measure unit="processed_images" n="64"/>
+            <measure unit="total_images" n="p. 70"/>
+            <measure unit="processed_images" n="p. 64"/>
          </extent>
          <publicationStmt>
             <publisher>Projet SETAF</publisher>
@@ -58,11 +66,11 @@
          </publicationStmt>
          <sourceDesc>
             <msDesc>
-               <msIdentifier xml:id="MHR_D_Den_1">
+               <msIdentifier xml:id="MHR_MHR_D_Den_1">
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <institution>Musée historique de la Réformation (MHR)</institution>
-                  <idno type="shelfmark">D Den. 1</idno>
+                  <institution>Musée historique de la Réformation</institution>
+                  <idno type="shelfmark">MHR D Den 1</idno>
                </msIdentifier>
                <msContents>
                   <p>
@@ -72,8 +80,7 @@
                               <surname>Dentière</surname>
                               <forename>Marie</forename>
                            </author>
-                           <title type="complete_title">
-                                                Epistre tres utile faicte et composée par une femme chrestienne de Tornay, envoyée à la Royne de Navarre seur du Roy de France. Contre les Turcz, Juifz, Infideles, Faulx chrestiens, Anabaptistes, et Lutheriens.</title>
+                           <title type="complete_title">Epistre tres utile faicte et composée par une femme chrestienne de Tornay, envoyée à la Royne de Navarre seur du Roy de France. Contre les Turcz, Juifz, Infideles, Faulx chrestiens, Anabaptistes, et Lutheriens.</title>
                            <title type="short_title">Epistre tres utile envoyée à la Royne de Navarre</title>
                            <imprint>
                               <pubPlace role="false_address" cert="high" ref="geonames:2803138">Anvers</pubPlace>
@@ -96,6 +103,7 @@
                      <supportDesc>
                         <support>
                            <dim>In-8°</dim>
+                           <signatures>A-D8</signatures>
                         </support>
                      </supportDesc>
                   </objectDesc>
@@ -105,14 +113,20 @@
                      <bibl>
                         <ref target="https://doi.org/10.3931/e-rara-12685"/>
                         <relatedItem type="original">
-                           <ref target="#MHR_D_Den_1">e-rara</ref>
+                           <ref target="#MHR_MHR_D_Den_1">e-rara</ref>
                         </relatedItem>
+                        <availability>
+                           <licence target="https://creativecommons.org/publicdomain/mark/1.0/deed.en"/>
+                           <p>Images : Public Domain Mark (e-rara)</p>
+                           <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+                           <p>Édition : CC BY</p>
+                        </availability>
                      </bibl>
                   </surrogates>
                   <listBibl>
                      <bibl>
                         <ref target="https://www.ville-ge.ch/musinfo/bd/bge/gln/notice/?no=GLN-1329">
-                           <orgName>GLN</orgName>
+                           <orgName>GLN 15-16</orgName>
                            <idno>1329</idno>
                         </ref>
                      </bibl>
@@ -129,14 +143,16 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF, dirigé par la Prof·e Daniela Solfaroli Camillocci (IHR) et financé par le FNS.</p>
+            <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF <ref target="https://www.unige.ch/setaf/"/>, dirigé par la Prof·e Daniela Solfaroli Camillocci (IHR) 
+               et financé par le FNS : <ref target="https://data.snf.ch/grants/grant/205056"/>.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
-               <p>Voir le guide de transcription du projet SETAF : <ref target="https://hal.science/hal-04281804"/>. La segmentation a été produite manuellement et la transcription issue de l'OCR a été corrigée.</p>
+               <p>Voir le guide de transcription du projet SETAF : <ref target="https://hal.science/hal-04281804"/>. La segmentation a été produite manuellement 
+                  et la transcription issue de l'OCR a été vérifiée.</p>
             </correction>
             <normalization>
-               <p>Voir le guide de normalisation du projet SETAF. En ce qui concerne la régularisation intermédiaire, cette transcription a été normalisée jusqu'à la page x. En ce qui concerne la régularisation contemporaine, cette transcription n'a pas encore été normalisée.</p>
+               <p>Un guide de normalisation est en cours de publication. Concernant la normalisation intermédiaire ou semi-diplomatique, cette transcription a été normalisée.</p>
             </normalization>
          </editorialDecl>
          <appInfo>
@@ -168,6 +184,7 @@
          </langUsage>
          <textClass>
             <keywords>
+               <term type="genre">à établir</term>
                <term type="form">prose</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
@@ -179,7 +196,8 @@
       </profileDesc>
       <revisionDesc>
          <change when="2025-03-26" who="#SS">Création du fichier TEI P5.</change>
-         <change when="2025-04-01" who="#MD">Normalisation intermédiaire terminée.</change>
+         <change when="2025-04-01" who="#MD">Normalisation intermédiaire ou semi-diplomatique terminée.</change>
+         <change when="2025-05-15" who="#SS">Révision des métadonnées.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
