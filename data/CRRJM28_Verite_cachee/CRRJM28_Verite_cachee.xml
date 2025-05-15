@@ -107,6 +107,12 @@
                         <relatedItem type="original">
                            <ref target="#MHR_D_Mal_1">e-rara</ref>
                         </relatedItem>
+                        <availability>
+                           <licence target="https://creativecommons.org/publicdomain/mark/1.0/deed.en"/>
+                           <p>Images : Public Domain Mark (e-rara)</p>
+                           <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+                           <p>Édition : CC BY</p>
+                        </availability>
                      </bibl>
                   </surrogates>
                   <listBibl>
