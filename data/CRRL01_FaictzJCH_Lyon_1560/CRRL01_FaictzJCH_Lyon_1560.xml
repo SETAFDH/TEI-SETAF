@@ -121,8 +121,14 @@
                      <bibl>
                         <ref target="https://luna.manchester.ac.uk/luna/servlet/detail/Manchester~91~1~425957~192597"/>
                         <relatedItem type="original">
-                           <ref target="#UML_R166109">University of Manchester Image Collections</ref>
+                           <ref target="#UML_R166109">The University of Manchester Library</ref>
                         </relatedItem>
+                        <availability>
+                           <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                           <p>Images : CC BY-NC-SA 4.0 (The University of Manchester Library)</p>
+                           <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+                           <p>Édition : CC BY</p>
+                        </availability>
                      </bibl>
                   </surrogates>
                   <!-- USTC ?? -->

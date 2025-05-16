@@ -120,10 +120,16 @@
                <additional>
                   <surrogates>
                      <bibl>
-                        <ref target="hhttps://doi.org/10.3931/e-rara-12689"/>
+                        <ref target="https://doi.org/10.3931/e-rara-12689"/>
                         <relatedItem type="original">
                            <ref target="#MHR_MHR_D_Marc_1_44">e-rara</ref>
                         </relatedItem>
+                        <availability>
+                           <licence target="https://creativecommons.org/publicdomain/mark/1.0/deed.en"/>
+                           <p>Images : Public Domain Mark (e-rara)</p>
+                           <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+                           <p>Édition : CC BY</p>
+                        </availability>
                      </bibl>
                   </surrogates>
                   <listBibl>
