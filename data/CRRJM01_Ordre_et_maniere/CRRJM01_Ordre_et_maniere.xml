@@ -37272,7 +37272,7 @@
    </sourceDoc>
    <text>
       <body>
-         <pb corresp="f1"/>
+         <pb corresp="#f1"/>
          <ab corresp="#f1_eSc_textblock_1668f635" type="TitlePageZone">
             <hi>
                <lb type="HeadingLine" corresp="#f1_eSc_line_8f59b079_ligne_2"/>
@@ -37403,7 +37403,7 @@
                </choice>
             </hi>
          </ab>
-         <pb corresp="f2"/>
+         <pb corresp="#f2"/>
          <ab corresp="#f2_eSc_textblock_857887ed" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f2_eSc_line_2196641d_ligne_2"/>
@@ -37588,7 +37588,7 @@
                <reg type="advanced">Gal.1.b</reg>
             </choice>
          </note>
-         <pb corresp="f3"/>
+         <pb corresp="#f3"/>
          <ab corresp="#f3_eSc_textblock_f8d62f90" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f3_eSc_line_ca05e3af_ligne_2"/>
@@ -37877,7 +37877,7 @@
                <reg type="advanced">Ioã.9.b</reg>
             </choice>
          </note>
-         <pb corresp="f4"/>
+         <pb corresp="#f4"/>
          <ab corresp="#f4_eSc_textblock_7bceb681" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f4_eSc_line_41dfdb5a_ligne_2"/>
@@ -38164,7 +38164,7 @@
                <reg type="advanced">Luc.19.f.</reg>
             </choice>
          </note>
-         <pb corresp="f5"/>
+         <pb corresp="#f5"/>
          <ab corresp="#f5_eSc_textblock_4db270bd" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f5_eSc_line_685bb1c8_ligne_2"/>
@@ -38353,7 +38353,7 @@
                <reg type="advanced">2.tim̃.2.d</reg>
             </choice>
          </note>
-         <pb corresp="f6"/>
+         <pb corresp="#f6"/>
          <ab corresp="#f6_eSc_textblock_b9fccaf0" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f6_eSc_line_b6387785_ligne_2"/>
@@ -38562,7 +38562,7 @@
                <reg type="advanced">Iesus/</reg>
             </choice>
          </fw>
-         <pb corresp="f7"/>
+         <pb corresp="#f7"/>
          <ab corresp="#f7_eSc_textblock_68662b31" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f7_eSc_line_e0bde08f_ligne_2"/>
@@ -38789,7 +38789,7 @@
                <reg type="advanced">et.10.g.</reg>
             </choice>
          </note>
-         <pb corresp="f8"/>
+         <pb corresp="#f8"/>
          <ab corresp="#f8_eSc_textblock_817ec0e2" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f8_eSc_line_98ce5b69_ligne_2"/>
@@ -38994,7 +38994,7 @@
                <reg type="advanced">mat.3.d.</reg>
             </choice>
          </note>
-         <pb corresp="f9"/>
+         <pb corresp="#f9"/>
          <ab corresp="#f9_eSc_textblock_42847969" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f9_eSc_line_985a132c_ligne_2"/>
@@ -39237,7 +39237,7 @@
                <reg type="advanced">Act.10.g.</reg>
             </choice>
          </note>
-         <pb corresp="f10"/>
+         <pb corresp="#f10"/>
          <ab corresp="#f10_eSc_textblock_97a0b294" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f10_eSc_line_67d3414f_ligne_2"/>
@@ -39444,7 +39444,7 @@
                <reg type="advanced">Act.2.f.</reg>
             </choice>
          </note>
-         <pb corresp="f11"/>
+         <pb corresp="#f11"/>
          <ab corresp="#f11_eSc_textblock_59594710" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f11_eSc_line_8d1bbf4a_ligne_2"/>
@@ -39627,7 +39627,7 @@
                <reg type="advanced">Ro.6.a.</reg>
             </choice>
          </note>
-         <pb corresp="f12"/>
+         <pb corresp="#f12"/>
          <ab corresp="#f12_eSc_textblock_c9d204d2" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f12_eSc_line_0abb291a_ligne_2"/>
@@ -39837,7 +39837,7 @@
             </choice>
          </note>
          <note corresp="#f12_eSc_textblock_8ad4a426" type="MarginTextZone"/>
-         <pb corresp="f13"/>
+         <pb corresp="#f13"/>
          <ab corresp="#f13_eSc_textblock_5e8cd52c" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f13_eSc_line_c7af5644_ligne_2"/>
@@ -40074,7 +40074,7 @@
                <reg type="advanced">Eph.1.b.</reg>
             </choice>
          </note>
-         <pb corresp="f14"/>
+         <pb corresp="#f14"/>
          <ab corresp="#f14_eSc_textblock_4d61b944" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f14_eSc_line_92439b0e_ligne_2"/>
@@ -40283,7 +40283,7 @@
                <reg type="advanced">mar.10.b</reg>
             </choice>
          </note>
-         <pb corresp="f15"/>
+         <pb corresp="#f15"/>
          <ab corresp="#f15_eSc_textblock_94d5f054" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f15_eSc_line_ed579fe6_ligne_2"/>
@@ -40484,7 +40484,7 @@
                <reg type="advanced">exo.20.a</reg>
             </choice>
          </note>
-         <pb corresp="f16"/>
+         <pb corresp="#f16"/>
          <ab corresp="#f16_eSc_textblock_84c88f67" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f16_eSc_line_0c0abd81_ligne_2"/>
@@ -40659,7 +40659,7 @@
                <reg type="advanced">ton</reg>
             </choice>
          </fw>
-         <pb corresp="f17"/>
+         <pb corresp="#f17"/>
          <ab corresp="#f17_eSc_textblock_861203a8" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f17_eSc_line_9be9c23d_ligne_2"/>
@@ -40968,7 +40968,7 @@
                <reg type="advanced">4.c.</reg>
             </choice>
          </note>
-         <pb corresp="f18"/>
+         <pb corresp="#f18"/>
          <ab corresp="#f18_eSc_textblock_82e9e944" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f18_eSc_line_a2f41bd2_ligne_2"/>
@@ -41225,7 +41225,7 @@
                <reg type="advanced">1.thes.5.c</reg>
             </choice>
          </note>
-         <pb corresp="f19"/>
+         <pb corresp="#f19"/>
          <ab corresp="#f19_eSc_textblock_d05f9aa4" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f19_eSc_line_a455d25a_ligne_2"/>
@@ -41442,7 +41442,7 @@
                <reg type="advanced">Ro.6.a.</reg>
             </choice>
          </note>
-         <pb corresp="f20"/>
+         <pb corresp="#f20"/>
          <ab corresp="#f20_eSc_textblock_59073653" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f20_eSc_line_c59002ea_ligne_2"/>
@@ -41657,7 +41657,7 @@
                <reg type="advanced">ephe.4.a</reg>
             </choice>
          </note>
-         <pb corresp="f21"/>
+         <pb corresp="#f21"/>
          <ab corresp="#f21_eSc_textblock_73d46979" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f21_eSc_line_b6e5dd2b_ligne_2"/>
@@ -41868,7 +41868,7 @@
                <reg type="advanced">26.c.</reg>
             </choice>
          </note>
-         <pb corresp="f22"/>
+         <pb corresp="#f22"/>
          <ab corresp="#f22_eSc_textblock_32463b0b" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f22_eSc_line_4bbb8ee6_ligne_2"/>
@@ -42085,7 +42085,7 @@
                <reg type="advanced">Ro.11.c.</reg>
             </choice>
          </note>
-         <pb corresp="f23"/>
+         <pb corresp="#f23"/>
          <ab corresp="#f23_eSc_textblock_c1988266" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f23_eSc_line_3e80ba66_ligne_2"/>
@@ -42308,7 +42308,7 @@
                <reg type="advanced">1.c.d.</reg>
             </choice>
          </note>
-         <pb corresp="f24"/>
+         <pb corresp="#f24"/>
          <ab corresp="#f24_eSc_textblock_b551f586" type="MainZone">
             <lb type="DefaultLine" corresp="#f24_eSc_line_cf406c5f_ligne_2"/>
             <choice>
@@ -42521,7 +42521,7 @@
                <reg type="advanced">1.cor.11.f.</reg>
             </choice>
          </note>
-         <pb corresp="f25"/>
+         <pb corresp="#f25"/>
          <ab corresp="#f25_eSc_textblock_9a477de2" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f25_eSc_line_fa60aac8_ligne_2"/>
@@ -42696,7 +42696,7 @@
                <reg type="advanced">B 5 tous/</reg>
             </choice>
          </fw>
-         <pb corresp="f26"/>
+         <pb corresp="#f26"/>
          <ab corresp="#f26_eSc_textblock_62e002eb" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f26_eSc_line_d37c79c7_ligne_2"/>
@@ -42885,7 +42885,7 @@
                <reg type="advanced">esa.43.d.</reg>
             </choice>
          </note>
-         <pb corresp="f27"/>
+         <pb corresp="#f27"/>
          <ab corresp="#f27_eSc_textblock_b6dd3faf" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f27_eSc_line_b1e68373_ligne_2"/>
@@ -43134,7 +43134,7 @@
                <reg type="advanced">1.Pet.3.c</reg>
             </choice>
          </note>
-         <pb corresp="f28"/>
+         <pb corresp="#f28"/>
          <ab corresp="#f28_eSc_textblock_951c8165" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f28_eSc_line_080e1a1b_ligne_2"/>
@@ -43381,7 +43381,7 @@
                <reg type="advanced">rom̃.4.d.</reg>
             </choice>
          </note>
-         <pb corresp="f29"/>
+         <pb corresp="#f29"/>
          <ab corresp="#f29_eSc_textblock_a1c94581" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f29_eSc_line_282755ed_ligne_2"/>
@@ -43668,7 +43668,7 @@
                <reg type="advanced">2.Pe.2.d.</reg>
             </choice>
          </note>
-         <pb corresp="f30"/>
+         <pb corresp="#f30"/>
          <ab corresp="#f30_eSc_textblock_6b9faae0" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f30_eSc_line_be0139c3_ligne_2"/>
@@ -43885,7 +43885,7 @@
                <reg type="advanced">1.tiom.1.</reg>
             </choice>
          </note>
-         <pb corresp="f31"/>
+         <pb corresp="#f31"/>
          <ab corresp="#f31_eSc_textblock_fa828ed2" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f31_eSc_line_43ac8ed4_ligne_2"/>
@@ -44106,7 +44106,7 @@
                <reg type="advanced">Ro.4.d.</reg>
             </choice>
          </note>
-         <pb corresp="f32"/>
+         <pb corresp="#f32"/>
          <ab corresp="#f32_eSc_textblock_68e6d3ce" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f32_eSc_line_0359978d_ligne_2"/>
@@ -44281,7 +44281,7 @@
                <reg type="advanced">tant</reg>
             </choice>
          </fw>
-         <pb corresp="f33"/>
+         <pb corresp="#f33"/>
          <ab corresp="#f33_eSc_textblock_734cdacc" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f33_eSc_line_ef2ecefb_ligne_2"/>
@@ -44498,7 +44498,7 @@
                <reg type="advanced">C con¬</reg>
             </choice>
          </fw>
-         <pb corresp="f34"/>
+         <pb corresp="#f34"/>
          <ab corresp="#f34_eSc_textblock_796fac95" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f34_eSc_line_6601b3a1_ligne_2"/>
@@ -44737,7 +44737,7 @@
                <reg type="advanced">Act.15.b.</reg>
             </choice>
          </note>
-         <pb corresp="f35"/>
+         <pb corresp="#f35"/>
          <ab corresp="#f35_eSc_textblock_d10a1a14" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f35_eSc_line_32dde015_ligne_2"/>
@@ -44946,7 +44946,7 @@
                <reg type="advanced">Ioã.8.f.</reg>
             </choice>
          </note>
-         <pb corresp="f36"/>
+         <pb corresp="#f36"/>
          <ab corresp="#f36_eSc_textblock_dbae776e" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f36_eSc_line_08f2f169_ligne_2"/>
@@ -45169,7 +45169,7 @@
                <reg type="advanced">colos.2.d</reg>
             </choice>
          </note>
-         <pb corresp="f37"/>
+         <pb corresp="#f37"/>
          <ab corresp="#f37_eSc_textblock_115b0a28" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f37_eSc_line_d4caa722_ligne_2"/>
@@ -45368,7 +45368,7 @@
                <reg type="advanced">1.Pet.2.c</reg>
             </choice>
          </note>
-         <pb corresp="f38"/>
+         <pb corresp="#f38"/>
          <ab corresp="#f38_eSc_textblock_a20712ec" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f38_eSc_line_ecab09fc_ligne_2"/>
@@ -45571,7 +45571,7 @@
                <reg type="advanced">2.co.6.c.d</reg>
             </choice>
          </note>
-         <pb corresp="f39"/>
+         <pb corresp="#f39"/>
          <ab corresp="#f39_eSc_textblock_1ba40fae" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f39_eSc_line_9bf9f74f_ligne_2"/>
@@ -45812,7 +45812,7 @@
                <reg type="advanced">Hebr.13.a</reg>
             </choice>
          </note>
-         <pb corresp="f40"/>
+         <pb corresp="#f40"/>
          <ab corresp="#f40_eSc_textblock_5eab592e" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f40_eSc_line_d0cd20a6_ligne_2"/>
@@ -46103,7 +46103,7 @@
                <reg type="advanced">exo.22.c.</reg>
             </choice>
          </note>
-         <pb corresp="f41"/>
+         <pb corresp="#f41"/>
          <ab corresp="#f41_eSc_textblock_08a29c3c" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f41_eSc_line_49bd6911_ligne_2"/>
@@ -46278,7 +46278,7 @@
                <reg type="advanced">C 5 Nostre</reg>
             </choice>
          </fw>
-         <pb corresp="f42"/>
+         <pb corresp="#f42"/>
          <ab corresp="#f42_eSc_textblock_802d0b65" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f42_eSc_line_c98f986e_ligne_2"/>
@@ -46503,7 +46503,7 @@
                <reg type="advanced">Eph.5.a</reg>
             </choice>
          </note>
-         <pb corresp="f43"/>
+         <pb corresp="#f43"/>
          <ab corresp="#f43_eSc_textblock_770af352" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f43_eSc_line_e5ce72b2_ligne_2"/>
@@ -46756,7 +46756,7 @@
                <reg type="advanced">sont</reg>
             </choice>
          </fw>
-         <pb corresp="f44"/>
+         <pb corresp="#f44"/>
          <ab corresp="#f44_eSc_textblock_e08b4cdc" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f44_eSc_line_356529eb_ligne_2"/>
@@ -46965,7 +46965,7 @@
                <reg type="advanced">leui.18.b.</reg>
             </choice>
          </note>
-         <pb corresp="f45"/>
+         <pb corresp="#f45"/>
          <ab corresp="#f45_eSc_textblock_5f8898e3" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f45_eSc_line_aacb2844_ligne_2"/>
@@ -47144,7 +47144,7 @@
                <reg type="advanced">Puis</reg>
             </choice>
          </fw>
-         <pb corresp="f46"/>
+         <pb corresp="#f46"/>
          <ab corresp="#f46_eSc_textblock_97694d17" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f46_eSc_line_507c55ca_ligne_2"/>
@@ -47339,7 +47339,7 @@
                <reg type="advanced">Io.2.a.b.</reg>
             </choice>
          </note>
-         <pb corresp="f47"/>
+         <pb corresp="#f47"/>
          <ab corresp="#f47_eSc_textblock_3d5f1428" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f47_eSc_line_8802079e_ligne_2"/>
@@ -47542,7 +47542,7 @@
                <reg type="advanced">Geñ.2.c</reg>
             </choice>
          </note>
-         <pb corresp="f48"/>
+         <pb corresp="#f48"/>
          <ab corresp="#f48_eSc_textblock_1da28817" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f48_eSc_line_b0915451_ligne_2"/>
@@ -47725,7 +47725,7 @@
                <reg type="advanced">Ioã.16.f.</reg>
             </choice>
          </note>
-         <pb corresp="f49"/>
+         <pb corresp="#f49"/>
          <ab corresp="#f49_eSc_textblock_8f844be7" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f49_eSc_line_162b2472_ligne_2"/>
@@ -47942,7 +47942,7 @@
                <reg type="advanced">6.c.</reg>
             </choice>
          </note>
-         <pb corresp="f50"/>
+         <pb corresp="#f50"/>
          <ab corresp="#f50_eSc_textblock_dd65cfbb" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f50_eSc_line_e67ebe30_ligne_2"/>
@@ -48159,7 +48159,7 @@
                <reg type="advanced">Luc.16.e.</reg>
             </choice>
          </note>
-         <pb corresp="f51"/>
+         <pb corresp="#f51"/>
          <ab corresp="#f51_eSc_textblock_761ef391" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f51_eSc_line_50c984ec_ligne_2"/>
@@ -48364,7 +48364,7 @@
                <reg type="advanced">Luc.22.d</reg>
             </choice>
          </note>
-         <pb corresp="f52"/>
+         <pb corresp="#f52"/>
          <ab corresp="#f52_eSc_textblock_d6dee221" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f52_eSc_line_9151713f_ligne_2"/>
@@ -48561,7 +48561,7 @@
                <reg type="advanced">Psal.30.</reg>
             </choice>
          </note>
-         <pb corresp="f53"/>
+         <pb corresp="#f53"/>
          <ab corresp="#f53_eSc_textblock_ab6b883b" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f53_eSc_line_08be9c7a_ligne_2"/>
@@ -48780,7 +48780,7 @@
                <reg type="advanced">D 3 doibt</reg>
             </choice>
          </fw>
-         <pb corresp="f54"/>
+         <pb corresp="#f54"/>
          <ab corresp="#f54_eSc_textblock_e6b103b5" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f54_eSc_line_87359b39_ligne_2"/>
@@ -49007,7 +49007,7 @@
                <reg type="advanced">Io.16.e.f.</reg>
             </choice>
          </note>
-         <pb corresp="f55"/>
+         <pb corresp="#f55"/>
          <ab corresp="#f55_eSc_textblock_f778bdc3" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f55_eSc_line_ba4bfd27_ligne_2"/>
@@ -49196,7 +49196,7 @@
                <reg type="advanced">4 sur</reg>
             </choice>
          </fw>
-         <pb corresp="f56"/>
+         <pb corresp="#f56"/>
          <ab corresp="#f56_eSc_textblock_347ef480" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f56_eSc_line_03dbad2a_ligne_2"/>
@@ -49425,7 +49425,7 @@
                <reg type="advanced">9.a.</reg>
             </choice>
          </note>
-         <pb corresp="f57"/>
+         <pb corresp="#f57"/>
          <ab corresp="#f57_eSc_textblock_e6dfd9db" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f57_eSc_line_3445ccec_ligne_2"/>
@@ -49670,7 +49670,7 @@
                <reg type="advanced">1.Pe.4.c.</reg>
             </choice>
          </note>
-         <pb corresp="f58"/>
+         <pb corresp="#f58"/>
          <ab corresp="#f58_eSc_textblock_9fd16ed4" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f58_eSc_line_a1a60132_ligne_2"/>
@@ -49967,7 +49967,7 @@
                <reg type="advanced">Ro.13.a.</reg>
             </choice>
          </note>
-         <pb corresp="f59"/>
+         <pb corresp="#f59"/>
          <ab corresp="#f59_eSc_textblock_0210ad93" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f59_eSc_line_220d3b88_ligne_2"/>
@@ -50254,7 +50254,7 @@
                <reg type="advanced">Hie.22.a.</reg>
             </choice>
          </note>
-         <pb corresp="f60"/>
+         <pb corresp="#f60"/>
          <ab corresp="#f60_eSc_textblock_91e730d2" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f60_eSc_line_f13d1ba5_ligne_2"/>
@@ -50451,7 +50451,7 @@
                <reg type="advanced">1.tim̃.2.a</reg>
             </choice>
          </note>
-         <pb corresp="f61"/>
+         <pb corresp="#f61"/>
          <ab corresp="#f61_eSc_textblock_d5a4e1e4" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f61_eSc_line_f9a217ba_ligne_2"/>
@@ -50578,7 +50578,7 @@
                <reg type="advanced">Act.12.b.</reg>
             </choice>
          </note>
-         <pb corresp="f62"/>
+         <pb corresp="#f62"/>
          <ab corresp="#f62_eSc_textblock_ea946a6f" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f62_eSc_line_6397e57c_ligne_2"/>
@@ -50731,7 +50731,7 @@
                <reg type="advanced">et gloyre.</reg>
             </choice>
          </ab>
-         <pb corresp="f63"/>
+         <pb corresp="#f63"/>
          <ab corresp="#f63_eSc_textblock_b79ded93" type="MainZone">
             <lb type="DefaultLine" corresp="#f63_eSc_line_0c476b22_ligne_2"/>
             <choice>
@@ -50764,7 +50764,7 @@
                <reg type="advanced">1538.</reg>
             </choice>
          </ab>
-         <pb corresp="f64"/>
+         <pb corresp="#f64"/>
          <ab corresp="#f64_eSc_textblock_df054fac" type="MainZone">
             <lb type="DefaultLine" corresp="#f64_eSc_line_31f11cbe_ligne_2"/>
             <choice>
