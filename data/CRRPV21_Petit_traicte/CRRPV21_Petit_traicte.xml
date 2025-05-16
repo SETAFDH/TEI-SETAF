@@ -7,49 +7,65 @@
          <titleStmt>
             <title>Petit traicté tres utile et salutaire de la saincte eucharistie. [Neuchâtel]: [Pierre de Vingle], 1534.</title>
             <respStmt>
-               <resp>Direction of SETAF project.</resp>
+               <resp>Direction du projet SETAF.</resp>
                <persName xml:id="DSC">
                   <forename>Daniela</forename>
                   <surname>Solfaroli Camillocci</surname>
-                  <ptr type="orcid" target="000000022601668X"/>
+                  <ptr type="orcid" target="0000-0002-2601-668X"/>
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Modelling and document engineering. Metadata encoding.</resp>
+               <resp>Supervision et modélisation de l’édition, encodage du texte, encodage et révision des métadonnées.</resp>
                <persName xml:id="SS">
                   <forename>Sonia</forename>
                   <surname>Solfrini</surname>
-                  <ptr type="orcid" target="000900097367048X"/>
+                  <ptr type="orcid" target="0009-0009-7367-048X"/>
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Modelling and document engineering support.</resp>
-               <persName xml:id="SG">
-                  <forename>Simon</forename>
-                  <surname>Gabay</surname>
-                  <ptr type="orcid" target="0000000190944475"/>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>Segmentation and correction of OCR transcription.</resp>
+               <resp>Analyse de mise en page (zonage) et révision de l’OCR.</resp>
                <persName xml:id="MD">
                   <forename>Mylène</forename>
                   <surname>Dejouy</surname>
-                  <ptr type="orcid" target="0009000096969868"/>
+                  <ptr type="orcid" target="0009-0000-9696-9868"/>
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Normalization (intermediary).</resp>
+               <resp>Normalisation du texte.</resp>
                <persName xml:id="POB">
                   <forename>Pierre-Olivier</forename>
                   <surname>Beaulnes</surname>
-                  <ptr type="orcid" target="0009000924756017"/>
+                  <ptr type="orcid" target="0009-0009-2475-6017"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Collaboration à la supervision de l’édition.</resp>
+               <persName xml:id="GG">
+                  <forename>Geneviève</forename>
+                  <surname>Gross</surname>
+                  <ptr type="orcid" target="0009-0006-5367-4262"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Collaboration à la modélisation de l’édition et accompagnement à l’encodage.</resp>
+               <persName xml:id="SG">
+                  <forename>Simon</forename>
+                  <surname>Gabay</surname>
+                  <ptr type="orcid" target="0000-0001-9094-4475"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mise en ligne de l’édition via TEI Publisher et accompagnement à l’encodage.</resp>
+               <persName xml:id="EL">
+                  <forename>Elina</forename>
+                  <surname>Leblanc</surname>
+                  <ptr type="orcid" target="0009-0009-4556-8840"/>
                </persName>
             </respStmt>
          </titleStmt>
          <extent>
-            <measure unit="total_images" n="86"/>
-            <measure unit="processed_images" n="78"/>
+            <measure unit="total_images" n="p. 86"/>
+            <measure unit="processed_images" n="p. 78"/>
          </extent>
          <publicationStmt>
             <publisher>Projet SETAF</publisher>
@@ -66,11 +82,11 @@
          </publicationStmt>
          <sourceDesc>
             <msDesc>
-               <msIdentifier xml:id="BPU_A.F._C_49_D">
+               <msIdentifier xml:id="BPUN_BPUN_A.F._C_49_D">
                   <country>Suisse</country>
                   <settlement>Neuchâtel</settlement>
-                  <institution>Bibliothèque publique et universitaire (BPU)</institution>
-                  <idno type="shelfmark">A.F. C 49 D</idno>
+                  <institution>Bibliothèque publique et universitaire de Neuchâtel</institution>
+                  <idno type="shelfmark">BPUN A.F. C 49 D</idno>
                </msIdentifier>
                <msContents>
                   <p>
@@ -104,6 +120,7 @@
                      <supportDesc>
                         <support>
                            <dim>In-8°</dim>
+                           <signatures>A-E8</signatures>
                         </support>
                      </supportDesc>
                   </objectDesc>
@@ -111,16 +128,22 @@
                <additional>
                   <surrogates>
                      <bibl>
-                        <ref target="http://dx.doi.org/10.3931/e-rara-6082"/>
+                        <ref target="https://doi.org/10.3931/e-rara-6082"/>
                         <relatedItem type="original">
-                           <ref target="#BPU_A.F._C_49_D">e-rara</ref>
+                           <ref target="#BPUN_BPUN_A.F._C_49_D">e-rara</ref>
                         </relatedItem>
+                        <availability>
+                           <licence target="https://creativecommons.org/publicdomain/mark/1.0/deed.en"/>
+                           <p>Images : Public Domain Mark (e-rara)</p>
+                           <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+                           <p>Édition : CC BY</p>
+                        </availability>
                      </bibl>
                   </surrogates>
                   <listBibl>
                      <bibl>
                         <ref target="https://www.ville-ge.ch/musinfo/bd/bge/gln/notice/?no=GLN-1952">
-                           <orgName>GLN</orgName>
+                           <orgName>GLN 15-16</orgName>
                            <idno>1952</idno>
                         </ref>
                      </bibl>
@@ -137,14 +160,16 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF, dirigé par la Prof·e Daniela Solfaroli Camillocci (IHR) et financé par le FNS : <ref target="https://data.snf.ch/grants/grant/205056"/>. </p>
+            <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF <ref target="https://www.unige.ch/setaf/"/>, dirigé par la Prof·e Daniela Solfaroli Camillocci (IHR) 
+               et financé par le FNS : <ref target="https://data.snf.ch/grants/grant/205056"/>.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
-               <p>Voir le guide de transcription du projet SETAF : <ref target="https://hal.science/hal-04281804"/>. La segmentation a été produite manuellement et la transcription issue de l'OCR a été corrigée. </p>
+               <p>Voir le guide de transcription du projet SETAF : <ref target="https://hal.science/hal-04281804"/>. La segmentation a été produite manuellement 
+                  et la transcription issue de l'OCR a été vérifiée.</p>
             </correction>
             <normalization>
-               <p>Voir le guide de normalisation du projet SETAF. En ce qui concerne la régularisation intermédiaire, cette transcription a été normalisée jusqu'à la page x. En ce qui concerne la régularisation contemporaine, cette transcription n'a pas encore été normalisée.</p>
+               <p>Un guide de normalisation est en cours de publication. Concernant la normalisation intermédiaire ou semi-diplomatique, cette transcription a été normalisée.</p>
             </normalization>
          </editorialDecl>
          <appInfo>
@@ -176,6 +201,7 @@
          </langUsage>
          <textClass>
             <keywords>
+               <term type="genre">à établir</term>
                <term type="form">prose</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
@@ -187,7 +213,8 @@
       </profileDesc>
       <revisionDesc>
          <change when="2024-06-18" who="#SS">Création du fichier TEI P5.</change>
-         <change when="2024-07-12" who="#POB">Normalisation intermédiaire terminée.</change>
+         <change when="2024-07-12" who="#POB">Normalisation intermédiaire ou semi-diplomatique terminée.</change>
+         <change when="2025-05-16" who="#SS">Révision des métadonnées.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
