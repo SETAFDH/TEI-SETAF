@@ -1877,7 +1877,7 @@
    </sourceDoc>
    <text>
       <body>
-         <pb corresp="f1"/>
+         <pb corresp="#f1"/>
          <ab corresp="#f1_eSc_textblock_20acc798" type="MainZone">
             <hi>
                <lb type="HeadingLine" corresp="#f1_eSc_line_5126f630_ligne_2"/>
