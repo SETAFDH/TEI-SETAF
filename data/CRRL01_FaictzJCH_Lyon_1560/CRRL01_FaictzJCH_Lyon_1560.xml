@@ -110,8 +110,7 @@
                      <supportDesc>
                         <support>
                            <dim>In-4°</dim>
-                           <signatures>?</signatures>
-                           <!-- Signatures à vérifier -->
+                           <signatures>A-L4</signatures>
                         </support>
                      </supportDesc>
                   </objectDesc>
@@ -131,7 +130,7 @@
                         </availability>
                      </bibl>
                   </surrogates>
-                  <!-- USTC ?? -->
+                  <!-- USTC? No! -->
                   <!--<listBibl>
                      <bibl>
                         <ref target="https://www.ustc.ac.uk/editions/x">
