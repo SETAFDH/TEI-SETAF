@@ -67,7 +67,8 @@
                <msContents>
                   <p>
                      <biblStruct>
-                        <monogr><!-- AUTEUR -->
+                        <monogr>
+                           <!-- AUTEUR -->
                            <author>
                               <persName role="presumed_author" ref="isni:0000000083926271">
                                  <surname>Malingre</surname>
