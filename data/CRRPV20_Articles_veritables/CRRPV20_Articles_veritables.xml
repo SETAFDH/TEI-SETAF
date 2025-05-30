@@ -74,11 +74,11 @@
          </publicationStmt>
          <sourceDesc>
             <msDesc>
-               <msIdentifier xml:id="BPUN_BPUN_ZQ_143">
+               <msIdentifier xml:id="BPUN_BPUN_ZU_292">
                   <country>Suisse</country>
                   <settlement>Neuchâtel</settlement>
                   <institution>Bibliothèque publique et universitaire de Neuchâtel</institution>
-                  <idno type="shelfmark">BPUN ZQ 143</idno>
+                  <idno type="shelfmark">BPUN ZQ 143 / BPUN ZU 292</idno>
                   <!-- Cote à vérifier -->
                </msIdentifier>
                <msContents>
@@ -123,7 +123,7 @@
                      <bibl>
                         <ref target="https://doc.rero.ch/record/20834"/>
                         <relatedItem type="original">
-                           <ref target="#BPUN_BPUN_ZQ_143">RERO Doc</ref>
+                           <ref target="#BPUN_BPUN_ZU_292">RERO Doc</ref>
                         </relatedItem>
                         <!-- Droits de diffusion à demander et IIIF avec Hedera -->
                      </bibl>
