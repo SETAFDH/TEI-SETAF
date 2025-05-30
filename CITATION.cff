@@ -1,9 +1,9 @@
-cff-version: 1.0
-title: Données TEI du projet SETAF
+cff-version: 1.2.0
+message: "If you use this dataset, please cite this repository as below."
+title: "Données TEI du projet SETAF"
+abstract: >-
+  TEI data for the SETAF project.
 type: dataset
-message: >-
-  If you use this dataset, please cite it using the
-  metadata from this file.
 authors:
   - family-names: Solfrini
     given-names: Sonia
@@ -35,13 +35,11 @@ authors:
     orcid: 0000-0002-2601-668X
 repository-code: 'https://github.com/SETAFDH/TEI-SETAF'
 url: 'https://github.com/SETAFDH/TEI-SETAF'
-abstract: >-
-  TEI data for the SETAF project.
 keywords:
   - TEI
   - french
   - modern
   - prints
 license: CC-BY-4.0
-version: 1.0
+version: "1.0"
 date-released: 2023-12-07
