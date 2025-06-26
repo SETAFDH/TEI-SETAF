@@ -77,7 +77,7 @@
                            <title type="complete_title">Moralité de la maladie de chrestienté, a .xiij. personnages : en laquelle sont monstrez plusieurs abuz, advenuz au monde, par la poison de peché et lhypocrisie des hereticques. Foy. Le medecin celeste. Esperance. Inspiration. Charité. Laveugle. Chrestienté. Son varlet. Bon oeuvre. Lapoticaire. Hypocrisie. Le docteur. Peché. Ceste moralité reprend les abuz de Chrestienté.</title>
                            <title type="short_title">Moralité de la maladie de chrestienté.</title>
                            <imprint>
-                              <pubPlace cert="medium" ref="geonames:2660646">Genève</pubPlace>
+                              <pubPlace role="presumed_address" cert="medium" ref="geonames:2660646">Genève</pubPlace>
                               <respStmt>
                                  <resp>Imprimeur</resp>
                                  <persName role="presumed_printer">
