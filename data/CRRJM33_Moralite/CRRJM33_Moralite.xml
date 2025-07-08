@@ -15,11 +15,19 @@
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Supervision et modélisation de l’édition, encodage du texte, encodage et révision des métadonnées, analyse de mise en page (zonage) et révision de l’OCR.</resp>
+               <resp>Supervision et modélisation de l’édition, encodage du texte, encodage et révision des métadonnées, analyse de mise en page (zonage) et révision de l’OCR, normalisation du texte.</resp>
                <persName xml:id="SS">
                   <forename>Sonia</forename>
                   <surname>Solfrini</surname>
                   <ptr type="orcid" target="0009-0009-7367-048X"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Normalisation du texte.</resp>
+               <persName xml:id="MD">
+                  <forename>Mylène</forename>
+                  <surname>Dejouy</surname>
+                  <ptr type="orcid" target="0009-0000-9696-9868"/>
                </persName>
             </respStmt>
             <respStmt>
@@ -145,7 +153,7 @@
                   et la transcription issue de l'OCR a été vérifiée.</p>
             </correction>
             <normalization>
-               <p>Un guide de normalisation est en cours de publication. Concernant la normalisation intermédiaire ou semi-diplomatique, cette transcription n'a été pas normalisée.</p>
+               <p>Un guide de normalisation est en cours de publication. Concernant la normalisation intermédiaire ou semi-diplomatique, cette transcription a été normalisée.</p>
             </normalization>
          </editorialDecl>
          <appInfo>
@@ -181,7 +189,7 @@
                <term type="form">poésie (théâtre)</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
-               <term type="intermediary_reg_quality">not applicable</term>
+               <term type="intermediary_reg_quality">gold</term>
                <term type="advanced_reg_quality">not applicable</term>
                <term type="ling_annotation_quality">not applicable</term>
             </keywords>
@@ -190,6 +198,7 @@
       <revisionDesc>
          <change when="2024-01-26" who="#SS">Création du fichier TEI P5.</change>
          <change when="2025-05-15" who="#SS">Révision des métadonnées.</change>
+         <change when="2025-07-08" who="#SS">Normalisation intermédiaire ou semi-diplomatique terminée.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
@@ -45670,9 +45679,9 @@
             </choice>
             <lb type="DefaultLine" corresp="#f9_eSc_line_07248654_ligne_10"/>
             <choice>
-               <orig>Et si donnez a Dieu lhonncur ⁊ gloire.</orig>
+               <orig>Et si donnez a Dieu lhonneur ⁊ gloire.</orig>
                <reg type="intermediary">Et si donnez a Dieu l'honneur et gloire.</reg>
-               <reg type="advanced">Et si donnez a Dieu lhonncur ⁊ gloire.</reg>
+               <reg type="advanced">Et si donnez a Dieu lhonneur ⁊ gloire.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f9_eSc_line_753577f4_ligne_11"/>
             <choice>
@@ -45789,9 +45798,9 @@
          <ab corresp="#f10_eSc_textblock_a7ab5ad0" type="MainZone">
             <lb type="DefaultLine" corresp="#f10_eSc_line_464ccb89_ligne_2"/>
             <choice>
-               <orig>Il ne quiert tien de uostre territoire</orig>
-               <reg type="intermediary">Il ne quiert tien de vostre territoire</reg>
-               <reg type="advanced">Il ne quiert tien de uostre territoire</reg>
+               <orig>Il ne quiert rien de uostre territoire</orig>
+               <reg type="intermediary">Il ne quiert rien de vostre territoire</reg>
+               <reg type="advanced">Il ne quiert rien de uostre territoire</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f10_eSc_line_f7349cd7_ligne_3"/>
             <choice>
@@ -45974,9 +45983,9 @@
             </choice>
             <lb type="DefaultLine" corresp="#f11_eSc_line_1843354d_ligne_5"/>
             <choice>
-               <orig>Sonnore ton pere/</orig>
-               <reg type="intermediary">Sonnore ton pere/</reg>
-               <reg type="advanced">Sonnore ton pere/</reg>
+               <orig>Honnore ton pere/</orig>
+               <reg type="intermediary">Honnore ton pere/</reg>
+               <reg type="advanced">Honnore ton pere/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f11_eSc_line_0e4af3c8_ligne_6"/>
             <choice>
@@ -49359,9 +49368,9 @@
             </choice>
             <lb type="DefaultLine" corresp="#f30_eSc_line_365d95e7_ligne_13"/>
             <choice>
-               <orig>Mon chef fend, mon fiel uoult en ire:</orig>
+               <orig>Mon chef fend, mon fiel boult en ire:</orig>
                <reg type="intermediary">Mon chef fend, mon fiel boult en ire:</reg>
-               <reg type="advanced">Mon chef fend, mon fiel uoult en ire:</reg>
+               <reg type="advanced">Mon chef fend, mon fiel boult en ire:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f30_eSc_line_de945ed1_ligne_14"/>
             <choice>
@@ -51684,9 +51693,9 @@
             </choice>
             <lb type="DefaultLine" corresp="#f43_eSc_line_5f22b175_ligne_24"/>
             <choice>
-               <orig>El nen prendra/ non plus qung uequ/</orig>
-               <reg type="intermediary">El n'en prendra/ non plus q'ung uequ/</reg>
-               <reg type="advanced">El nen prendra/ non plus qung uequ/</reg>
+               <orig>El nen prendra/ non plus qung ueau/</orig>
+               <reg type="intermediary">El n'en prendra/ non plus q'ung veau/</reg>
+               <reg type="advanced">El nen prendra/ non plus qung ueau/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f43_eSc_line_a15fa600_ligne_25"/>
             <choice>
@@ -52701,7 +52710,7 @@
             <lb type="DefaultLine" corresp="#f49_eSc_line_13f5b7a0_ligne_19"/>
             <choice>
                <orig>Du croyant en adursite.</orig>
-               <reg type="intermediary">Du croyant en adursite.</reg>
+               <reg type="intermediary">Du croyant en adversite.</reg>
                <reg type="advanced">Du croyant en adursite.</reg>
             </choice>
             <hi>
@@ -54601,9 +54610,9 @@
             </hi>
             <lb type="HeadingLine" corresp="#f60_eSc_line_0cc8b187_ligne_3"/>
             <choice>
-               <orig>Se aduenturiers, ⁊ francz taulplns/</orig>
+               <orig>Se aduenturiers, ⁊ francz taulpins/</orig>
                <reg type="intermediary">Se adventuriers, et francz taulpins/</reg>
-               <reg type="advanced">Se aduenturiers, ⁊ francz taulplns/</reg>
+               <reg type="advanced">Se aduenturiers, ⁊ francz taulpins/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f60_eSc_line_2cbcc045_ligne_4"/>
             <choice>
@@ -57702,9 +57711,9 @@
             </hi>
             <lb type="HeadingLine" corresp="#f77_eSc_line_2cc2fbc5_ligne_27"/>
             <choice>
-               <orig>Elle a en comme uous scauz</orig>
-               <reg type="intermediary">Elle a en comme vous scauz</reg>
-               <reg type="advanced">Elle a en comme uous scauz</reg>
+               <orig>Elle a eu comme uous scauez</orig>
+               <reg type="intermediary">Elle a eu comme vous scavez</reg>
+               <reg type="advanced">Elle a eu comme uous scauez</reg>
             </choice>
          </ab>
          <fw corresp="#f77_eSc_textblock_08a9adf2" type="QuireMarksZone">
@@ -59199,9 +59208,9 @@
             </choice>
             <lb type="DefaultLine" corresp="#f86_eSc_line_49b93df5_ligne_3"/>
             <choice>
-               <orig>Chrestiente tu doibs ꝑsalmodier</orig>
-               <reg type="intermediary">Chrestiente tu doibs ꝑsalmodier</reg>
-               <reg type="advanced">Chrestiente tu doibs ꝑsalmodier</reg>
+               <orig>Chrestiente tu doibs psalmodier</orig>
+               <reg type="intermediary">Chrestiente tu doibs psalmodier</reg>
+               <reg type="advanced">Chrestiente tu doibs psalmodier</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f86_eSc_line_584e56d6_ligne_4"/>
             <choice>
@@ -59832,9 +59841,9 @@
             </choice>
             <lb type="DefaultLine" corresp="#f89_eSc_line_48ea441f_ligne_20"/>
             <choice>
-               <orig>Contre cest Ruangile sotte/</orig>
+               <orig>Contre cest Evangile sotte/</orig>
                <reg type="intermediary">Contre cest Evangile sotte/</reg>
-               <reg type="advanced">Contre cest Ruangile sotte/</reg>
+               <reg type="advanced">Contre cest Evangile sotte/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f89_eSc_line_d66bf23e_ligne_21"/>
             <choice>
@@ -60693,9 +60702,9 @@
             </choice>
             <lb type="DefaultLine" corresp="#f94_eSc_line_4af33615_ligne_17"/>
             <choice>
-               <orig>Or chantons tous, en harpes ⁊ ꝑsaultiers</orig>
-               <reg type="intermediary">Or chantons tous, en harpes et ꝑsaultiers</reg>
-               <reg type="advanced">Or chantons tous, en harpes ⁊ ꝑsaultiers</reg>
+               <orig>Or chantons tous, en harpes ⁊ psaultiers</orig>
+               <reg type="intermediary">Or chantons tous, en harpes et psaultiers</reg>
+               <reg type="advanced">Or chantons tous, en harpes ⁊ psaultiers</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f94_eSc_line_c1ad534c_ligne_18"/>
             <choice>
