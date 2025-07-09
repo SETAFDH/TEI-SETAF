@@ -136,15 +136,16 @@
       <encodingDesc>
          <projectDesc>
             <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF <ref target="https://www.unige.ch/setaf/"/>, dirigé par la Prof·e Daniela Solfaroli Camillocci (IHR) 
-                            et financé par le FNS : <ref target="https://data.snf.ch/grants/grant/205056"/>.</p>
+               et financé par le FNS : <ref target="https://data.snf.ch/grants/grant/205056"/>.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
                <p>Voir le guide de transcription du projet SETAF : <ref target="https://hal.science/hal-04281804"/>. La segmentation a été produite manuellement 
-                                et la transcription issue de l'OCR a été vérifiée.</p>
+                  et la transcription issue de l'OCR a été vérifiée.</p>
             </correction>
             <normalization>
-               <p>Un guide de normalisation est en cours de publication. Concernant la normalisation intermédiaire ou semi-diplomatique, cette transcription est en cours de normalisation.</p>
+               <p>Pour les règles de normalisation, voir l'article suivant : <ref target="https://hal.science/hal-05137564"/>. Concernant la normalisation intermédiaire ou semi-diplomatique, 
+                  cette transcription est en cours de normalisation.</p>
             </normalization>
          </editorialDecl>
          <appInfo>
