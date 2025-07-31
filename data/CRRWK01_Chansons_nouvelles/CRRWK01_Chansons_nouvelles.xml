@@ -23,7 +23,7 @@
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Analyse de mise en page (zonage), révision de l’OCR et des métadonnées.</resp>
+               <resp>Analyse de mise en page (zonage), révision de l’OCR et des métadonnées, normalisation du texte.</resp>
                <persName xml:id="AMO">
                   <forename>Aurélia</forename>
                   <surname>Marques Oliveira</surname>
@@ -198,6 +198,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2025-07-23" who="#SS">Création du fichier TEI P5.</change>
+         <change when="2025-07-30" who="#AMO">Normalisation intermédiaire ou semi-diplomatique terminée.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
