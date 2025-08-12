@@ -3432,7 +3432,7 @@
                      xml:id="f5_eSc_line_1117cf0d_baseline_4"
                      type="baseline"
                      points="819,1099 952,1101 "/>
-               <line xml:id="f5_eSc_line_1117cf0d_ligne_4">ultinio.</line>
+               <line xml:id="f5_eSc_line_1117cf0d_ligne_4">ultimo.</line>
             </zone>
          </zone>
          <zone xml:id="f5_eSc_textblock_35345439"
@@ -4277,7 +4277,7 @@
                      xml:id="f7_eSc_line_eea5da17_baseline_20"
                      type="baseline"
                      points="147,1010 954,1000 "/>
-               <line xml:id="f7_eSc_line_eea5da17_ligne_20">Dans y admettre contraire aux Decretalles/</line>
+               <line xml:id="f7_eSc_line_eea5da17_ligne_20">Sans y admettre contraire aux Decretalles/</line>
             </zone>
             <zone xml:id="f7_eSc_line_8c125f0b"
                   type="DefaultLine"
@@ -8358,7 +8358,7 @@
                      xml:id="f13_eSc_line_751a08de_baseline_7"
                      type="baseline"
                      points="146,415 808,421 "/>
-               <line xml:id="f13_eSc_line_751a08de_ligne_7">¶ Gardez q̃ aucũne uous supreigne/</line>
+               <line xml:id="f13_eSc_line_751a08de_ligne_7">¶ Gardez q̃ aucũ ne uous supreigne/</line>
             </zone>
             <zone xml:id="f13_eSc_line_ed8d58c0"
                   type="DefaultLine"
@@ -10598,7 +10598,7 @@
                      xml:id="f16_eSc_line_696b026d_baseline_9"
                      type="baseline"
                      points="294,503 846,505 "/>
-               <line xml:id="f16_eSc_line_696b026d_ligne_9">Rentrarent point en celle terre/</line>
+               <line xml:id="f16_eSc_line_696b026d_ligne_9">Nentrarent point en celle terre/</line>
             </zone>
             <zone xml:id="f16_eSc_line_33841a48"
                   type="DefaultLine"
@@ -12207,9 +12207,9 @@
             </choice>
             <lb type="DefaultLine" corresp="#f5_eSc_line_1117cf0d_ligne_4"/>
             <choice>
-               <orig>ultinio.</orig>
-               <reg type="intermediary">ultinio.</reg>
-               <reg type="advanced">ultinio.</reg>
+               <orig>ultimo.</orig>
+               <reg type="intermediary">ultimo.</reg>
+               <reg type="advanced">ultimo.</reg>
             </choice>
          </note>
          <note corresp="#f5_eSc_textblock_35345439" type="MarginTextZone">
@@ -12517,9 +12517,9 @@
             </choice>
             <lb type="DefaultLine" corresp="#f7_eSc_line_eea5da17_ligne_20"/>
             <choice>
-               <orig>Dans y admettre contraire aux Decretalles/</orig>
-               <reg type="intermediary">Dans y admettre contraire aux Decretalles/</reg>
-               <reg type="advanced">Dans y admettre contraire aux Décrétales/</reg>
+               <orig>Sans y admettre contraire aux Decretalles/</orig>
+               <reg type="intermediary">Sans y admettre contraire aux Decretalles/</reg>
+               <reg type="advanced">Sans y admettre contraire aux Décrétales/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f7_eSc_line_8c125f0b_ligne_21"/>
             <choice>
@@ -12530,8 +12530,8 @@
             <lb type="DefaultLine" corresp="#f7_eSc_line_7eb2ebae_ligne_22"/>
             <choice>
                <orig>¶ Autre chãson cõtenant une partie des dã¬</orig>
-               <reg type="intermediary">¶ Autre chanson contenant une partie des dan¬</reg>
-               <reg type="advanced">¶ Autre chanson contenant une partie des dan¬</reg>
+               <reg type="intermediary">¶ Autre chanson contenant une partie des dam¬</reg>
+               <reg type="advanced">¶ Autre chanson contenant une partie des dam¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f7_eSc_line_eaf3b944_ligne_23"/>
             <choice>
@@ -12579,8 +12579,8 @@
             <lb type="DefaultLine" corresp="#f8_eSc_line_35d87ccc_ligne_2"/>
             <choice>
                <orig>Puis questes tous plantez</orig>
-               <reg type="intermediary">Puis questes tous plantez</reg>
-               <reg type="advanced">Puis quêtes tous plantez</reg>
+               <reg type="intermediary">Puis qu'estes tous plantez</reg>
+               <reg type="advanced">Puis qu'êtes tous plantez</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f8_eSc_line_2e6889ff_ligne_3"/>
             <choice>
@@ -12633,8 +12633,8 @@
             <lb type="DefaultLine" corresp="#f8_eSc_line_1c9facc6_ligne_11"/>
             <choice>
                <orig>Car dieu la cõmande.</orig>
-               <reg type="intermediary">Car dieu la commande.</reg>
-               <reg type="advanced">Car Dieu le commande.</reg>
+               <reg type="intermediary">Car dieu l'a commande.</reg>
+               <reg type="advanced">Car Dieu l'a commandé.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f8_eSc_line_c8ccef22_ligne_12"/>
             <choice>
@@ -13997,9 +13997,9 @@
             </hi>
             <lb type="DefaultLine" corresp="#f13_eSc_line_751a08de_ligne_7"/>
             <choice>
-               <orig>¶ Gardez q̃ aucũne uous supreigne/</orig>
-               <reg type="intermediary">¶ Gardez que aucunne vous supreigne/</reg>
-               <reg type="advanced">¶ Gardez que aucune vous surprend/</reg>
+               <orig>¶ Gardez q̃ aucũ ne uous supreigne/</orig>
+               <reg type="intermediary">¶ Gardez que aucun ne vous supreigne/</reg>
+               <reg type="advanced">¶ Gardez que aucun ne vous surprend/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f13_eSc_line_ed8d58c0_ligne_8"/>
             <choice>
@@ -14522,8 +14522,8 @@
             <lb type="DefaultLine" corresp="#f15_eSc_line_76491600_ligne_2"/>
             <choice>
                <orig>Par ainsi donc dieu loueray/</orig>
-               <reg type="intermediary">Par ainsi donc dieu l'oueray/</reg>
-               <reg type="advanced">Par ainsi donc Dieu l'ouïra/</reg>
+               <reg type="intermediary">Par ainsi donc dieu loueray/</reg>
+               <reg type="advanced">Par ainsi donc Dieu louerait/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f15_eSc_line_701f6525_ligne_3"/>
             <choice>
@@ -14788,9 +14788,9 @@
             </choice>
             <lb type="DefaultLine" corresp="#f16_eSc_line_696b026d_ligne_9"/>
             <choice>
-               <orig>Rentrarent point en celle terre/</orig>
-               <reg type="intermediary">Rentrarent point en celle terre/</reg>
-               <reg type="advanced">Rentrèrent point en celle terre/</reg>
+               <orig>Nentrarent point en celle terre/</orig>
+               <reg type="intermediary">N'entrarent point en celle terre/</reg>
+               <reg type="advanced">N'entrèrent point en celle terre/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f16_eSc_line_33841a48_ligne_10"/>
             <choice>
