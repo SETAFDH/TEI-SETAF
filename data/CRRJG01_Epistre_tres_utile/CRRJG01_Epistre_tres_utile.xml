@@ -77,8 +77,10 @@
                      <biblStruct>
                         <monogr>
                            <author>
-                              <surname>Dentière</surname>
-                              <forename>Marie</forename>
+                              <persName ref="isni:000000012137582X">
+                                 <surname>Dentière</surname>
+                                 <forename>Marie</forename>
+                              </persName>
                            </author>
                            <title type="complete_title">Epistre tres utile faicte et composée par une femme chrestienne de Tornay, envoyée à la Royne de Navarre seur du Roy de France. Contre les Turcz, Juifz, Infideles, Faulx chrestiens, Anabaptistes, et Lutheriens.</title>
                            <title type="short_title">Epistre tres utile envoyée à la Royne de Navarre</title>
