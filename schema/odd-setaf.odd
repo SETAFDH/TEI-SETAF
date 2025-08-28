@@ -667,7 +667,6 @@
                      <attDef ident="resp" mode="delete"/>
                      <attDef ident="type" mode="delete"/>
                      <attDef ident="subtype" mode="delete"/>
-                     <attDef ident="place" mode="delete"/>
                   </attList>
                </elementSpec>
                <!-- Checking element "lb" -->
@@ -755,6 +754,11 @@
                            <valItem ident="MarginTextZone"/>
                            <valItem ident="MarginTextZone:handwrittenAddition"/>
                            <valItem ident="TableZone"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="place" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="margin"/>
                         </valList>
                      </attDef>
                      <attDef ident="subtype" mode="delete"/>
@@ -977,7 +981,6 @@
                      <attDef ident="facs" mode="delete"/>
                      <attDef ident="cert" mode="delete"/>
                      <attDef ident="resp" mode="delete"/>
-                     <attDef ident="place" mode="delete"/>
                   </attList>
                </elementSpec>               
                <!-- Checking element "term" -->
@@ -991,6 +994,7 @@
                            <valItem ident="transcription_quality"/>
                            <valItem ident="intermediary_reg_quality"/>
                            <valItem ident="advanced_reg_quality"/>
+                           <valItem ident="ling_annotation"/>
                            <valItem ident="ling_annotation_quality"/>
                         </valList>
                      </attDef>
@@ -1539,7 +1543,6 @@
                <classSpec ident="att.notated" type="atts" mode="delete"/>
                <!-- Checking attributes, letter p -->
                <classSpec ident="att.patternReplacement" type="atts" mode="delete"/>
-               <classSpec ident="att.placement" type="atts" mode="delete"/>
                <classSpec ident="att.pointing" type="atts" mode="change">
                   <attList>
                      <attDef ident="targetLang" mode="delete"/>

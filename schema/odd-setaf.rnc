@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2025-05-02T08:44:33Z. . 
+# Schema generated from ODD source 2025-08-28T12:45:20Z. . 
 # TEI Edition: P5 Version 4.8.1. Last updated on 1st November 2024, revision 0a2bff95a 
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/4.8.1/ 
 #
@@ -399,6 +399,52 @@ att.naming.attribute.nymRef =
   attribute nymRef {
     list {
       xsd:anyURI { pattern = "\S+" }+
+    }
+  }?
+att.placement.attributes = att.placement.attribute.place
+att.placement.attribute.place =
+  
+  ## specifies where this item is placed.
+  ## Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf; 6] above; 7] right; 8] below; 9] left; 10] end; 11] inline; 12] inspace
+  attribute place {
+    list {
+      (
+       ## at the top of the page
+       "top"
+       | 
+         ## at the foot of the page
+         "bottom"
+       | 
+         ## in the margin (left, right, or both)
+         "margin"
+       | 
+         ## on the opposite, i.e. facing, page
+         "opposite"
+       | 
+         ## on the other side of the leaf
+         "overleaf"
+       | 
+         ## above the line
+         "above"
+       | 
+         ## to the right, e.g. to the right of a vertical line of text, or to the right of a figure
+         "right"
+       | 
+         ## below the line
+         "below"
+       | 
+         ## to the left, e.g. to the left of a vertical line of text, or to the left of a figure
+         "left"
+       | 
+         ## at the end of e.g. chapter or volume.
+         "end"
+       | 
+         ## within the body of the text.
+         "inline"
+       | 
+         ## in a predefined space, for example left by an earlier scribe.
+         "inspace"
+       | xsd:token { pattern = "[^\p{C}\p{Z}]+" })+
     }
   }?
 att.typed.attributes =
@@ -982,6 +1028,9 @@ term =
         "advanced_reg_quality"
       | 
         ##
+        "ling_annotation"
+      | 
+        ##
         "ling_annotation_quality"
     }?,
     empty
@@ -1207,6 +1256,7 @@ label =
     att.global.attribute.n,
     att.global.change.attribute.change,
     att.global.source.attribute.source,
+    att.placement.attributes,
     att.cmc.attributes,
     empty
   }
@@ -1226,6 +1276,7 @@ head =
     att.global.change.attribute.change,
     att.global.source.attribute.source,
     att.typed.attribute.type,
+    att.placement.attributes,
     att.cmc.attributes,
     empty
   }
@@ -1240,6 +1291,15 @@ note =
     att.global.change.attribute.change,
     att.global.responsibility.attribute.resp,
     att.cmc.attributes,
+    
+    ## specifies where this item is placed.
+    attribute place {
+      list {
+        (
+         ##
+         "margin")+
+      }
+    }?,
     
     ## characterizes the element in some sense, using any convenient classification scheme or typology.
     attribute type {
@@ -1853,6 +1913,7 @@ stage =
     att.global.attribute.n,
     att.global.change.attribute.change,
     att.global.source.attribute.source,
+    att.placement.attributes,
     att.cmc.attributes,
     empty
   }
@@ -3487,6 +3548,7 @@ fw =
     att.global.attribute.n,
     att.global.linking.attribute.corresp,
     att.global.change.attribute.change,
+    att.placement.attributes,
     
     ## classifies the material encoded according to some useful typology.
     attribute type {
