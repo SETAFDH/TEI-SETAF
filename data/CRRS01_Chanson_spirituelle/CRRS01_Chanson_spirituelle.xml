@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/SETAFDH/TEI-SETAF/main/schema/odd-setaf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/SETAFDH/TEI-SETAF/main/schema/odd-setaf.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/SETAFDH/TEI-SETAF/refs/heads/main/schema/odd-setaf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SETAFDH/TEI-SETAF/refs/heads/main/schema/odd-setaf.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CRRS01">
    <teiHeader>
       <fileDesc>
@@ -20,6 +20,14 @@
                   <forename>Sonia</forename>
                   <surname>Solfrini</surname>
                   <ptr type="orcid" target="0009-0009-7367-048X"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Normalisation du texte.</resp>
+               <persName xml:id="AMO">
+                  <forename>Aurélia</forename>
+                  <surname>Marques Oliveira</surname>
+                  <ptr type="orcid" target="0009-0009-9678-9811"/>
                </persName>
             </respStmt>
             <respStmt>
@@ -174,7 +182,7 @@
                <term type="form">poésie et prose</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
-               <term type="intermediary_reg_quality">not applicable</term>
+               <term type="intermediary_reg_quality">gold</term>
                <term type="advanced_reg_quality">not applicable</term>
                <term type="ling_annotation_quality">not applicable</term>
             </keywords>
@@ -183,6 +191,7 @@
       <revisionDesc>
          <change when="2024-01-23" who="#SS">Création du fichier TEI P5.</change>
          <change when="2025-05-28" who="#SS">Révision des métadonnées.</change>
+         <change when="2025-08-29" who="#AMO">Normalisation intermédiaire ou semi-diplomatique terminée.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
