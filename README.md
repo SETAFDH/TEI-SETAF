@@ -41,7 +41,7 @@ Les transcriptions sont [CC-BY](https://creativecommons.org/licenses/by/4.0), et
 
 ```bibtex
 @misc{solfrini_tei_setaf,
-  author={Solfrini, Sonia and Gross, Geneviève and Beaulnes, Pierre-Olivier and Marques Oliveira, Aurélia, and Dejouy, Mylène and Gabay, Simon and Solfaroli Camillocci, Daniela},
+  author={Solfrini, Sonia and Gross, Geneviève and Beaulnes, Pierre-Olivier and Marques Oliveira, Aurélia and Dejouy, Mylène and Gabay, Simon and Solfaroli Camillocci, Daniela},
   title={Données TEI du projet SETAF},
   version={1.0},
   address={Genève},
