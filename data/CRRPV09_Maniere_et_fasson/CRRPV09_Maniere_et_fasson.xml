@@ -209,7 +209,7 @@
                <term type="intermediary_reg_quality">gold</term>
                <term type="advanced_reg_quality">not applicable</term>
                <term type="ling_annotation">oui</term>
-               <term type="ling_annotation_quality">not applicable</term>
+               <term type="ling_annotation_quality">silver</term>
             </keywords>
          </textClass>
       </profileDesc>
