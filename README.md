@@ -50,3 +50,7 @@ Les transcriptions sont [CC-BY](https://creativecommons.org/licenses/by/4.0), et
   url={https://github.com/SETAFDH/TEI-SETAF},
 }
 ```
+
+## Citer le projet
+
+à venir
