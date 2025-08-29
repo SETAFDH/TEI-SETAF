@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/SETAFDH/TEI-SETAF/main/schema/odd-setaf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/SETAFDH/TEI-SETAF/main/schema/odd-setaf.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/SETAFDH/TEI-SETAF/refs/heads/main/schema/odd-setaf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SETAFDH/TEI-SETAF/refs/heads/main/schema/odd-setaf.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CRRPV12">
    <teiHeader>
       <fileDesc>
@@ -25247,8 +25247,8 @@
                <lb type="HeadingLine" corresp="#f1_eSc_line_005c8975_ligne_12"/>
                <choice>
                   <orig>es sainctes</orig>
-                  <reg type="intermediary">les sainctes</reg>
-                  <reg type="advanced">les saintes</reg>
+                  <reg type="intermediary">es sainctes</reg>
+                  <reg type="advanced">es saintes</reg>
                </choice>
             </hi>
             <hi>
@@ -28880,14 +28880,14 @@
             <lb type="DefaultLine" corresp="#f17_eSc_line_844efe59_ligne_3"/>
             <choice>
                <orig>tanq̃ li¬</orig>
-               <reg type="intermediary">tanque li¬</reg>
-               <reg type="advanced">tanque li¬</reg>
+               <reg type="intermediary">tanquam li¬</reg>
+               <reg type="advanced">tanquam li¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f17_eSc_line_d485b190_ligne_4"/>
             <choice>
-               <orig>gnun.</orig>
-               <reg type="intermediary">gnun.</reg>
-               <reg type="advanced">gnun.</reg>
+               <orig>gnum.</orig>
+               <reg type="intermediary">gnum.</reg>
+               <reg type="advanced">gnum.</reg>
             </choice>
          </note>
          <note corresp="#f17_eSc_textblock_aa7af341" type="MarginTextZone">
