@@ -14117,7 +14117,7 @@
             </choice>
          </note>
          <pb corresp="#f14"/>
-         <note corresp="#f14_eSc_textblock_82247597" type="MarginTextZone">
+         <ab corresp="#f14_eSc_textblock_82247597" type="MainZone">
             <lb type="DefaultLine" corresp="#f14_eSc_line_c6c08da0_ligne_2"/>
             <choice>
                <orig>Tout soit en uoix intelligible/</orig>
@@ -14280,7 +14280,7 @@
                <reg type="intermediary">Monte au ciel/ par sa puissance. bis</reg>
                <reg type="advanced">Monte au ciel/ par sa puissance. bis</reg>
             </choice>
-         </note>
+         </ab>
          <note corresp="#f14_eSc_textblock_e6e2c2e8" type="MarginTextZone">
             <lb type="DefaultLine" corresp="#f14_eSc_line_7e2aebc7_ligne_2"/>
             <choice>
