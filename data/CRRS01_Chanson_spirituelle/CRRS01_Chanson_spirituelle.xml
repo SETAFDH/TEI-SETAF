@@ -48033,6 +48033,24 @@
             </choice>
          </fw>
          <pb corresp="#f27"/>
+         <fw corresp="#f27_eSc_textblock_7fa278ef" type="RunningTitleZone">
+            <hi>
+               <lb type="HeadingLine" corresp="#f27_eSc_line_3a579247_ligne_2"/>
+               <choice>
+                  <orig>Spirituelle.</orig>
+                  <reg type="intermediary">Spirituelle.</reg>
+                  <reg type="advanced">Spirituelle.</reg>
+               </choice>
+            </hi>
+         </fw>
+         <fw corresp="#f27_eSc_textblock_8edf41d0" type="NumberingZone">
+            <lb type="DefaultLine" corresp="#f27_eSc_line_3d23d398_ligne_2"/>
+            <choice>
+               <orig>27</orig>
+               <reg type="intermediary">27</reg>
+               <reg type="advanced">27</reg>
+            </choice>
+         </fw>
          <ab corresp="#f27_eSc_textblock_50740278" type="MainZone">
             <lb type="DefaultLine" corresp="#f27_eSc_line_5e316cdf_ligne_2"/>
             <choice>
@@ -48175,24 +48193,6 @@
                <reg type="advanced">gne n’est point limité en aucunes espaces de lieux,</reg>
             </choice>
          </ab>
-         <fw corresp="#f27_eSc_textblock_7fa278ef" type="RunningTitleZone">
-            <hi>
-               <lb type="HeadingLine" corresp="#f27_eSc_line_3a579247_ligne_2"/>
-               <choice>
-                  <orig>Spirituelle.</orig>
-                  <reg type="intermediary">Spirituelle.</reg>
-                  <reg type="advanced">Spirituelle.</reg>
-               </choice>
-            </hi>
-         </fw>
-         <fw corresp="#f27_eSc_textblock_8edf41d0" type="NumberingZone">
-            <lb type="DefaultLine" corresp="#f27_eSc_line_3d23d398_ligne_2"/>
-            <choice>
-               <orig>27</orig>
-               <reg type="intermediary">27</reg>
-               <reg type="advanced">27</reg>
-            </choice>
-         </fw>
          <note corresp="#f27_eSc_textblock_bfee0cb1" type="MarginTextZone">
             <lb type="DefaultLine" corresp="#f27_eSc_line_b8196998_ligne_2"/>
             <choice>
@@ -52183,19 +52183,25 @@
             </choice>
          </fw>
          <pb corresp="#f49"/>
-         <ab corresp="#f49_eSc_textblock_264663df" type="MainZone">
+         <fw type="NumberingZone">
             <lb type="DefaultLine" corresp="#f49_eSc_line_eea77e0f_ligne_2"/>
             <choice>
                <orig>49</orig>
                <reg type="intermediary">49</reg>
                <reg type="advanced">49</reg>
             </choice>
-            <lb type="DefaultLine" corresp="#f49_eSc_line_a2ab314f_ligne_3"/>
-            <choice>
-               <orig>Consolatif.</orig>
-               <reg type="intermediary">Consolatif.</reg>
-               <reg type="advanced">Consolatif.</reg>
-            </choice>
+         </fw>
+         <fw type="RunningTitleZone">
+            <hi>
+               <lb type="HeadingLine" corresp="#f49_eSc_line_a2ab314f_ligne_3"/>
+               <choice>
+                  <orig>Consolatif.</orig>
+                  <reg type="intermediary">Consolatif.</reg>
+                  <reg type="advanced">Consolatif.</reg>
+               </choice>
+            </hi>
+         </fw>
+         <ab corresp="#f49_eSc_textblock_264663df" type="MainZone">
             <lb type="DefaultLine" corresp="#f49_eSc_line_94563488_ligne_4"/>
             <choice>
                <orig>Brief ce monde est vne deception,</orig>
@@ -52316,23 +52322,25 @@
                <reg type="intermediary">leste:</reg>
                <reg type="advanced">leste:</reg>
             </choice>
-         </ab>
-         <fw corresp="#f49_eSc_textblock_3c45f5f0" type="RunningTitleZone">
-            <hi>
-               <lb type="HeadingLine" corresp="#f49_eSc_line_4d75b622_ligne_2"/>
-               <choice>
-                  <orig>Tout nostre esgard soyt mys en lieu</orig>
-                  <reg type="intermediary">Tout nostre esgard soyt mys en lieu</reg>
-                  <reg type="advanced">Tout nôtre égard soit mis en lieu</reg>
-               </choice>
-            </hi>
-         </fw>
-         <fw corresp="#f49_eSc_textblock_128de8b9" type="NumberingZone">
+            <lb type="DefaultLine" corresp="#f49_eSc_line_4d75b622_ligne_2"/>
+            <choice>
+               <orig>Tout nostre esgard soyt mys en lieu</orig>
+               <reg type="intermediary">Tout nostre esgard soyt mys en lieu</reg>
+               <reg type="advanced">Tout nôtre égard soit mis en lieu</reg>
+            </choice>
             <lb type="DefaultLine" corresp="#f49_eSc_line_9c5ecf45_ligne_2"/>
             <choice>
                <orig>celeste,</orig>
                <reg type="intermediary">celeste,</reg>
                <reg type="advanced">celeste,</reg>
+            </choice>
+         </ab>
+         <fw corresp="#f49_eSc_textblock_e8e639b3" type="QuireMarksZone">
+            <lb type="DefaultLine" corresp="#f49_eSc_line_570bbbb8_ligne_2"/>
+            <choice>
+               <orig>D La</orig>
+               <reg type="intermediary">D La</reg>
+               <reg type="advanced">D La</reg>
             </choice>
          </fw>
          <note corresp="#f49_eSc_textblock_d1388de9" type="MarginTextZone">
@@ -52361,14 +52369,6 @@
                <reg type="advanced">Marc.8.d</reg>
             </choice>
          </note>
-         <fw corresp="#f49_eSc_textblock_e8e639b3" type="QuireMarksZone">
-            <lb type="DefaultLine" corresp="#f49_eSc_line_570bbbb8_ligne_2"/>
-            <choice>
-               <orig>D La</orig>
-               <reg type="intermediary">D La</reg>
-               <reg type="advanced">D La</reg>
-            </choice>
-         </fw>
          <pb corresp="#f50"/>
          <fw corresp="#f50_eSc_textblock_8e566647" type="NumberingZone">
             <lb type="DefaultLine" corresp="#f50_eSc_line_36d68321_ligne_2"/>
