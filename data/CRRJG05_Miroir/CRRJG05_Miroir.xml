@@ -23,7 +23,7 @@
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Analyse de mise en page (zonage), révision de l’OCR et de l'encodage des métadonnées.</resp>
+               <resp>Analyse de mise en page (zonage), révision de l’OCR et de l'encodage des métadonnées, normalisation du texte.</resp>
                <persName xml:id="AMO">
                   <forename>Aurélia</forename>
                   <surname>Marques Oliveira</surname>
@@ -191,7 +191,7 @@
                <term type="form">à établir</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
-               <term type="intermediary_reg_quality">not applicable</term>
+               <term type="intermediary_reg_quality">gold</term>
                <term type="advanced_reg_quality">not applicable</term>
                <term type="ling_annotation_quality">not applicable</term>
             </keywords>
@@ -199,6 +199,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2025-08-21" who="#SS">Création du fichier TEI P5.</change>
+         <change when="2025-09-08" who="#AMO">Normalisation intermédiaire ou semi-diplomatique terminée.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
@@ -54934,7 +54935,7 @@
                <lb type="DropCapitalLine" corresp="#f84_eSc_line_90d39296_ligne_2"/>
                <choice>
                   <orig>A</orig>
-                  <reg type="intermediary">A¬/reg>
+                  <reg type="intermediary">A¬</reg>
                   <reg type="advanced">A</reg>
                </choice>
             </hi>
