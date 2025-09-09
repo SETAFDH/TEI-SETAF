@@ -11317,7 +11317,7 @@
             <choice>
                <orig>¶ Aussi nouuelle foy/</orig>
                <reg type="intermediary">¶ Aussi nouvelle foy/</reg>
-               <reg type="advanced">¶ Aussi nouvelle foyi/</reg>
+               <reg type="advanced">¶ Aussi nouvelle foy/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f2_eSc_line_7718fe34_ligne_26"/>
             <choice>
@@ -11514,7 +11514,7 @@
             <choice>
                <orig>Puissance a tout croyant/</orig>
                <reg type="intermediary">Puissance a tout croyant/</reg>
-               <reg type="advanced">Puissance a tout croyant/</reg>
+               <reg type="advanced">Puissance à tout croyant/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f3_eSc_line_e84df3d8_ligne_14"/>
             <choice>
@@ -13420,13 +13420,13 @@
             <choice>
                <orig>¶ Paoures papistes debonnaire/</orig>
                <reg type="intermediary">¶ Paovres papistes debonnaire/</reg>
-               <reg type="advanced">¶ Pauvres papistes débonnaire/</reg>
+               <reg type="advanced">¶ Pauvres papistes débonnaires/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f11_eSc_line_d9f56a65_ligne_5"/>
             <choice>
                <orig>Qui desirez a Iesus plaire/</orig>
                <reg type="intermediary">Qui desirez a Jesus plaire/</reg>
-               <reg type="advanced">Qui désirez a Jésus plaire/</reg>
+               <reg type="advanced">Qui désirez à Jésus plaire/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f11_eSc_line_b185b2df_ligne_6"/>
             <choice>
