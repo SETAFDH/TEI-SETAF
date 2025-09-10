@@ -23,6 +23,14 @@
                </persName>
             </respStmt>
             <respStmt>
+               <resp>Normalisation du texte.</resp>
+               <persName xml:id="AMO">
+                  <forename>Aurélia</forename>
+                  <surname>Marques Oliveira</surname>
+                  <ptr type="orcid" target="0009-0009-9678-9811"/>
+               </persName>
+            </respStmt>
+            <respStmt>
                <resp>Collaboration à la modélisation de l’édition et accompagnement à l’encodage.</resp>
                <persName xml:id="SG">
                   <forename>Simon</forename>
@@ -181,7 +189,7 @@
                <term type="form">poésie</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
-               <term type="intermediary_reg_quality">not applicable</term>
+               <term type="intermediary_reg_quality">gold</term>
                <term type="advanced_reg_quality">not applicable</term>
                <term type="ling_annotation_quality">not applicable</term>
             </keywords>
@@ -189,6 +197,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2025-06-26" who="#SS">Création du fichier TEI P5.</change>
+         <change when="2025-09-10" who="#AMO">Normalisation intermédiaire ou semi-diplomatique terminée.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
@@ -57958,7 +57967,7 @@
                <lb type="HeadingLine" corresp="#f78_eSc_line_2870f62f_ligne_21"/>
                <choice>
                   <orig>Ee iustice uoit de la nue.</orig>
-                  <reg type="intermediary">Et iustice voit de la nue.</reg>
+                  <reg type="intermediary">Et justice voit de la nue.</reg>
                   <reg type="advanced">Ee iustice uoit de la nue.</reg>
                </choice>
             </hi>
