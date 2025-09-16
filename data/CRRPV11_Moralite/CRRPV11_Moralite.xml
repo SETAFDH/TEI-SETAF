@@ -46080,11 +46080,17 @@
                <reg type="intermediary">Tournez icy voz coeurs/ yeulx/ bouche et</reg>
                <reg type="advanced">Tournez icy uoz coeurs/ yeulx/ bouche et</reg>
             </choice>
+            <lb type="DefaultLine"/>
+            <choice>
+               <orig>(maĩs</orig>
+               <reg type="intermediary">(mains</reg>
+               <reg type="advanced">(mains</reg>
+            </choice>
             <lb type="DefaultLine" corresp="#f22_eSc_line_9d15257c_ligne_21"/>
             <choice>
-               <orig>Ie suis le seul medecin des humaĩs. (maĩs</orig>
-               <reg type="intermediary">Je suis le seul medecin des humains. (mains</reg>
-               <reg type="advanced">Ie suis le seul medecin des humaĩs. (maĩs</reg>
+               <orig>Ie suis le seul medecin des humaĩs.</orig>
+               <reg type="intermediary">Je suis le seul medecin des humains.</reg>
+               <reg type="advanced">Ie suis le seul medecin des humaĩs.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f22_eSc_line_0f57959e_ligne_22"/>
             <choice>
@@ -51018,7 +51024,7 @@
             <lb type="DefaultLine" corresp="#f51_eSc_line_4d67a2a2_ligne_2"/>
             <choice>
                <orig>ꝑcutit se</orig>
-               <reg type="intermediary">ꝑcutit se</reg>
+               <reg type="intermediary">percutit se</reg>
                <reg type="advanced">ꝑcutit se</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f51_eSc_line_dc5cae8c_ligne_3"/>
@@ -56150,7 +56156,7 @@
             <lb type="DefaultLine" corresp="#f81_eSc_line_e4c49101_ligne_2"/>
             <choice>
                <orig>Cãtãdo</orig>
-               <reg type="intermediary">Cãtãdo</reg>
+               <reg type="intermediary">Cantando</reg>
                <reg type="advanced">Cãtãdo</reg>
             </choice>
          </note>

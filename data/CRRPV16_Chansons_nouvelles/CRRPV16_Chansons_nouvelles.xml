@@ -12414,11 +12414,17 @@
                <reg type="intermediary">¶ Tous mes chasteaulx/ prieurez/ autelz/ chapel¬</reg>
                <reg type="advanced">¶ Tous mes châteaux/ prieurés/ autels/ chapel¬</reg>
             </choice>
+            <lb type="DefaultLine"/>
+            <choice>
+               <orig>(les/</orig>
+               <reg type="intermediary">les/</reg>
+               <reg type="advanced">les/</reg>
+            </choice>
             <lb type="DefaultLine" corresp="#f7_eSc_line_4a41dc24_ligne_3"/>
             <choice>
-               <orig>Clochiers ⁊ croix/ monasteres ⁊ cures: (les/</orig>
-               <reg type="intermediary">les/ Clochiers et croix/ monasteres et cures:</reg>
-               <reg type="advanced">les/ clochers et croix/ monastères et curés:</reg>
+               <orig>Clochiers ⁊ croix/ monasteres ⁊ cures:</orig>
+               <reg type="intermediary">Clochiers et croix/ monasteres et cures:</reg>
+               <reg type="advanced">Clochers et croix/ monastères et curés:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f7_eSc_line_8b9cf27f_ligne_4"/>
             <choice>
