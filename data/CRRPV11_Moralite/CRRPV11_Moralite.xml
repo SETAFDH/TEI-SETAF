@@ -55653,8 +55653,8 @@
             </choice>
             <lb type="DefaultLine" corresp="#f79_eSc_line_08685385_ligne_5"/>
             <choice>
-               <orig>Ny doibt messer de qui pro quo</orig>
-               <reg type="intermediary">N'y doibt messer de qui pro quo</reg>
+               <orig>Ny doibt mesler de qui pro quo</orig>
+               <reg type="intermediary">N'y doibt mesler de qui pro quo</reg>
                <reg type="advanced">Ny doibt messer de qui pro quo</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f79_eSc_line_151a1d02_ligne_6"/>
@@ -56643,7 +56643,7 @@
             <lb type="DefaultLine" corresp="#f84_eSc_line_091ad45e_ligne_18"/>
             <choice>
                <orig>Sur toute chose il me meschoit:</orig>
-               <reg type="intermediary">Sur toute chose il me m'eschoit:</reg>
+               <reg type="intermediary">Sur toute chose il me meschoit:</reg>
                <reg type="advanced">Sur toute chose il me meschoit:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f84_eSc_line_5b200d20_ligne_19"/>
