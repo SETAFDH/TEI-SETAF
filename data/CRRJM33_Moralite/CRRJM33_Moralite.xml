@@ -46459,14 +46459,6 @@
                <reg type="advanced">Son me uouloit bien contempler</reg>
             </choice>
          </ab>
-         <note corresp="#f13_eSc_textblock_287e6ec4" type="MarginTextZone">
-            <lb type="DefaultLine" corresp="#f13_eSc_line_8d676080_ligne_2"/>
-            <choice>
-               <orig>Pausa.</orig>
-               <reg type="intermediary">Pausa.</reg>
-               <reg type="advanced">Pausa.</reg>
-            </choice>
-         </note>
          <fw corresp="#f13_eSc_textblock_1a2d6713" type="QuireMarksZone">
             <lb type="DefaultLine" corresp="#f13_eSc_line_12e62d2a_ligne_2"/>
             <choice>
@@ -46475,6 +46467,14 @@
                <reg type="advanced">Derriere</reg>
             </choice>
          </fw>
+         <note corresp="#f13_eSc_textblock_287e6ec4" type="MarginTextZone">
+            <lb type="DefaultLine" corresp="#f13_eSc_line_8d676080_ligne_2"/>
+            <choice>
+               <orig>Pausa.</orig>
+               <reg type="intermediary">Pausa.</reg>
+               <reg type="advanced">Pausa.</reg>
+            </choice>
+         </note>
          <pb corresp="#f14"/>
          <ab corresp="#f14_eSc_textblock_7636442d" type="MainZone">
             <lb type="DefaultLine" corresp="#f14_eSc_line_a0a24f06_ligne_2"/>
@@ -46636,14 +46636,6 @@
                <reg type="advanced">Ie prescheray contre lyurongne/</reg>
             </choice>
          </ab>
-         <note corresp="#f14_eSc_textblock_fcdd59bf" type="MarginTextZone">
-            <lb type="DefaultLine" corresp="#f14_eSc_line_b4bb71ff_ligne_2"/>
-            <choice>
-               <orig>seorsum.</orig>
-               <reg type="intermediary">seorsum.</reg>
-               <reg type="advanced">seorsum.</reg>
-            </choice>
-         </note>
          <fw corresp="#f14_eSc_textblock_23e0e140" type="QuireMarksZone">
             <lb type="DefaultLine" corresp="#f14_eSc_line_bb9443d6_ligne_2"/>
             <choice>
@@ -46652,6 +46644,14 @@
                <reg type="advanced">Et si</reg>
             </choice>
          </fw>
+         <note corresp="#f14_eSc_textblock_fcdd59bf" type="MarginTextZone">
+            <lb type="DefaultLine" corresp="#f14_eSc_line_b4bb71ff_ligne_2"/>
+            <choice>
+               <orig>seorsum.</orig>
+               <reg type="intermediary">seorsum.</reg>
+               <reg type="advanced">seorsum.</reg>
+            </choice>
+         </note>
          <pb corresp="#f15"/>
          <ab corresp="#f15_eSc_textblock_00fe2f52" type="MainZone">
             <lb type="DefaultLine" corresp="#f15_eSc_line_321340a1_ligne_2"/>
@@ -46813,14 +46813,6 @@
                <reg type="advanced">Comme lon uoit chez les prelatz/</reg>
             </choice>
          </ab>
-         <note corresp="#f15_eSc_textblock_8123468f" type="MarginTextZone">
-            <lb type="DefaultLine" corresp="#f15_eSc_line_bd1c9603_ligne_2"/>
-            <choice>
-               <orig>Pausa.</orig>
-               <reg type="intermediary">Pausa.</reg>
-               <reg type="advanced">Pausa.</reg>
-            </choice>
-         </note>
          <fw corresp="#f15_eSc_textblock_392ab643" type="QuireMarksZone">
             <lb type="DefaultLine" corresp="#f15_eSc_line_b4c166f3_ligne_2"/>
             <choice>
@@ -46829,6 +46821,14 @@
                <reg type="advanced">Ou</reg>
             </choice>
          </fw>
+         <note corresp="#f15_eSc_textblock_8123468f" type="MarginTextZone">
+            <lb type="DefaultLine" corresp="#f15_eSc_line_bd1c9603_ligne_2"/>
+            <choice>
+               <orig>Pausa.</orig>
+               <reg type="intermediary">Pausa.</reg>
+               <reg type="advanced">Pausa.</reg>
+            </choice>
+         </note>
          <pb corresp="#f16"/>
          <ab corresp="#f16_eSc_textblock_69224653" type="MainZone">
             <lb type="DefaultLine" corresp="#f16_eSc_line_07ce1dc8_ligne_2"/>
@@ -47999,11 +47999,17 @@
                <reg type="intermediary">Tournez icy voz coeurs/ yeulx/ bouche et</reg>
                <reg type="advanced">Tournez icy uoz coeurs/ yeulx/ bouche et</reg>
             </choice>
+            <lb type="DefaultLine"/>
+            <choice>
+               <orig>(maĩs</orig>
+               <reg type="intermediary">(mains</reg>
+               <reg type="advanced">(mains</reg>
+            </choice>
             <lb type="DefaultLine" corresp="#f22_eSc_line_faca1ad3_ligne_21"/>
             <choice>
-               <orig>Ie suis le seul medecin des humaĩs. (maĩs</orig>
-               <reg type="intermediary">Je suis le seul medecin des humains. (mains</reg>
-               <reg type="advanced">Ie suis le seul medecin des humaĩs. (maĩs</reg>
+               <orig>Ie suis le seul medecin des humaĩs.</orig>
+               <reg type="intermediary">Je suis le seul medecin des humains.</reg>
+               <reg type="advanced">Ie suis le seul medecin des humaĩs.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f22_eSc_line_472773a5_ligne_22"/>
             <choice>
@@ -48903,6 +48909,14 @@
                </choice>
             </hi>
          </ab>
+         <fw corresp="#f27_eSc_textblock_69a50f52" type="QuireMarksZone">
+            <lb type="DefaultLine" corresp="#f27_eSc_line_c5936e20_ligne_2"/>
+            <choice>
+               <orig>Uous</orig>
+               <reg type="intermediary">Vous</reg>
+               <reg type="advanced">Uous</reg>
+            </choice>
+         </fw>
          <note corresp="#f27_eSc_textblock_fbc871e2" type="MarginTextZone">
             <lb type="DefaultLine" corresp="#f27_eSc_line_912089c8_ligne_2"/>
             <choice>
@@ -48931,14 +48945,6 @@
                <reg type="advanced">dherbes</reg>
             </choice>
          </note>
-         <fw corresp="#f27_eSc_textblock_69a50f52" type="QuireMarksZone">
-            <lb type="DefaultLine" corresp="#f27_eSc_line_c5936e20_ligne_2"/>
-            <choice>
-               <orig>Uous</orig>
-               <reg type="intermediary">Vous</reg>
-               <reg type="advanced">Uous</reg>
-            </choice>
-         </fw>
          <pb corresp="#f28"/>
          <ab corresp="#f28_eSc_textblock_b8352ccd" type="MainZone">
             <lb type="DefaultLine" corresp="#f28_eSc_line_f65d4439_ligne_2"/>
@@ -49460,6 +49466,14 @@
                <reg type="advanced">Et si ieusnez la triollaine/</reg>
             </choice>
          </ab>
+         <fw corresp="#f30_eSc_textblock_c52a07db" type="QuireMarksZone">
+            <lb type="DefaultLine" corresp="#f30_eSc_line_b75bb3cb_ligne_2"/>
+            <choice>
+               <orig>Et</orig>
+               <reg type="intermediary">Et</reg>
+               <reg type="advanced">Et</reg>
+            </choice>
+         </fw>
          <note corresp="#f30_eSc_textblock_ce0f44c5" type="MarginTextZone">
             <lb type="DefaultLine" corresp="#f30_eSc_line_d18bdfb2_ligne_2"/>
             <choice>
@@ -49474,14 +49488,6 @@
                <reg type="advanced">bas.</reg>
             </choice>
          </note>
-         <fw corresp="#f30_eSc_textblock_c52a07db" type="QuireMarksZone">
-            <lb type="DefaultLine" corresp="#f30_eSc_line_b75bb3cb_ligne_2"/>
-            <choice>
-               <orig>Et</orig>
-               <reg type="intermediary">Et</reg>
-               <reg type="advanced">Et</reg>
-            </choice>
-         </fw>
          <pb corresp="#f31"/>
          <ab corresp="#f31_eSc_textblock_e3195db7" type="MainZone">
             <lb type="DefaultLine" corresp="#f31_eSc_line_9f581ce8_ligne_2"/>
@@ -54211,6 +54217,14 @@
                <reg type="advanced">Que Dieu ha en humilite</reg>
             </choice>
          </ab>
+         <fw corresp="#f57_eSc_textblock_d2235385" type="QuireMarksZone">
+            <lb type="DefaultLine" corresp="#f57_eSc_line_662d177e_ligne_2"/>
+            <choice>
+               <orig>D 5 Consti¬</orig>
+               <reg type="intermediary">D 5 Consti¬</reg>
+               <reg type="advanced">D 5 Consti¬</reg>
+            </choice>
+         </fw>
          <note corresp="#f57_eSc_textblock_e6247586" type="MarginTextZone">
             <lb type="DefaultLine" corresp="#f57_eSc_line_949d51f2_ligne_2"/>
             <choice>
@@ -54231,14 +54245,6 @@
                <reg type="advanced">rinal.</reg>
             </choice>
          </note>
-         <fw corresp="#f57_eSc_textblock_d2235385" type="QuireMarksZone">
-            <lb type="DefaultLine" corresp="#f57_eSc_line_662d177e_ligne_2"/>
-            <choice>
-               <orig>D 5 Consti¬</orig>
-               <reg type="intermediary">D 5 Consti¬</reg>
-               <reg type="advanced">D 5 Consti¬</reg>
-            </choice>
-         </fw>
          <pb corresp="#f58"/>
          <ab corresp="#f58_eSc_textblock_5f42cf7a" type="MainZone">
             <lb type="DefaultLine" corresp="#f58_eSc_line_b4e9b5a4_ligne_2"/>
@@ -58069,14 +58075,6 @@
                <reg type="advanced">Puis tout passer par ung passot.</reg>
             </choice>
          </ab>
-         <note corresp="#f79_eSc_textblock_69caa25b" type="MarginTextZone">
-            <lb type="DefaultLine" corresp="#f79_eSc_line_a69ecdc6_ligne_2"/>
-            <choice>
-               <orig>Scribit</orig>
-               <reg type="intermediary">Scribit</reg>
-               <reg type="advanced">Scribit</reg>
-            </choice>
-         </note>
          <fw corresp="#f79_eSc_textblock_d210c76a" type="QuireMarksZone">
             <lb type="DefaultLine" corresp="#f79_eSc_line_cc9e7a25_ligne_2"/>
             <choice>
@@ -58085,6 +58083,14 @@
                <reg type="advanced">Ce</reg>
             </choice>
          </fw>
+         <note corresp="#f79_eSc_textblock_69caa25b" type="MarginTextZone">
+            <lb type="DefaultLine" corresp="#f79_eSc_line_a69ecdc6_ligne_2"/>
+            <choice>
+               <orig>Scribit</orig>
+               <reg type="intermediary">Scribit</reg>
+               <reg type="advanced">Scribit</reg>
+            </choice>
+         </note>
          <pb corresp="#f80"/>
          <ab corresp="#f80_eSc_textblock_0a80ebdf" type="MainZone">
             <hi>
@@ -58433,6 +58439,14 @@
                <reg type="advanced">Par le commandement du mire/</reg>
             </choice>
          </ab>
+         <fw corresp="#f81_eSc_textblock_c7c85802" type="QuireMarksZone">
+            <lb type="DefaultLine" corresp="#f81_eSc_line_c1939618_ligne_2"/>
+            <choice>
+               <orig>F Il</orig>
+               <reg type="intermediary">F Il</reg>
+               <reg type="advanced">F Il</reg>
+            </choice>
+         </fw>
          <note corresp="#f81_eSc_textblock_5ec6e445" type="MarginTextZone">
             <lb type="DefaultLine" corresp="#f81_eSc_line_d257589f_ligne_2"/>
             <choice>
@@ -58457,14 +58471,6 @@
                <reg type="advanced">Pausa.</reg>
             </choice>
          </note>
-         <fw corresp="#f81_eSc_textblock_c7c85802" type="QuireMarksZone">
-            <lb type="DefaultLine" corresp="#f81_eSc_line_c1939618_ligne_2"/>
-            <choice>
-               <orig>F Il</orig>
-               <reg type="intermediary">F Il</reg>
-               <reg type="advanced">F Il</reg>
-            </choice>
-         </fw>
          <pb corresp="#f82"/>
          <ab corresp="#f82_eSc_textblock_f834b7f2" type="MainZone">
             <lb type="DefaultLine" corresp="#f82_eSc_line_4ba1ff3e_ligne_2"/>
@@ -58994,14 +59000,6 @@
                <reg type="advanced">Or receuez en chere lye</reg>
             </choice>
          </ab>
-         <note corresp="#f84_eSc_textblock_54d631a8" type="MarginTextZone">
-            <lb type="DefaultLine" corresp="#f84_eSc_line_b4ad624b_ligne_2"/>
-            <choice>
-               <orig>Pausa.</orig>
-               <reg type="intermediary">Pausa.</reg>
-               <reg type="advanced">Pausa.</reg>
-            </choice>
-         </note>
          <fw corresp="#f84_eSc_textblock_e3f6c9e4" type="QuireMarksZone">
             <lb type="DefaultLine" corresp="#f84_eSc_line_03b58176_ligne_2"/>
             <choice>
@@ -59010,6 +59008,14 @@
                <reg type="advanced">La</reg>
             </choice>
          </fw>
+         <note corresp="#f84_eSc_textblock_54d631a8" type="MarginTextZone">
+            <lb type="DefaultLine" corresp="#f84_eSc_line_b4ad624b_ligne_2"/>
+            <choice>
+               <orig>Pausa.</orig>
+               <reg type="intermediary">Pausa.</reg>
+               <reg type="advanced">Pausa.</reg>
+            </choice>
+         </note>
          <pb corresp="#f85"/>
          <ab corresp="#f85_eSc_textblock_ed19f559" type="MainZone">
             <lb type="DefaultLine" corresp="#f85_eSc_line_2b899493_ligne_2"/>
@@ -59177,6 +59183,14 @@
                <reg type="advanced">Bienheureux est, qui garde la parolle</reg>
             </choice>
          </ab>
+         <fw corresp="#f85_eSc_textblock_e72a733b" type="QuireMarksZone">
+            <lb type="DefaultLine" corresp="#f85_eSc_line_0d480986_ligne_2"/>
+            <choice>
+               <orig>F 3 De</orig>
+               <reg type="intermediary">F 3 De</reg>
+               <reg type="advanced">F 3 De</reg>
+            </choice>
+         </fw>
          <note corresp="#f85_eSc_textblock_8c85b63a" type="MarginTextZone">
             <lb type="DefaultLine" corresp="#f85_eSc_line_d0933096_ligne_2"/>
             <choice>
@@ -59191,14 +59205,6 @@
                <reg type="advanced">urceolo.</reg>
             </choice>
          </note>
-         <fw corresp="#f85_eSc_textblock_e72a733b" type="QuireMarksZone">
-            <lb type="DefaultLine" corresp="#f85_eSc_line_0d480986_ligne_2"/>
-            <choice>
-               <orig>F 3 De</orig>
-               <reg type="intermediary">F 3 De</reg>
-               <reg type="advanced">F 3 De</reg>
-            </choice>
-         </fw>
          <pb corresp="#f86"/>
          <ab corresp="#f86_eSc_textblock_9656ed49" type="MainZone">
             <lb type="DefaultLine" corresp="#f86_eSc_line_3a6299e9_ligne_2"/>
@@ -60607,12 +60613,6 @@
          </fw>
          <pb corresp="#f94"/>
          <ab corresp="#f94_eSc_textblock_bd93eddf" type="MainZone">
-            <lb type="DefaultLine" corresp="#f94_eSc_line_080bf226_ligne_2"/>
-            <choice>
-               <orig>Souuent ouy prescher lauoys:</orig>
-               <reg type="intermediary">Souvent ouy prescher l'avoys:</reg>
-               <reg type="advanced">Souuent ouy prescher lauoys:</reg>
-            </choice>
             <hi>
                <lb type="DefaultLine" corresp="#f94_eSc_line_b1831891_ligne_3"/>
                <choice>
@@ -60621,6 +60621,12 @@
                   <reg type="advanced">Le uarlet.</reg>
                </choice>
             </hi>
+            <lb type="DefaultLine" corresp="#f94_eSc_line_080bf226_ligne_2"/>
+            <choice>
+               <orig>Souuent ouy prescher lauoys:</orig>
+               <reg type="intermediary">Souvent ouy prescher l'avoys:</reg>
+               <reg type="advanced">Souuent ouy prescher lauoys:</reg>
+            </choice>
             <lb type="HeadingLine" corresp="#f94_eSc_line_07a6b1c6_ligne_4"/>
             <choice>
                <orig>Mais deuant dire prou uous face/</orig>
