@@ -26919,9 +26919,9 @@
             </hi>
             <lb type="DefaultLine" corresp="#f9_eSc_line_bd4b2fac_ligne_9"/>
             <choice>
-               <orig>U grãd cõseil, par diuĩe ordõnãce</orig>
-               <reg type="intermediary">U grand conseil, par divine ordonnance</reg>
-               <reg type="advanced">U grand conseil, par divine ordõnãce</reg>
+               <orig>U grãd cõseil/ par diuĩe ordõnãce</orig>
+               <reg type="intermediary">U grand conseil/ par divine ordonnance</reg>
+               <reg type="advanced">U grand conseil/ par divine ordõnãce</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f9_eSc_line_59bd1402_ligne_10"/>
             <choice>
@@ -27028,7 +27028,7 @@
             <lb type="DefaultLine" corresp="#f9_eSc_line_dd5fe402_ligne_27"/>
             <choice>
                <orig>Qui le liura/ a mort iniustement</orig>
-               <reg type="intermediary">Qui le liura/ a mort injustement</reg>
+               <reg type="intermediary">Qui le livra/ a mort injustement</reg>
                <reg type="advanced">Qui le liura/ a mort iniustement</reg>
             </choice>
          </ab>
