@@ -153,7 +153,7 @@
             </correction>
             <normalization>
                <p>Pour les règles de normalisation, voir l'article suivant : <ref target="https://hal.science/hal-05137564"/>. Concernant la normalisation intermédiaire ou semi-diplomatique, 
-                  cette transcription n'a pas été normalisée.</p>
+                  cette transcription a été normalisée.</p>
             </normalization>
          </editorialDecl>
          <appInfo>
@@ -189,7 +189,7 @@
                <term type="form">poésie</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
-               <term type="intermediary_reg_quality">not applicable</term>
+               <term type="intermediary_reg_quality">gold</term>
                <term type="advanced_reg_quality">not applicable</term>
                <term type="ling_annotation_quality">not applicable</term>
             </keywords>
@@ -198,6 +198,7 @@
       <revisionDesc>
          <change when="2023-12-21" who="#SS">Création du fichier TEI P5.</change>
          <change when="2025-05-15" who="#SS">Révision des métadonnées.</change>
+         <change when="2025-10-14" who="#AMO">Normalisation intermédiaire ou semi-diplomatique terminée.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
