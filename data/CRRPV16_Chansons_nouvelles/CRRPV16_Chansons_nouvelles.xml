@@ -12534,24 +12534,30 @@
                <reg type="intermediary">Ou autrement ne vous seroit facile.</reg>
                <reg type="advanced">Ou autrement ne vous serait facile.</reg>
             </choice>
-            <lb type="DefaultLine" corresp="#f7_eSc_line_7eb2ebae_ligne_22"/>
-            <choice>
-               <orig>¶ Autre chãson cõtenant une partie des dã¬</orig>
-               <reg type="intermediary">¶ Autre chanson contenant une partie des dam¬</reg>
-               <reg type="advanced">¶ Autre chanson contenant une partie des dam¬</reg>
-            </choice>
-            <lb type="DefaultLine" corresp="#f7_eSc_line_eaf3b944_ligne_23"/>
-            <choice>
-               <orig>nables erreurs et abusions des ministres de</orig>
-               <reg type="intermediary">nables erreurs et abusions des ministres de</reg>
-               <reg type="advanced">nables erreurs et abusions des ministres de</reg>
-            </choice>
-            <lb type="DefaultLine" corresp="#f7_eSc_line_e72e6ee5_ligne_24"/>
-            <choice>
-               <orig>Lantechrist/ qͥ ont usurpe le nom de p̃bstre.</orig>
-               <reg type="intermediary">L'antechrist/ qui ont usurpe le nom de prebstre.</reg>
-               <reg type="advanced">L'Antéchrist/ qui ont usurpé le nom de prêtre.</reg>
-            </choice>
+            <hi>
+            <lb type="HeadingLine" corresp="#f7_eSc_line_7eb2ebae_ligne_22"/>
+               <choice>
+                  <orig>¶ Autre chãson cõtenant une partie des dã¬</orig>
+                  <reg type="intermediary">¶ Autre chanson contenant une partie des dam¬</reg>
+                  <reg type="advanced">¶ Autre chanson contenant une partie des dam¬</reg>
+               </choice>
+            </hi>
+            <hi>
+               <lb type="HeadingLine" corresp="#f7_eSc_line_eaf3b944_ligne_23"/>
+               <choice>
+                  <orig>nables erreurs et abusions des ministres de</orig>
+                  <reg type="intermediary">nables erreurs et abusions des ministres de</reg>
+                  <reg type="advanced">nables erreurs et abusions des ministres de</reg>
+               </choice>
+            </hi>
+            <hi>
+               <lb type="HeadingLine" corresp="#f7_eSc_line_e72e6ee5_ligne_24"/>
+               <choice>
+                  <orig>Lantechrist/ qͥ ont usurpe le nom de p̃bstre.</orig>
+                  <reg type="intermediary">L'antechrist/ qui ont usurpe le nom de prebstre.</reg>
+                  <reg type="advanced">L'Antéchrist/ qui ont usurpé le nom de prêtre.</reg>
+               </choice>
+            </hi>
             <hi>
                <lb type="DropCapitalLine" corresp="#f7_eSc_line_70d4aa8b_ligne_2"/>
                <choice>
