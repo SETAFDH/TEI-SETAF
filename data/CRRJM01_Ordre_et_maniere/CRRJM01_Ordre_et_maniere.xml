@@ -49192,9 +49192,9 @@
          <fw corresp="#f55_eSc_textblock_e918c8fb" type="QuireMarksZone">
             <lb type="DefaultLine" corresp="#f55_eSc_line_caa3895d_ligne_2"/>
             <choice>
-               <orig>4 sur</orig>
-               <reg type="intermediary">4 sur</reg>
-               <reg type="advanced">4 sur</reg>
+               <orig>D 4 sur</orig>
+               <reg type="intermediary">D 4 sur</reg>
+               <reg type="advanced">D 4 sur</reg>
             </choice>
          </fw>
          <pb corresp="#f56"/>
@@ -49596,9 +49596,9 @@
          <fw corresp="#f57_eSc_textblock_3410eb07" type="QuireMarksZone">
             <lb type="DefaultLine" corresp="#f57_eSc_line_6ccab9b8_ligne_2"/>
             <choice>
-               <orig>5 possible</orig>
-               <reg type="intermediary">5 possible</reg>
-               <reg type="advanced">5 possible</reg>
+               <orig>D 5 possible</orig>
+               <reg type="intermediary">D 5 possible</reg>
+               <reg type="advanced">D 5 possible</reg>
             </choice>
          </fw>
          <note corresp="#f57_eSc_textblock_163c89c5" type="MarginTextZone">
