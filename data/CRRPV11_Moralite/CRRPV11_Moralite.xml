@@ -191,7 +191,7 @@
                <term type="form">poésie</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
-               <term type="intermediary_reg_quality">not applicable</term>
+               <term type="intermediary_reg_quality">gold</term>
                <term type="advanced_reg_quality">not applicable</term>
                <term type="ling_annotation_quality">not applicable</term>
             </keywords>
