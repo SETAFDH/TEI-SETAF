@@ -121,6 +121,7 @@
                   <surrogates>
                      <bibl>
                         <ref target="https://doc.rero.ch/record/20834"/>
+                        <ptr target="https://iiif.hedera.unige.ch/iiif/3/setaf/BPUN_ZU292_page_1.png/full/max/0/default.jpg"/>
                         <relatedItem type="original">
                            <ref target="#BPUN_BPUN_ZU_292">RERO Doc</ref>
                         </relatedItem>
