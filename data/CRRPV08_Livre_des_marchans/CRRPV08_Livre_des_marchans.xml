@@ -56,8 +56,8 @@
             </respStmt>
          </titleStmt>
          <extent>
-            <measure unit="total_images" n="p. 57"/>
-            <measure unit="processed_images" n="p. 46"/>
+            <measure unit="total_images" n="57 p."/>
+            <measure unit="processed_images" n="46 p."/>
          </extent>
          <publicationStmt>
             <publisher>Projet SETAF</publisher>
