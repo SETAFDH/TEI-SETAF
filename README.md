@@ -3,12 +3,12 @@
 Ce dépôt comprend les textes en XML-TEI du corpus du projet SETAF.
 Les données sont identiques dans le dépôt suivant : [SETAF-app-data/tree/main/data/corpus](https://github.com/SETAFDH/SETAF-app-data/tree/main/data/corpus).
 
-Description :
+Description du dépôt :
 - La liste des textes avec plus de détails se trouve dans le [tableau CSV](https://github.com/SETAFDH/TEI-SETAF/blob/main/TEI_table.csv) du dépôt.
 - Le dossier "schema" contient l'ODD du projet sous différents formats (.odd, .html, .rng).
 - Le dossier "data" contient les textes au format XML-TEI.
 
-Description de l'encodage :
+Description de l'encodage des fichiers :
 à venir
 
 Pour comprendre l'état d'avancement des textes (qualité *gold*, *en cours* ou *à venir*), il suffit de consulter le [tableau CSV](https://github.com/SETAFDH/TEI-SETAF/blob/main/TEI_table.csv) du dépôt et/ou le teiHeader des fichiers XML-TEI.
