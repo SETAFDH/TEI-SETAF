@@ -1,18 +1,14 @@
 # TEI-SETAF
 
-Ce dépôt est en cours de construction. 
-
-Ce dépôt comprend les données TEI produites dans le cadre du projet SETAF. 
+Ce dépôt comprend les textes en XML-TEI du corpus du projet SETAF.
+Les données sont identiques dans le dépôt suivant : [SETAF-app-data/tree/main/data/corpus](https://github.com/SETAFDH/SETAF-app-data/tree/main/data/corpus).
 
 Description :
 - La liste des textes avec plus de détails se trouve dans le [tableau CSV](https://github.com/SETAFDH/TEI-SETAF/blob/main/TEI_table.csv) du dépôt.
 - Le dossier "schema" contient l'ODD du projet sous différents formats (.odd, .html, .rng).
-- Le dossier "data" contient les textes au format XML-TEI et HTML.
+- Le dossier "data" contient les textes au format XML-TEI.
 
-Description des fichiers XML-TEI :
-  - Chaque fichier .xml se compose de trois grandes parties : <b>teiHeader</b>, <b>sourceDoc</b> et <b>body</b>. Le <b>teiHeader</b>, l'en-tête du fichier, contient les métadonnées de l'ouvrage et les informations indispensables à l'identification du fichier. La section <b>sourceDoc</b> comprend toutes les informations qui étaient contenues dans les fichiers ALTO d'origine. Dans le <b>body</b>, le corps du texte, nous proposons une balise <b>choice</b> qui comprend trois couches : les lignes océrisées et extraites à partir du <b>sourceDoc</b>, dans la balise <b>orig</b>, et les mêmes lignes normalisées dans les balises <b>reg type="intermediary"</b> et <b>reg type="advanced"</b>.
-
-Description des fichiers HTML :
+Description de l'encodage :
 à venir
 
 Pour comprendre l'état d'avancement des textes (qualité *gold*, *en cours* ou *à venir*), il suffit de consulter le [tableau CSV](https://github.com/SETAFDH/TEI-SETAF/blob/main/TEI_table.csv) du dépôt et/ou le teiHeader des fichiers XML-TEI.
