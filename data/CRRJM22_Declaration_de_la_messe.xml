@@ -61,8 +61,8 @@
             </respStmt>
          </titleStmt>
          <extent>
-            <measure unit="total_images" n="115 p."/>
-            <measure unit="processed_images" n="103 p."/>
+            <measure unit="total_images" n="115"/>
+            <measure unit="processed_images" n="103"/>
          </extent>
          <publicationStmt>
             <publisher>Projet SETAF</publisher>
@@ -71,9 +71,11 @@
                <addrLine>22 boulevard des Philosophes</addrLine>
                <addrLine>CH-1211 Genève</addrLine>
             </address>
-            <availability status="restricted" n="CC-BY">
+            <availability>
+               <licence target="https://rightsstatements.org/page/1.0/?language=fr#collection-nc"/>
+               <p>Images : Public Domain Mark - Non-Commercial Use Only (ÖNB Digital - Austrian National Library)</p>
                <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-               <p>Creative Commons Attribution 4.0 CC BY 4.0</p>
+               <p>Édition : CC BY</p>
             </availability>
             <date when="2023-11-24"/>
          </publicationStmt>
@@ -130,12 +132,6 @@
                         <relatedItem type="original">
                            <ref target="#NB_79.H.47">ONB</ref>
                         </relatedItem>
-                        <availability>
-                           <licence target="https://rightsstatements.org/page/1.0/?language=fr#collection-nc"/>
-                           <p>Images : Public Domain Mark - Non-Commercial Use Only (ÖNB Digital - Austrian National Library)</p>
-                           <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-                           <p>Édition : CC BY</p>
-                        </availability>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -180,7 +176,7 @@
          <appInfo>
             <application ident="FoNDUE" version="0.1">
                <label>FoNDUE</label>
-               <ptr target="https://test2.fondue.unige.ch/"/>
+               <ptr target="https://fondue.unige.ch/"/>
             </application>
          </appInfo>
          <classDecl>
@@ -200,12 +196,10 @@
          </langUsage>
          <textClass>
             <keywords>
-               <term type="genre">à établir</term>
                <term type="form">prose</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
                <term type="intermediary_reg_quality">not applicable</term>
-               <term type="advanced_reg_quality">not applicable</term>
                <term type="ling_annotation">non</term>
                <term type="ling_annotation_quality">not applicable</term>
             </keywords>
@@ -214,6 +208,7 @@
       <revisionDesc>
          <change when="2023-11-24" who="#SS">Création du fichier TEI P5.</change>
          <change when="2025-05-16" who="#SS">Révision des métadonnées.</change>
+         <change when="2025-12-01" who="#SS">Révision de certains éléments du teiHeader : measure, licence, ptr fondue, keywords.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>

@@ -37,8 +37,8 @@
             </respStmt>
          </titleStmt>
          <extent>
-            <measure unit="total_images" n="56 p."/>
-            <measure unit="processed_images" n="48 p."/>
+            <measure unit="total_images" n="56"/>
+            <measure unit="processed_images" n="48"/>
          </extent>
          <publicationStmt>
             <publisher>Projet SETAF</publisher>
@@ -47,9 +47,11 @@
                <addrLine>22 boulevard des Philosophes</addrLine>
                <addrLine>CH-1211 Genève</addrLine>
             </address>
-            <availability status="restricted" n="CC-BY">
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/mark/1.0/deed.en"/>
+               <p>Images : Public Domain Mark (e-rara)</p>
                <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-               <p>Creative Commons Attribution 4.0 CC BY 4.0</p>
+               <p>Édition : CC BY</p>
             </availability>
             <date when="2023-10-27"/>
          </publicationStmt>
@@ -110,12 +112,6 @@
                         <relatedItem type="original">
                            <ref target="#ZB_Res_1332">e-rara</ref>
                         </relatedItem>
-                        <availability>
-                           <licence target="https://creativecommons.org/publicdomain/mark/1.0/deed.en"/>
-                           <p>Images : Public Domain Mark (e-rara)</p>
-                           <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-                           <p>Édition : CC BY</p>
-                        </availability>
                      </bibl>
                   </surrogates>
                   <listBibl>
@@ -160,7 +156,7 @@
          <appInfo>
             <application ident="FoNDUE" version="0.1">
                <label>FoNDUE</label>
-               <ptr target="https://test2.fondue.unige.ch/"/>
+               <ptr target="https://fondue.unige.ch/"/>
             </application>
          </appInfo>
          <classDecl>
@@ -180,12 +176,10 @@
          </langUsage>
          <textClass>
             <keywords>
-               <term type="genre">recueil de chansons</term>
                <term type="form">poésie</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
                <term type="intermediary_reg_quality">gold</term>
-               <term type="advanced_reg_quality">not applicable</term>
                <term type="ling_annotation">non</term>
                <term type="ling_annotation_quality">not applicable</term>
             </keywords>
@@ -195,6 +189,7 @@
          <change when="2023-10-27" who="#SS">Création du fichier TEI P5.</change>
          <change when="2024-01-03" who="#SS">Normalisation intermédiaire ou semi-diplomatique terminée.</change>
          <change when="2025-05-15" who="#SS">Révision des métadonnées.</change>
+         <change when="2025-12-01" who="#SS">Révision de certains éléments du teiHeader : measure, licence, ptr fondue, keywords.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
