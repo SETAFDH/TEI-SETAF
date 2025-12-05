@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-08-28T12:44:39Z. . 
+Schema generated from ODD source 2025-12-05T15:34:27Z. . 
 TEI Edition: P5 Version 4.8.1. Last updated on 1st November 2024, revision 0a2bff95a 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.8.1/ 
   
@@ -2539,6 +2539,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.change.attribute.change"/>
+         <ref name="att.global.responsibility.attribute.cert"/>
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.naming.attribute.role"/>
          <ref name="att.naming.attribute.nymRef"/>
@@ -4204,6 +4205,21 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <ref name="att.naming.attribute.nymRef"/>
          <ref name="att.canonical.attribute.ref"/>
          <ref name="att.cmc.attributes"/>
+         <optional>
+            <attribute name="cert">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(certainty) signifies the degree of certainty associated with the intervention or interpretation.</a:documentation>
+               <choice>
+                  <value>high</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>medium</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>low</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>unknown</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </attribute>
+         </optional>
          <optional>
             <attribute name="role">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.</a:documentation>

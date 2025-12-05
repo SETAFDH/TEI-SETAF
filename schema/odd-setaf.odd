@@ -509,7 +509,6 @@
                      <attDef ident="prev" mode="delete"/>
                      <attDef ident="ana" mode="delete"/>
                      <attDef ident="facs" mode="delete"/>
-                     <attDef ident="cert" mode="delete"/>
                      <attDef ident="resp" mode="delete"/>
                      <attDef ident="key" mode="delete"/>
                      <attDef ident="ref" mode="delete"/>
@@ -1178,7 +1177,6 @@
                <elementSpec ident="persName" mode="change">
                   <attList>
                      <attDef ident="corresp" mode="delete"/>
-                     <attDef ident="cert" mode="delete"/>
                      <attDef ident="resp" mode="delete"/>
                      <attDef ident="source" mode="delete"/>
                      <attDef ident="key" mode="delete"/>
@@ -1191,6 +1189,14 @@
                            <valItem ident="presumed_printer"/>
                            <valItem ident="false_printer"/>
                            <valItem ident="false_author"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="cert" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="high"/>
+                           <valItem ident="medium"/>
+                           <valItem ident="low"/>
+                           <valItem ident="unknown"/>
                         </valList>
                      </attDef>
                   </attList>
