@@ -76,8 +76,9 @@
                      <biblStruct>
                         <monogr>
                            <author>
-                              <persName>
-                                 <surname>Anonyme</surname>
+                              <persName role="presumed_author" cert="low" ref="isni:0000000083926271">
+                                 <surname>Malingre</surname>
+                                 <forename>Matthieu</forename>
                               </persName>
                            </author>
                            <title type="complete_title">La Verité cachée, devant cent ans faicte et composée a six personnages : nouvellement corrigée et augmentée avec les autoritez de la saincte Escripture. Verité. Ministre. Peuple. Aucun. Avarice. Simonie.</title>
