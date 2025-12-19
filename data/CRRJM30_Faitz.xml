@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Faitz de Jesus Christ et du Pape. [Genève] : [Jean Michel], [1538/1544].</title>
+            <title>Faitz de Jesus Christ et du Pape. [Genève] : [Jean Michel], [1540?].</title>
             <respStmt>
                <resp>Direction du projet SETAF.</resp>
                <persName xml:id="DSC">
@@ -100,7 +100,7 @@
                                     <forename>Jean</forename>
                                  </persName>
                               </respStmt>
-                              <date cert="low">1538/1544</date>
+                              <date cert="low">1540</date>
                            </imprint>
                         </monogr>
                      </biblStruct>
