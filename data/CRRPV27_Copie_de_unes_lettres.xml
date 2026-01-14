@@ -149,7 +149,7 @@
             </correction>
             <normalization>
                <p>Pour les règles de normalisation, voir l'article suivant : <ref target="https://hal.science/hal-05137564"/>. Concernant la normalisation intermédiaire ou semi-diplomatique, 
-                                cette transcription n'a été pas normalisée.</p>
+                                cette transcription a été normalisée.</p>
             </normalization>
          </editorialDecl>
          <appInfo>
@@ -184,14 +184,14 @@
                <term type="form">prose</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
-               <term type="intermediary_reg_quality">not applicable</term>
+               <term type="intermediary_reg_quality">gold</term>
                <term type="ling_annotation">non</term>
                <term type="ling_annotation_quality">not applicable</term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2026-01-14" who="#SS">Création du fichier TEI P5.</change>
+         <change when="2026-01-14" who="#AMO">Création du fichier TEI P5.</change>
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
