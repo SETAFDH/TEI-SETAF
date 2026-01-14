@@ -915,7 +915,7 @@
                <lb type="HeadingLine" corresp="#f1_eSc_line_bd77d8a3_ligne_2"/>
                <choice>
                   <orig>¶ Copie de unes lettres escriptes par frere Iehan critin/ dit Bre¬</orig>
-                  <reg type="intermediary">¶ Copie de unes lettres escriptes par frere Iehan critin/ dit Bre¬</reg>
+                  <reg type="intermediary">¶ Copie de unes lettres escriptes par frere Jehan critin/ dit Bre¬</reg>
                   <reg type="advanced">¶ Copie de unes lettres escriptes par frere Iehan critin/ dit Bre¬</reg>
                </choice>
             </hi>
@@ -923,7 +923,7 @@
                <lb type="HeadingLine" corresp="#f1_eSc_line_883022e1_ligne_3"/>
                <choice>
                   <orig>tonniere/ Cordelier de Granson/ estãt alors a Bezenson/ addressees a frere George bourgeoys/ cor¬</orig>
-                  <reg type="intermediary">tonniere/ Cordelier de Granson/ estãt alors a Bezenson/ addressees a frere George bourgeoys/ cor¬</reg>
+                  <reg type="intermediary">tonniere/ Cordelier de Granson/ estant alors a Bezenson/ addressees a frere George bourgeoys/ cor¬</reg>
                   <reg type="advanced">tonniere/ Cordelier de Granson/ estãt alors a Bezenson/ addressees a frere George bourgeoys/ cor¬</reg>
                </choice>
             </hi>
@@ -931,7 +931,7 @@
                <lb type="HeadingLine" corresp="#f1_eSc_line_a45a7931_ligne_4"/>
                <choice>
                   <orig>delier audict Granson/ extraictes fidellement sur Loriginal qui a este leu en leur presence/ par troys</orig>
-                  <reg type="intermediary">delier audict Granson/ extraictes fidellement sur Loriginal qui a este leu en leur presence/ par troys</reg>
+                  <reg type="intermediary">delier audict Granson/ extraictes fidellement sur L'original qui a este leu en leur presence/ par troys</reg>
                   <reg type="advanced">delier audict Granson/ extraictes fidellement sur Loriginal qui a este leu en leur presence/ par troys</reg>
                </choice>
             </hi>
@@ -939,7 +939,7 @@
                <lb type="HeadingLine" corresp="#f1_eSc_line_0a0e9cf5_ligne_5"/>
                <choice>
                   <orig>cõmissaires dud. lieu de Granson/ subsignans leurs noms Claude quarra/ Claude bourgeoys/</orig>
-                  <reg type="intermediary">cõmissaires dud. lieu de Granson/ subsignans leurs noms Claude quarra/ Claude bourgeoys/</reg>
+                  <reg type="intermediary">commissaires dudit lieu de Granson/ subsignans leurs noms Claude quarra/ Claude bourgeoys/</reg>
                   <reg type="advanced">cõmissaires dud. lieu de Granson/ subsignans leurs noms Claude quarra/ Claude bourgeoys/</reg>
                </choice>
             </hi>
@@ -947,7 +947,7 @@
                <lb type="HeadingLine" corresp="#f1_eSc_line_fde09059_ligne_6"/>
                <choice>
                   <orig>et Pierre calameti. A cause de laquelle lettre/ noz tresredoubtez Seigneurs de</orig>
-                  <reg type="intermediary">et Pierre calameti. A cause de laquelle lettre/ noz tresredoubtez Seigneurs de</reg>
+                  <reg type="intermediary">et Pierre calameti. A cause de laquelle lettre/ noz tres redoubtez Seigneurs de</reg>
                   <reg type="advanced">et Pierre calameti. A cause de laquelle lettre/ noz tresredoubtez Seigneurs de</reg>
                </choice>
             </hi>
@@ -955,7 +955,7 @@
                <lb type="HeadingLine" corresp="#f1_eSc_line_af68b8e1_ligne_7"/>
                <choice>
                   <orig>Berne ⁊ Fribourg/ ont chasse lesd Cordeliers de Granson.</orig>
-                  <reg type="intermediary">Berne et Fribourg/ ont chasse lesd Cordeliers de Granson.</reg>
+                  <reg type="intermediary">Berne et Fribourg/ ont chasse lesdits Cordeliers de Granson.</reg>
                   <reg type="advanced">Berne et Fribourg/ ont chasse lesd Cordeliers de Granson.</reg>
                </choice>
             </hi>
@@ -971,128 +971,128 @@
                <lb type="DropCapitalLine" corresp="#f1_eSc_line_d84e2658_ligne_2"/>
                <choice>
                   <orig>M</orig>
-                  <reg type="intermediary">M</reg>
+                  <reg type="intermediary">M¬</reg>
                   <reg type="advanced">M</reg>
                </choice>
             </hi>
             <lb type="DefaultLine" corresp="#f1_eSc_line_b2fa10a3_ligne_9"/>
             <choice>
                <orig>On bon amy a uostre bõne grace me recõmande/ frere George mon amy/ sans oublier mes</orig>
-               <reg type="intermediary">On bon amy a uostre bõne grace me recõmande/ frere George mon amy/ sans oublier mes</reg>
+               <reg type="intermediary">On bon amy a vostre bonne grace me recommande/ frere George mon amy/ sans oublier mes</reg>
                <reg type="advanced">On bon amy a uostre bõne grace me recõmande/ frere George mon amy/ sans oublier mes</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_8bd05b83_ligne_10"/>
             <choice>
                <orig>bons amys/ lesquelz scauez: cõme les freres du Conuent/ cõme au pere Gardian/ frere Frã¬</orig>
-               <reg type="intermediary">bons amys/ lesquelz scauez: cõme les freres du Conuent/ cõme au pere Gardian/ frere Frã¬</reg>
+               <reg type="intermediary">bons amys/ lesquelz scavez: comme les freres du Convent/ comme au pere Gardian/ frere Fran¬</reg>
                <reg type="advanced">bons amys/ lesquelz scauez: cõme les freres du Conuent/ cõme au pere Gardian/ frere Frã¬</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_f28fda03_ligne_11"/>
             <choice>
                <orig>coys/ frere Iehan tissot/ ⁊ frere Blaise/ ⁊ aux nouices/ ⁊ seruiteurs/ ⁊ a la mere/ ⁊ me ferez</orig>
-               <reg type="intermediary">coys/ frere Iehan tissot/ et frere Blaise/ et aux nouices/ et seruiteurs/ et a la mere/ et me ferez</reg>
+               <reg type="intermediary">coys/ frere Jehan tissot/ et frere Blaise/ et aux novices/ et serviteurs/ et a la mere/ et me ferez</reg>
                <reg type="advanced">coys/ frere Iehan tissot/ et frere Blaise/ et aux nouices/ et seruiteurs/ et a la mere/ et me ferez</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_240027af_ligne_12"/>
             <choice>
                <orig>plaisir. Recõmandez moy a tous bons compaignons de la uille/ a monsieur le Lieutenant/ ⁊ a tous</orig>
-               <reg type="intermediary">plaisir. Recõmandez moy a tous bons compaignons de la uille/ a monsieur le Lieutenant/ et a tous</reg>
+               <reg type="intermediary">plaisir. Recommandez moy a tous bons compaignons de la ville/ a monsieur le Lieutenant/ et a tous</reg>
                <reg type="advanced">plaisir. Recõmandez moy a tous bons compaignons de la uille/ a monsieur le Lieutenant/ et a tous</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_13c45c01_ligne_13"/>
             <choice>
                <orig>autres/ uous priant que soyez tousiours bon Chrestien/ ⁊ ne oubliez pas le bas/ car on sen sert poͬ le</orig>
-               <reg type="intermediary">autres/ uous priant que soyez tousiours bon Chrestien/ et ne oubliez pas le bas/ car on sen sert poͬ le</reg>
+               <reg type="intermediary">autres/ vous priant que soyez tousjours bon Chrestien/ et ne oubliez pas le bas/ car on s'en sert pour le</reg>
                <reg type="advanced">autres/ uous priant que soyez tousiours bon Chrestien/ et ne oubliez pas le bas/ car on sen sert poͬ le</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_1ef47236_ligne_14"/>
             <choice>
                <orig>mestier. De mes nouuelles sachez que me porte bien poͬ le present/ ⁊ si ne lay pas oublie le bas/ leq̃l</orig>
-               <reg type="intermediary">mestier. De mes nouuelles sachez que me porte bien poͬ le present/ et si ne lay pas oublie le bas/ lequel</reg>
+               <reg type="intermediary">mestier. De mes nouvelles sachez que me porte bien pour le present/ et si ne l'ay pas oublie le bas/ lequel</reg>
                <reg type="advanced">mestier. De mes nouuelles sachez que me porte bien poͬ le present/ et si ne lay pas oublie le bas/ lequel</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_f6514441_ligne_15"/>
             <choice>
                <orig>scauez/ lentretenãt auec les bons cõpaignons/ cõme le uicaire de labbaye/ aussi se peult il faire/ ⁊ tout</orig>
-               <reg type="intermediary">scauez/ lentretenãt auec les bons cõpaignons/ cõme le uicaire de labbaye/ aussi se peult il faire/ et tout</reg>
+               <reg type="intermediary">scavez/ l'entretenant avec les bons compaignons/ comme le vicaire de l'abbaye/ aussi se peult il faire/ et tout</reg>
                <reg type="advanced">scauez/ lentretenãt auec les bons cõpaignons/ cõme le uicaire de labbaye/ aussi se peult il faire/ et tout</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_4ea1fd80_ligne_16"/>
             <choice>
                <orig>poͬ bien. Lesquelles nouuelles la Coquille Dimẽche courant par led. lieu. Uous estes au passage/ la</orig>
-               <reg type="intermediary">poͬ bien. Lesquelles nouuelles la Coquille Dimẽche courant par led. lieu. Uous estes au passage/ la</reg>
+               <reg type="intermediary">pour bien. Lesquelles nouvelles la Coquille Dimenche courant par ledit lieu. Vous estes au passage/ la</reg>
                <reg type="advanced">poͬ bien. Lesquelles nouuelles la Coquille Dimẽche courant par led. lieu. Uous estes au passage/ la</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_d8d0feaa_ligne_17"/>
             <choice>
                <orig>ou uous en auez de demourãt/ ne prenez pas tout/ laissez q̃lque chose poͬ les autres qui uiendrõt apres.</orig>
-               <reg type="intermediary">ou uous en auez de demourãt/ ne prenez pas tout/ laissez quelque chose poͬ les autres qui uiendrõt apres.</reg>
+               <reg type="intermediary">ou vous en avez de demourant/ ne prenez pas tout/ laissez quelque chose pour les autres qui viendront apres.</reg>
                <reg type="advanced">ou uous en auez de demourãt/ ne prenez pas tout/ laissez quelque chose poͬ les autres qui uiendrõt apres.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_492593c5_ligne_18"/>
             <choice>
                <orig>Si ferez mes recõmandations aux bourgeoyses de la Coquille/ cõme la Poullatiere ⁊ aux autres/ ⁊</orig>
-               <reg type="intermediary">Si ferez mes recõmandations aux bourgeoyses de la Coquille/ cõme la Poullatiere et aux autres/ et</reg>
+               <reg type="intermediary">Si ferez mes recommandations aux bourgeoyses de la Coquille/ comme la Poullatiere et aux autres/ et</reg>
                <reg type="advanced">Si ferez mes recõmandations aux bourgeoyses de la Coquille/ cõme la Poullatiere et aux autres/ et</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_cd4aacfc_ligne_19"/>
             <choice>
                <orig>a la Patte/ lesq̃lles sont bonnes religieuses poͬ augmenter Labbaye. Den trouuer de belles/ uenez a</orig>
-               <reg type="intermediary">a la Patte/ lesquelles sont bonnes religieuses poͬ augmenter Labbaye. Den trouuer de belles/ uenez a</reg>
+               <reg type="intermediary">a la Patte/ lesquelles sont bonnes religieuses pour augmenter L'abbaye. D'en trouuer de belles/ venez a</reg>
                <reg type="advanced">a la Patte/ lesquelles sont bonnes religieuses poͬ augmenter Labbaye. Den trouuer de belles/ uenez a</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_1aa331db_ligne_20"/>
             <choice>
                <orig>moy poͬ le present/ car nous en auons/ ⁊ plus quil nen fault. Pourquoy? le temps le porte: ⁊ si nosent</orig>
-               <reg type="intermediary">moy poͬ le present/ car nous en auons/ et plus quil nen fault. Pourquoy? le temps le porte: et si nosent</reg>
+               <reg type="intermediary">moy pour le present/ car nous en avons/ et plus qu'il nen fault. Pourquoy? le temps le porte: et si n'osent</reg>
                <reg type="advanced">moy poͬ le present/ car nous en auons/ et plus quil nen fault. Pourquoy? le temps le porte: et si nosent</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_29c552c7_ligne_21"/>
             <choice>
                <orig>uenir poͬ le Camus/ leq̃l Dieu mette dehors/ priant Dieu q̃ ainsi soit il. Den plus parler cest follie.</orig>
-               <reg type="intermediary">uenir poͬ le Camus/ lequel Dieu mette dehors/ priant Dieu que ainsi soit il. Den plus parler cest follie.</reg>
+               <reg type="intermediary">venir pour le Camus/ lequel Dieu mette dehors/ priant Dieu que ainsi soit il. D'en plus parler c'est follie.</reg>
                <reg type="advanced">uenir poͬ le Camus/ lequel Dieu mette dehors/ priant Dieu que ainsi soit il. Den plus parler cest follie.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_9f260e68_ligne_22"/>
             <choice>
                <orig>Daultre chose ie ne dis/ sinon que ie men iray le plustost que ie pourray apres Pasques/ pourtant ie</orig>
-               <reg type="intermediary">Daultre chose ie ne dis/ sinon que ie men iray le plustost que ie pourray apres Pasques/ pourtant ie</reg>
+               <reg type="intermediary">D'aultre chose je ne dis/ sinon que je m'en iray le plustost que je pourray apres Pasques/ pourtant je</reg>
                <reg type="advanced">Daultre chose ie ne dis/ sinon que ie men iray le plustost que ie pourray apres Pasques/ pourtant ie</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_bb4dde1d_ligne_23"/>
             <choice>
                <orig>ne uous enuoye riens/ car ie uous porteray ce que uous eusse enuoye. Et non autre chose pour le</orig>
-               <reg type="intermediary">ne uous enuoye riens/ car ie uous porteray ce que uous eusse enuoye. Et non autre chose pour le</reg>
+               <reg type="intermediary">ne vous envoye riens/ car je vous porteray ce que vous eusse envoye. Et non autre chose pour le</reg>
                <reg type="advanced">ne uous enuoye riens/ car ie uous porteray ce que uous eusse enuoye. Et non autre chose pour le</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_cee2e4f9_ligne_24"/>
             <choice>
                <orig>present/ sinõ que Dieu soit garde de uous. Amen.</orig>
-               <reg type="intermediary">present/ sinõ que Dieu soit garde de uous. Amen.</reg>
+               <reg type="intermediary">present/ sinon que Dieu soit garde de vous. Amen.</reg>
                <reg type="advanced">present/ sinõ que Dieu soit garde de uous. Amen.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_15a2b3a4_ligne_25"/>
             <choice>
                <orig>Le tout uostre loyal amy cõfusible frere Iehan</orig>
-               <reg type="intermediary">Le tout uostre loyal amy cõfusible frere Iehan</reg>
+               <reg type="intermediary">Le tout vostre loyal amy confusible frere Jehan</reg>
                <reg type="advanced">Le tout uostre loyal amy cõfusible frere Iehan</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_03c2ab04_ligne_26"/>
             <choice>
                <orig>critin. De Bezenson/ le ioͬ de la sepmaine/ au</orig>
-               <reg type="intermediary">critin. De Bezenson/ le ioͬ de la sepmaine/ au</reg>
+               <reg type="intermediary">critin. De Bezenson/ le jour de la sepmaine/ au¬</reg>
                <reg type="advanced">critin. De Bezenson/ le ioͬ de la sepmaine/ au</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_b358c83d_ligne_27"/>
             <choice>
                <orig>pres des Estuues/ en diuisãt chascũ dũg escot.</orig>
-               <reg type="intermediary">pres des Estuues/ en diuisãt chascũ dũg escot.</reg>
+               <reg type="intermediary">pres des Estuves/ en divisant chascun d'ung escot.</reg>
                <reg type="advanced">pres des Estuues/ en diuisãt chascũ dũg escot.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_f7b60b9e_ligne_28"/>
             <choice>
                <orig>Mon amy/ ie te recõmãde mon cas de ma chãbre/ comme uous auoye dit quand ie party.</orig>
-               <reg type="intermediary">Mon amy/ ie te recõmãde mon cas de ma chãbre/ comme uous auoye dit quand ie party.</reg>
+               <reg type="intermediary">Mon amy/ je te recommande mon cas de ma chambre/ comme vous avoye dit quand je party.</reg>
                <reg type="advanced">Mon amy/ ie te recõmãde mon cas de ma chãbre/ comme uous auoye dit quand ie party.</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_f6e08302_ligne_29"/>
@@ -1105,26 +1105,26 @@
                <lb type="HeadingLine" corresp="#f1_eSc_line_76bbfd0b_ligne_30"/>
                <choice>
                   <orig>Limprimeur aux Lecteurs.</orig>
-                  <reg type="intermediary">Limprimeur aux Lecteurs.</reg>
+                  <reg type="intermediary">L'imprimeur aux Lecteurs.</reg>
                   <reg type="advanced">Limprimeur aux Lecteurs.</reg>
                </choice>
             </hi>
             <lb type="DefaultLine" corresp="#f1_eSc_line_61fb143e_ligne_31"/>
             <choice>
                <orig>Uoyez mes amys/ uoyez ⁊ considerez a lhõneur de Dieu/ linfection/ lhorreur ⁊ abhomination de</orig>
-               <reg type="intermediary">Uoyez mes amys/ uoyez et considerez a lhõneur de Dieu/ linfection/ lhorreur et abhomination de</reg>
+               <reg type="intermediary">Voyez mes amys/ voyez et considerez a l'honneur de Dieu/ l'infection/ l'horreur et abhomination de</reg>
                <reg type="advanced">Uoyez mes amys/ uoyez et considerez a lhõneur de Dieu/ linfection/ lhorreur et abhomination de</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_3f203505_ligne_32"/>
             <choice>
                <orig>ses paillardz/ lesquelz non seulement exercent grosse paillardise/ mais en icelle se glorifiẽt/ ⁊ a ce faire</orig>
-               <reg type="intermediary">ses paillardz/ lesquelz non seulement exercent grosse paillardise/ mais en icelle se glorifiẽt/ et a ce faire</reg>
+               <reg type="intermediary">ses paillardz/ lesquelz non seulement exercent grosse paillardise/ mais en icelle se glorifient/ et a ce faire</reg>
                <reg type="advanced">ses paillardz/ lesquelz non seulement exercent grosse paillardise/ mais en icelle se glorifiẽt/ et a ce faire</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_bd7ad2aa_ligne_33"/>
             <choice>
                <orig>incitent ⁊ prouocquent les ungz les autres/ faisans de leͬs cauernes ⁊ conuẽtz/ bordeaux publicques/</orig>
-               <reg type="intermediary">incitent et prouocquent les ungz les autres/ faisans de leͬs cauernes et conuẽtz/ bordeaux publicques/</reg>
+               <reg type="intermediary">incitent et provocquent les ungz les autres/ faisans de leurs cavernes et conventz/ bordeaux publicques/</reg>
                <reg type="advanced">incitent et prouocquent les ungz les autres/ faisans de leͬs cauernes et conuẽtz/ bordeaux publicques/</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_20bebdb3_ligne_34"/>
@@ -1136,7 +1136,7 @@
             <lb type="DefaultLine" corresp="#f1_eSc_line_efd076ab_ligne_35"/>
             <choice>
                <orig>patres/ lesquelz encore il fault nourrir ⁊ engresser de la sueur ⁊ labeur des paoures gens/ affin que a</orig>
-               <reg type="intermediary">patres/ lesquelz encore il fault nourrir et engresser de la sueur et labeur des paoures gens/ affin que a</reg>
+               <reg type="intermediary">patres/ lesquelz encore il fault nourrir et engresser de la sueur et labeur des paovres gens/ affin que a</reg>
                <reg type="advanced">patres/ lesquelz encore il fault nourrir et engresser de la sueur et labeur des paoures gens/ affin que a</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_5ff3e4cd_ligne_36"/>
@@ -1148,32 +1148,32 @@
             <lb type="DefaultLine" corresp="#f1_eSc_line_24710465_ligne_37"/>
             <choice>
                <orig>ciscaines. Toutesfoys ce nest pas de merueilles/ car mauuais arbre ne peult porter bõ fruict. De soy</orig>
-               <reg type="intermediary">ciscaines. Toutesfoys ce nest pas de merueilles/ car mauuais arbre ne peult porter bõ fruict. De soy</reg>
+               <reg type="intermediary">ciscaines. Toutesfoys ce n'est pas de merveilles/ car mauvais arbre ne peult porter bon fruict. De soy</reg>
                <reg type="advanced">ciscaines. Toutesfoys ce nest pas de merueilles/ car mauuais arbre ne peult porter bõ fruict. De soy</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_c888419a_ligne_38"/>
             <choice>
                <orig>marier nest question/ mais bien diurongner/ de iouer/ ⁊ paillarder. Certes il est a craindre que en bref</orig>
-               <reg type="intermediary">marier nest question/ mais bien diurongner/ de iouer/ et paillarder. Certes il est a craindre que en bref</reg>
+               <reg type="intermediary">marier n'est question/ mais bien d'ivrongner/ de jouer/ et paillarder. Certes il est a craindre que en bref</reg>
                <reg type="advanced">marier nest question/ mais bien diurongner/ de iouer/ et paillarder. Certes il est a craindre que en bref</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_b9fd6145_ligne_39"/>
             <choice>
                <orig>la fureur ⁊ uengeãce de Dieu ne tombe sur nous/ cõme sur Sodome ⁊ Gomorre. Fuyez/ fuyez paoure</orig>
-               <reg type="intermediary">la fureur et uengeãce de Dieu ne tombe sur nous/ cõme sur Sodome et Gomorre. Fuyez/ fuyez paoure</reg>
+               <reg type="intermediary">la fureur et vengeance de Dieu ne tombe sur nous/ comme sur Sodome et Gomorre. Fuyez/ fuyez paovre</reg>
                <reg type="advanced">la fureur et uengeãce de Dieu ne tombe sur nous/ cõme sur Sodome et Gomorre. Fuyez/ fuyez paoure</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_da233d5b_ligne_40"/>
             <choice>
                <orig>peuple/ fuyez uous en de Babylone/ que le iour du Seigneur ne uous surprenne.</orig>
-               <reg type="intermediary">peuple/ fuyez uous en de Babylone/ que le iour du Seigneur ne uous surprenne.</reg>
+               <reg type="intermediary">peuple/ fuyez vous en de Babylone/ que le jour du Seigneur ne vous surprenne.</reg>
                <reg type="advanced">peuple/ fuyez uous en de Babylone/ que le iour du Seigneur ne uous surprenne.</reg>
             </choice>
             <hi>
                <lb type="HeadingLine" corresp="#f1_eSc_line_5ddaa4b9_ligne_41"/>
                <choice>
                   <orig>¶ Malheur sur uous ypocrites pharisiens. Matth.xxiii.</orig>
-                  <reg type="intermediary">¶ Malheur sur uous ypocrites pharisiens. Matth.xxiii.</reg>
+                  <reg type="intermediary">¶ Malheur sur vous ypocrites pharisiens. Matth.xxiii.</reg>
                   <reg type="advanced">¶ Malheur sur uous ypocrites pharisiens. Matth.xxiii.</reg>
                </choice>
             </hi>
