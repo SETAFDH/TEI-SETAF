@@ -1038,13 +1038,13 @@
             <lb type="DefaultLine" corresp="#f1_eSc_line_cd4aacfc_ligne_19"/>
             <choice>
                <orig>a la Patte/ lesq̃lles sont bonnes religieuses poͬ augmenter Labbaye. Den trouuer de belles/ uenez a</orig>
-               <reg type="intermediary">a la Patte/ lesquelles sont bonnes religieuses pour augmenter L'abbaye. D'en trouuer de belles/ venez a</reg>
+               <reg type="intermediary">a la Patte/ lesquelles sont bonnes religieuses pour augmenter L'abbaye. D'en trouver de belles/ venez a</reg>
                <reg type="advanced">a la Patte/ lesquelles sont bonnes religieuses poͬ augmenter Labbaye. Den trouuer de belles/ uenez a</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_1aa331db_ligne_20"/>
             <choice>
                <orig>moy poͬ le present/ car nous en auons/ ⁊ plus quil nen fault. Pourquoy? le temps le porte: ⁊ si nosent</orig>
-               <reg type="intermediary">moy pour le present/ car nous en avons/ et plus qu'il nen fault. Pourquoy? le temps le porte: et si n'osent</reg>
+               <reg type="intermediary">moy pour le present/ car nous en avons/ et plus qu'il n'en fault. Pourquoy? le temps le porte: et si n'osent</reg>
                <reg type="advanced">moy poͬ le present/ car nous en auons/ et plus quil nen fault. Pourquoy? le temps le porte: et si nosent</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_29c552c7_ligne_21"/>
@@ -1056,7 +1056,7 @@
             <lb type="DefaultLine" corresp="#f1_eSc_line_9f260e68_ligne_22"/>
             <choice>
                <orig>Daultre chose ie ne dis/ sinon que ie men iray le plustost que ie pourray apres Pasques/ pourtant ie</orig>
-               <reg type="intermediary">D'aultre chose je ne dis/ sinon que je m'en iray le plustost que je pourray apres Pasques/ pourtant je</reg>
+               <reg type="intermediary">D'aultre chose je ne dis/ sinon que je m'en iray le plus tost que je pourray apres Pasques/ pourtant je</reg>
                <reg type="advanced">Daultre chose ie ne dis/ sinon que ie men iray le plustost que ie pourray apres Pasques/ pourtant ie</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f1_eSc_line_bb4dde1d_ligne_23"/>
