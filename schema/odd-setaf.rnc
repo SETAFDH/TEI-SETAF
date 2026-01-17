@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2025-12-05T15:35:02Z. . 
+# Schema generated from ODD source 2026-01-17T07:49:55Z. . 
 # TEI Edition: P5 Version 4.8.1. Last updated on 1st November 2024, revision 0a2bff95a 
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/4.8.1/ 
 #
@@ -1977,26 +1977,7 @@ authority =
   
   ## (release authority) supplies the name of a person or other agency responsible for making a work available, other than a publisher or distributor. [2.2.4. Publication, Distribution, Licensing, etc.]
   element authority {
-    macro.phraseSeq.limited
-    >> sch:pattern [
-         id = "myTEI-authority-authority_check-constraint-rule-25"
-         "\x{a}" ~
-         "            "
-         sch:rule [
-           context = "tei:authority"
-           "\x{a}" ~
-           "               "
-           sch:assert [
-             test =
-               "contains(.,'Institut Histoire de la Réformation (IHR), université de Genève')"
-             '''The authority is "Institut d'Histoire de la Réformation (IHR), université de Genève"'''
-           ]
-           "\x{a}" ~
-           "            "
-         ]
-         "\x{a}" ~
-         "         "
-       ],
+    macro.phraseSeq.limited,
     att.global.attribute.xmlid,
     att.global.attribute.n,
     att.global.linking.attribute.corresp,
@@ -2011,7 +1992,7 @@ idno =
   element idno {
     ((text | model.gLike | idno)*)
     >> sch:pattern [
-         id = "myTEI-idno-calendar-check-idno-constraint-rule-26"
+         id = "myTEI-idno-calendar-check-idno-constraint-rule-25"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2055,7 +2036,7 @@ idno =
      }?)
     >> sch:pattern [
          id =
-           "myTEI-idno-calendar-calendar-check-idno-constraint-rule-27"
+           "myTEI-idno-calendar-calendar-check-idno-constraint-rule-26"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2108,7 +2089,7 @@ licence =
   element licence {
     macro.specialPara
     >> sch:pattern [
-         id = "myTEI-licence-calendar-check-licence-constraint-rule-28"
+         id = "myTEI-licence-calendar-check-licence-constraint-rule-27"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2143,7 +2124,7 @@ licence =
      }?)
     >> sch:pattern [
          id =
-           "myTEI-licence-calendar-calendar-check-licence-constraint-rule-29"
+           "myTEI-licence-calendar-calendar-check-licence-constraint-rule-28"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2324,7 +2305,7 @@ application =
     (model.labelLike+, (model.ptrLike* | model.pLike*))
     >> sch:pattern [
          id =
-           "myTEI-application-calendar-check-application-constraint-rule-30"
+           "myTEI-application-calendar-check-application-constraint-rule-29"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2358,7 +2339,7 @@ application =
      }?)
     >> sch:pattern [
          id =
-           "myTEI-application-calendar-calendar-check-application-constraint-rule-31"
+           "myTEI-application-calendar-calendar-check-application-constraint-rule-30"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2488,7 +2469,7 @@ change =
   element change {
     macro.specialPara
     >> sch:pattern [
-         id = "myTEI-change-calendar-check-change-constraint-rule-32"
+         id = "myTEI-change-calendar-check-change-constraint-rule-31"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2526,7 +2507,7 @@ change =
      }?)
     >> sch:pattern [
          id =
-           "myTEI-change-calendar-calendar-check-change-constraint-rule-33"
+           "myTEI-change-calendar-calendar-check-change-constraint-rule-32"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2565,7 +2546,7 @@ ab =
     macro.abContent
     >> sch:pattern [
          id =
-           "myTEI-ab-abstractModel-structure-ab-in-l-or-lg-constraint-rule-34"
+           "myTEI-ab-abstractModel-structure-ab-in-l-or-lg-constraint-rule-33"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2613,7 +2594,7 @@ msDesc =
      model.headLike*,
      (model.pLike+ | (msContents | physDesc | additional)*))
     >> sch:pattern [
-         id = "myTEI-msDesc-one_ms_singleton_max-constraint-rule-35"
+         id = "myTEI-msDesc-one_ms_singleton_max-constraint-rule-34"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2665,7 +2646,7 @@ signatures =
   element signatures {
     macro.specialPara
     >> sch:pattern [
-         id = "myTEI-signatures-signatures_in_msDesc-constraint-rule-36"
+         id = "myTEI-signatures-signatures_in_msDesc-constraint-rule-35"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2693,7 +2674,7 @@ msIdentifier =
   element msIdentifier {
     ((country?, settlement?, institution?, idno*), empty*)
     >> sch:pattern [
-         id = "myTEI-msIdentifier-msId_minimal-constraint-rule-37"
+         id = "myTEI-msIdentifier-msId_minimal-constraint-rule-36"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2816,7 +2797,7 @@ orgName =
   element orgName {
     macro.phraseSeq
     >> sch:pattern [
-         id = "myTEI-orgName-calendar-check-orgName-constraint-rule-38"
+         id = "myTEI-orgName-calendar-check-orgName-constraint-rule-37"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2857,7 +2838,7 @@ orgName =
      }?)
     >> sch:pattern [
          id =
-           "myTEI-orgName-calendar-calendar-check-orgName-constraint-rule-39"
+           "myTEI-orgName-calendar-calendar-check-orgName-constraint-rule-38"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2887,7 +2868,7 @@ persName =
     macro.phraseSeq
     >> sch:pattern [
          id =
-           "myTEI-persName-calendar-check-persName-constraint-rule-40"
+           "myTEI-persName-calendar-check-persName-constraint-rule-39"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2959,7 +2940,7 @@ persName =
      }?)
     >> sch:pattern [
          id =
-           "myTEI-persName-calendar-calendar-check-persName-constraint-rule-41"
+           "myTEI-persName-calendar-calendar-check-persName-constraint-rule-40"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3016,7 +2997,7 @@ country =
   element country {
     macro.phraseSeq
     >> sch:pattern [
-         id = "myTEI-country-calendar-check-country-constraint-rule-42"
+         id = "myTEI-country-calendar-check-country-constraint-rule-41"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3054,7 +3035,7 @@ country =
      }?)
     >> sch:pattern [
          id =
-           "myTEI-country-calendar-calendar-check-country-constraint-rule-43"
+           "myTEI-country-calendar-calendar-check-country-constraint-rule-42"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3084,7 +3065,7 @@ settlement =
     macro.phraseSeq
     >> sch:pattern [
          id =
-           "myTEI-settlement-calendar-check-settlement-constraint-rule-44"
+           "myTEI-settlement-calendar-check-settlement-constraint-rule-43"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3121,7 +3102,7 @@ settlement =
      }?)
     >> sch:pattern [
          id =
-           "myTEI-settlement-calendar-calendar-check-settlement-constraint-rule-45"
+           "myTEI-settlement-calendar-calendar-check-settlement-constraint-rule-44"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3230,7 +3211,7 @@ body =
       (model.divBottom, model.global*)*)?)
     >> sch:pattern [
          id =
-           "myTEI-div-abstractModel-structure-div-in-l-or-lg-constraint-rule-46"
+           "myTEI-div-abstractModel-structure-div-in-l-or-lg-constraint-rule-45"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3252,7 +3233,7 @@ body =
        ]
     >> sch:pattern [
          id =
-           "myTEI-div-abstractModel-structure-div-in-ab-or-p-constraint-rule-47"
+           "myTEI-div-abstractModel-structure-div-in-ab-or-p-constraint-rule-46"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3479,7 +3460,7 @@ path =
   element path {
     empty
     >> sch:pattern [
-         id = "myTEI-path-pathmustnotbeclosed-constraint-rule-48"
+         id = "myTEI-path-pathmustnotbeclosed-constraint-rule-47"
          "\x{a}" ~
          "            "
          sch:rule [
