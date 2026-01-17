@@ -58,7 +58,7 @@
          </extent>
          <publicationStmt>
             <publisher>Projet SETAF</publisher>
-            <authority>Institut Histoire de la Réformation (IHR), université de Genève</authority>
+            <authority>Institut d'Histoire de la Réformation (IHR), université de Genève</authority>
             <address>
                <addrLine>22 boulevard des Philosophes</addrLine>
                <addrLine>CH-1211 Genève</addrLine>
@@ -76,7 +76,7 @@
                <msIdentifier xml:id="MHR_MHR_D_Marc_1_44">
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <institution>Musée historique de la Réformation</institution>
+                  <institution>Musée historique de la Réformation (MHR)</institution>
                   <idno type="shelfmark">MHR D Marc 1(44)</idno>
                </msIdentifier>
                <msContents>

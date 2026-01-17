@@ -42,7 +42,7 @@
          </extent>
          <publicationStmt>
             <publisher>Projet SETAF</publisher>
-            <authority>Institut Histoire de la Réformation (IHR), université de Genève</authority>
+            <authority>Institut d'Histoire de la Réformation (IHR), université de Genève</authority>
             <address>
                <addrLine>22 boulevard des Philosophes</addrLine>
                <addrLine>CH-1211 Genève</addrLine>
@@ -59,7 +59,7 @@
             <msDesc>
                <msIdentifier xml:id="ZB_Res_1331">
                   <country>Suisse</country>
-                  <settlement>Zurich</settlement>
+                  <settlement>Zürich</settlement>
                   <institution>Zentralbibliothek Zürich</institution>
                   <idno type="shelfmark">Res 1331</idno>
                </msIdentifier>
