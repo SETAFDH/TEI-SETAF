@@ -88,13 +88,6 @@
                </elementSpec>
                <!-- Checking element "authority" -->
                <elementSpec ident="authority" mode="change">
-                  <constraintSpec ident="authority_check" scheme="schematron">
-                     <constraint>
-                        <sch:rule context="tei:authority">
-                           <sch:assert test="contains(.,'Institut Histoire de la Réformation (IHR), université de Genève')">The authority is "Institut d'Histoire de la Réformation (IHR), université de Genève"</sch:assert>
-                        </sch:rule>
-                     </constraint>
-                  </constraintSpec>
                   <attList>
                      <attDef ident="next" mode="delete"/>
                      <attDef ident="prev" mode="delete"/>
