@@ -10356,8 +10356,7 @@
                <orig>C</orig>
                <reg type="intermediary">C</reg>
             </choice>
-         </fw>
-         
+         </fw> 
          <pb corresp="#f34"/>
          <ab corresp="#f34_eSc_textblock_3ff96d61" type="MainZone">
             <lb type="DefaultLine" corresp="#f34_eSc_line_446c0adb_ligne_2"/>
@@ -10517,7 +10516,7 @@
             <lb type="DefaultLine" corresp="#f35_eSc_line_1c2d9fd0_ligne_7"/>
             <choice>
                <orig>A luy subiectz/ les auoys uoulu faire:</orig>
-               <reg type="intermediary">A luy subiectz/ les avoys voulu faire:</reg>
+               <reg type="intermediary">A luy subjectz/ les avoys voulu faire:</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f35_eSc_line_ce6bdf30_ligne_8"/>
             <choice>
