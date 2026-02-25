@@ -8342,7 +8342,7 @@
             <lb type="DefaultLine" corresp="#f11_eSc_line_86907e04_ligne_11"/>
             <choice>
                <orig>Quelle mangea/ du fruict empoisonne</orig>
-               <reg type="intermediary">Quelle mangea/ du fruict empoisonne</reg>
+               <reg type="intermediary">Qu'elle mangea/ du fruict empoisonne</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f11_eSc_line_dc4c4700_ligne_12"/>
             <choice>
@@ -13377,7 +13377,7 @@
             <lb type="DefaultLine" corresp="#f43_eSc_line_10330f21_ligne_20"/>
             <choice>
                <orig>¶ Lamour de luy/ la faict uenir</orig>
-               <reg type="intermediary">¶ L'amour de luy/ la faict venir</reg>
+               <reg type="intermediary">¶ L'amour de luy/ l'a faict venir</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f43_eSc_line_34b848ee_ligne_21"/>
             <choice>
@@ -13430,13 +13430,13 @@
             </choice>
             <lb type="DefaultLine" corresp="#f44_eSc_line_56f8f21e_ligne_5"/>
             <choice>
-               <orig>Demandez suy de cueur mercy</orig>
-               <reg type="intermediary">Demandez suy de cueur mercy</reg>
+               <orig>Demandez luy de cueur mercy</orig>
+               <reg type="intermediary">Demandez luy de cueur mercy</reg>
             </choice>
             <lb type="DefaultLine" corresp="#f44_eSc_line_f84f4ca9_ligne_6"/>
             <choice>
                <orig>Tout uient apoint qui peult attendre.</orig>
-               <reg type="intermediary">Tout vient apoint qui peult attendre.</reg>
+               <reg type="intermediary">Tout vient a point qui peult attendre.</reg>
             </choice>
             <hi>
                <lb type="HeadingLine" corresp="#f44_eSc_line_305cedb0_ligne_7"/>
