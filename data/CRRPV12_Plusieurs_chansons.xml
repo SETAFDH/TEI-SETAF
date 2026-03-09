@@ -2062,7 +2062,7 @@
             </zone>
             <zone xml:id="f13_eSc_line_1d715332" type="HeadingLine" n="12" ulx="99" uly="600" lrx="731" lry="668" points="522,603 499,608 492,610 491,608 483,603 474,603 470,603 443,608 437,608 404,607 246,601 245,601 243,601 231,605 229,607 228,605 224,600 222,600 211,600 198,600 193,600 101,604 101,643 99,658 224,652 272,659 296,662 297,662 318,659 350,654 360,659 369,664 371,664 372,664 407,658 430,655 434,658 440,664 441,664 443,664 444,664 445,664 466,658 469,658 477,665 479,665 480,665 481,666 544,666 544,665 545,665 546,665 555,658 558,657 603,657 606,658 624,666 625,666 627,668 699,668 699,666 700,666 729,657 731,650 731,611 524,603 523,603 " source="https://www.e-rara.ch/i3f/v20/2031647/99,600,632,68/full/0/default.jpg" rotate="0">
                <path n="12" xml:id="f13_eSc_line_1d715332_baseline_12" type="baseline" points="101,643 731,650 "/>
-               <line xml:id="f13_eSc_line_1d715332_ligne_12">que uiuray en cage florissant Ie ser</line>
+               <line xml:id="f13_eSc_line_1d715332_ligne_12">que uiuray en eage florissant Ie ser</line>
             </zone>
             <zone xml:id="f13_eSc_line_3edd7b16" type="HeadingLine" n="13" ulx="99" uly="646" lrx="715" lry="709" points="99,701 336,698 354,702 371,706 372,706 373,706 404,702 426,699 477,702 578,708 580,708 581,708 582,708 582,706 588,702 589,701 600,702 666,709 667,709 714,701 715,695 714,659 606,659 603,657 595,650 594,650 592,650 591,650 499,655 470,657 350,657 346,652 339,647 337,647 336,647 335,647 333,647 332,647 324,652 321,654 297,652 222,646 221,646 220,646 207,651 204,652 200,651 189,646 188,646 186,646 185,646 168,650 159,652 101,650 101,688 " source="https://www.e-rara.ch/i3f/v20/2031647/99,646,616,63/full/0/default.jpg" rotate="0">
                <path n="13" xml:id="f13_eSc_line_3edd7b16_baseline_13" type="baseline" points="101,688 715,695 "/>
@@ -8706,8 +8706,8 @@
             <hi>
                <lb type="HeadingLine" corresp="#f13_eSc_line_1d715332_ligne_12"/>
                <choice>
-                  <orig>que uiuray en cage florissant Ie ser</orig>
-                  <reg type="intermediary">que vivray en cage florissant Je ser</reg>
+                  <orig>que uiuray en eage florissant Ie ser</orig>
+                  <reg type="intermediary">que vivray en eage florissant Je ser</reg>
                </choice>
             </hi>
             <hi>
