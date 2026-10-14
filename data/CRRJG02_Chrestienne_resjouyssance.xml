@@ -184,7 +184,7 @@
                <term type="form">poésie et prose</term>
                <term type="segmentation_quality">gold</term>
                <term type="transcription_quality">gold</term>
-               <term type="intermediary_reg_quality">non</term>
+               <term type="intermediary_reg_quality">not applicable</term>
                <term type="ling_annotation">non</term>
                <term type="ling_annotation_quality">not applicable</term>
             </keywords>
